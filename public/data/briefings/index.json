@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-23T22:11:10.078Z",
+  "latest": "2026-10-24",
+  "briefings": [
+    {
+      "date": "2026-10-24",
+      "path": "2026-10-24.json",
+      "headline": "Airbus A220'ye Askeri Düzey Anti-Jamming Sistemi Geliyor; B787 Üretim Hızı Kârlılık Tartışması Yaratıyor",
+      "counts": {
+        "commercial_aviation": 4,
+        "accidents_and_incidents": 4,
+        "piloting_and_ops": 2,
+        "ai_developments": 4
+      },
+      "has_fatal_accident": false,
+      "max_importance": 4,
+      "generated_at": "2026-10-23T22:11:10.073Z"
+    },
+    {
+      "date": "2026-10-22",
+      "path": "2026-10-22.json",
+      "headline": "A320neo teslimatları hızlandı; yaklaşmada TCAS RA go-around olayı ve yeni EASA SIB yayımlandı",
+      "counts": {
+        "commercial_aviation": 1,
+        "accidents_and_incidents": 2,
+        "piloting_and_ops": 1,
+        "ai_developments": 1
+      },
+      "has_fatal_accident": false,
+      "max_importance": 4,
+      "generated_at": "2026-10-22T05:07:41Z"
+    }
+  ]
+}

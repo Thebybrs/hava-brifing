@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T05:07:41Z",
+  "window": {
+    "from": "2026-10-21T05:07:00Z",
+    "to": "2026-10-22T05:07:00Z"
+  },
+  "model": "gemini-2.5-flash",
+  "headline": "A320neo teslimatları hızlandı; yaklaşmada TCAS RA go-around olayı ve yeni EASA SIB yayımlandı",
+  "tldr": [
+    "Airbus Eylül ayında 62 uçak teslimatı gerçekleştirdiğini açıkladı.",
+    "Kurgusal XX-SIM tescilli A320-214 yaklaşmada TCAS RA sonrası go-around uyguladı (ÖRNEK VERİ).",
+    "EASA, GNSS parazitlenmesine karşı güncellenmiş SIB yayımladı.",
+    "Yeni açık ağırlıklı multimodal reasoning model geliştirici araçlarıyla duyuruldu."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "id": "a1b2c3d4e5",
+        "headline": "Airbus Eylül ayında 62 uçak teslim etti; dar gövde üretim hızı artıyor",
+        "summary": "Airbus, Eylül döneminde 62 ticari uçak teslimatı yaptığını duyurdu. Teslimatların büyük bölümünü A320neo ailesi oluştururken motor tedarik zincirindeki darboğazların kademeli olarak azaldığı bildirildi. Şirket yıl sonu teslimat hedefini koruduğunu ancak kabin içi ekipman ve CFM LEAP-1A motor teslimat takvimlerinin yakından izlendiğini belirtti. Üretim hattındaki slot planlamaları 2027 ilk çeyreğine kadar güncellendi.",
+        "why_it_matters": "Dar gövde teslimat temposunun toparlanması havayollarının yaz tarifesi filo ve ekip planlamasını doğrudan etkiliyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": ["Airbus", "A320neo", "LEAP-1A"],
+        "subcategory": "airbus",
+        "entities": ["Airbus", "A320neo", "CFM International"],
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/airbus-september-deliveries-sample/",
+            "published_at": "2026-10-21T14:00:00Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "id": "b2c3d4e5f6",
+        "headline": "ÖRNEK VERİ: Airbus A320-214 yaklaşmada TCAS RA ve HYD G SYS LO PR sonrası go-around yaptı",
+        "summary": "ÖRNEK VERİ — SimAir'e ait kurgusal XX-SIM tescilli Airbus A320-214, örnek havalimanı ILS 09 yaklaşmasında 1800 ft irtifada TCAS RA uyarısı alarak go-around ve missed approach prosedürü uyguladı. Tırmanış esnasında ECAM üzerinde HYD G SYS LO PR mesajı gözlemlendi; ekip QRH prosedürlerini tamamlayarak ikinci yaklaşmada güvenli iniş gerçekleştirdi.",
+        "why_it_matters": "Yaklaşma safhasında eşzamanlı TCAS RA manevrası ve hidrolik sistem arızasında PF/PM iş yükü paylaşımı açısından öğretici bir vaka.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": ["A320", "TCAS RA", "ECAM", "go-around"],
+        "occurrence_class": "serious_incident",
+        "occurred_at_utc": "2026-10-21T18:40:00Z",
+        "location": "Kurgusal Havalimanı (ZZZZ), Örnek Ülke",
+        "aircraft_type": "Airbus A320-214",
+        "registration": "XX-SIM",
+        "operator": "SimAir (Kurgusal Operatör)",
+        "flight_number": "SM101",
+        "flight_phase": "approach",
+        "occupants": 168,
+        "fatalities": 0,
+        "injuries": 0,
+        "technical_findings": [
+          "Go-around tırmanışında ECAM üzerinde HYD G SYS LO PR uyarısı kaydedildi.",
+          "Green hydraulic system basınç düşüşü sonrası PTU devreye girdi."
+        ],
+        "operational_findings": [
+          "ILS 09 yaklaşmasında 1800 ft AAL'de TCAS RA climb komutu alındı.",
+          "METAR: rüzgar 080/18G26KT, CAVOK; ikinci yaklaşmada normal iniş tamamlandı."
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": "BEA",
+        "sources": [
+          {
+            "name": "The Aviation Herald",
+            "url": "https://avherald.com/h?article=sample-xx-sim-incident",
+            "published_at": "2026-10-21T21:10:00Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "id": "c3d4e5f6a7",
+        "headline": "ÖRNEK VERİ: Boeing 737-800 kalkış koşusunda yüksek hızda RTO uyguladı",
+        "summary": "ÖRNEK VERİ — Kurgusal ZZ-TST tescilli Boeing 737-800, kalkış koşusunda 110 kt IAS civarında EICAS motor titreşim uyarısı nedeniyle V1 öncesinde rejected takeoff (RTO) gerçekleştirdi. Uçak pisti taksi yoluyla terk etti; fren sıcaklıkları nedeniyle ARFF ekipleri refakatinde bekleme yapıldı.",
+        "why_it_matters": "Yüksek hız rejimi RTO kararlarında V1 callout disiplini ve sıcak fren soğutma sürelerinin operasyonel takibi kritiktir.",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": ["B737-800", "RTO", "EICAS"],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-10-22T01:15:00Z",
+        "location": "Test Meydanı (XXXX), Örnek Ülke",
+        "aircraft_type": "Boeing 737-800",
+        "registration": "ZZ-TST",
+        "operator": "ExampleWings (Kurgusal)",
+        "flight_number": "EW404",
+        "flight_phase": "takeoff_roll",
+        "occupants": 154,
+        "fatalities": 0,
+        "injuries": 0,
+        "technical_findings": [
+          "Sol motorda (CFM56-7B) N1 titreşim göstergesinde ani artış ön bilgisi paylaşıldı."
+        ],
+        "operational_findings": [
+          "RTO yaklaşık 110 kt hızda, V1 öncesinde autobrake RTO devreye girerek tamamlandı."
+        ],
+        "investigation_status": "preliminary_report_released",
+        "investigating_authority": "AAIB",
+        "sources": [
+          {
+            "name": "aviation-safety.net",
+            "url": "https://aviation-safety.net/wikibase/sample-zz-tst",
+            "published_at": "2026-10-22T03:00:00Z",
+            "origin": "grounding"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "id": "d4e5f6a7b8",
+        "headline": "EASA, GNSS spoofing ve jamming bölgelerinde RNP/ILS geçiş SOP önerilerini güncelledi",
+        "summary": "EASA tarafından yayımlanan güncellenmiş Safety Information Bulletin (SIB), GNSS parazitlenmesi yaşanan hava sahalarında FMGC/FMS pozisyon kayması ve sahte EGPWS/TCAS uyarılarına karşı kokpit prosedürlerini detaylandırdı. Bülten, yaklaşma brifinglerinde geleneksel seyrüsefer yardımcılarının (ILS, VOR) önceden bağlanmasını ve cross-check disiplinini vurguluyor.",
+        "why_it_matters": "Doğu Akdeniz ve Karadeniz hattındaki uçuşlarda GPS jamming kaynaklı aviyonik anomalileri yönetmek için doğrudan uygulanabilir SOP rehberi sunuyor.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": ["EASA", "SIB", "GNSS", "SOP", "RNAV"],
+        "subcategory": "safety_alert",
+        "regulators": ["EASA", "ICAO"],
+        "operational_takeaway": "GNSS parazitlenmesi bilinen FIR'lara girişten önce RNP yaklaşma yerine ILS/VOR yedeklerini aktif tut ve PFD/ND konum tutarlılığını raw data ile doğrula.",
+        "sources": [
+          {
+            "name": "EASA Newsroom",
+            "url": "https://www.easa.europa.eu/en/newsroom-and-events/news/sample-gnss-sib",
+            "published_at": "2026-10-21T16:30:00Z",
+            "origin": "grounding"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "id": "e5f6a7b8c9",
+        "headline": "Yeni açık ağırlıklı MoE reasoning modelinde düşük latency tool use ve MCP desteği iddiası",
+        "summary": "Topluluk forumlarında paylaşılan ön incelemelere göre yeni bir open-weights MoE (Mixture of Experts) modelinin 128k context window ve yerleşik function calling / MCP uyumluluğu ile yayınlandığı öne sürüldü. SWE-bench puanlarının yüksek olduğu iddia edilse de henüz bağımsız eval sonuçları doğrulanmadı.",
+        "why_it_matters": "Yerel veya özel bulutta çalışan kodlama agent iş akışlarında inference maliyetini düşürme potansiyeli taşıyor.",
+        "importance": 2,
+        "confidence": "unverified",
+        "tags": ["LLM", "MoE", "MCP", "open-weights"],
+        "subcategory": "open_source",
+        "entities": ["MCP", "SWE-bench"],
+        "developer_impact": "Bağımsız benchmark ve quantization paketleri doğrulanana kadar üretim ortamı yerine yerel kum havuzunda test edilmeli.",
+        "sources": [
+          {
+            "name": "Hacker News (AI)",
+            "url": "https://news.ycombinator.com/item?id=40000001",
+            "published_at": "2026-10-22T02:20:00Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [],
+  "meta": {
+    "rss_feeds_ok": 8,
+    "rss_feeds_failed": [],
+    "rss_items_fetched": 142,
+    "rss_items_used": 84,
+    "grounding_used": true,
+    "grounding_queries": [
+      "aircraft incident October 22 2026",
+      "EASA Safety Information Bulletin GNSS"
+    ],
+    "dropped_items_no_source": 0,
+    "duration_ms": 38420
+  }
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sample Aviation &amp; AI Feed</title>
+    <link>https://example.com/</link>
+    <description>Sample RSS fixture for unit tests</description>
+    <item>
+      <title><![CDATA[Incident: Airbus A320-214 at Istanbul &amp; Go-Around after TCAS RA]]></title>
+      <link>https://avherald.com/h?article=49999999&amp;utm_source=rss&amp;utm_medium=feed&amp;fbclid=IwAR123</link>
+      <pubDate>Thu, 22 Oct 2026 18:30:00 GMT</pubDate>
+      <description><![CDATA[<p>An <strong>Airbus A320-214</strong> performed a go-around at <em>FL040</em> due to TCAS RA.&nbsp;Points: 120</p><script>alert("xss")</script>]]></description>
+    </item>
+    <item>
+      <title>OpenAI releases new reasoning LLM agent with MCP support</title>
+      <link>https://example.com/ai-llm-news?ref=hn</link>
+      <pubDate>Thu, 22 Oct 2026 20:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Comments URL: https://news.ycombinator.com/item?id=1</p><p>Points: 145</p>]]></description>
+    </item>
+    <item>
+      <title>Unrelated cooking recipe for pasta</title>
+      <link>https://example.com/cooking-pasta</link>
+      <pubDate>Thu, 22 Oct 2026 21:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Points: 95</p>]]></description>
+    </item>
+    <item>
+      <title>Low point LLM post on HN</title>
+      <link>https://example.com/low-point-llm</link>
+      <pubDate>Thu, 22 Oct 2026 21:30:00 GMT</pubDate>
+      <description><![CDATA[<p>Points: 25</p>]]></description>
+    </item>
+  </channel>
+</rss>

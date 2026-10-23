@@ -1,0 +1,88 @@
+{
+  "headline": "A320neo teslimatları hızlandı; yaklaşmada TCAS RA olayı inceleniyor",
+  "tldr": [
+    "Airbus Eylül ayında 62 uçak teslimatı yaptı.",
+    "Kurgusal XX-SIM tescilli A320 yaklaşmada TCAS RA sonrası go-around uyguladı.",
+    "EASA GNSS parazitlenmesine karşı yeni bir SIB yayımladı."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Airbus Eylül ayında 62 uçak teslim etti",
+        "summary": "Airbus, Eylül döneminde 62 ticari uçak teslimatı yaptığını açıkladı.",
+        "why_it_matters": "Dar gövde teslimat hızı filo planlamasını doğrudan etkiliyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": ["Airbus", "A320neo"],
+        "source_ids": ["R001", "R999"],
+        "subcategory": "airbus",
+        "entities": ["Airbus", "A320neo"]
+      },
+      {
+        "headline": "Kaynağı tamamen uydurma olan ve düşürülmesi gereken haber",
+        "summary": "Bu öğenin tüm kaynak kimlikleri katalogda bulunmadığından elenmelidir.",
+        "why_it_matters": "Halüsinasyon filtresi testi.",
+        "importance": 2,
+        "confidence": "unverified",
+        "tags": ["test"],
+        "source_ids": ["R888", "G99"],
+        "subcategory": "airline_fleet",
+        "entities": []
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "ÖRNEK VERİ: Airbus A320-214 yaklaşmada TCAS RA sonrası go-around yaptı",
+        "summary": "ÖRNEK VERİ — Kurgusal xx-sim tescilli A320 yaklaşmada TCAS RA uyarısı alarak go-around uyguladı.",
+        "why_it_matters": "Yaklaşma safhasında TCAS RA ve PF/PM koordinasyonu.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": ["A320", "TCAS RA"],
+        "source_ids": ["R002", "G1"],
+        "occurrence_class": "serious_incident",
+        "occurred_at_utc": "2026-10-21T18:40:00Z",
+        "location": "Kurgusal Havalimanı (ZZZZ), Örnek Ülke",
+        "aircraft_type": "Airbus A320-214",
+        "registration": "xx-sim",
+        "operator": "SimAir",
+        "flight_number": "SM101",
+        "flight_phase": "approach",
+        "occupants": 168,
+        "fatalities": 0,
+        "injuries": 0,
+        "technical_findings": ["ECAM HYD G SYS LO PR uyarısı"],
+        "operational_findings": ["1800 ft AAL TCAS RA climb komutu"],
+        "investigation_status": "ongoing",
+        "investigating_authority": "BEA"
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "EASA GNSS parazitlenmesine karşı SIB yayımladı",
+        "summary": "EASA, GNSS spoofing ve jamming bölgelerinde ILS/VOR yedeklerinin aktif tutulmasını önerdi.",
+        "why_it_matters": "Aviyonik konum kaymalarına karşı SOP hatırlatması.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": ["EASA", "SIB"],
+        "source_ids": ["G1"],
+        "subcategory": "safety_alert",
+        "regulators": ["EASA"],
+        "operational_takeaway": "GNSS parazitlenmesi bilinen FIR'larda ILS/VOR yedeklerini önceden bağla."
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "Yeni açık ağırlıklı MoE modelinde MCP desteği duyuruldu",
+        "summary": "Yeni modelin 128k context window ve yerleşik tool use desteği sunduğu açıklandı.",
+        "why_it_matters": "Yerel kodlama agent iş akışlarında inference maliyetini düşürebilir.",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": ["LLM", "MCP"],
+        "source_ids": ["R003"],
+        "subcategory": "open_source",
+        "entities": ["MCP"],
+        "developer_impact": "SDK üzerinden doğrudan function calling ile test edilebilir."
+      }
+    ]
+  }
+}

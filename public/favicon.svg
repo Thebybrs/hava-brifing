@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="96" fill="#0A0E14"/>
+  <rect x="16" y="16" width="480" height="480" rx="84" stroke="#243246" stroke-width="6"/>
+  <!-- ND / Pusula Halkası -->
+  <circle cx="256" cy="256" r="176" stroke="#2EC8FF" stroke-width="8" stroke-dasharray="16 12" opacity="0.85"/>
+  <circle cx="256" cy="256" r="140" stroke="#243246" stroke-width="4"/>
+  <!-- Kuzey / Baş Üstü İşareti -->
+  <polygon points="256,56 244,82 268,82" fill="#2EC8FF"/>
+  <!-- Uçak Sembolü (EFB / ND) -->
+  <path d="M256 128 L272 216 L376 256 L376 278 L272 260 L268 344 L312 372 L312 390 L256 376 L200 390 L200 372 L244 344 L240 260 L136 278 L136 256 L240 216 Z" fill="#FFFFFF" stroke="#2EC8FF" stroke-width="4" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,24 @@
+{
+  "headline": "Geçersiz LLM çıktısı örneği",
+  "tldr": [
+    "Tek satır tldr — min 3 olması gerektiği için zod hatası verecek."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Kaynaksız öğe",
+        "summary": "source_ids boş dizi olduğu için geçersiz.",
+        "why_it_matters": "Test",
+        "importance": 9,
+        "confidence": "confirmed",
+        "tags": [],
+        "source_ids": [],
+        "subcategory": "airbus",
+        "entities": []
+      }
+    ],
+    "accidents_and_incidents": [],
+    "piloting_and_ops": [],
+    "ai_developments": []
+  }
+}

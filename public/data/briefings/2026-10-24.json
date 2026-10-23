@@ -1,0 +1,471 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-24",
+  "generated_at": "2026-10-23T22:11:10.073Z",
+  "window": {
+    "from": "2026-10-22T22:09:14.259Z",
+    "to": "2026-10-23T22:09:14.259Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "Airbus A220'ye Askeri Düzey Anti-Jamming Sistemi Geliyor; B787 Üretim Hızı Kârlılık Tartışması Yaratıyor",
+  "tldr": [
+    "Airbus A220, GPS/GNSS sinyal karıştırmalarına karşı Safran SkyNaute hibrit ataletsel seyrüsefer sistemiyle donatılacak.",
+    "US DOT, FAA kısıtlamalı Irak hava sahasından codeshare uçuş gerçekleştiren Air France ve KLM'ye $425.000 ceza kesti.",
+    "Boeing, 787 Dreamliner üretimini ayda 10 adede çıkarmayı hedeflerken analistler kısa vadeli kârlılığa şüpheyle yaklaşıyor.",
+    "İsveç hükümeti güvenlik ve veri gizliliği endişeleri nedeniyle ChatGPT ve Claude kullanımını kamu kurumlarında yasakladı."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Boeing 787 Üretim Hedefi Ayda 10 Adet Olsa da Kârlılık Baskısı Sürüyor",
+        "summary": "Boeing, 2025 yılında ayda ortalama 7 adet teslim ettiği 787 Dreamliner üretim hızını 2026 yılı sonuna kadar ayda 10 adede çıkarmayı hedefliyor. Finansal analistler, üretim artışının teslimatları hızlandıracağını ancak tedarik zinciri maliyetleri nedeniyle hemen beklenen kârlılığı getirmeyebileceğini öngörüyor.",
+        "why_it_matters": "Geniş gövde teslimat takvimleri ve uçak temin süreleri uzun menzilli hat planlamasını doğrudan etkiler.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "B787",
+          "Uretim",
+          "TicariHavacilik"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing",
+          "Boeing 787"
+        ],
+        "id": "3812b45073",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/analysts-say-boeing-787-target-10-month-wont-make-real-money/",
+            "published_at": "2026-10-23T22:00:19.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Air Arabia A321XLR Uçaklarıyla Çin ve Güneydoğu Asya Pazarına Açılıyor",
+        "summary": "Şarja merkezli düşük maliyetli taşıyıcı Air Arabia, sipariş ettiği Airbus A321XLR uçaklarının koltuk kapasitesini A321LR ile aynı tutacağını açıkladı. Havayolu, uçağın sunduğu ekstra menzili geniş gövdeye geçmeden Çin ve Güneydoğu Asya'da yeni hatlar açmak için kullanacak.",
+        "why_it_matters": "Dar gövde ultra uzun menzil operasyonlarının LCC iş modellerindeki büyüme potansiyelini gösterir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "A321XLR",
+          "AirArabia",
+          "LCC"
+        ],
+        "subcategory": "route_network",
+        "entities": [
+          "Air Arabia",
+          "Airbus A321XLR",
+          "Airbus A321LR"
+        ],
+        "id": "d313d54808",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://www.flightglobal.com/airlines/2026/10/air-arabia-sees-a321xlrs-opening-new-chinese-and-southeast-asian-destinations/",
+            "published_at": "2026-10-23T15:47:03.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Southwest Geniş Gövde İddialarını Yalanladı, Boeing 737 MAX 10 İhtimalini Açık Bıraktı",
+        "summary": "Southwest Airlines yöneticileri, geniş gövdeli uçak siparişi vereceklerine dair basında çıkan haberleri yalanladı. Bununla birlikte taşıyıcı, filoya daha büyük olan Boeing 737 MAX 10 varyantını eklemek için pilot sözleşmelerinde düzenleme yapma opsiyonunun açık olduğunu bildirdi.",
+        "why_it_matters": "Dünyanın en büyük B737 operatörünün filo yapısı ve tip derecelendirme (type rating) dinamiklerini ilgilendirir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Southwest",
+          "B737MAX10",
+          "Boeing",
+          "Filo"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Southwest Airlines",
+          "Boeing 737 MAX 10",
+          "Boeing"
+        ],
+        "id": "44923fabff",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://www.flightglobal.com/airlines/2026/10/southwest-dismisses-widebody-rumours-but-leaves-door-open-on-737-max-10/",
+            "published_at": "2026-10-23T13:34:20.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Hava Kargo Sektörü B767F Yerine Yeni Orta Boy Kargo Uçağı Talep Ediyor",
+        "summary": "Hava kargo sektörü yöneticileri, filolardaki yaşlanan Boeing 767F uçaklarının yerini alacak yeni bir orta boy kargo uçağı geliştirmeleri için Boeing ve Airbus'a çağrıda bulundu. Sektör temsilcileri olası bir Boeing 787 Freighter (787F) konseptini öne çıkarıyor.",
+        "why_it_matters": "Orta menzil kargo filolarının gelecekteki dönüşümünü ve OEM ürün hatlarını şekillendirebilir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Kargo",
+          "B787F",
+          "B767F",
+          "Boeing",
+          "Airbus"
+        ],
+        "subcategory": "cargo_mro",
+        "entities": [
+          "Boeing",
+          "Airbus",
+          "Boeing 787F",
+          "Boeing 767F"
+        ],
+        "id": "54eac1f200",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://www.flightglobal.com/air-transport/2026/10/air-cargo-executives-urge-boeing-and-airbus-to-offer-new-midsize-freighter-with-eyes-on-787f/",
+            "published_at": "2026-10-23T14:03:38.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "Boeing 747-8R7F Tescilli Kargo Uçağında Olay Bildirildi",
+        "summary": "23 Ekim 2026 tarihinde LX-VCF tescilli Boeing 747-8R7F tipi uçakla ilgili bir olay (incident) meydana geldiği bildirilmiştir. Olayın içeriği ve teknik ayrıntılarına dair inceleme sürmektedir.",
+        "why_it_matters": "B747-8F filolarındaki operasyonel emniyet takipleri açısından önem taşır.",
+        "importance": 2,
+        "confidence": "preliminary",
+        "tags": [
+          "Boeing747",
+          "Incident",
+          "ASN"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-10-23T00:00:00Z",
+        "location": "Bilinmiyor",
+        "aircraft_type": "Boeing 747-8R7F",
+        "registration": "LX-VCF",
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "da6ecd145b",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jRFljWGMzWi1fdTlsQTdZbndJNG8zX0RFMGxJU1lzUTNlLVdxU3BNOUNwQnBtQWxibHFHZ0V4MlppQkNGTXRaOXFxcWZhNkYwejJiYVRn?oc=5",
+            "published_at": "2026-10-23T18:22:16.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Piper PA-28-181 Archer II Uçağı Kaza Geçirdi",
+        "summary": "23 Ekim 2026 tarihinde N43956 tescilli Piper PA-28-181 Archer II tipi genel havacılık uçağının kaza (accident) yaptığı rapor edilmiştir. Olayın meydana geldiği konum ve uçaktaki kişilerin durumu hakkında resmi soruşturma devam etmektedir.",
+        "why_it_matters": "Tek motorlu genel havacılık uçaklarının emniyet istatistikleri açısından takip edilir.",
+        "importance": 2,
+        "confidence": "preliminary",
+        "tags": [
+          "Piper",
+          "PA28",
+          "Accident",
+          "ASN"
+        ],
+        "occurrence_class": "accident",
+        "occurred_at_utc": "2026-10-23T00:00:00Z",
+        "location": "Bilinmiyor",
+        "aircraft_type": "Piper PA-28-181 Archer II",
+        "registration": "N43956",
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "69300686a2",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83YjdiRnhaNEZFdlYtdXhld2RrRkQtYXNLZjhPZzlaaEY5Qms5MkFOS2UwYzJRYWg2b2tTczBfZDRvbHhaX09PMVRwM0hsTjJPeVoxQlV3?oc=5",
+            "published_at": "2026-10-23T18:22:16.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Robinson R44 Raven II Tescilli Helikopter Kaza Yaptı",
+        "summary": "22 Ekim 2026 tarihinde PR-HTC tescilli Robinson R44 Raven II tipi helikopterin kaza (accident) geçirdiği bildirilmiştir. Soruşturma makamlarının incelemeleri sürmektedir.",
+        "why_it_matters": "Döner kanat operasyonlarında emniyet takibi için kayda alınmıştır.",
+        "importance": 2,
+        "confidence": "preliminary",
+        "tags": [
+          "Robinson",
+          "R44",
+          "Accident",
+          "Helikopter"
+        ],
+        "occurrence_class": "accident",
+        "occurred_at_utc": "2026-10-22T00:00:00Z",
+        "location": "Bilinmiyor",
+        "aircraft_type": "Robinson R44 Raven II",
+        "registration": "PR-HTC",
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "3501155a34",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11WlEyQUZPNFYyOW9yRElCYkFKaXByNjItTkFSZ0R3azJTVHhnd3VDZDBOT2R2OUtYRkNZUk9GWTMtOFpwWWJhRWtvU0ZPSWFMbDN4OUpB?oc=5",
+            "published_at": "2026-10-23T09:17:39.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Cessna P206B Super Skylane Uçağında Olay Rapor Edildi",
+        "summary": "22 Ekim 2026 tarihinde N2649X tescilli Cessna P206B Super Skylane tipi uçak bir olay (incident) yaşamıştır. Olayın safhası ve nedenleri henüz açıklanmamıştır.",
+        "why_it_matters": "Genel havacılık emniyet kayıtlarının güncelliği için izlenmektedir.",
+        "importance": 2,
+        "confidence": "preliminary",
+        "tags": [
+          "Cessna",
+          "P206B",
+          "Incident",
+          "ASN"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-10-22T00:00:00Z",
+        "location": "Bilinmiyor",
+        "aircraft_type": "Cessna P206B Super Skylane",
+        "registration": "N2649X",
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "7171142713",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuUnRSLXNoa21jQTlyUEZ0eTVpMW5PRVRqbFRyXzBiMG1EX0d4MndLT2JQUFBCenpVbFpfTkVBek9mWkY0WHZ0SFFINmEtY0Y5bGZzTWFn?oc=5",
+            "published_at": "2026-10-23T00:07:17.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "Airbus A220 GPS Jamming Koruması İçin Safran SkyNaute Sistemini Seçti",
+        "summary": "Airbus, A220 yolcu uçaklarında uydu seyrüsefer sinyali karıştırma (GPS jamming/spoofing) tehditlerine karşı Safran tarafından geliştirilen SkyNaute sistemini sunacağını duyurdu. Askeri platformlarda kullanılan bu sistem, hibrit ataletsel seyrüsefer (inertial navigation) mimarisiyle GNSS kesintilerinde yüksek seyrüsefer hassasiyeti sağlıyor.",
+        "why_it_matters": "Yoğun GPS/GNSS jamming yaşanan coğrafyalarda A220 uçuş emniyetini ve seyrüsefer sürekliliğini doğrudan artırır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Avionics",
+          "A220",
+          "GPSJamming",
+          "Navigation",
+          "SkyNaute"
+        ],
+        "subcategory": "avionics_technology",
+        "regulators": [
+          "None"
+        ],
+        "operational_takeaway": "GPS/GNSS spoofing ve jamming vakalarının arttığı bölgelerde, A220 filolarında entegre hibrit ataletsel seyrüsefer (SkyNaute) kullanımı seyrüsefer sürekliliğini ve emniyetini artıracaktır.",
+        "id": "258950139c",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://www.flightglobal.com/ops-safety/2026/10/a220-to-be-first-airliner-to-carry-safran-military-anti-interference-navigation-system/",
+            "published_at": "2026-10-23T20:55:41.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "US DOT Yasaklı Hava Sahası İhlali Nedeniyle Air France ve KLM'ye Ceza Kesti",
+        "summary": "ABD Ulaştırma Bakanlığı (DOT), Delta Air Lines kod paylaşımı (codeshare) altında gerçekleştirdikleri 100'den fazla uçuşta FAA kısıtlaması bulunan Bağdat FIR hava sahasını kullandıkları gerekçesiyle Air France ve KLM'ye toplam $425.000 para cezası uyguladı. İhlallerin 2022-2025 yılları arasında gerçekleştiği bildirildi.",
+        "why_it_matters": "Codeshare operasyonlarında uçuş planlaması yapılırken ortak havayolu regülasyonları ve FAA kısıtlamalarına uyumun önemini vurgular.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "US_DOT",
+          "FAA",
+          "Airspace",
+          "Codeshare",
+          "Regulasyon"
+        ],
+        "subcategory": "regulation",
+        "regulators": [
+          "FAA",
+          "Other"
+        ],
+        "operational_takeaway": "Kod paylaşımı (codeshare) operasyonlarında uçuş planlaması yapılırken ortak havayolu regülasyonları ve FAA/DOT yasaklı hava sahası (FIR) kısıtlamaları titizlikle kontrol edilmelidir.",
+        "id": "57541dbf52",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://www.flightglobal.com/airlines/2026/10/us-dot-fines-air-france-and-klm-for-flights-through-prohibited-airspace-under-deltas-code/",
+            "published_at": "2026-10-23T16:04:43.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "İsveç Hükümeti Kurumlarında ChatGPT ve Claude Kullanımını Yasakladı",
+        "summary": "İsveç Hükümet Ofisi, güvenlik, veri gizliliği ve bilgi sızıntısı risklerini gerekçe göstererek ChatGPT ve Claude gibi ticari yapay zeka araçlarının kamu bilgisayarları ve ağlarında kullanımını yasakladığını açıkladı.",
+        "why_it_matters": "Kamu sektöründe yapay zeka araçlarının kullanımına yönelik regülatif ve güvenlik odaklı kısıtlamaların arttığını gösterir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Policy",
+          "LLM",
+          "ChatGPT",
+          "Claude",
+          "Security"
+        ],
+        "subcategory": "policy_safety",
+        "entities": [
+          "ChatGPT",
+          "Claude",
+          "İsveç Hükümeti"
+        ],
+        "developer_impact": "Kamu kurumlarında LLM kullanımına getirilen yasaklar, entegrasyon yapan geliştiricilerin yerel/özel sunuculu (on-premise) ve açık kaynak modellere yönelmesine neden olabilir.",
+        "id": "f36f045036",
+        "sources": [
+          {
+            "name": "Hacker News (AI)",
+            "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+            "published_at": "2026-10-23T11:39:54.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "MIT Araştırması: Kendi Haline Bırakılan AI Ajanları Oyun Geliştirerek Performans Artırdı",
+        "summary": "MIT araştırmacıları, sanal bir adada serbest bıraktıkları 13 AI agent'ın kendi aralarında oyunlar icat ettiğini, etkileşim kurduğunu ve bu serbest simülasyon sürecinin sonucunda verilen karmaşık görevleri başarma yeteneklerinin arttığını ortaya koydu.",
+        "why_it_matters": "Çoklu ajan (multi-agent) sistemlerinde serbest etkileşimin yetenek gelişimine etkisini gösteren önemli bir araştırma bulgusudur.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "AI_Agents",
+          "MIT",
+          "Research",
+          "MultiAgent"
+        ],
+        "subcategory": "research",
+        "entities": [
+          "MIT",
+          "AI Agents"
+        ],
+        "developer_impact": "Çoklu otonom ajan (multi-agent) simülasyonlarında serbest etkileşim ve oyun benzeri senaryoların ajanların karmaşık görev performansını artırdığı gösterilmiştir.",
+        "id": "61481074e0",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+            "published_at": "2026-10-23T00:45:37.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "AI İsteklerinin Karbon Ayak İzi Veri Merkezinin Coğrafyasına Göre 8.5 Kat Değişiyor",
+        "summary": "Berget AI tarafından yayınlanan analize göre, aynı yapay zeka çıkarım (inference) sorgusu Teksas'taki bir veri merkezinde çalıştırıldığında İsveç'tekine kıyasla 8.5 kat daha fazla CO2 emisyonuna yol açıyor. Farklılığın yerel elektrik şebekelerinin yenilenebilir enerji oranından kaynaklandığı belirtildi.",
+        "why_it_matters": "Yapay zeka modellerinin çevresel etkisini ve yeşil hesaplama (green computing) gereksinimini vurgular.",
+        "importance": 2,
+        "confidence": "confirmed",
+        "tags": [
+          "GreenAI",
+          "Inference",
+          "Sustainability",
+          "Infrastructure"
+        ],
+        "subcategory": "infrastructure_chips",
+        "entities": [
+          "Berget AI"
+        ],
+        "developer_impact": "AI çıkarım (inference) yüklerinin coğrafi olarak temiz enerjiye sahip veri merkezlerine yönlendirilmesi karbon ayak izini drastik şekilde düşürür.",
+        "id": "02efd666df",
+        "sources": [
+          {
+            "name": "Hacker News (AI)",
+            "url": "https://berget.ai/en/blog/per-request-co2-press-release",
+            "published_at": "2026-10-23T06:41:11.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "inDrive Pony.ai ve Nvidia Altyapısıyla 2027 Robotaksi Testlerine Hazırlanıyor",
+        "summary": "Uber rakibi inDrive, Kazakistan'ın başkenti Astana'da 2027 yılının ilk yarısında Pony.ai ve Nvidia teknolojilerini kullanarak robotaksi testlerine başlayacağını duyurdu.",
+        "why_it_matters": "Otonom araç ve robotaksi çözümlerinin gelişmekte olan pazarlara yayılımını gösterir.",
+        "importance": 2,
+        "confidence": "confirmed",
+        "tags": [
+          "Robotaksi",
+          "Nvidia",
+          "PonyAI",
+          "Autonomous"
+        ],
+        "subcategory": "product_launch",
+        "entities": [
+          "inDrive",
+          "Pony.ai",
+          "Nvidia"
+        ],
+        "developer_impact": "Otonom sürüş yazılımları ve Nvidia altyapısı gelişmekte olan pazarlarda yeni alan senaryoları yaratmaktadır.",
+        "id": "f9cfcb4645",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+            "published_at": "2026-10-23T04:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [],
+  "meta": {
+    "rss_feeds_ok": 9,
+    "rss_feeds_failed": [
+      "openai_blog"
+    ],
+    "rss_items_fetched": 97,
+    "rss_items_used": 32,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 115816
+  }
+}
