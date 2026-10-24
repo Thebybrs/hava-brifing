@@ -89,4 +89,86 @@ describe('MetarBadge bileşeni', () => {
 
     expect(screen.queryByRole('dialog')).toBeNull();
   });
+
+  it('4) Başlık tutamağı ile sürüklendiğinde konum güncellenir ve sıfırlama butonu görünür (Taşındı metni yazmaz)', async () => {
+    localStorage.setItem(
+      'efb_metar_LTFM',
+      JSON.stringify({
+        raw: mockMetar,
+        fetchedAt: Date.now(),
+      }),
+    );
+
+    render(<MetarBadge icao="LTFM" />);
+
+    const badgeBtn = screen.getByRole('button', {
+      name: /LTFM/i,
+    });
+    fireEvent.click(badgeBtn);
+
+    const dialog = screen.getByRole('dialog');
+    expect(dialog).toBeDefined();
+
+    // Başlangıçta "Konumu sıfırla" butonu olmamalı
+    expect(screen.queryByRole('button', { name: /Konumu sıfırla/i })).toBeNull();
+
+    // Sürükleme handle'ını bul (başlık alanı)
+    const headerDrag = dialog.firstElementChild as HTMLElement;
+    expect(headerDrag).toBeDefined();
+
+    // MouseDown -> MouseMove (sürükleme) -> MouseUp
+    fireEvent.mouseDown(headerDrag, {
+      clientX: 200,
+      clientY: 100,
+      button: 0,
+    });
+
+    fireEvent.mouseMove(window, {
+      clientX: 260,
+      clientY: 150,
+    });
+
+    fireEvent.mouseUp(window);
+
+    // Kartta "Taşındı" yazısı OLMAMALI (kullanıcı talebi)
+    expect(screen.queryByText(/Taşındı/i)).toBeNull();
+
+    // Konumu sıfırla butonu görünür olmalı
+    const resetBtn = screen.getByRole('button', { name: /Konumu sıfırla/i });
+    expect(resetBtn).toBeDefined();
+
+    // Sıfırla butonuna tıklanınca sıfırlanmalı ve buton kaybolmalı
+    fireEvent.click(resetBtn);
+    expect(screen.queryByRole('button', { name: /Konumu sıfırla/i })).toBeNull();
+  });
+
+  it('5) Taşınmamış durumdayken dışarı tıklandığında kartı kapatır', async () => {
+    localStorage.setItem(
+      'efb_metar_LTFM',
+      JSON.stringify({
+        raw: mockMetar,
+        fetchedAt: Date.now(),
+      }),
+    );
+
+    render(
+      <div>
+        <div data-testid="outside-area">Dış Alan</div>
+        <MetarBadge icao="LTFM" />
+      </div>,
+    );
+
+    const badgeBtn = screen.getByRole('button', {
+      name: /LTFM/i,
+    });
+    fireEvent.click(badgeBtn);
+
+    expect(screen.getByRole('dialog')).toBeDefined();
+
+    // Dış alana tıkla
+    const outside = screen.getByTestId('outside-area');
+    fireEvent.mouseDown(outside);
+
+    expect(screen.queryByRole('dialog')).toBeNull();
+  });
 });
