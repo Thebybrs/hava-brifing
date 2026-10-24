@@ -70,6 +70,7 @@ export const envSchemaZod = z.object({
   ),
   DRY_RUN: booleanEnvZod.transform((v) => v ?? false),
   NOTIFY: booleanEnvZod.transform((v) => v ?? true),
+  ENABLE_GROUNDING: booleanEnvZod.transform((v) => v ?? false),
   SITE_URL: optionalTrimmedString.transform(
     (v) => v ?? 'https://thebybrs.github.io/hava-brifing/',
   ),

@@ -177,19 +177,18 @@ async function runFullPipeline(): Promise<void> {
     },
   );
 
-  // Adım 6: Stage A — Google Search Grounding
-  const grounding = await logger.group(
-    'Adım 6: Stage A (Google Search Grounding)',
-    async () =>
-      runGroundingStage({
-        dateLabel,
-        window,
-        coveredTitlesByGroup: groupTitlesByFeedGroup(items),
-      }),
-  );
-
-  // Kota / rate-limit (429) riskini azaltmak için Stage A ve Stage B arasında kısa bekleme
-  await new Promise((resolve) => setTimeout(resolve, 4_000));
+  // Adım 6: Stage A — Google Search Grounding (Ücretsiz katmanda kota harcamaması için ENABLE_GROUNDING=true ise çalışır)
+  const grounding = env.ENABLE_GROUNDING
+    ? await logger.group(
+        'Adım 6: Stage A (Google Search Grounding)',
+        async () =>
+          runGroundingStage({
+            dateLabel,
+            window,
+            coveredTitlesByGroup: groupTitlesByFeedGroup(items),
+          }),
+      )
+    : { used: false, notes: '', sources: [], queries: [] };
 
   // Adım 7: Stage B — Structured Output (responseSchema)
   const rssBlock = buildRssBlock(items);
