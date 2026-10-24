@@ -62,7 +62,7 @@ export const FEEDS: FeedSource[] = [
   {
     id: 'flightglobal',
     name: 'FlightGlobal',
-    url: 'https://www.flightglobal.com/rss',
+    url: 'https://news.google.com/rss/search?q=site:flightglobal.com+when:2d&hl=en-US&gl=US&ceid=US:en',
     group: 'aviation',
     priority: 2,
     maxItems: 20,

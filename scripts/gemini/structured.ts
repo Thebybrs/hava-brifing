@@ -129,7 +129,7 @@ export async function runStructuredStage(input: {
       }
 
       repairInstruction = `ÖNCEKİ ÇIKTI GEÇERSİZDİ: ${errorSummary}. Şemaya tam uyan JSON üret.`;
-      await new Promise((resolve) => setTimeout(resolve, 3_000));
+      await new Promise((resolve) => setTimeout(resolve, 15_000));
     }
   }
 

@@ -1,5 +1,8 @@
 name: Daily Briefing
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 on:
   schedule:
     - cron: '0 5 * * *' # 05:00 UTC = 08:00 Europe/Istanbul (UTC+3, sabit)
@@ -44,6 +47,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.5-flash' }}
+          ENABLE_GROUNDING: ${{ vars.ENABLE_GROUNDING || 'false' }}
           SITE_URL: ${{ vars.SITE_URL || 'https://thebybrs.github.io/hava-brifing/' }}
           BRIEFING_DATE: ${{ inputs.date }}
           DRY_RUN: ${{ inputs.dry_run }}
