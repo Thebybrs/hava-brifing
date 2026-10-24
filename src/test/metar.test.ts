@@ -1,92 +1,57 @@
-// @vitest-environment jsdom
-// src/test/metar.test.ts — METAR ayrıştırıcı birim testleri
+// src/test/metar.test.ts — METAR parser birim testleri
 
 import { describe, expect, it } from 'vitest';
-import { calculateFlightCategory, parseMetar } from '@/lib/metar';
+import { parseMetar } from '@/lib/metar';
 
-describe('METAR Decoder (src/lib/metar.ts)', () => {
-  it('1) İstanbul/LTFM gerçek METAR metnini doğru şekilde ayrıştırır', () => {
-    const raw =
-      'METAR LTFM 241450Z 06009KT 9999 SCT023 16/11 Q1018 NOSIG RMK RWY17L 07007KT';
-    const data = parseMetar(raw);
+describe('METAR Parser (src/lib/metar.ts)', () => {
+  it('1) Standart LTFM METAR verisini doğru rüzgar, görüş ve QNH ile çözümler', () => {
+    const raw = 'LTFM 241820Z 04012KT 9999 FEW030 14/08 Q1022 NOSIG';
+    const decoded = parseMetar(raw, 'LTFM');
 
-    expect(data.station).toBe('LTFM');
-    expect(data.airportName).toBe('İstanbul Havalimanı');
-    expect(data.iata).toBe('IST');
-
-    // Zaman
-    expect(data.time?.day).toBe(24);
-    expect(data.time?.zulu).toBe('14:50Z');
-
-    // Rüzgar
-    expect(data.wind?.direction).toBe(60);
-    expect(data.wind?.speedKt).toBe(9);
-    expect(data.wind?.isCalm).toBe(false);
-    expect(data.wind?.display).toBe('060° 9 KT');
-
-    // Görüş
-    expect(data.visibility?.meters).toBe(10000);
-    expect(data.visibility?.display).toBe('≥ 10 km (9999)');
-
-    // Bulut (SCT023 tavan değildir; SCT = 3-4/8)
-    expect(data.clouds).toHaveLength(1);
-    expect(data.clouds?.[0]?.cover).toBe('SCT');
-    expect(data.clouds?.[0]?.altitudeFt).toBe(2300);
-    expect(data.ceilingFt).toBeNull();
-
-    // Sıcaklık & QNH
-    expect(data.temperature?.celsius).toBe(16);
-    expect(data.temperature?.dewpointCelsius).toBe(11);
-    expect(data.altimeter?.hPa).toBe(1018);
-
-    // Trend & Uçuş Kategorisi (Tavan yok, görüş 9999 -> VFR)
-    expect(data.trend).toContain('NOSIG');
-    expect(data.flightCategory.category).toBe('VFR');
+    expect(decoded.station).toBe('LTFM');
+    expect(decoded.timeFormatted).toBe('18:20Z');
+    expect(decoded.windDirectionDeg).toBe(40);
+    expect(decoded.windSpeedKt).toBe(12);
+    expect(decoded.windGustKt).toBeNull();
+    expect(decoded.visibilityMeters).toBe(9999);
+    expect(decoded.qnhHpa).toBe(1022);
+    expect(decoded.temperatureC).toBe(14);
+    expect(decoded.dewpointC).toBe(8);
+    expect(decoded.category).toBe('VFR');
+    expect(decoded.takeaway).toContain('QNH 1022');
   });
 
-  it('2) CAVOK ve sakin rüzgar (00000KT) durumunu doğru yorumlar', () => {
-    const raw = 'LTFM 240600Z 00000KT CAVOK 14/08 Q1020 NOSIG';
-    const data = parseMetar(raw);
+  it('2) CAVOK ve değişken rüzgarlı LTAI METAR verisini çözümler', () => {
+    const raw = 'LTAI 241820Z VRB03KT CAVOK 19/11 Q1019 NOSIG';
+    const decoded = parseMetar(raw, 'LTAI');
 
-    expect(data.wind?.isCalm).toBe(true);
-    expect(data.wind?.display).toBe('Sakin (Calm)');
-    expect(data.visibility?.isCavok).toBe(true);
-    expect(data.flightCategory.category).toBe('VFR');
+    expect(decoded.station).toBe('LTAI');
+    expect(decoded.windDirectionDeg).toBe('VRB');
+    expect(decoded.windSpeedKt).toBe(3);
+    expect(decoded.visibilitySummary).toContain('CAVOK');
+    expect(decoded.category).toBe('VFR');
   });
 
-  it('3) Hamleli rüzgar (Gust), değişken yön ve eksi dereceleri çözer', () => {
-    const raw = 'LTFM 241800Z 27018G28KT 240V300 6000 -RA BR BKN015 M02/M05 Q1008';
-    const data = parseMetar(raw);
+  it('3) Düşük tavan ve kısıtlı görüşte IFR / LIFR uçuş kategorisini doğru hesaplar', () => {
+    // 800 metre görüş, 300 ft kapalı bulut (OVC003) -> LIFR
+    const rawLifr = 'LTFJ 240500Z 02015G25KT 0800 FG OVC003 04/04 Q1008 NOSIG';
+    const decodedLifr = parseMetar(rawLifr, 'LTFJ');
 
-    expect(data.wind?.direction).toBe(270);
-    expect(data.wind?.speedKt).toBe(18);
-    expect(data.wind?.gustKt).toBe(28);
-    expect(data.wind?.variable).toEqual({ min: 240, max: 300 });
-
-    // Eksi sıcaklık
-    expect(data.temperature?.celsius).toBe(-2);
-    expect(data.temperature?.dewpointCelsius).toBe(-5);
-
-    // Hava olayları
-    expect(data.weather?.some((w) => w.code === '-RA')).toBe(true);
-    expect(data.weather?.some((w) => w.code === 'BR')).toBe(true);
-
-    // BKN015 tavan (1500 ft) -> MVFR (tavan <= 3000 ft)
-    expect(data.ceilingFt).toBe(1500);
-    expect(data.flightCategory.category).toBe('MVFR');
+    expect(decodedLifr.category).toBe('LIFR');
+    expect(decodedLifr.windGustKt).toBe(25);
+    expect(decodedLifr.ceilingFeet).toBe(300);
+    expect(decodedLifr.weatherPhenomena).toContain('Sis');
   });
 
-  it('4) IFR ve LIFR kategorilerini tavan ve görüşe göre tespit eder', () => {
-    // Görüş 3000m veya tavan 800 ft -> IFR
-    expect(calculateFlightCategory(3000, 800, false)).toBe('IFR');
+  it('4) Eksi sıcaklık ve alçak basınç durumlarını doğru işler', () => {
+    const rawSubZero = 'LTAC 240400Z 00000KT 6000 BR SCT020 M03/M05 Q1005';
+    const decoded = parseMetar(rawSubZero, 'LTAC');
 
-    // Görüş 800m veya tavan 300 ft -> LIFR
-    expect(calculateFlightCategory(800, 300, false)).toBe('LIFR');
-
-    // Görüş 6000m, tavan 2500 ft -> MVFR
-    expect(calculateFlightCategory(6000, 2500, false)).toBe('MVFR');
-
-    // Görüş 10000m, tavan 5000 ft -> VFR
-    expect(calculateFlightCategory(10000, 5000, false)).toBe('VFR');
+    expect(decoded.windSummary).toContain('Calm');
+    expect(decoded.temperatureC).toBe(-3);
+    expect(decoded.dewpointC).toBe(-5);
+    expect(decoded.qnhHpa).toBe(1005);
+    expect(decoded.qnhSummary).toContain('Alçak Basınç');
+    expect(decoded.weatherPhenomena).toContain('Pus');
   });
 });

@@ -1,4 +1,4 @@
-// scripts/notify/message.ts — §4.4 ve §7.1 Bildirim yükü (NotifyPayload) oluşturucu
+// scripts/notify/message.ts — §4.4 ve §7.1 Bildirim yükü (NotifyPayload) oluşturucu + Canlı METAR kilit ekranı satırı
 
 import type { Briefing } from '@shared/briefing.types';
 import { formatTrtLong } from '../lib/window';
@@ -18,12 +18,87 @@ function truncateMessage(text: string, maxChars: number): string {
   return `${text.slice(0, maxChars - 1).trimEnd()}…`;
 }
 
+export function formatMetarSnapshot(raw: string): string {
+  const clean = raw.trim().replace(/\s+/g, ' ');
+  const tokens = clean.split(' ');
+  const station = tokens[0] || 'LTFM';
+  let wind = '';
+  let vis = '';
+  let qnh = '';
+  let cat = 'VFR';
+
+  for (const t of tokens) {
+    const windMatch = /^(VRB|\d{3})(\d{2,3})(?:G(\d{2,3}))?KT$/.exec(t);
+    if (windMatch) {
+      wind = windMatch[1] === 'VRB' ? `VRB/${windMatch[2]}kt` : `${windMatch[1]}°/${windMatch[2]}kt`;
+      if (windMatch[3]) wind += ` (G${windMatch[3]})`;
+    }
+
+    if (t === 'CAVOK') {
+      vis = 'CAVOK (10k+)';
+      cat = 'VFR';
+    } else if (t === '9999') {
+      vis = '10km+';
+    } else if (/^\d{4}$/.test(t)) {
+      vis = `${t}m`;
+      const v = Number(t);
+      if (v < 5000) cat = 'IFR';
+      else if (v < 8000 && cat !== 'IFR') cat = 'MVFR';
+    }
+
+    if (/^Q\d{4}$/.test(t)) {
+      qnh = t;
+    }
+
+    const cloudMatch = /^(OVC|BKN)(\d{3})$/.exec(t);
+    if (cloudMatch) {
+      const base = Number(cloudMatch[2]) * 100;
+      if (base < 1000) cat = 'IFR';
+      else if (base <= 3000 && cat !== 'IFR') cat = 'MVFR';
+    }
+  }
+
+  const parts = [
+    `🌤️ ${station}:`,
+    wind || null,
+    vis ? `Görüş ${vis}` : null,
+    qnh || null,
+    cat ? `${cat}` : null,
+  ].filter(Boolean);
+
+  return parts.join(' • ');
+}
+
+export async function fetchLtfmSnapshot(): Promise<string> {
+  try {
+    const res = await fetch(
+      'https://aviationweather.gov/api/data/metar?ids=LTFM&format=raw',
+      { signal: AbortSignal.timeout(4000) },
+    );
+    if (res.ok) {
+      const text = (await res.text()).trim();
+      const firstLine = text.split('\n')[0]?.trim();
+      if (firstLine) {
+        return formatMetarSnapshot(firstLine);
+      }
+    }
+  } catch {
+    // Ağ zaman aşımında sessizce devam et
+  }
+  return '';
+}
+
 /**
  * Brifing nesnesinden ntfy / Telegram ortak bildirim yükünü üretir (§4.4 ve §7.1).
  * - Ölümlü kaza varsa priority=4 ve tags=['airplane', 'warning'], aksi halde priority=3 ve tags=['airplane', 'newspaper'].
  * - Gövde ≤ 3500 karakter sınırına kırpılır.
+ * - İsteğe bağlı olarak son satıra canlı METAR kilit ekranı satırı eklenir.
  */
-export function buildPayload(b: Briefing, siteUrl: string): NotifyPayload {
+export function buildPayload(
+  b: Briefing,
+  siteUrl: string,
+  metarLine?: string,
+): NotifyPayload {
   const hasFatal = b.categories.accidents_and_incidents.some(
     (acc) => typeof acc.fatalities === 'number' && acc.fatalities > 0,
   );
@@ -32,13 +107,18 @@ export function buildPayload(b: Briefing, siteUrl: string): NotifyPayload {
   const tldrLines = b.tldr.map((line) => `• ${line}`).join('\n');
   const countsLine = `Kaza/Olay: ${b.categories.accidents_and_incidents.length} · Ticari: ${b.categories.commercial_aviation.length} · Pilotaj: ${b.categories.piloting_and_ops.length} · AI: ${b.categories.ai_developments.length}`;
 
-  const rawBody = [b.headline, '', tldrLines, '', countsLine].join('\n');
+  const bodyParts = [b.headline, '', tldrLines, '', countsLine];
+  if (metarLine?.trim()) {
+    bodyParts.push('', metarLine.trim());
+  }
+
+  const rawBody = bodyParts.join('\n');
   const body = truncateMessage(rawBody, MAX_BODY_CHARS);
 
   return {
     title,
     body,
-    url: siteUrl.trim() || 'https://example.vercel.app/',
+    url: siteUrl.trim() || 'https://thebybrs.github.io/hava-brifing/',
     priority: hasFatal ? 4 : 3,
     tags: ['airplane', hasFatal ? 'warning' : 'newspaper'],
   };

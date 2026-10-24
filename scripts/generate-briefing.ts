@@ -24,7 +24,7 @@ import { buildCatalog, publishBriefing } from './lib/resolve-sources';
 import { fetchAllFeeds } from './lib/rss';
 import { readBriefing, writeBriefing } from './lib/storage';
 import { computeWindow, formatTrtLong, trtDateString } from './lib/window';
-import { buildPayload, notifyAll } from './notify';
+import { buildPayload, fetchLtfmSnapshot, notifyAll } from './notify';
 
 function previousDayString(dateStr: string): string {
   const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(dateStr);
@@ -79,7 +79,8 @@ async function runNotifyOnlyMode(): Promise<void> {
       );
     }
 
-    const payload = buildPayload(latestBriefing, siteUrl);
+    const ltfmMetar = await fetchLtfmSnapshot();
+    const payload = buildPayload(latestBriefing, siteUrl, ltfmMetar);
     const notifyRes = await notifyAll(payload);
     logger.info('Notify-only tamamlandı', {
       date: latestBriefing.date,
@@ -287,7 +288,8 @@ async function runFullPipeline(): Promise<void> {
   // Adım 12: NOTIFY !== false && !DRY_RUN ise bildirim gönder
   if (env.NOTIFY) {
     await logger.group('Adım 12: Bildirim Gönderimi', async () => {
-      const payload = buildPayload(validatedBriefing, env.SITE_URL);
+      const ltfmMetar = await fetchLtfmSnapshot();
+      const payload = buildPayload(validatedBriefing, env.SITE_URL, ltfmMetar);
       const notifyRes = await notifyAll(payload);
       logger.info('Bildirim sonucu', notifyRes);
     });
