@@ -70,20 +70,26 @@ export function formatMetarSnapshot(raw: string): string {
 }
 
 export async function fetchLtfmSnapshot(): Promise<string> {
-  try {
-    const res = await fetch(
-      'https://aviationweather.gov/api/data/metar?ids=LTFM&format=raw',
-      { signal: AbortSignal.timeout(4000) },
-    );
-    if (res.ok) {
-      const text = (await res.text()).trim();
-      const firstLine = text.split('\n')[0]?.trim();
-      if (firstLine) {
-        return formatMetarSnapshot(firstLine);
+  const endpoints = [
+    'https://metar.vatsim.net/LTFM',
+    'https://aviationweather.gov/api/data/metar?ids=LTFM&format=raw',
+  ];
+
+  for (const url of endpoints) {
+    try {
+      const res = await fetch(url, {
+        signal: AbortSignal.timeout(4000),
+      });
+      if (res.ok) {
+        const text = (await res.text()).trim();
+        const firstLine = text.split('\n')[0]?.trim();
+        if (firstLine && firstLine.includes('LTFM')) {
+          return formatMetarSnapshot(firstLine);
+        }
       }
+    } catch {
+      // Ağ zaman aşımında sonraki uç noktayı dene
     }
-  } catch {
-    // Ağ zaman aşımında sessizce devam et
   }
   return '';
 }

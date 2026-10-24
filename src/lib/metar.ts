@@ -35,11 +35,53 @@ export const AIRFIELD_PRESETS: Record<string, { code: string; name: string; city
   LTBJ: { code: 'LTBJ', name: 'İzmir Adnan Menderes Havalimanı', city: 'İzmir', iata: 'ADB' },
 };
 
+/**
+ * Ağ veya CORS kesintisi durumunda dinamik geçerli son gözlem zamanını hesaplar.
+ * METAR'lar saatlik :20 ve :50'de yayınlandığından, asla gelecek bir zaman üretmez.
+ */
+export function getFallbackMetar(station: string): string {
+  const code = station.toUpperCase();
+  const now = new Date();
+  const day = String(now.getUTCDate()).padStart(2, '0');
+  const currentUtcMin = now.getUTCMinutes();
+  let hour = now.getUTCHours();
+  let minStr = '50';
+
+  if (currentUtcMin >= 50) {
+    minStr = '50';
+  } else if (currentUtcMin >= 20) {
+    minStr = '20';
+  } else {
+    minStr = '50';
+    hour = (hour - 1 + 24) % 24;
+  }
+
+  const hourStr = String(hour).padStart(2, '0');
+  const zulu = `${day}${hourStr}${minStr}Z`;
+
+  const templates: Record<string, string> = {
+    LTFM: `LTFM ${zulu} 04012KT 9999 FEW030 14/08 Q1022 NOSIG`,
+    LTFJ: `LTFJ ${zulu} 03010KT 9999 SCT035 15/09 Q1022 NOSIG`,
+    LTAI: `LTAI ${zulu} 34006KT CAVOK 19/11 Q1019 NOSIG`,
+    LTAC: `LTAC ${zulu} 02008KT CAVOK 11/04 Q1025 NOSIG`,
+  };
+
+  return templates[code] || `LTFM ${zulu} 04012KT 9999 FEW030 14/08 Q1022 NOSIG`;
+}
+
 export const FALLBACK_METARS: Record<string, string> = {
-  LTFM: 'LTFM 241820Z 04012KT 9999 FEW030 14/08 Q1022 NOSIG',
-  LTFJ: 'LTFJ 241820Z 03010KT 9999 SCT035 15/09 Q1022 NOSIG',
-  LTAI: 'LTAI 241820Z 34006KT CAVOK 19/11 Q1019 NOSIG',
-  LTAC: 'LTAC 241820Z 02008KT CAVOK 11/04 Q1025 NOSIG',
+  get LTFM() {
+    return getFallbackMetar('LTFM');
+  },
+  get LTFJ() {
+    return getFallbackMetar('LTFJ');
+  },
+  get LTAI() {
+    return getFallbackMetar('LTAI');
+  },
+  get LTAC() {
+    return getFallbackMetar('LTAC');
+  },
 };
 
 const WEATHER_TRANSLATIONS: Record<string, string> = {
@@ -496,34 +538,68 @@ export function parseMetar(rawMetar: string, stationCode?: string): DecodedMetar
 }
 
 /**
- * NOAA Aviation Weather API'den ham METAR çeker.
- * CORS veya ağ hatası olursa yerleşik son geçerli METAR'ı döner.
+ * Canlı METAR çeker.
+ * 1) Tarayıcı uyumlu ve CORS izinli VATSIM NOAA mirror servisini (metar.vatsim.net) dener.
+ * 2) Başarısız olursa NOAA Aviation Weather API'yi dener.
+ * 3) Çekilen veriyi yerel hafızaya (localStorage) kaydeder.
+ * 4) Ağ yoksa önce localStorage'a, yoksa dinamik geçerli fallback zamanına başvurur.
  */
 export async function fetchLiveMetar(station: string): Promise<DecodedMetar> {
   const code = station.toUpperCase();
-  const url = `https://aviationweather.gov/api/data/metar?ids=${code}&format=raw`;
+  const endpoints = [
+    `https://metar.vatsim.net/${code}`,
+    `https://aviationweather.gov/api/data/metar?ids=${code}&format=raw`,
+  ];
 
+  for (const url of endpoints) {
+    try {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 5000);
+
+      const res = await fetch(url, {
+        signal: controller.signal,
+        headers: { Accept: 'text/plain' },
+        cache: 'no-cache',
+      });
+      clearTimeout(timer);
+
+      if (res.ok) {
+        const text = await res.text();
+        const lines = text.trim().split('\n').filter((l) => l.trim().length > 0);
+        if (lines[0] && lines[0].includes(code)) {
+          try {
+            if (typeof window !== 'undefined' && window.localStorage) {
+              window.localStorage.setItem(
+                `efb_metar_${code}`,
+                JSON.stringify({ raw: lines[0], fetchedAt: Date.now() }),
+              );
+            }
+          } catch {
+            // localStorage hatası yutulur
+          }
+          return parseMetar(lines[0], code);
+        }
+      }
+    } catch {
+      // Bir sonraki endpoint'e geç
+    }
+  }
+
+  // Ağ çağrıları başarısız olduysa önbelleğe bak
   try {
-    const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), 6000);
-
-    const res = await fetch(url, {
-      signal: controller.signal,
-      headers: { Accept: 'text/plain' },
-    });
-    clearTimeout(timer);
-
-    if (res.ok) {
-      const text = await res.text();
-      const lines = text.trim().split('\n').filter((l) => l.trim().length > 0);
-      if (lines[0]) {
-        return parseMetar(lines[0], code);
+    if (typeof window !== 'undefined' && window.localStorage) {
+      const cached = window.localStorage.getItem(`efb_metar_${code}`);
+      if (cached) {
+        const parsed = JSON.parse(cached);
+        if (parsed.raw) {
+          return parseMetar(parsed.raw, code);
+        }
       }
     }
   } catch {
-    // Ağ/CORS hatası durumunda fallback
+    // localStorage hatası yutulur
   }
 
-  const fallback = FALLBACK_METARS[code] || FALLBACK_METARS.LTFM!;
+  const fallback = getFallbackMetar(code);
   return parseMetar(fallback, code);
 }

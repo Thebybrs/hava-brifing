@@ -13,8 +13,8 @@ import { Panel } from '@/components/ui/Panel';
 import {
   AIRFIELD_PRESETS,
   fetchLiveMetar,
+  getFallbackMetar,
   parseMetar,
-  FALLBACK_METARS,
   type DecodedMetar,
   type FlightCategory,
 } from '@/lib/metar';
@@ -28,9 +28,22 @@ const CATEGORY_STYLES: Record<FlightCategory, { badge: string; stripe: 'green' |
 
 export function MetarWidget() {
   const [selectedStation, setSelectedStation] = useState<string>('LTFM');
-  const [metar, setMetar] = useState<DecodedMetar>(() =>
-    parseMetar(FALLBACK_METARS.LTFM!, 'LTFM'),
-  );
+  const [metar, setMetar] = useState<DecodedMetar>(() => {
+    try {
+      if (typeof window !== 'undefined' && window.localStorage) {
+        const cached = window.localStorage.getItem('efb_metar_LTFM');
+        if (cached) {
+          const parsed = JSON.parse(cached);
+          if (parsed.raw) {
+            return parseMetar(parsed.raw, 'LTFM');
+          }
+        }
+      }
+    } catch {
+      // Yut
+    }
+    return parseMetar(getFallbackMetar('LTFM'), 'LTFM');
+  });
   const [loading, setLoading] = useState<boolean>(false);
   const [expanded, setExpanded] = useState<boolean>(false);
 
@@ -46,6 +59,13 @@ export function MetarWidget() {
 
   useEffect(() => {
     void loadStation(selectedStation);
+
+    // Her 5 dakikada bir arka planda canlı güncelle
+    const interval = setInterval(() => {
+      void loadStation(selectedStation);
+    }, 5 * 60 * 1000);
+
+    return () => clearInterval(interval);
   }, [selectedStation]);
 
   const catStyle = CATEGORY_STYLES[metar.category];
