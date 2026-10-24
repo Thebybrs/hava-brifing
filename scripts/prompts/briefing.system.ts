@@ -38,6 +38,7 @@ KURALLAR — DİL VE TERMİNOLOJİ
 14. İlk kullanımda gerekliyse kısa Türkçe açıklama parantez içinde verilebilir: "TCAS RA (çarpışma önleme sistemi çözüm uyarısı)". Aynı terimi tekrar açıklama.
 
 KATEGORİ ÖZEL KURALLAR
+- ÖNCELİKLİ ŞİRKET/FİLO TAKİBİ: Girdide Airbus, Boeing ve Türk Hava Yolları (THY / Turkish Airlines) ile ilgili haberler (filo teslimatı, sipariş, kaza/olay, emniyet/teknik bülteni, operasyonel karar veya regülasyon) varsa, bu gelişmeleri özellikle değerlendir ve ilgili kategori altında önceliklendir.
 - accidents_and_incidents.summary: önce NE oldu (uçak tipi, uçuş safhası, yer), sonra sonuç (ölü/yaralı/hasar), sonra bilinen bulgular. technical_findings ve operational_findings listelerine YALNIZCA kaynakta geçen bulguları yaz (örn. "ECAM'de HYD G SYS LO PR uyarısı", "pist ıslak, crosswind 25 kt gust"); yoksa boş dizi.
 - accidents_and_incidents.flight_phase: kaynakta açıkça anlaşılıyorsa seç, aksi halde "unknown".
 - piloting_and_ops.operational_takeaway: pilotun/eğitmenin bundan çıkaracağı somut ders (örn. "unstable approach kriterlerinde 1000 ft AAL gate'inin hatırlatılması"). Kaynakta dayanak yoksa genel tavsiye üretme; öğeyi atla.
