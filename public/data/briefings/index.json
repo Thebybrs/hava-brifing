@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-24T09:00:11.094Z",
-  "latest": "2026-10-24",
+  "updated_at": "2026-10-25T05:27:21.539Z",
+  "latest": "2026-10-25",
   "briefings": [
+    {
+      "date": "2026-10-25",
+      "path": "2026-10-25.json",
+      "headline": "FAA 2.000 Boeing 737NG için denetim talimatı yayımladı; Boeing 737 MAX 10 ticari uçuş onayına bir adım daha yaklaştı.",
+      "counts": {
+        "commercial_aviation": 6,
+        "accidents_and_incidents": 6,
+        "piloting_and_ops": 2,
+        "ai_developments": 3
+      },
+      "has_fatal_accident": false,
+      "max_importance": 5,
+      "generated_at": "2026-10-25T05:27:21.536Z"
+    },
     {
       "date": "2026-10-24",
       "path": "2026-10-24.json",

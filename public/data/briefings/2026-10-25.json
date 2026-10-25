@@ -1,0 +1,569 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T05:27:21.536Z",
+  "window": {
+    "from": "2026-10-24T05:24:31.339Z",
+    "to": "2026-10-25T05:24:31.339Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "FAA 2.000 Boeing 737NG için denetim talimatı yayımladı; Boeing 737 MAX 10 ticari uçuş onayına bir adım daha yaklaştı.",
+  "tldr": [
+    "FAA, uçuş sırasında pitch osilasyonu rapor edilen yaklaşık 2.000 Boeing 737NG uçağı için kuyruk muayenesi emri yayımladı.",
+    "FAA, Boeing'in en büyük dar gövde varyantı olan 737 MAX 10'un havayolları tarafından hizmete sokulmasının önünü açtı.",
+    "THY'nin teknik arıza nedeniyle Kanada'ya acil iniş yapan Boeing 777 uçağına ilişkin inceleme detayları açıklandı.",
+    "Block, M4 Max işlemcili cihazlarda yerel çalışan insan benzeri yeni yapay zeka ses modelini tanıttı."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "FAA, Boeing 737 MAX 10'un Hizmete Girmesi İçin Havayollarına Onay Verdi",
+        "summary": "FAA, uzun süredir sertifikasyon süreci devam eden Boeing 737 MAX 10 modelinin havayolları tarafından ticari hizmete sunulmasının önünü açtı. Bu karar, Boeing'in dar gövde ailesindeki en büyük uçağın teslimatları ve operasyonel entegrasyonu için kritik bir eşik niteliği taşıyor.",
+        "why_it_matters": "Filo planlaması yapan havayolları ve tip eğitimi bekleyen pilotlar için MAX 10'un operasyonel takvimi netleşmektedir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "737 MAX 10",
+          "FAA",
+          "Certification"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing",
+          "Boeing 737 MAX 10",
+          "FAA"
+        ],
+        "id": "5c93d948f2",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeXdINzdaY3lPeEpGa20xWGhiSXYtMGg1VEZGUFd1RHFSNXM4U3c5NV9YOVMzNmNMRVJlN1BkS0xFdU8xdmRLNi1NT2szeFRvZ0FTVFczcEhtdVhBbmlIWkw3dDVPQUtYTGRUZ2U3Mm1uNnhJWFlnb3lRR0xrRmtsY1VFZTNtR2lPVVV5RWtjSVFZejdzbFRyTmwtX3BBMEtVS0E0X01PQTdSbE5fV3E2ekl2bW1WZF9kRDNjTW85WFN6aWc?oc=5",
+            "published_at": "2026-10-24T14:30:54.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Boeing, Yapay Zeka Destekli Veri Analiz Platformu Dataliner'ı Tanıttı",
+        "summary": "Boeing, uçak operasyonel verilerini işlemek ve kestirimci bakım analitiği sunmak amacıyla yapay zeka destekli yeni platformu Dataliner'ı duyurdu. Sistem, filolardaki teknik verileri analiz ederek arıza önceden tespit mekanizmalarını güçlendirmeyi hedefliyor.",
+        "why_it_matters": "Uçak bakım mühendisliği ve filo emniyet yönetiminde veri analitiği süreçlerini otomatize eder.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "Dataliner",
+          "AI",
+          "Maintenance"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing",
+          "Dataliner"
+        ],
+        "id": "e08627a6bb",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFNjWG9lb2ZLZUExMFV5NUtDSEJseDA3ai1RUWp5bkRFa25WZVRHM2V6LWlfaG5EUEUxVmpuaUhTMVJFVVFYN0g2aHM2R182Z2V5aFRweGVIS1FCT2lCSGFUOXZ2TGVRWVBhTFE3SjViWjBUcXZDMnhRNmNGLXA4MTI2WllPNTRpYzdxOXBSMWhKVnNwb2tnY2ZFd1FkcVd0T0JocHFB?oc=5",
+            "published_at": "2026-10-24T23:14:36.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "14 Milyar Dolarlık Western Sydney Havalimanı İlk Jetstar Uçuşuyla Açıldı",
+        "summary": "Avustralya'da 14 milyar dolarlık yatırımlarla sıfırdan inşa edilen Western Sydney International (Nancy-Bird Walton) Airport (WSI), ilk Jetstar seferiyle yolcu uçuşlarına resmen açıldı. Havalimanı bölgedeki kapasite sıkışıklığını gidermeyi amaçlıyor.",
+        "why_it_matters": "Sydney hava sahası yaklaşma prosedürleri ve slot dağılımında yeni bir operasyonel dönem başlatmaktadır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "WSI",
+          "Airport Opening",
+          "Jetstar",
+          "Sydney"
+        ],
+        "subcategory": "airports_atc",
+        "entities": [
+          "Western Sydney International Airport",
+          "Jetstar"
+        ],
+        "id": "8c20fc9e1f",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/western-sydney-international-airport-opens-first-jetstar-flight/",
+            "published_at": "2026-10-25T03:54:42.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Airbus A220 Programı 1.107 Sipariş ve 550 Teslimat Sayısına Ulaştı",
+        "summary": "Airbus A220 programı, Delta Air Lines ve JetBlue'nun filo genişletme adımlarıyla toplam 1.107 sipariş ve 550 teslimat eşiğini geride bıraktı. Bölgesel dar gövde segmentinde uçak modelinin pazar payı büyümeye devam ediyor.",
+        "why_it_matters": "A220 tip derecelendirmesi alan pilotlar ve havayolu filo yöneticileri için pazarın sürdürülebilirliğini gösterir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "A220",
+          "Delta",
+          "JetBlue"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus A220",
+          "Delta Air Lines",
+          "JetBlue"
+        ],
+        "id": "7e0dcd4812",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5WVGhUNDZ3UUNrb2stdXp3TEdUTDgyYkp0cnl1a21qY1UxWXlzRkdwNDBQMjk1YzJGY1FsQlRqTkVSZkFtaWZRcmlFX2FFSEpWMTE2bm1oZFF0NWgzQlhvWkhraHpyanFhYlBnODczLVJtazA?oc=5",
+            "published_at": "2026-10-24T12:16:17.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Allegiant Air Gelecek Filosuna 6 Adet Boeing 737 MAX 8 Ekliyor",
+        "summary": "ABD merkezli düşük maliyetli taşıyıcı Allegiant Air, filo modernizasyonu ve hat kapasite artırımı hedefleri doğrultusunda sipariş defterine 6 adet Boeing 737 MAX 8 uçağı eklediğini açıkladı.",
+        "why_it_matters": "Düşük maliyetli taşıyıcıların dar gövde uçak seçimleri pazar dengeleri açısından önem taşır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Allegiant Air",
+          "Boeing 737 MAX",
+          "Fleet Expansion"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Allegiant Air",
+          "Boeing 737 MAX 8"
+        ],
+        "id": "57ae5a9ed1",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQb2YzdWZMbWxpdktrX00ta2Q4TUNQREluWkU2Q2cyZWctZkZWWlpLTC1HS1VoOUtFTE1GaW9HczVWdWtZd2I4RS1LTXRxM1dNY2EtaGN0dlF2Z2JZZndzQktlVThhbWF0YUxSSUgwb25pcmItTkp6VzZJSy13MDZqTkFoZEpmVW5xdTBHaUU5eS11SDBKWjFOX1JFZ19UazR0TDJ0TA?oc=5",
+            "published_at": "2026-10-24T14:46:06.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "GE Aerospace, Boeing 787 Motor Teslimat Çalışmalarının Sürdüğünü Bildirdi",
+        "summary": "GE Aerospace CEO'su, Boeing 787 filoları için motor teslimat hızını artırma ve tedarik zincirindeki darboğazları çözme odaklı çalışmaların yoğun bir şekilde devam ettiğini açıkladı.",
+        "why_it_matters": "Geniş gövde uçak üretim hatlarındaki gecikmelerin ana nedeni olan motor tedarik durumunu yansıtır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "GE Aerospace",
+          "Boeing 787",
+          "Engines",
+          "Supply Chain"
+        ],
+        "subcategory": "other_oem",
+        "entities": [
+          "GE Aerospace",
+          "Boeing 787"
+        ],
+        "id": "d5c19e97f0",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVEg2MkVVM1NkMmVDdXo3a2c2T2p5M2RCZHIzOVJBWDVCX0RwNXBNR2VZMUhDYk5zN3Q3T1NkRk9KWjNISzkydmZsMlcwTVpqTHNqRVJ2NEUxeDNYM0hXUEdrM29IOU1rVldPa3FuVktMcVNqX2xkUU43djdnaFg3RENyZGdrZndqWlVrb3dDOUNQZlpDZEdr?oc=5",
+            "published_at": "2026-10-25T04:00:29.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "SIAI-Marchetti SF.260FH Tipi Uçağın Karıştığı Havada Çarpışma Kazası Rapor Edildi",
+        "summary": "23 Ekim 2026 tarihinde bir SIAI-Marchetti SF.260FH tipi eğitim uçağının karıştığı havada çarpışma (mid-air collision) kazası gerçekleştiği bildirildi. Olayla ilgili resmi inceleme başlatıldı.",
+        "why_it_matters": "Görerek uçuş (VFR) şartlarında emniyetli mesafe ve ",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Mid-air Collision",
+          "Accident",
+          "SF.260FH"
+        ],
+        "occurrence_class": "accident",
+        "occurred_at_utc": null,
+        "location": "Bilinmiyor",
+        "aircraft_type": "SIAI-Marchetti SF.260FH",
+        "registration": null,
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [
+          "Havada çarpışma (mid-air collision)"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "e082ed4200",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9xWDFaNE8yN0ppRU45enRuSUpoQ29XMTF6dDNTNXdwUlBCbE41UkhWa3Vwam9qc0d0eTF0bENxNjJocnBPR1N0Y2NyaXdJRllEUy13ZzFB?oc=5",
+            "published_at": "2026-10-24T09:35:18.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "THY'nin Kanada'ya Divert Eden Boeing 777 Uçağının Arıza Detayı Netleşti",
+        "summary": "Türk Hava Yolları'na ait Boeing 777 tipi uçak, uçuş sırasında meydana gelen teknik arıza nedeniyle Kanada'ya divert etti. Yapılan teknik incelemelerin ardından uçağın emniyetli şekilde yön değiştirip inmesine yol açan sistem arızasının detayları raporlandı.",
+        "why_it_matters": "Geniş gövde transatlantik uçuşlarda ETOPS ve divert kararlarının operasyonel analizi açısından kritiktir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "Boeing 777",
+          "Divert",
+          "Technical Issue"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": null,
+        "location": "Kanada",
+        "aircraft_type": "Boeing 777",
+        "registration": null,
+        "operator": "Türk Hava Yolları",
+        "flight_number": null,
+        "flight_phase": "cruise",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [
+          "Teknik arıza nedeniyle acil divert"
+        ],
+        "operational_findings": [
+          "Kanada'daki havalimanına emniyetli pasif iniş yönlendirmesi"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "f4a0697c44",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTVhpcHdfR0QzTzZBUlVkdDhxTnJEWlRjdDl1aC13U2dNOEowS2ktd3BiVkl6RG9QQmtKQmRKVWlOaDFTQWNtajBIejFnNXF0ckVwZ2hDUWhIRGtjdHpPcVB3SFBnTDlRR1pqNUYtTlNiQmNOU2xNeEVUOUtkS2FGWEFSNjZDOFE?oc=5",
+            "published_at": "2026-10-24T10:38:08.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Endonezya'da Cessna 208B Grand Caravan (PK-LTF) Kırım Geçirdi",
+        "summary": "24 Ekim 2026 tarihinde PK-LTF tescilli Cessna 208B Grand Caravan tipi uçak kaza geçirdi. Olay Aviation Safety Network veritabanına kaza (accident) kategorisinde kaydedildi.",
+        "why_it_matters": "Tek motorlu türboprop uçakların çetin arazi ve hava koşullarındaki operasyon emniyeti takibi için önemlidir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Cessna 208B",
+          "Accident",
+          "PK-LTF"
+        ],
+        "occurrence_class": "accident",
+        "occurred_at_utc": null,
+        "location": "Endonezya",
+        "aircraft_type": "Cessna 208B Grand Caravan",
+        "registration": "PK-LTF",
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "e493330a42",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KZlhEY2FKbkdZSXNrWks3cVY0OVZGLUdRb1BiOGhsQnV6QUlpUEtEXzk0dWRtX3dZaWZhak1LVjN2WXFCY1diVFAtWC1Qcmk5clJpSHl3?oc=5",
+            "published_at": "2026-10-24T12:35:59.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Cessna 172M (CF-GZF) Tipi Uçak İnişte Pistten Çıktı",
+        "summary": "23 Ekim 2026 tarihinde CF-GZF tescilli Cessna 172M Skyhawk II uçağı iniş safhasında pistten çıktı (runway excursion). Olayda ciddi hasar ve yaralanma durumu araştırılıyor.",
+        "why_it_matters": "İniş rüzgar bileşenleri ve pist yüzey koşullarının kontrolü açısından eğitsel örnek teşkil eder.",
+        "importance": 2,
+        "confidence": "confirmed",
+        "tags": [
+          "Runway Excursion",
+          "Cessna 172M",
+          "Incident"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": null,
+        "location": "Bilinmiyor",
+        "aircraft_type": "Cessna 172M Skyhawk II",
+        "registration": "CF-GZF",
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "landing",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [
+          "İnişte pist dışına çıkma (runway excursion)"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "e1295a5d37",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43QXJ5YjJLZFQzWC11Ym1DRnZkVGFzWXZlaFRudFZOQmcta3E1cDJpenpHaE1mOXdaUEZub1ZBd05hM1JVNHdLRnBqSmRhWk5lMmdSWFBB?oc=5",
+            "published_at": "2026-10-24T09:35:18.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Bulgaristan Tescilli Cessna 150L (LZ-TTE) Kazaya Karıştı",
+        "summary": "24 Ekim 2026 tarihinde LZ-TTE tescilli Cessna 150L tipi genel havacılık uçağının karıştığı bir kaza meydana geldi. Hasar tespiti ve soruşturma işlemleri sürdürülmektedir.",
+        "why_it_matters": "Genel havacılık emniyet istatistikleri takibi açısından kayda geçmiştir.",
+        "importance": 2,
+        "confidence": "confirmed",
+        "tags": [
+          "Cessna 150L",
+          "Accident",
+          "LZ-TTE"
+        ],
+        "occurrence_class": "accident",
+        "occurred_at_utc": null,
+        "location": "Bulgaristan",
+        "aircraft_type": "Cessna 150L",
+        "registration": "LZ-TTE",
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "7e392711b1",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1lY3BqdzVhR2VKS0pzSEs2eXFMVDktVEpKNHo2eFVwRkJuMVpIbUl6OHRFc2w3bi1MS21fNkZKQmZ2UWNTaDdvZVRoWndfRlV2eHhaUTJn?oc=5",
+            "published_at": "2026-10-24T21:45:57.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Embraer ERJ-175LR (N88331) Tescilli Uçakta Operasyonel Olay Rapor Edildi",
+        "summary": "24 Ekim 2026 tarihinde N88331 tescilli Embraer ERJ-175LR tipi bölgesel uçağın karıştığı bir olay (incident) Aviation Safety Network sistemine işlendi.",
+        "why_it_matters": "Bölgesel jet filolarındaki teknik ve operasyonel aksaklıkların takibi için önemlidir.",
+        "importance": 2,
+        "confidence": "confirmed",
+        "tags": [
+          "Embraer E175",
+          "Incident",
+          "N88331"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": null,
+        "location": "Bilinmiyor",
+        "aircraft_type": "Embraer ERJ-175LR",
+        "registration": "N88331",
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "33fb991d8b",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95aXRScnY1Sm9iTzhqek12UmRjdGd5aG9faVQ3TFhBUzFOUXdSWFNrQUhyWjB2OVBuZlgyOEtDSkV1aHU5MlFDZWMzWVFrN3lId2tRM3VB?oc=5",
+            "published_at": "2026-10-24T15:40:28.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "FAA, Uçuşta Pitch Osilasyonu Yaşanan Yaklaşık 2.000 Boeing 737NG İçin Muayene Talimatı Yayımladı",
+        "summary": "FAA, uçuş sırasında dikey yunuslama dalgalanması (pitch oscillation) rapor edilmesinin ardından dünya genelinde yaklaşık 2.000 Boeing 737NG uçağını kapsayan acil denetim kararı aldı. Talimat, dikey kuyruk ve kumanda yüzeylerinin muayene edilmesini zorunlu kılıyor.",
+        "why_it_matters": "737NG uçuran pilotlar ve bakım ekipleri için uçuş kumandaları emniyetine dair kritik bir AD / emniyet bültenidir.",
+        "importance": 5,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing 737NG",
+          "FAA",
+          "Airworthiness Directive",
+          "Pitch Oscillation"
+        ],
+        "subcategory": "safety_alert",
+        "regulators": [
+          "FAA"
+        ],
+        "operational_takeaway": "Seyir ve tırmanma safhasında beklenmeyen pitch hareketlerinde AFDS modları kontrol edilmeli, durum QRH prosedürlerine uygun şekilde yönetilmelidir.",
+        "id": "f4f8a4ee9e",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMzZxS2F5Zk9CX0xaN2pxRGhzU19TVmNFQjV2OVlxbkI2WEtBc0VPXzJwMF9QUXFDdHlqcFg3SWNFX3RQbTJSdkNab0EyNndWeFVSNGhkWDdiX1QxNXZZU29pVkItY0tsOWQ1eEN0eVd2R2U2dU1TTDdkZzUzdWN0cVctdDR2RHpNRDRSa0htZWpUZjZ3NFhnMGM0aVpIX0Y3d1Br?oc=5",
+            "published_at": "2026-10-24T20:57:32.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1aeVg5Xy1najFQQm9sYTJyWW1UZHcyWnVGWXM2ZV9mdzlRQlB3RUZUNEdoWHNNMGo4WUdZV3c1dy1iTmxiZnRLOHhSalk1cHpCTHQyT190MC1tRHJrMHBna1U1N0pyUkhZQ2tPY1NCc24teHQ5RjE1Rw?oc=5",
+            "published_at": "2026-10-24T11:08:29.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Cargolux, İniş Takımı Çöken Uçak Sonrası Tüm Boeing 747-8F Filosunu İncelemeye Aldı",
+        "summary": "Park pozisyonundaki bir Boeing 747-8F uçağının iniş takımında meydana gelen çökmenin ardından Cargolux, filosundaki tüm 747-8F uçaklarının iniş takımı (undercarriage) yapısını kontrolden geçirme kararı aldı.",
+        "why_it_matters": "Ağır kargo uçaklarında yer operasyonları esnasında yapısal bütünlük ve kilit mekanizmalarının denetimi açısından önemlidir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing 747-8F",
+          "Undercarriage",
+          "Cargolux",
+          "Safety Inspection"
+        ],
+        "subcategory": "sop_procedures",
+        "regulators": [
+          "None"
+        ],
+        "operational_takeaway": "Park ve yükleme işlemleri sırasında iniş takımı emniyet pimleri ve hidrolik basınç seviyeleri titizlikle doğrulanmalıdır.",
+        "id": "a0a657035e",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOd0xWc19uTUFGbmJMVkNXVDN2LXZDU1RHUEtSTnlyQ3FrQXlDUEhmWlBXQnUycmk1SF9aVVhINXYtOUZRZW5LWmxCeFJfcGxzRVBpUy1MLXlfX3VzTlJoMjMwTVo3cHR1MUJja1dHTlRHWDdtU05pZG9vOFFqUFNOUjBma2JYX0EzMGpTWUZnc0FWUnZGbVkyNjh2V0Q2Y2xUQzFQamhmazNHTG1ZSG5YWnZPV0lRNHQxRmhlUUJPVjBuZEVYUS03bjBB?oc=5",
+            "published_at": "2026-10-24T12:17:52.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "Block, MacBook M4 Max Üzerinde Yerel Çalışan İnsan Benzeri Yeni Ses Modelini Tanıttı",
+        "summary": "Block, Apple M4 Max işlemcili cihazlarda tamamen yerel (local inference) olarak çalışan doğal ve düşük gecikmeli yeni bir ses sentezleme modelini duyurdu. Model bulut sunucularına ihtiyaç duymadan gerçek zamanlı ses üretebiliyor.",
+        "why_it_matters": "Edge cihazlarda çalışan yüksek kaliteli ses modellerinin gizlilik odaklı uygulamalara entegrasyonunu kolaylaştırır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Block",
+          "Voice Model",
+          "Local Inference",
+          "M4 Max"
+        ],
+        "subcategory": "foundation_model",
+        "entities": [
+          "Block",
+          "MacBook M4 Max"
+        ],
+        "developer_impact": "Geliştiriciler bulut maliyeti ödemeden ve gecikme yaşamadan yerel cihazlarda çalışan sesli asistan ve metin okuma uygulamaları inşa edebilir.",
+        "id": "fb97475ad3",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+            "published_at": "2026-10-24T16:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "OpenAI, Codex Sıfırlama ve Kullanım Mantığını Açıklayan Dokümanı Yayımladı",
+        "summary": "OpenAI, kod geliştirme asistanı Codex üzerindeki oturum sıfırlama (reset) mekanizmalarının ve kotasyon sınırlarının nasıl işlediğini ayrıntılarıyla açıklayan kılavuz yayınladı.",
+        "why_it_matters": "Codex API entegrasyonu yapan yazılımcıların oturum limitlerini doğru yönetebilmesi için açıklık sağlar.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "OpenAI",
+          "Codex",
+          "DevTools",
+          "Documentation"
+        ],
+        "subcategory": "dev_tools",
+        "entities": [
+          "OpenAI",
+          "Codex"
+        ],
+        "developer_impact": "API çağrılarında rate limit hatalarını önlemek ve oturum sıfırlama zamanlamalarını otomatize etmek kolaylaşır.",
+        "id": "b375e484df",
+        "sources": [
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBXSW94TktPLUpjR1lYRF9sX3lmM0pyUDVWVlN5ckphdmRoMHhoeGd3UHRYMlhfUmdwU1lORjF2UWljN0gwaXhaNlJRYnVkbGFzcWRwWkh0cTU4LWM5RVlrb1dDNE5DLWtfSzlFemoyckNYcFNLMXF4MQ?oc=5",
+            "published_at": "2026-10-25T04:03:17.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Araştırma: Yapay Zeka Tarafından Üretilen Metinlerin Anlaşılma Zorluğu İnceledi",
+        "summary": "arXiv'de yayımlanan çalışmada, LLM'ler tarafından üretilen dilin insan okuyucular için neden kavramsal olarak karmaşık ve yapay algılandığı anlamsal yoğunluk ve yapısal tekrarlar açısından analiz edildi.",
+        "why_it_matters": "Yapay zeka çıktılarının okunabilirliğini ve insan odaklı içerik üretim kalitesini artırmak için akademik temel sunar.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "LLM",
+          "Research",
+          "NLP",
+          "arXiv"
+        ],
+        "subcategory": "research",
+        "entities": [
+          "arXiv"
+        ],
+        "developer_impact": "RAG ve özetleme sistemlerinde prompt mühendisliği yaparken daha yalın ve okunabilir çıktılar elde etmek için rehberlik eder.",
+        "id": "3f9f9ee01d",
+        "sources": [
+          {
+            "name": "Hacker News (AI)",
+            "url": "https://arxiv.org/abs/2610.29162",
+            "published_at": "2026-10-24T18:04:57.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [],
+  "meta": {
+    "rss_feeds_ok": 13,
+    "rss_feeds_failed": [],
+    "rss_items_fetched": 164,
+    "rss_items_used": 65,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 170198
+  }
+}
