@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-25T05:27:21.539Z",
-  "latest": "2026-10-25",
+  "updated_at": "2026-10-26T05:30:51.942Z",
+  "latest": "2026-10-26",
   "briefings": [
+    {
+      "date": "2026-10-26",
+      "path": "2026-10-26.json",
+      "headline": "Boeing 777F üretimi kanat parçası tedariki nedeniyle durdu; KLM bakım risklerine karşı uçuş iptallerine başlıyor.",
+      "counts": {
+        "commercial_aviation": 6,
+        "accidents_and_incidents": 2,
+        "piloting_and_ops": 2,
+        "ai_developments": 3
+      },
+      "has_fatal_accident": false,
+      "max_importance": 4,
+      "generated_at": "2026-10-26T05:30:51.939Z"
+    },
     {
       "date": "2026-10-25",
       "path": "2026-10-25.json",

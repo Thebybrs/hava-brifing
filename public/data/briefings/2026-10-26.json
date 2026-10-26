@@ -1,0 +1,444 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T05:30:51.939Z",
+  "window": {
+    "from": "2026-10-25T05:28:26.162Z",
+    "to": "2026-10-26T05:28:26.162Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "Boeing 777F üretimi kanat parçası tedariki nedeniyle durdu; KLM bakım risklerine karşı uçuş iptallerine başlıyor.",
+  "tldr": [
+    "Boeing 777 Freighter üretim hattı kanat parçası tedarikçisiyle yaşanan anlaşmazlık sebebiyle iki aydır durdurulmuş durumda.",
+    "KLM, kapıda yaşanacak bakım gecikmelerini önlemek amacıyla Mart 2027'ye kadar seçili kıtalararası uçuşları önceden iptal ediyor.",
+    "Safran, 2026 yılı sonuna kadar yıllık 2.100 adet LEAP motoru teslimat hedefine ulaşma yolunda ilerlediğini bildirdi.",
+    "Boeing 737-800 (G-JZHE) tescilli uçak inişte pistten çıkma (runway excursion) olayı yaşadı.",
+    "Air Canada, Airbus A321XLR uçağı ile Toronto-Tenerife arasında 9 saatlik tek koridorlu uzun menzil uçuşlarını başlattı."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Boeing 777 Freighter Üretim Hattı Kanat Parçası Tedarik Sorunu Nedeniyle Durduruldu",
+        "summary": "Boeing'in 777 Freighter üretim hattı, kanat parçası tedarikçisiyle yaşanan anlaşmazlık nedeniyle iki aydır durdurulmuş durumda. Üretimdeki bu kesinti, kargo uçağı teslimat programlarını ve üreticinin nakit akışını olumsuz etkiliyor.",
+        "why_it_matters": "Geniş gövde kargo uçak teslimatlarında yaşanacak gecikmeler, küresel hava kargo kapasitesini ve operatörlerin filo planlamasını doğrudan etkilemektedir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "Boeing 777F",
+          "Üretim",
+          "Kargo"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing",
+          "Boeing 777F"
+        ],
+        "id": "fd7d6c0978",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcmJjLXhGcVVobTJZeklXWkVLZnFtLVlLbjZoXzMxSlFRZzItMmRDOFItTVhQSGZycW1jd1pfcDREeWNsU0FlcmtMN25mYXZjOEJRaks2Ukt1SjYxM1ZzYWJDRGVEdFBwX3hkRFNtWHgwY2EwQTh0bEN2TmZVREdpbFp5dzNfdmRQRlc5RnNNQjlxaDhYLVAzUGhZbGVpUQ?oc=5",
+            "published_at": "2026-10-25T14:00:57.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSWNqNG5JV1MzeXhMc3RpbC1qYUJLQ09oX1J2NkZ5aFRlZ3JJM3FPVjZxbnVmVmZPVkpiTlkyZnkwbUhxLVFOOFVSejkyZkZtTGF0Rjg0X25RdV9ZT3FJYmNWeVR1SnRYSHVucmFWOGdKMEVhNTJveGlIczF6ZVhTV0h0T1BTbmNCbjduTnd6QXNBbjZKYTRBalpHSQ?oc=5",
+            "published_at": "2026-10-25T13:34:08.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Safran, 2026 Yılında 2.100 Adet LEAP Motoru Üretim Hedefine Ulaşma Yolunda",
+        "summary": "Safran, uçak üreticilerinin teslimat taahhütlerini karşılamak üzere CFM LEAP motor üretimi artışının planlandığı şekilde ilerlediğini bildirdi. Şirket, 2026 yılı sonuna kadar yıllık 2.100 adet motor teslimat seviyesine ulaşmayı hedefliyor.",
+        "why_it_matters": "Airbus A320neo ve Boeing 737 MAX ailelerinin dar gövde teslimat hızları doğrudan LEAP motor tedarik zincirine bağlıdır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Safran",
+          "LEAP",
+          "CFM International",
+          "Motor"
+        ],
+        "subcategory": "other_oem",
+        "entities": [
+          "Safran",
+          "CFM International",
+          "LEAP"
+        ],
+        "id": "68e7e5f26d",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1jU1M3bld1WE9TTEVKd2x3R1EtT2RLaU5XVGFKNXdEUWFvWFFfa3ZUcmp5dEZxdVJwYlNVaXlLazZwVVdzcmRTYmlzcEhPbWtOZlZQTEhvQTZWbFdEa0FwZi1Wd1RMcWlrVl9oV29ja2NkNjBFUDVWNzln?oc=5",
+            "published_at": "2026-10-26T04:00:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcDBFNFVCQVpoMHZCbEVhRnA1cGxyZ1NMMXZkbm1MdE9FQ0JmNkxCRGpITWlUSzI0Zjl3X0lZNTk5WWtKWVF6U1YtdjhWNGY2MlY5U1d2R24yUEJsY2JDV00tMVdmNUFFb0tsMzczVTlRY3hkOTJHdE9uSzZxLW5yMHNKRHZSOEUzVWwybHVqSEItQW02a2ZLeXpwNXlVT1YyZEliTDl3cW85RkFUTWVQcVpCczhDN3pZNnhUbnFEMmFwUQ?oc=5",
+            "published_at": "2026-10-25T15:17:12.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "KLM Kapıda Gecikmeleri Önlemek İçin Mart 2027'ye Kadar Seçili Uçuşları İptal Ediyor",
+        "summary": "KLM Royal Dutch Airlines, kapıda yaşanabilecek bakım gecikmelerini ve uçak yetersizliğini önlemek amacıyla 26 Ekim 2026 ile Mart 2027 arasında bazı kıtalararası uçuşlarını önceden iptal edeceğini duyurdu. Bu stratejiyle daha fazla geniş gövde uçağın operasyonel yedek olarak tutulması amaçlanıyor.",
+        "why_it_matters": "Havayolunun tarifeli uçuşları feda ederek yedek uçak kapasitesini artırması, hat bakımı ve filo dayanıklılığı yönetimi açısından kritik bir ops kararıdır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "KLM",
+          "Filo Yönetimi",
+          "Bakım",
+          "Kıtalararası"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "KLM"
+        ],
+        "id": "2d111cf610",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/klm-canceling-own-flights-early-march-maintenance-delays-dont-happen-gate/",
+            "published_at": "2026-10-26T05:00:18.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Air Canada, Airbus A321XLR İle Toronto-Tenerife Arasında 9 Saatlik Uçuşlara Başladı",
+        "summary": "Air Canada, Toronto Pearson (YYZ) havalimanından Tenerife South (TFS) havalimanına Airbus A321XLR uçağı ile 9 saatlik direkt uçuş operasyonunu başlattı. Bu rota, Kanada'dan Kanarya Adaları'na yapılan ilk direkt uçuş olma özelliğini taşıyor.",
+        "why_it_matters": "Tek koridorlu dar gövde uçakların transatlantik ve uzun menzilli rotalarda yaygınlaşması, havayolu birim maliyetlerini ve ağ yapısını değiştiriyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Air Canada",
+          "Airbus A321XLR",
+          "Transatlantik",
+          "Uzun Menzil"
+        ],
+        "subcategory": "route_network",
+        "entities": [
+          "Air Canada",
+          "Airbus A321XLR"
+        ],
+        "id": "554bfcf6bd",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/air-canada-launches-new-9-hour-a321xlr-route/",
+            "published_at": "2026-10-25T19:00:18.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Lufthansa Dört Motorlu Airbus A340-600 Uçaklarını Emekliye Ayırıyor",
+        "summary": "Lufthansa, filosunda kalan Airbus A340-600 tipi uzun menzilli yolcu uçaklarını kademeli olarak hizmetten çekiyor. Yüksek yakıt tüketimi ve bakım maliyetleri nedeniyle dört motorlu yolcu uçaklarının ticari filolardaki kullanımı sona eriyor.",
+        "why_it_matters": "Dört motorlu yolcu uçaklarının filolardan çıkarılması, yeni nesil çift motorlu geniş gövde standartlarına geçişi tamamlamaktadır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Lufthansa",
+          "Airbus A340-600",
+          "Filo Emekliliği"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Lufthansa",
+          "Airbus A340-600"
+        ],
+        "id": "9e52b8b570",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA1SkV3Z2FKU2dGQ2VnU1FUSmlaUDVMR3NLNmw2UDNFZnZKQ0w3SWtqV1ZPZzFkY1BvdktwWWFIbDNkUml1R3Q5SndqN1JYQlQwNDF1ckxOajlPOXBQUUVIWDlWM0xXa21qNGJsSFlXbw?oc=5",
+            "published_at": "2026-10-26T03:22:26.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSE5TUlVRYUNLTFVzcm80Mzl6QXVfUTZobmhHbWVscVlnODV2QUZObXF6WGlQeFlmc05jbEM4OWFsbTZJZ2VZMXFYOXZOZ0x1Q2g5OWZnRk94WWZxWE5VZ1hKenZXR0dmUFJfX3JKczVub2tsZnRtNy1aQ09Fc18tN01lYzk?oc=5",
+            "published_at": "2026-10-25T16:00:19.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBHcnM3WkRSc19ib182ZThkNEVLWU82U1h5WWdEVHRIWktHak04amVnUlVNT052UHlWWTRsRUxaRUhsaGQtUTNVNHlDcVluQWpZU1hzVkZlRnRIVUU2bEtiSTk4aDNvZmNia2VuN0xfYw?oc=5",
+            "published_at": "2026-10-25T11:00:15.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Türk Hava Yolları Tanzanya İle Havacılık İşbirliğini Güçlendiriyor",
+        "summary": "Türk Hava Yolları, Afrika kıtasındaki operasyonel ağını genişletme stratejisi kapsamında Tanzanya havacılık otoriteleri ve kurumları ile işbirliğini derinleştiriyor.",
+        "why_it_matters": "THY'nin Afrika pazarındaki pazar payını artırma ve hat ağını güçlendirme hedefleri açısından önem taşımaktadır.",
+        "importance": 2,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "Tanzanya",
+          "Afrika",
+          "İşbirliği"
+        ],
+        "subcategory": "route_network",
+        "entities": [
+          "Türk Hava Yolları",
+          "THY"
+        ],
+        "id": "e439d932f1",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUXFfdVdCWjI2c1l6aGtMWXY2blpwaUdNd1BJTnpuREYtcnE1MngyT2tablQwMG0tZkxoZGNDTjNCNnJScFJBQmROQ0dZWUtTNjZMRW1QS2RDWUpNc1BZYXU1QzVLSHlXcGZNM2NzNGZGcmwwNjNya1ZoZ3c5ZWdFc3lLb2V5WHc?oc=5",
+            "published_at": "2026-10-25T17:52:35.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "Boeing 737-800 (G-JZHE) Tipi Uçak İnişte Pistten Çıktı (Runway Excursion)",
+        "summary": "25 Ekim 2026 tarihinde G-JZHE tescilli Boeing 737-8K2 (WL) tipi uçak pistten çıkma olayı yaşadı. Olayla ilgili inceleme başlatıldı.",
+        "why_it_matters": "Runway excursion olayları, pist durumu, yaklaşma stabilitesi ve frenleme katsayısı yönetimi açısından kritik emniyet verisi sağlar.",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "Runway Excursion",
+          "Boeing 737-800",
+          "G-JZHE",
+          "İncident"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": null,
+        "location": "Bilinmiyor",
+        "aircraft_type": "Boeing 737-8K2",
+        "registration": "G-JZHE",
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [
+          "Runway excursion"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "269afce94c",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1fSEZBbmh6ajVNcWoyVERxenBBQlpsUFRBbV95dWRaQXFPMUhMR3VxVEtwQ011b29tZG5IZ000R1NnYTlPaUs1dXd2YXFTOTJETG0zOEhR?oc=5",
+            "published_at": "2026-10-25T18:56:01.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Cessna R182 Skylane RG (N9187C) İniş Takımları Kapalı İniş Yaptı (Gear-Up Landing)",
+        "summary": "24 Ekim 2026 tarihinde N9187C tescilli Cessna R182 Skylane RG tipi uçak iniş takımları açılmadan iniş gerçekleştirdi. Olayda yaralanma rapor edilmedi.",
+        "why_it_matters": "İniş takımı ikaz prosedürleri ve iniş öncesi kontrol listesi disiplininin önemini gösteren bir genel havacılık olayıdır.",
+        "importance": 2,
+        "confidence": "confirmed",
+        "tags": [
+          "Cessna R182",
+          "Gear-Up Landing",
+          "N9187C",
+          "Genel Havacılık"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": null,
+        "location": "Bilinmiyor",
+        "aircraft_type": "Cessna R182 Skylane RG",
+        "registration": "N9187C",
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "landing",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [
+          "İniş takımları açılmadan iniş yapıldı"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "a5cacf7bef",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KZmpXb3NnYzljajlJdmdDOTV3bWZJeURsdVBiOTJHbHBjRXFrd3liT1dJdTZZbjhzT05DbDQ3SlBzc0M1NjVGX3BVT0tpODQxcU4wY1hR?oc=5",
+            "published_at": "2026-10-25T06:50:54.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "Türkiye'deki Bluewings Uçuş Akademisi'ne Airbus A320 FNPT II MCC Simülatörü Teslim Edildi",
+        "summary": "ELITE Simulation Solutions, Türkiye merkezli Bluewings Flight Academy'ye Airbus A320 FNPT II MCC APS onaylı uçuş simülatörünün teslimatını gerçekleştirdi. Simülatör, tip eğitimi öncesi MCC ve APS eğitimlerinde kullanılacak.",
+        "why_it_matters": "Pilot adaylarının A320 kokpit prosedürlerine, SOP standartlarına ve MCC/APS CRM ilkelerine uyumunu hızlandıran yerli eğitim altyapısı gelişimidir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus A320",
+          "MCC",
+          "APS",
+          "Simülatör",
+          "Uçuş Eğitimi"
+        ],
+        "subcategory": "training_crm",
+        "regulators": [
+          "None"
+        ],
+        "operational_takeaway": "A320 jet geçiş ve MCC/APS eğitimlerinde simülatör sadakati, kokpit disiplini ve SOP alışkanlığının tip eğitimi öncesinde kazanılmasını sağlar.",
+        "id": "02b7af6ee5",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSm9zWm1qYVdoWXh3c2NEald5VnhRSTlObGNCTnZSNW15NmVVTkhjWXEyTncwRGgxdWUxT1FLNVlSajEzMU8xQlVrWXpSUlRBZDlfVmFCQlptNFNBeE92bF9KaTFka0ZEc0FsR2Joc05jTUhvODd6dm5jNXZ3Y1FfS1ZPUzlyek5xS1JSNnA5MFFpVVIwNkNaV2hHdUNKZEpManFwSGZQSkNZNzQtMFg1UW9GeEhuWE9pWUFFU3ZaeVJzcUQ5?oc=5",
+            "published_at": "2026-10-26T02:36:03.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "ABD Uçuşlarında Yolcular İçin Ebola Beyan Zorunluluğu Getirildi",
+        "summary": "ABD varışlı ticari uçuş gerçekleştiren havayollarının, yolcuların Ebola sağlık beyanını tamamladığını doğrulaması zorunlu kılındı. Operatörlerin uçuş öncesi check-in ve biniş prosedürlerine bu kontrolü entegre etmesi gerekiyor.",
+        "why_it_matters": "Uçuş ekibi ve yer hizmetleri personeli için biniş kapısı prosedürlerini ve operasyonel form kontrollerini doğrudan etkileyen regülasyon uygulamasıdır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "FAA",
+          "Regülasyon",
+          "Uçuş Operasyonları",
+          "Yolcu Kabul"
+        ],
+        "subcategory": "regulation",
+        "regulators": [
+          "FAA",
+          "Other"
+        ],
+        "operational_takeaway": "Uçuş öncesi evrak ve yolcu kabul süreçlerinde sağlık beyanı kontrollerinin gecikmelere yol açmaması için biniş prosedürlerinin eksiksiz uygulanması gereklidir.",
+        "id": "129fbfbea4",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUkRNMnBmVVhWWDFKNXdxVE80YllNbUVtaVlfNEhRQ21sZzY5NmU2djJob2pyRkoxQUk4YWZwUEdGQnVUZ0F3cDhadUl4YldHdTZyUkpkcmRvWTdMUk81NjJJd1RhYVNmdld6MHFPUHBoekZQcHVpc3MwcUdMQU5nTHRDZjYwandqMVpueUVucTNUMDdsLVhwXzFjaU4tYkdaelNFTVU4Z1NOZGJWZlIxaXhZWmFfOU0?oc=5",
+            "published_at": "2026-10-25T23:25:40.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "Apollo Ekonomisti: Yapay Zekanın Teknoloji Dışı Şirketlere Finansal Getirisi Henüz Sıfır",
+        "summary": "Apollo Global Management baş ekonomisti, teknoloji sektörü dışındaki kurumsal şirketlerin yapay zekaya yaptığı devasa yatırımlara rağmen henüz somut bir finansal getiri elde edemediğini açıkladı. Yüksek altyapı maliyetleri ve entegrasyon zorlukları getiri beklentilerini geciktiriyor.",
+        "why_it_matters": "Yapay zeka projelerinde harcama ve sermaye verimliliği değerlendirmeleri açısından kurumsal odak değişimine işaret ediyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Yapay Zeka",
+          "Ekonomi",
+          "ROI",
+          "Kurumsal"
+        ],
+        "subcategory": "policy_safety",
+        "entities": [
+          "Apollo Global Management"
+        ],
+        "developer_impact": "Kurumsal yapay zeka projelerinde doğrudan değer üreten ve operasyonel maliyet düşüren RAG ve otomasyon çözümlerine öncelik verilmesi gerektiğini gösteriyor.",
+        "id": "84f1eac642",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+            "published_at": "2026-10-25T16:57:32.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "xAI, Grok Tarafından Üretilen 7 Dakikalık 'Odyssey' Video İçeriğini Yayınladı",
+        "summary": "xAI, Grok yapay zeka modeli tarafından üretilen 7 dakikalık 'Odyssey' videosunun ilk bölümünü paylaştı. Üretilen görüntüler teknik açıdan tutarlı olsa da sanatsal ve insani derinlik açısından henüz sınırlı bulundu.",
+        "why_it_matters": "Çok modlu (multimodal) video üretim modellerinin uzun süreli tutarlılık yeteneklerini sergilemesi açısından bir aşamadır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Grok",
+          "xAI",
+          "Multimodal",
+          "Video Üretimi"
+        ],
+        "subcategory": "product_launch",
+        "entities": [
+          "xAI",
+          "Grok"
+        ],
+        "developer_impact": "Üretken video modellerinin kareler arası tutarlılık sınırı ve uzun format içerik üretme kapasitesi hakkında güncel bir örnek teşkil etmektedir.",
+        "id": "522986b9ea",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+            "published_at": "2026-10-25T21:31:16.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "OpenAI Kurumsal Yapay Zeka Uygulamaları İçin Forward Deployed Engineering Stratejisini Duyurdu",
+        "summary": "OpenAI, büyük ölçekli kurumsal müşterilerin özel yapay zeka modellerini ve iş akışlarını yerinde entegre etmek üzere Forward Deployed Engineering stratejisini açıkladı. Bu yaklaşımla kurumların sistem mimarisi ve güvenlik ihtiyaçlarına doğrudan mühendislik desteği sağlanıyor.",
+        "why_it_matters": "Büyük dil modellerinin (LLM) işletme içi entegrasyonunda standart API kullanımından özel mühendislik saha desteğine geçişi temsil ediyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "OpenAI",
+          "Enterprise AI",
+          "Mühendislik",
+          "LLM Integration"
+        ],
+        "subcategory": "dev_tools",
+        "entities": [
+          "OpenAI"
+        ],
+        "developer_impact": "Geliştiricilerin ve kurumsal mimarların LLM entegrasyonlarında güvenlik, latency ve veri gizliliği odaklı saha uygulamalarına ağırlık vermesini teşvik eder.",
+        "id": "db33c24ace",
+        "sources": [
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83U3U4d1VwQlZOZUdXZldtZEV3b05MSnhySllDMC0yUktXaFFLZEhELWJMMDN0M3k1c01SeGJncDNfc29iMU9aV3VqdFY2UEp3clVPaXlNSzhuSi1jREdwWnpNNlJEcmZl?oc=5",
+            "published_at": "2026-10-25T06:49:30.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [
+    "Hacker News (AI) RSS alınamadı: HTTP 502 (Bad Gateway) — https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=80"
+  ],
+  "meta": {
+    "rss_feeds_ok": 12,
+    "rss_feeds_failed": [
+      "hn_ai"
+    ],
+    "rss_items_fetched": 145,
+    "rss_items_used": 73,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 145778
+  }
+}
