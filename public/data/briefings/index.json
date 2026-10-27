@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-26T05:30:51.942Z",
-  "latest": "2026-10-26",
+  "updated_at": "2026-10-27T05:28:47.043Z",
+  "latest": "2026-10-27",
   "briefings": [
+    {
+      "date": "2026-10-27",
+      "path": "2026-10-27.json",
+      "headline": "OpenAI Bilgisayar Kullanabilen GPT-6.1 Terra'yı Duyurdu; Delta A321 LaGuardia'da Tail-Strike Yaşadı",
+      "counts": {
+        "commercial_aviation": 4,
+        "accidents_and_incidents": 3,
+        "piloting_and_ops": 2,
+        "ai_developments": 4
+      },
+      "has_fatal_accident": false,
+      "max_importance": 5,
+      "generated_at": "2026-10-27T05:28:47.037Z"
+    },
     {
       "date": "2026-10-26",
       "path": "2026-10-26.json",
