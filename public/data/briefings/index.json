@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-27T05:28:47.043Z",
-  "latest": "2026-10-27",
+  "updated_at": "2026-10-28T05:36:29.324Z",
+  "latest": "2026-10-28",
   "briefings": [
+    {
+      "date": "2026-10-28",
+      "path": "2026-10-28.json",
+      "headline": "Boeing 737 MAX Üretim Hedefini 2027 Sonuna Erteledi; Google Yeni Dünya Modeli Genie 4'ü Tanıttı",
+      "counts": {
+        "commercial_aviation": 4,
+        "accidents_and_incidents": 4,
+        "piloting_and_ops": 1,
+        "ai_developments": 4
+      },
+      "has_fatal_accident": false,
+      "max_importance": 4,
+      "generated_at": "2026-10-28T05:36:29.319Z"
+    },
     {
       "date": "2026-10-27",
       "path": "2026-10-27.json",
