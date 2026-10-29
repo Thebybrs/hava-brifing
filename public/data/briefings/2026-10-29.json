@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T07:15:23.436Z",
+  "window": {
+    "from": "2026-10-28T07:14:10.706Z",
+    "to": "2026-10-29T07:14:10.706Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "Airbus teslimat hedeflerini korurken, Boeing hava kargo trafiğinin 20 yılda iki katına çıkacağını öngörüyor.",
+  "tldr": [
+    "Airbus, tedarik zinciri aksaklıklarına rağmen 2026 yılı teslimat hedeflerini koruduğunu açıkladı.",
+    "Boeing 2026 Dünya Hava Kargo Raporu'nda kargo filosunun 2045'e kadar 4.000 uçağa ulaşacağını bildirdi.",
+    "WestJet'e ait Boeing 737 MAX 8, Toronto Pearson Havalimanı'nda ikram aracıyla çarptı.",
+    "Google yeni yapay zeka modeli Gemini 4 Carbon'u duyurdu; Nvidia 40 dilde açık kaynaklı konuşma tanıma modelini yayınladı."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Airbus 3. Çeyrekte Tedarik Aksaklıklarına Rağmen Yıllık Teslimat Hedeflerini Korudu",
+        "summary": "Airbus, 2026 yılının ilk 9 ayına ait finansal sonuçlarını açıkladı. Kalite sorunları ve tedarik zinciri aksaklıkları nedeniyle 3. çeyrek kârında düşüş yaşansa da şirket, yıl sonu teslimat ivmesine güvenerek yıllık hedeflerini sabit tuttu.",
+        "why_it_matters": "Havayolu filolarının teslimat takvimleri ve kapasite planlamaları açısından kritik bir göstergedir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "Finans",
+          "Teslimat",
+          "Tedarik Zinciri"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus"
+        ],
+        "id": "07b0afdc76",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZWpvLUNOUFQzeXRMQWpoMFlZXzduMTRXb3hrSUlLU05mMU5hWk42bkdDREdUeU56UTI4MTNMYXZHb01IcmdBVWNsellUZTR3TlBDYlRtYlc0a01oMEZQeVp1SkpvOGpZQkV5Unk0TnFoa0hXel9ha1pIZ3E1TzM0VWIzU09sRnREZTRUV1pkTTFQNzIzWmpWZ2c0THFLRDdKUUluWnEtUnNIeFdUN0dSSV9YRnpEVnl4a1dn?oc=5",
+            "published_at": "2026-10-28T22:09:01.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS3FGYUk0dlpwTjFRY01BZFVZNUlMS2U4bHlJTTd6Q0dsTnl3OWpFbEM0ZmtESHljRWttTE5HVXlpWDVzYnRHWEFRX3Vubm11QmJuaDVQS29aNHhPS0NmUDB0LTVXUzl5R1JuWV9oNU95aDVlRVRtSGdVV0s4OGhvZUJpSkVVbUF1bDdxRlcxQXpOVTBGQ3NLdGZ1dXo3MEZpcU9lY2JWblJxajNVMHBjMWdpMlA5WHNv?oc=5",
+            "published_at": "2026-10-28T19:52:08.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPS3hzYi1XVmptd216V2dMSjBHQTdkcjVtV3dKa0xVdk01T0V4eFRwZ0pqTHkwV2U4VEFJaG9tYkxaWXgxTzFncXVVN3p3LWRQVVNGVnlIa01pN0pKX3lCZVZqSURFZEpCdHh5VExBTk1PZUVUQ2VDNnEwVzY5b2oyQlZ2eVI3cEFmcURabFlYbHRYQ2pxeDZPNGxvM2sxbFlzZkxaM0FLY0padHNSVDhaaQ?oc=5",
+            "published_at": "2026-10-28T19:51:15.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeVRQa21GbG9NeHhsY0Y0RE8wT0ZfS1JaX1VjQnNsZGlNaFNFUmdYRXlzdUtSLWZxV29jcE5Md2ktU1NwdHZYYnZIaXRrZXJYTm9YQ0Y0NU13cElRUnNwMWFqVTJmNnJrdjg0UE4td2xUaEtqclZhcjJSWDBmR1JndDRoVmE0S2s4M0Y1MjE4SEt4N2I2QmtsaXRkbFVwQUM3?oc=5",
+            "published_at": "2026-10-28T16:45:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Boeing, Küresel Hava Kargo Trafiğinin 20 Yılda İki Katına Çıkacağını Öngörüyor",
+        "summary": "Boeing yayımladığı 2026 Dünya Hava Kargo Raporu'nda, küresel kargo trafiğinin önümüzdeki 20 yılda iki katına çıkacağını ve kargo filosunun 2045'e kadar 4.000 uçağa ulaşacağını bildirdi. Büyümenin ana sürücüleri e-ticaret ve yapay zeka donanım sevkiyatları olarak gösterildi.",
+        "why_it_matters": "Kargo operasyonları ve freighter filo dönüşümleri için uzun vadeli stratejik pazar verisi sunar.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "Hava Kargo",
+          "Pazar Tahmini",
+          "Freighter"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing"
+        ],
+        "id": "3ccdbd140d",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRGVFUDZ5Yzh3dnpKSjFkNUJVM1l6VEt5d3EtRHFHZWNYUDJvNEwzVnd0VVBjYVVIcVlMeFlCRVJDOEtvRF8wZzlMUlhXNW90MGU4ZWk2dlNicFJNM2xvZUZTVVpOak9ncS1qaU5XeGxpLVFiVWlBZVUtMmNUZS1SbzRhLVphVVNKNm1mLWpDWnpOVTd3bFpDdlVNZWQwMDJmT1hz?oc=5",
+            "published_at": "2026-10-28T16:55:52.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/boeing-expects-cargo-traffic-to-double-as-emissions-regulations-cut-freighter-options/",
+            "published_at": "2026-10-28T18:16:22.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Boeing'in Sipariş Yükü 3. Çeyrekte 745 Milyar Dolarla Rekor Seviyeye Ulaştı",
+        "summary": "Boeing, 2026 üçüncü çeyrek finansal sonuçlarında toplam sipariş yükünün (backlog) 745 milyar dolara ulaşarak rekor kırdığını duyurdu.",
+        "why_it_matters": "Üretim zorluklarına rağmen ticari uçak talebinin güçlü kaldığını gösterir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "Backlog",
+          "Finans"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing"
+        ],
+        "id": "89b9124c3c",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5CRnF4RHU2M1JCblpOUkdmQ1Mycml1N3YwejJQaE9aU3k1WGllLXF3c3FhRDlZYVlBczVZdi1kaHhGSUZJdDM4WGtYTnZqYW0zajJqMWstMjNGb19telpVSFpLUQ?oc=5",
+            "published_at": "2026-10-29T01:17:46.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Air Mauritius Stratejik Gözden Geçirme Kapsamında A350 Siparişlerini Değerlendiriyor",
+        "summary": "Air Mauritius, başlattığı stratejik değerlendirme süreci doğrultusunda kalan Airbus A350 siparişlerini yeniden gözden geçirdiğini bildirdi.",
+        "why_it_matters": "Havayolunun uzun menzil filo planlaması ve genişleme stratejisinde olası değişikliklere işaret eder.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Air Mauritius",
+          "Airbus A350",
+          "Filo Stratejisi"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Air Mauritius",
+          "Airbus A350"
+        ],
+        "id": "935b5f4791",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdDZKOW1sV1owTnI1YjZFY0l5ZlpUVGYtRS1sdktsRDN1ekw5ak1zTU81djVhNkJVMUtrTmE0OTJ3V1ZEVTZpWUxWR0dORXNuLWZjQzlpMFJqU3RmaFhYRXY0U0ZESHdyY1lmV3BXYkFVMWtBN0xWUVlDZ1hWWWZyaVN1NWJiM1YxcjdCek5MbHBKQ2M0ZlBnSWJnTXlWNGlPaW9DVjVuM0Y3aU53aW83YmhDTlozVHl5cXEwbURPOA?oc=5",
+            "published_at": "2026-10-28T09:13:20.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Southwest Airlines İlk Boeing 737 MAX 7 Uçağını Aralık Ayında Teslim Almayı Bekliyor",
+        "summary": "Southwest Airlines, filoya katılacak ilk Boeing 737 MAX 7 uçağının teslimatının Aralık ayında gerçekleşmesinin planlandığını açıkladı.",
+        "why_it_matters": "MAX 7 modelinin tip sertifikasyonu ve dar gövde filosuna entegrasyonu açısından önemlidir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Southwest Airlines",
+          "Boeing 737 MAX 7",
+          "Filo"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Southwest Airlines",
+          "Boeing 737 MAX 7"
+        ],
+        "id": "333938a13d",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbEV5MnFIUXZyMVBiSHJYRmtYcWc2X0lkVklOUEFOWlRBVlpPVXNscWRkRDFKMmtmOVNaaDM4bjA2RVZwMEpTNUd3WmlkRkw1eUtfN29TS1k4aEhfLW1oTWt0cUYzM3ljU1ljcnFkdGJrcUlJT0FqZl8xLVF1Z1N0T3lsNzMtUXMwQmwzdVRJamdjRVFjSDNLVm5ESQ?oc=5",
+            "published_at": "2026-10-28T17:40:34.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "WestJet Boeing 737 MAX 8 Toronto'da İkram Aracıyla Çarptı",
+        "summary": "WestJet şirketine ait C-FRYV tescilli Boeing 737 MAX 8 tipi uçak, Toronto Pearson Uluslararası Havalimanı'nda yerdeyken bir ikram aracı (catering truck) ile çarpıştı. Olayda uçakta hasar meydana gelirken herhangi bir yaralanma bildirilmedi.",
+        "why_it_matters": "Apron emniyeti (apron safety) ve yer hizmetleri ekipmanlarının uçakla temas risklerine dikkat çeker.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "WestJet",
+          "Boeing 737 MAX 8",
+          "Ground Event",
+          "Toronto"
+        ],
+        "occurrence_class": "ground_event",
+        "occurred_at_utc": "2026-10-27T00:00:00Z",
+        "location": "Toronto Pearson International Airport (YYZ), Kanada",
+        "aircraft_type": "Boeing 737 MAX 8",
+        "registration": "C-FRYV",
+        "operator": "WestJet",
+        "flight_number": null,
+        "flight_phase": "standing",
+        "occupants": null,
+        "fatalities": 0,
+        "injuries": null,
+        "technical_findings": [
+          "İkram aracı temasından kaynaklı gövde hasarı"
+        ],
+        "operational_findings": [
+          "Apron yer hizmetleri emniyet ihlali"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "86a8f0d7e6",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQT2V6bjlmampwaWZHSVVoUUZNbXZrRE5oRmh0UDFyVTVyRjZjWXlzNlVWN3BaZUJuZm9zbFZJaTRTcXJRN3JtbC1TQ0Vta0xVOHd4czRYako3N05iYTcxOGN6MnVFdHg0TlQ2Z3pCekJjdkdiSGVodU80c01wZ2hGMURvb3RhOUFvRF9feFhzRWxUbjVwZXc?oc=5",
+            "published_at": "2026-10-28T22:01:34.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TeXB1bnlwYi16LThmZkJidEQ4R01YblduU3V4ZVZxcmV3M2RISnNPRUdER1JudEVXQTZzckVJSzNVQTRINmpSUVFpQmJkaldyNVBydTVB?oc=5",
+            "published_at": "2026-10-28T07:16:45.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "SriLankan Airlines Airbus A330-343 Uçağında Operasyonel Olay Bildirildi",
+        "summary": "4R-ALR tescilli Airbus A330-343 tipi uçakta 28 Ekim 2026 tarihinde bir olay (incident) meydana geldiği Aviation Safety Network kayıtlarına geçti.",
+        "why_it_matters": "Geniş gövde filolarındaki teknik ve operasyonel emniyet takibi açısından önem taşır.",
+        "importance": 2,
+        "confidence": "preliminary",
+        "tags": [
+          "Airbus A330-343",
+          "Incident"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-10-28T00:00:00Z",
+        "location": "Bilinmiyor",
+        "aircraft_type": "Airbus A330-343",
+        "registration": "4R-ALR",
+        "operator": "SriLankan Airlines",
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "unknown",
+        "investigating_authority": null,
+        "id": "6bce60a28f",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1FLTJXdGlJdVBoSlNwZXZpLU9EcUdsTlBNTlZCVl9vS2taLURQaGl6S2R6SUZCU3RHOUd6SHdFdXh0NEpKUEJwdThERFZFQ1JqdEhOMHN3?oc=5",
+            "published_at": "2026-10-29T07:02:08.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "İstanbul Uçuş Akademisine Yeni Airbus A320 Eğitim Simülatörü Eklendi",
+        "summary": "İstanbul'daki eğitim merkezine eklenen yeni Airbus A320 tam uçuş simülatörü (FFS) ile tip eğitimi ve periyodik tazeleme eğitimi (recurrent training) kapasitesi artırıldı.",
+        "why_it_matters": "Pilot eğitimi kapasitesi ve A320 type rating süreçleri için doğrudan altyapı kazanımı sağlar.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus A320",
+          "Simulator",
+          "Flight Training",
+          "Type Rating"
+        ],
+        "subcategory": "training_crm",
+        "regulators": [
+          "None"
+        ],
+        "operational_takeaway": "A320 tip eğitimi ve tazeleme eğitimlerinde simülatör erişilebilirliğini ve eğitim standartlarını destekler.",
+        "id": "75fa79d3e5",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVmIzSHJvb1daMEZSMHhhUEdyVmk1VWRNRXd2UHpILWxOX2VaaG1EQkVrYllTOW5pcHBwUXNsaklVQ3pGTXZsbjNoUGQ2ZzBlYmFnRWwzQlNvTHZ3ZUtHSy1oWU92N1p4R1lxblUyUWtaNGJfb2pXTzU3RjF0b2w3QnZIVUZ6ZG8tOGs3bkJPMFQ3UklMZlEw?oc=5",
+            "published_at": "2026-10-29T02:37:30.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Delta Air Lines Bünyesine Kattığı 66 Yeni Pilotun 16'sını Spirit Airlines'tan İstihdam Etti",
+        "summary": "Delta Air Lines, ekim ayında kadrosuna kattığı 66 yeni pilottan 16'sının operasyonlarını durduran Spirit Airlines'tan geldiğini açıkladı.",
+        "why_it_matters": "Şirketler arası pilot geçişleri, CRM ve farklı havayolu SOP entegrasyon süreçlerinin önemini gösterir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Pilot Recruitment",
+          "Delta Air Lines",
+          "Spirit Airlines",
+          "CRM"
+        ],
+        "subcategory": "human_factors",
+        "regulators": [
+          "FAA"
+        ],
+        "operational_takeaway": "Farklı havayolu kültürlerinden gelen ekiplerin SOP ve CRM uyum süreçlerinin standartlaştırılması kritik önem taşır.",
+        "id": "399c52bab6",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/delta-air-lines-onboards-66-new-pilots-quarter-spirit/",
+            "published_at": "2026-10-29T04:01:27.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "Google Yeni Nesil Yapay Zeka Modeli Gemini 4 Carbon'u Tanıttı",
+        "summary": "Google, gelişmiş mantık yürütme ve çok modlu (multimodal) yeteneklere sahip yeni yapay zeka modeli Gemini 4 Carbon'u resmen duyurdu.",
+        "why_it_matters": "Büyük dil modelleri rekabetinde yeni performans ve mimari standartlar belirlemektedir.",
+        "importance": 5,
+        "confidence": "confirmed",
+        "tags": [
+          "Google",
+          "Gemini 4 Carbon",
+          "LLM",
+          "Multimodal"
+        ],
+        "subcategory": "foundation_model",
+        "entities": [
+          "Google",
+          "Gemini 4 Carbon"
+        ],
+        "developer_impact": "Geliştiricilere daha yüksek reasoning performansı ve çok modlu veri işleme yeteneği sunar.",
+        "id": "48ac97a8d8",
+        "sources": [
+          {
+            "name": "Hacker News (AI)",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+            "published_at": "2026-10-28T17:01:23.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Nvidia 40 Dilde Çalışan Açık Kaynaklı Ses Yazıya Dökme Modelini Yayınladı",
+        "summary": "Nvidia, kaydedilmiş ses dosyalarında 40 farklı dilde yüksek doğrulukla speech-to-text dönüşümü sağlayan yeni açık kaynaklı modelini kullanıma sundu.",
+        "why_it_matters": "Toplantı ve dokümantasyon araçlarında yerel veya bulut tabanlı ses işleme maliyetlerini düşürür.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Nvidia",
+          "Speech-to-Text",
+          "Open Source",
+          "Voice AI"
+        ],
+        "subcategory": "open_source",
+        "entities": [
+          "Nvidia"
+        ],
+        "developer_impact": "Çevrimdışı/kayıtlı seslerin 40 dilde ücretsiz ve yüksek performanslı transkripsiyonu için entegrasyon imkanı sağlar.",
+        "id": "96343ca65b",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+            "published_at": "2026-10-28T15:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Anthropic Kurumsal Kullanıcılar İçin Yapay Zeka Harcama Takip Araçlarını Başlattı",
+        "summary": "Anthropic, kurumsal müşterilerin Claude modelleri üzerindeki API ve inference harcamalarını detaylı şekilde izlemelerine olanak tanıyan yeni yönetim araçlarını duyurdu.",
+        "why_it_matters": "Kurumsal bütçe yönetimi ve token maliyet optimizasyonu sağlayan şeffaflık araçları sunar.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Anthropic",
+          "Claude",
+          "API",
+          "DevTools"
+        ],
+        "subcategory": "dev_tools",
+        "entities": [
+          "Anthropic",
+          "Claude"
+        ],
+        "developer_impact": "Kurumsal projelerde token tüketimi ve bütçe limitlerinin kırılımlı olarak takip edilmesini kolaylaştırır.",
+        "id": "3938f1850e",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+            "published_at": "2026-10-28T19:19:58.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [],
+  "meta": {
+    "rss_feeds_ok": 13,
+    "rss_feeds_failed": [],
+    "rss_items_fetched": 165,
+    "rss_items_used": 92,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 72732
+  }
+}
