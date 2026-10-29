@@ -207,7 +207,7 @@ export interface Briefing {
   date: string;
   generated_at: string;             // ISO UTC
   window: { from: string; to: string }; // ISO UTC, 24 saat
-  model: string;                    // "gemini-2.5-flash"
+  model: string;                    // "gemini-3.5-flash"
   headline: string;
   tldr: string[];
   categories: {

@@ -2,6 +2,7 @@ name: Daily Briefing
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  GEMINI_MODEL: gemini-3.5-flash
 
 on:
   schedule:
@@ -46,7 +47,7 @@ jobs:
       - name: Generate briefing
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.5-flash' }}
+          GEMINI_MODEL: gemini-3.5-flash
           ENABLE_GROUNDING: ${{ vars.ENABLE_GROUNDING || 'false' }}
           SITE_URL: ${{ vars.SITE_URL || 'https://thebybrs.github.io/hava-brifing/' }}
           BRIEFING_DATE: ${{ inputs.date }}

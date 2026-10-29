@@ -61,9 +61,14 @@ const optionalTrimmedString = z
     return trimmed.length > 0 ? trimmed : undefined;
   });
 
+export const DEFAULT_GEMINI_MODEL = 'gemini-3.5-flash';
+export const FALLBACK_GEMINI_MODEL = 'gemini-3.5-flash-lite';
+
 export const envSchemaZod = z.object({
   GEMINI_API_KEY: z.string().min(1, 'GEMINI_API_KEY zorunludur.'),
-  GEMINI_MODEL: optionalTrimmedString.transform((v) => v ?? 'gemini-3.5-flash'),
+  GEMINI_MODEL: optionalTrimmedString.transform((v) =>
+    v ? v.replace(/^gemini-2\.5-/, 'gemini-3.5-') : DEFAULT_GEMINI_MODEL,
+  ),
   BRIEFING_DATE: optionalTrimmedString.refine(
     (v) => v === undefined || /^\d{4}-\d{2}-\d{2}$/.test(v),
     'BRIEFING_DATE YYYY-MM-DD biçiminde olmalıdır.',

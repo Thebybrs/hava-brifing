@@ -11,8 +11,8 @@ import { logger } from '../lib/logger';
 let aiInstance: GoogleGenAI | null = null;
 
 const FALLBACK_MODELS = [
-  'gemini-2.5-flash',
-  'gemini-2.5-flash-lite',
+  'gemini-3.5-flash',
+  'gemini-3.5-flash-lite',
 ] as const;
 
 const RETRY_DELAYS_MS = [25_000, 65_000] as const;
@@ -141,7 +141,7 @@ async function tryGenerateWithModel(
 /**
  * Gemini generateContent çağrısını:
  * 1) Birincil modelde 25 sn ve 65 sn backoff ile dener,
- * 2) 429/503/404 durumunda otomatik olarak yedek modellere (`gemini-2.5-flash` -> `gemini-2.5-flash-lite`) fallback yapar.
+ * 2) 429/503/404 durumunda otomatik olarak yedek modellere (`gemini-3.5-flash` -> `gemini-3.5-flash-lite`) fallback yapar.
  */
 export async function generateWithRetry(
   params: GenerateCallParams,

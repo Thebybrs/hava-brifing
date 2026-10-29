@@ -76,13 +76,13 @@ flowchart LR
 
 | # | Karar | Gerekçe |
 |---|-------|---------|
-| ADR-1 | **İki aşamalı Gemini çağrısı** (Stage A: `googleSearch`, Stage B: `responseSchema`) | `gemini-2.5-flash` ile `googleSearch` aracı ve `responseMimeType: application/json`/`responseSchema` **aynı istekte birlikte kullanılamaz** (API "controlled generation with tools" hatası döner). Bu yüzden önce grounded düz-metin araştırma, sonra yapılandırılmış çıktı üretilir. |
+| ADR-1 | **İki aşamalı Gemini çağrısı** (Stage A: `googleSearch`, Stage B: `responseSchema`) | `gemini-3.5-flash` ile `googleSearch` aracı ve `responseMimeType: application/json`/`responseSchema` **aynı istekte birlikte kullanılamaz** (API "controlled generation with tools" hatası döner). Bu yüzden önce grounded düz-metin araştırma, sonra yapılandırılmış çıktı üretilir. |
 | ADR-2 | **LLM'e URL üretirtmeme**; kaynaklar `source_ids` (R014, G3) ile referanslanır, URL'leri script çözer | Halüsinasyonlu link riskini sıfırlar. RSS öğelerinin URL'si prompta bile girmez (token tasarrufu). |
 | ADR-3 | **LLM şeması ≠ yayınlanan şema.** LLM `LlmBriefing` üretir; script `id`, `sources`, `meta`, `date` ekleyerek `Briefing` üretir | LLM'in doldurmaması gereken alanlar (tarih, id, model adı) deterministik üretilir. |
 | ADR-4 | **Tek doğruluk kaynağı `shared/`** (tipler + enum dizileri + Gemini şeması + zod) | Frontend ve script aynı tipi kullanır; şema kayması önlenir. |
 | ADR-5 | **Repo = veritabanı.** `index.json` manifest + günlük dosyalar | Maliyet 0; PWA offline cache'i kolay. |
 | ADR-6 | **Bildirim = ntfy/Telegram** (Web Push değil) | Service worker'da push altyapısı gerekmez; iOS/Android'de güvenilir. |
-| ADR-7 | Model adı `GEMINI_MODEL` env'i ile yapılandırılır (varsayılan `gemini-2.5-flash`) | Model emekliliğinde kod değişmeden geçiş. |
+| ADR-7 | Model adı `GEMINI_MODEL` env'i ile yapılandırılır (varsayılan `gemini-3.5-flash`) | Model emekliliğinde kod değişmeden geçiş. |
 | ADR-8 | Zaman: tüm saklanan zamanlar **UTC ISO-8601**, gösterim **Europe/Istanbul** (TRT sabit UTC+3, DST yok) | Pilotaj dünyasında Zulu referansı + yerel okunabilirlik. |
 
 ---
@@ -245,7 +245,7 @@ Hava/
 # --- Zorunlu ---
 GEMINI_API_KEY=
 # --- Opsiyonel ---
-GEMINI_MODEL=gemini-2.5-flash
+GEMINI_MODEL=gemini-3.5-flash
 BRIEFING_DATE=                 # YYYY-MM-DD (TRT) — boşsa bugün (TRT)
 DRY_RUN=false                  # true: dosya yazma/commit/bildirim yok, stdout'a yazar
 SITE_URL=https://example.vercel.app/
@@ -500,7 +500,7 @@ export interface Briefing {
   date: string;
   generated_at: string;             // ISO UTC
   window: { from: string; to: string }; // ISO UTC, 24 saat
-  model: string;                    // "gemini-2.5-flash"
+  model: string;                    // "gemini-3.5-flash"
   headline: string;
   tldr: string[];
   categories: {
@@ -656,7 +656,7 @@ export const briefingResponseSchema: Schema = obj(
   "date": "2026-10-22",
   "generated_at": "2026-10-22T05:07:41Z",
   "window": { "from": "2026-10-21T05:07:00Z", "to": "2026-10-22T05:07:00Z" },
-  "model": "gemini-2.5-flash",
+  "model": "gemini-3.5-flash",
   "headline": "A320neo teslimatları hızlandı; Yaklaşma sırasında go-around olayı soruşturuluyor",
   "tldr": [
     "Airbus Eylül teslimatlarını açıkladı.",
@@ -891,7 +891,7 @@ export async function fetchBriefing(date: string): Promise<Briefing>; // aynı k
 
 ```ts
 const res = await ai.models.generateContent({
-  model: env.GEMINI_MODEL,                       // "gemini-2.5-flash"
+  model: env.GEMINI_MODEL,                       // "gemini-3.5-flash"
   contents: groundingUserPrompt,
   config: {
     systemInstruction: GROUNDING_SYSTEM_PROMPT,
@@ -1743,7 +1743,7 @@ KABUL: npm test yeşil; mevcut davranış değişmez.
 | Bot commit'i Vercel'i tetiklemez/bloklanır (Hobby author kontrolü) | Deploy yok | Commit e-postası = repo sahibi; alternatif Pages (§8.2-B) |
 | GITHUB_TOKEN push → başka workflow tetiklenmez | Pages deploy yok | `workflow_call` ile aynı run'da deploy |
 | Gemini kota/429/503 | Üretim başarısız | Exponential backoff + failure bildirimi + manuel `workflow_dispatch` |
-| Model emekliliği (`gemini-2.5-flash`) | 404 hata | `GEMINI_MODEL` env/vars ile değiştir |
+| Model emekliliği (`gemini-3.5-flash`) | 404 hata | `GEMINI_MODEL` env/vars ile değiştir |
 | Grounding redirect linkleri süresiz olmayabilir | Eski arşivde ölü link | İsteğe bağlı redirect çözümleme (HEAD); `name` her zaman saklanır |
 | Telif | Hukuki | Yalnızca özgün özet + link; makale metni kopyalanmaz |
 | ntfy topic'in herkese açık olması | Bildirim sızıntısı | Uzun rastgele topic veya `NTFY_TOKEN`/self-host; Telegram alternatifi |
