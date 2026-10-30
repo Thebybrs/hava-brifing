@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T05:40:15.824Z",
+  "window": {
+    "from": "2026-10-29T05:39:06.646Z",
+    "to": "2026-10-30T05:39:06.646Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "THY Filosuna İki B777 Kargo Uçağı Ekliyor; Oregon'da İki Helikopter Havada Çarptı",
+  "tldr": [
+    "THY, kargo filosunu büyütmek amacıyla AerCap firmasından iki adet Boeing 777-300ERSF kiralıyor.",
+    "Oregon'da Robinson R22 ile Airbus H125 helikopterlerinin havada çarpışması sonucu 3 kişi hayatını kaybetti.",
+    "Airbus, A350 teslimatlarındaki gecikmelerin arkasındaki üretim sıkıntılarını ve hat aksamalarını açıkladı.",
+    "Mistral, siber güvenlik odaklı 1 trilyon parametrelik açık ağırlıklı yapay zeka modelini yayınladı."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Türk Hava Yolları Filosuna İki Adet Boeing 777-300ERSF Kargo Uçağı Katıyor",
+        "summary": "Türk Hava Yolları, kargo operasyonlarını genişletmek amacıyla AerCap firmasından iki adet Boeing 777-300ERSF kiralayacağını açıklayarak kargo filosunu güçlendiriyor. Yolcu uçağından kargoya dönüştürülecek bu uçaklarla THY Cargo kapasitesini artırmayı hedefliyor.",
+        "why_it_matters": "THY Cargo'nun uzun menzil kargo filosunu dönüştürülmüş B777'lerle büyütmesi küresel pazar payını güçlendiriyor.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "Boeing 777-300ERSF",
+          "AerCap",
+          "Cargo",
+          "Fleet"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Türk Hava Yolları",
+          "AerCap",
+          "Boeing"
+        ],
+        "id": "397a531827",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQzFyUDlQQ1VvUzZVLUhXNDV1SzNtWWtqVUs5b2RCS182SkdfWVJtZzM5VlQwMzE2YmxINEFyUUo3d3ZwMV9MNkw5UVhLVk1Ja0VyR25tWGhwaFJHWk1oRFFZU3dTZHVvd3VDSUs5cEExTGVzQUNsXzdyQkJTVU54OXBfemZWT1JfSDltOA?oc=5",
+            "published_at": "2026-10-29T23:34:05.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTUdmTWJLclNVb05KU0t5bEVpUExEeDRmblJmRXhHT2hUTF9zNXh1aTdDSzFHbjlaU2hsTFQxMEotRC1mdXFFZWRoZTFZck9oejJJX1FyT3pBelJ1azF5Q2VhLTIwUVZJOE5MVHU0ZS1DZmNJQzVyaVZlcnYxRTBXbXQxdzdFSnc?oc=5",
+            "published_at": "2026-10-29T22:11:49.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTE1hdEFVWDBoUnMxbWt4LV9HYVdiRnlhT1JnLTN5bXhFdXVlLWFMVkwtajNzeEp6b0NEQnVlRFlwOTkwNk41LWZyX19yTzdBTUFTSjd3M0JONXByeldXLW5PMHdhTl9vN0VqeTFESTBNaHMwcUdyR1dPMDdHT1I2LWJvdG5OaEZ1Q2Fsa1lCSC1pR28?oc=5",
+            "published_at": "2026-10-29T17:24:14.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTUZyRlZfdS1jU1FLX2gwcjZnR1FPNWhaOEZ6Q2FZYmtlNFd6VUpUcDVhQ193dHVSNGtMM211Mm9GOHhFX0EtUUhBV1FRcnRCOVNpd3VvTl9GT2dRSHY3c1VvczVTN3VFeVFJVVNnYkIxNXd0dkF4dE5VaERVY0I1azdDTWRjVDJHako1bUpsbVpUN1ls?oc=5",
+            "published_at": "2026-10-29T14:17:54.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Airbus A350 Teslimat Gecikmelerinin Arkasındaki Üretim Aksaklıklarını Açıkladı",
+        "summary": "Airbus, A350 programındaki teslimat gecikmelerinin arkasında yatan tedarik zinciri ve üretim aksamalarının boyutunu paylaştı. Şirket, parça tedarikindeki darboğazların montaj hatlarını olumsuz etkilediğini belirtti.",
+        "why_it_matters": "A350 teslimatlarındaki aksamalar, havayollarının uzun menzil filo planlamalarını doğrudan etkilemektedir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "A350",
+          "Supply Chain",
+          "Deliveries"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus",
+          "Airbus A350"
+        ],
+        "id": "903fbf528b",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaDR0SkdhaGdhRHNDWEJKa3pQb1BjR3I3MDZPcmk5aTAwd0p1ZVRaLXFpSjB2b1NnUGVrTDFCdU9WUjdWano5OVQ2cEVJOV9nTkVGQzJuWWdBaTFHSzRXUEhVUnE5SS05c2xNQ1VjZGJTVXVWRVBFU0s0aExuLU1fYm05REU2d1YyVDl3aHVTc3JmQnJwc1E?oc=5",
+            "published_at": "2026-10-29T22:16:28.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "IndiGo Uzun Menzil Stratejisine Sadık Olduğunu ve İlk A350'leri 2028'de Beklediğini Duyurdu",
+        "summary": "Hindistanlı taşıyıcı IndiGo, geniş gövde uzun menzil stratejisini sürdürdüğünü ve sipariş ettiği ilk Airbus A350 uçaklarının teslimatını 2028 yılı itibarıyla beklediğini açıkladı.",
+        "why_it_matters": "A350 teslimatları ile IndiGo, düşük maliyetli modelini uluslararası uzun menzil hatlara taşımayı hedeflemektedir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "IndiGo",
+          "Airbus A350",
+          "Fleet Expansion"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "IndiGo",
+          "Airbus A350"
+        ],
+        "id": "4e7120a334",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRHBrVlp5TUtmWkNRYk8xSVQ0ZnhRVTl5Q0VoV25BNGJYMWpWQXpkRXozRDVJNzB1ZFhMN0VsRUNGbGU2ZFJjSTVmd3U3bU52SGMtMFZhX3I4akI1V3JyX21WdHhYNUVoUXpoUDFOOVFQOHJ0R2pCakRjM0FEOG1tWGVGcDJxdFdUNVJ5OGFjbDFoQm56bEFEVUpFVGFRZ3llOFV3QVlfa3ZDNzdTczd6LTQ3eGRmaF8zdVhIaU9leC0?oc=5",
+            "published_at": "2026-10-29T14:31:46.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "ABD Oregon'da İki Helikopterin Havada Çarpışması Sonucu 3 Kişi Hayatını Kaybetti",
+        "summary": "ABD Oregon'da bir havalimanı yakınlarında Robinson R22 Beta ile Airbus Helicopters H125 tipi iki helikopter havada çarpıştı. Kazada 3 kişi yaşamını yitirdi, olayla ilgili soruşturma başlatıldı.",
+        "why_it_matters": "Kontrolsüz veya yoğun hava sahalarında görerek uçuş (VFR) ayırma emniyetinin kritik önemini vurgulamaktadır.",
+        "importance": 5,
+        "confidence": "confirmed",
+        "tags": [
+          "Mid-Air Collision",
+          "Helicopter",
+          "Oregon",
+          "Fatal Accident"
+        ],
+        "occurrence_class": "accident",
+        "occurred_at_utc": "2026-10-29T23:00:00Z",
+        "location": "Oregon, ABD",
+        "aircraft_type": "Airbus Helicopters H125 / Robinson R22 Beta",
+        "registration": null,
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": 3,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [
+          "Havada çarpışma (mid-air collision)"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "baf545d4c1",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdDFFZVozVHNtSTNQN2FKYU81SW4yYzdtRWE0T3YwOXBMTFFqc2JjZnVKY184ZXpLeElaQkhUWW9zdHJGNGpJSjFuZ19Kank0OXNtU3FmQl9vaVppdHJTR1ZncW1Bcm9JT3BwbG8zS3YtMTVpWm0wZk5fekZFbE5jbkNGM2tRLVNnY2ZpYlZaRnl2TUw30gGaAUFVX3lxTFBERFJ1cEozV0Jsekt2T1hadk10Z0pNRFlWR19PWG1VVEtKNXhUd0dfbjJCSm1zcEF6UEs1N2ExUHRxXzIwWVhTWFllMmpxMHZkbThFQXpsUGx4b2JwbU5qT1B5NGY4Rkt1ejVQYnlVeDFFTUtyTm5jQTZMcEpTTTR2bW8yRkVjYUpjX01aYWxtTUZZVm5fSVgtTFE?oc=5",
+            "published_at": "2026-10-30T00:54:01.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TUzhianlwcUpFLVpjcl9DOF9yTGNPWmxWUnZqV0ZsVl8wSWZUcWY1dmdpTk5WbENWcGg4ZUFSOHB0ZXQwUmxMYlFrek9BRVlFV0EwYWJR?oc=5",
+            "published_at": "2026-10-29T23:09:08.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zZl9NV1NrUy1lQ2FjQUtuTXdYSVNyWlc1cUFxY0hka2xZdmRPQk9FRWJEelV3R0xnQmdBZUVfclg3bmhaOElpN3NFWXhES3JNMFdtTDZ3?oc=5",
+            "published_at": "2026-10-29T23:09:07.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "American Airlines Boeing 777-200 Milano'da Hidrolik Arızası Yaşadı",
+        "summary": "American Airlines'a ait Boeing 777-200 tipi yolcu uçağı, Milano (MXP) operasyonunda hidrolik sistem arızası bildirdi. Uçak emniyetli şekilde ilgili prosedürleri uyguladı.",
+        "why_it_matters": "Geniş gövde uçaklarda hidrolik sistem yedekliliği ve QRH prosedürlerinin uygulanması emniyetli iniş için hayati önem taşır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "American Airlines",
+          "Boeing 777-200",
+          "Hydraulic Failure",
+          "Milan"
+        ],
+        "occurrence_class": "serious_incident",
+        "occurred_at_utc": "2026-10-29T18:36:00Z",
+        "location": "Milano (MXP), İtalya",
+        "aircraft_type": "Boeing 777-200",
+        "registration": null,
+        "operator": "American Airlines",
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [
+          "Hidrolik sistem arızası"
+        ],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "ff0003b2b0",
+        "sources": [
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9CbUp2TkdWZWRzSlVnU1dEUzRKcGZ5elZaNm1melNVVVFiLUkyejctTVpJSV9EWGpLYllRMzlxeENWa2pPOEp6QzJRY1g2V2hQNWhCNTNCdjM?oc=5",
+            "published_at": "2026-10-29T18:36:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "Ultra Uzun Menzilli Uçuşlarda Pilot Yorgunluk Yönetimi ve Yatay Dinlenme Prosedürleri",
+        "summary": "Singapore Airlines ultra uzun menzilli uçuşlarda kokpit ekiplerinin uçuş emniyetini üst düzeyde tutmak amacıyla en az 3 saatlik yatay dinlenme olanağı sağlayan vardiya ve FRMS prosedürlerini uyguluyor.",
+        "why_it_matters": "ULH operasyonlarında yorgunluk yönetimi (FRMS) ve dinlenme kotaları insan faktörü kaynaklı riskleri en aza indirir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "FRMS",
+          "Pilot Rest",
+          "ULH",
+          "Human Factors"
+        ],
+        "subcategory": "human_factors",
+        "regulators": [
+          "None"
+        ],
+        "operational_takeaway": "Uzun menzilli operasyonlarda dinlenme sürelerinin SOP standartlarına uygun yönetilmesi pilotların kritik uçuş safhalarındaki performansını korur.",
+        "id": "3a4dceedb5",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/why-airline-pilots-least-3-horizontal-hours-sleep-longest-flights/",
+            "published_at": "2026-10-30T00:00:17.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "Mistral, Siber Güvenlik Odaklı 1 Trilyon Parametreli Açık Ağırlıklı Modelini Sundu",
+        "summary": "Mistral, kurumların siber güvenlik ve altyapı savunmalarını kendi bünyelerinde yönetmelerine imkan tanıyan 1 trilyon parametreli açık ağırlıklı yapay zeka modelini yayınladı.",
+        "why_it_matters": "Açık ağırlıklı devasa modeller, veri gizliliği gerektiren kurumlar için kapalı API'lere alternatif oluşturur.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Mistral",
+          "Open Source",
+          "Cybersecurity",
+          "LLM"
+        ],
+        "subcategory": "open_source",
+        "entities": [
+          "Mistral"
+        ],
+        "developer_impact": "Geliştiriciler ve güvenlik mühendisleri kapalı servislere veri göndermeden yerel sunucularda yüksek performanslı savunma ajanları çalıştırabilir.",
+        "id": "c613535744",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+            "published_at": "2026-10-29T17:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "OpenAI Yapay Zeka Modellerindeki Hizalama Bozukluklarını Tespit Yöntemlerini Güncelledi",
+        "summary": "OpenAI, öncü (frontier) yapay zeka modellerinde ortaya çıkabilecek misalignment (hizalama bozukluğu) durumlarını ve potansiyel güvenlik risklerini önceden tespit etmeye yönelik teknik araştırmalarını açıkladı.",
+        "why_it_matters": "Gelişmiş modellerin insan niyetine uygun çalışması ve otonom sistem emniyeti yapay zeka araştırmalarının merkezindedir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "OpenAI",
+          "Alignment",
+          "AI Safety",
+          "Frontier Models"
+        ],
+        "subcategory": "research",
+        "entities": [
+          "OpenAI"
+        ],
+        "developer_impact": "Model geliştiricileri otonom sistemlerin ve LLM yanıtlarının amaçlanan sınırlar içinde kalmasını sağlayan test protokollerini inceleyebilir.",
+        "id": "66a80c2d4e",
+        "sources": [
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBIYy1GQVhzVjQ3LTAyVW42QnlOOVZISGJsS05mc0gtRG5WZ2lkVks0REVvcENkYXVPVW1sVUw3dThYY01Ib1FCTUNkanBCMXduYTdGUXFqREdFYUdtVVhsN0ZtT2VoSWJlandTbUxvSVh1OUgxMWc?oc=5",
+            "published_at": "2026-10-29T16:15:43.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [],
+  "meta": {
+    "rss_feeds_ok": 13,
+    "rss_feeds_failed": [],
+    "rss_items_fetched": 167,
+    "rss_items_used": 86,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 69180
+  }
+}

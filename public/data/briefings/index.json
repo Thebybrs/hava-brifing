@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-29T07:15:23.440Z",
-  "latest": "2026-10-29",
+  "updated_at": "2026-10-30T05:40:15.828Z",
+  "latest": "2026-10-30",
   "briefings": [
+    {
+      "date": "2026-10-30",
+      "path": "2026-10-30.json",
+      "headline": "THY Filosuna İki B777 Kargo Uçağı Ekliyor; Oregon'da İki Helikopter Havada Çarptı",
+      "counts": {
+        "commercial_aviation": 3,
+        "accidents_and_incidents": 2,
+        "piloting_and_ops": 1,
+        "ai_developments": 2
+      },
+      "has_fatal_accident": true,
+      "max_importance": 5,
+      "generated_at": "2026-10-30T05:40:15.824Z"
+    },
     {
       "date": "2026-10-29",
       "path": "2026-10-29.json",
