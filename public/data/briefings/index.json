@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30T05:40:15.828Z",
-  "latest": "2026-10-30",
+  "updated_at": "2026-10-31T05:36:38.936Z",
+  "latest": "2026-10-31",
   "briefings": [
+    {
+      "date": "2026-10-31",
+      "path": "2026-10-31.json",
+      "headline": "FAA Boeing 737 MAX 10'u sertifiye etti; Airbus 547 teslimat açıklarken Claude eklentisinde arka kapı bulundu.",
+      "counts": {
+        "commercial_aviation": 6,
+        "accidents_and_incidents": 4,
+        "piloting_and_ops": 2,
+        "ai_developments": 4
+      },
+      "has_fatal_accident": true,
+      "max_importance": 4,
+      "generated_at": "2026-10-31T05:36:38.932Z"
+    },
     {
       "date": "2026-10-30",
       "path": "2026-10-30.json",

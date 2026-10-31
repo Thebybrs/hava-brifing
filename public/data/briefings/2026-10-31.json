@@ -1,0 +1,544 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T05:36:38.932Z",
+  "window": {
+    "from": "2026-10-30T05:33:19.984Z",
+    "to": "2026-10-31T05:33:19.984Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "FAA Boeing 737 MAX 10'u sertifiye etti; Airbus 547 teslimat açıklarken Claude eklentisinde arka kapı bulundu.",
+  "tldr": [
+    "FAA, Boeing 737 MAX 10 modelini ticari teslimatlar için sertifiye ederek tüm 737 MAX ailesini hizmete açtı.",
+    "Airbus, 2026'nın ilk dokuz ayında 547 uçak teslim ettiğini ve sipariş stokunun 9.300'ü aştığını bildirdi.",
+    "İtalya'da askeri CH-47 Chinook helikopterinin düşmesi sonucu 4 kişi hayatını kaybetti.",
+    "FAA, Light-Sport uçuş kurallarını esneterek sport pilot sertifikalı pilotların yetkilerini genişletti.",
+    "Cursor ve VS Code pazar yerlerindeki Claude Code eklentilerinde arka kapı (backdoor) zafiyeti tespit edildi."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "FAA, Boeing 737 MAX 10 Modelini Ticari Teslimatlar İçin Sertifiye Etti",
+        "summary": "FAA, Boeing 737 MAX ailesinin en büyük üyesi olan 737 MAX 10 modelini ticari teslimatlar için resmi olarak sertifiye etti. Bu kararla birlikte tüm 737 MAX ailesi hizmete girmeye hazır hale geldi.",
+        "why_it_matters": "B737 MAX 10 tip eğitimi ve filoya katılım süreçleri önündeki regülasyon engeli kalkmıştır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "737 MAX 10",
+          "FAA",
+          "Sertifikasyon"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing",
+          "FAA",
+          "Boeing 737 MAX 10"
+        ],
+        "id": "6f1f28bd2f",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdVV1RkV4WDRkSjRzUUE1TUxPTHNwZjZ6VDgwSm5pNkRoaXhXMUtyMkVDUjV2ZG51T1RjQVkyeVdEVVljRzdZamVsbkltZFlGSEZQbTQxQkZPOXE2Q2RSRGpnajVfdm01NERvektuSHB0V0ZBWTR5OFZ5Y09QTUkyVjNpWFo?oc=5",
+            "published_at": "2026-10-30T20:45:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Airbus İlk Dokuz Ayda 547 Uçak Teslim Etti ve Sipariş Stoku 9.300'ü Aştı",
+        "summary": "Airbus, 2026 yılının ilk dokuz ayında toplam 547 uçak teslimatı gerçekleştirdiğini bildirdi. Üreticinin toplam sipariş stoku (backlog) ise 9.300 uçağın üzerine çıktı.",
+        "why_it_matters": "Küresel uçak teslimat takvimleri ve filo planlamaları için temel üretim performans göstergesidir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "Teslimat",
+          "Sipariş Stoku"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus"
+        ],
+        "id": "80aa92d981",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNHhTYmZsSTROVnAzWFBmNkVMcjgxdXJodElQdk5lUUEzQnJ2eDRoTDNFTGVkS3MwdU9ZajdBRGwyMWF4a2FobUpkU3pybUNJdmlzVncwWnBJYXN3YmxCWWl0Q0ZlcU9sLUFqT2FEeFJkakx2UmN6ZGhpNF9aR2duRm9MeHk2bDY0cEZLUQ?oc=5",
+            "published_at": "2026-10-31T05:11:05.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "THY, Karadağ'a Seyahat Edecek Türk Vatandaşları İçin Vize Uyarısı Yayımladı",
+        "summary": "Türk Hava Yolları, 1 Kasım itibarıyla Karadağ'a seyahat edecek Türk vatandaşları için vize gereksinimlerine ilişkin resmi bilgilendirme duyurusu paylaştı. Yolcuların seyahat öncesinde vize durumlarını kontrol etmeleri isteniyor.",
+        "why_it_matters": "Yolcu kabul ve evrak kontrolü süreçlerinde operasyonel aksaklıkların önlenmesi açısından önemlidir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "Karadağ",
+          "Vize"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Türk Hava Yolları",
+          "Karadağ"
+        ],
+        "id": "fb42c89c5e",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRmZxUWtYWGpWWFMyY1h3VHpJV2J1ZVVuMXUyaTBoWnNHMDJIRHZVYzJfT1V0RTJvWVdUdWUxNGJ5MWxXaDlKTXk3YmhJYW1kc3NnNHY0Q0gzZmVWVER2Z0FXazdxTGpMemtLa2hBVnZQcEJhYjZNRkVaLWpxN3JYS1ljd1o1eXRpaWp6bzN6WVlyY25lbk1N?oc=5",
+            "published_at": "2026-10-31T05:03:22.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbEI2NC13dFBPX1pVdXp0bFBGZEh1UllEbEVwVFlhVlBwcE9hZHNiZDI1eHA0WFlEUlB5RTN0bmphb2l3bzJmQ1A5NEppazBVTDVwajZzaDlSQW41QVhXS2lpblo3LXI5ZWxOcjdZazZtMXExNzVFVTJDLXJOdUJMTExPWkVPTFd4SldyUmh2bjk4MkU?oc=5",
+            "published_at": "2026-10-31T00:50:04.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTjlWdDd5VlRLTTRWaXJrLTJHNEZuNHNaU2hvRThtZ0tjV1VkSU5JVnhzSE1xaEV4WjRwYV9yMFlkUElPUl9wd0R5ZVNXQ25hQjdLZ0szVHZBSkJhZ1puN2F2Wk0tNmRLcnZ6RFBBTUVnZjlhdVZYRWZvaUhzZVBCb29FV3BTWkVkMW1pRkFVd01wWEM3Z1Z0NF92QXMtUXY3aUx0dnV1Qm9STzhrZFA4?oc=5",
+            "published_at": "2026-10-30T18:13:23.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVDBmMC1IaS1vS2hjWUd5c0Y1UVNqRmtMUDN3N1lJc1ZRdlU1Q2hudVlUdlZidEljLVJmXzlKSlhZaFhzaDZ4TUllaG5hczZzODBGM1BlZnFrcWVhRXdPblZ0U25qWkJsY3RMR1dmdnVBb1ZGZ1Y1SVNNUzVtcnFSYjF3QTIxdkVabU5FdTFKclV4NDEtXzI1RDRHQQ?oc=5",
+            "published_at": "2026-10-30T17:50:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "American Airlines Bir Haftada Dört Yeni Airbus A321neo Ailesi Uçak Teslim Aldı",
+        "summary": "American Airlines, filoyu modernleştirme adımları kapsamında yedi gün içinde üç adet A321neo ve bir adet A321XLR (N311NY tescilli) olmak üzere toplam dört yeni Airbus uçağını teslim aldı.",
+        "why_it_matters": "Dar gövde filolarının genişlemesi ve uzun menzil A321XLR entegrasyonu operasyonel hat kapasitesini artırmaktadır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "American Airlines",
+          "Airbus",
+          "A321neo",
+          "A321XLR"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "American Airlines",
+          "Airbus A321neo",
+          "Airbus A321XLR"
+        ],
+        "id": "e749100eb3",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORmtSYzFKUnNIRFFha3BuWlF3Z1pLVjFQWnFDSGJ2ZExidzlMYkFoTUFvdXJPR0RrMmtKT2JCc0g2aU1LZTEwTFJlNnExOGdsMjVvUU51UDlwTEJSUUYtZmIxcFZKd3lWTXRJMEI4aWFsY1U1dkRfR214TFRiTkU1WTVxVGk5LTcxWl80N2R0dDRlbTA?oc=5",
+            "published_at": "2026-10-30T21:34:55.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/american-airlines-delivery-4-new-airbus-a321neo-family-one-week/",
+            "published_at": "2026-10-30T21:34:55.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "United Airlines NEXT Modifikasyonlu Airbus A320 Uçağını Hizmet Dışı Bıraktı",
+        "summary": "United Airlines, yakın zamanda NEXT kabin yenileme modifikasyonundan geçen bir Airbus A320 uçağını gövde kaybı veya hizmet dışı (wrote off) olarak kayıtlara geçirdi.",
+        "why_it_matters": "Kabin modernizasyon yatırımları yapılmış uçakların filo yönetimindeki mali ve operasyonel etkisini gösterir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "United Airlines",
+          "Airbus A320",
+          "Fleet Management"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "United Airlines",
+          "Airbus A320"
+        ],
+        "id": "f0477d8253",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQjYyb0xuNVU3dFJ5Y2V1TmkwcUZ3Z05BdEtXb2tzbmhSc2kwdGVWeVJIU1ZzNDdzSi1veEt3T09qcElaRFcwUHBkVG03cUtFdHgzeUI0MkFoZE0xcmhlbERKb3hTcm9uZnQ5TUZ6b1hSNTVCT29MSEVoQkZnWWw5bnBTUnRENUgxZWluLU01LTljdUU?oc=5",
+            "published_at": "2026-10-30T17:01:19.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Boeing Üçüncü Çeyrek Zararında Keskin Düşüş Kaydetti",
+        "summary": "Boeing, 2026 yılı üçüncü çeyrek mali sonuçlarında net zararının belirgin şekilde azaldığını açıkladı. Şirket CEO'su operasyonel toparlanma sürecinde yapılması gereken daha çok iş olduğunu vurguladı.",
+        "why_it_matters": "Üretici mali yapısındaki toparlanma, parça tedarik zinciri ve üretim hızlarını doğrudan etkiler.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "Finans",
+          "Q3"
+        ],
+        "subcategory": "market_finance",
+        "entities": [
+          "Boeing"
+        ],
+        "id": "971cc75dde",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxONFFyTjhScHZhUU10Zk43MFdDRDNoQTBQX09ZbFh2ZEFyT3ktOW12T0hjY2RxdzhqZTJ0SERTZzRMbVBWNzJHUUlBS3gtQXNEM09zalV6REdpbVpLMzEzLXVvc0t4NUxWRU1MaHlULTc1OVZicEtRVVpzS29qNnpzZFEyVzZpc01vRzZhTWo1UlRKYndreWJ1a1diZWJIbjIyb3huSDJUeTBMZGk3ZUZHbVFORGFrSUM3a2dsZExZQmN1NHZDWFE?oc=5",
+            "published_at": "2026-10-31T01:40:22.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "İtalyan Kara Kuvvetleri'ne Ait CH-47 Chinook Helikopteri Düştü: 4 Can Kaybı",
+        "summary": "İtalyan Kara Kuvvetleri'ne ait bir Boeing CH-47 Chinook helikopteri kaza kırıma uğradı. Kaza sonucunda helikopterde bulunan 4 kişi yaşamını yitirdi.",
+        "why_it_matters": "Askeri nakliye helikopteri operasyonları ve uçuş emniyeti incelemeleri açısından kritik bir olaydır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Kaza",
+          "Chinook",
+          "CH-47",
+          "İtalya"
+        ],
+        "occurrence_class": "accident",
+        "occurred_at_utc": null,
+        "location": "İtalya",
+        "aircraft_type": "Boeing CH-47 Chinook",
+        "registration": null,
+        "operator": "İtalyan Kara Kuvvetleri",
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": 4,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "unknown",
+        "investigating_authority": null,
+        "id": "8e31a92da2",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONGFXdWpqaHp5RTVidVBXa3Q3T2VhTjhyS0FMcnJBWWlkNFdfRFpsZ0F2UHVKRk9NVzlNUnlMdWE4VS1yM1A2V1BBNFN3aFlOczkwTElXaURJMlZlWkdjaU8xd2xoTzhEYUpiZU1aWURXeTRjZ19jNjMtTGhzQS1kWUlucjg3MWhNbXJGLU0wTFpKOEo1?oc=5",
+            "published_at": "2026-10-30T15:20:33.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Cirrus SR22 G7+ Uçağında Acil Durum Paraşütü (CAPS) Devreye Girdi",
+        "summary": "N98007 tescilli Cirrus SR22 G7+ tipi uçakta acil durum paraşüt sistemi (CAPS) aktifleşti. Olay ciddi bir insident olarak kayıtlara geçti.",
+        "why_it_matters": "Genel havacılıkta CAPS sisteminin operasyonel kullanımı ve uçuş emniyeti açısından takip edilmesi gereken bir örnektir.",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "Cirrus",
+          "SR22",
+          "CAPS",
+          "Incident"
+        ],
+        "occurrence_class": "serious_incident",
+        "occurred_at_utc": null,
+        "location": "Bilinmiyor",
+        "aircraft_type": "Cirrus SR22 G7 process",
+        "registration": "N98007",
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [
+          "Acil durum paraşütü (CAPS) aktivasyonu"
+        ],
+        "investigation_status": "unknown",
+        "investigating_authority": null,
+        "id": "8e9483b766",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE92MUpXVHBGMHI0ZVdiTzNwSnpHcG55V01tYlNqUkFUSndOUU11bUdMRzdaRjhiemZZMFIxLWZKTXBmWC1uUGlub3I4RWZ5THNpTV9qMGNR?oc=5",
+            "published_at": "2026-10-30T19:02:41.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Airbus A321-251NX (TC-RFD) Tescilli Uçakta Olay Bildirildi",
+        "summary": "TC-RFD tescilli Airbus A321-251NX tipi uçakta operasyonel bir olay meydana geldiği bildirildi. Soruşturma detayları henüz açıklanmadı.",
+        "why_it_matters": "A321neo filolarındaki emniyet olaylarının takibi operasyonel emniyet yönetimi açısından gereklidir.",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "Airbus A321neo",
+          "TC-RFD",
+          "Incident"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": null,
+        "location": "Bilinmiyor",
+        "aircraft_type": "Airbus A321-251NX",
+        "registration": "TC-RFD",
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "unknown",
+        "investigating_authority": null,
+        "id": "e73e93f9fe",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GZ0VYbDBUMFpkOG9XR3RGMXE3M2I5VEhnZk9uMV8wUVRWSmVyQXdMYm4xd1E2ZWJ1SGExcWZ0bGlxcDU1azl0eTA4aVVlRFVDUFIxN0ln?oc=5",
+            "published_at": "2026-10-30T13:41:14.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Airbus Helicopters H125 Tipi Helikopter Kaza Kırıma Uğradı",
+        "summary": "VT-HCX tescilli Airbus Helicopters H125 (AS 350B3e) tipi helikopter kaza yaptı. Olayla ilgili resmi inceleme başlatıldı.",
+        "why_it_matters": "Tek motorlu hafif helikopter operasyonlarındaki emniyet analizleri için önemlidir.",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "Airbus Helicopters",
+          "H125",
+          "VT-HCX",
+          "Accident"
+        ],
+        "occurrence_class": "accident",
+        "occurred_at_utc": null,
+        "location": "Bilinmiyor",
+        "aircraft_type": "Airbus Helicopters H125",
+        "registration": "VT-HCX",
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "unknown",
+        "investigating_authority": null,
+        "id": "62efa88998",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1oa21DanczMDBSdTR5cGV5djVFaVdwb0FJZElwZEtmeGI5NEtVUVRxc2pqWVZpaUNBeDhTNlZTdEQwRFptLWdaNm53bGVBb1RKNjhvdVB3?oc=5",
+            "published_at": "2026-10-30T12:14:54.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "FAA Light-Sport Pilot Yetkilerini ve Uçak Sınıflarını Genişletti",
+        "summary": "ABD Federal Havacılık Dairesi (FAA), sport pilot sertifikasına sahip pilotların uçurabileceği hava aracı yelpazesini genişleten yeni düzenlemeleri yürürlüğe koydu. Düzenleme, genel havacılıkta uçuş maliyetlerini düşürmeyi ve lisans imtiyazlarını artırmayı hedefliyor.",
+        "why_it_matters": "Genel havacılık ve başlangıç seviyesi pilot lisanslandırma regülasyonlarında önemli bir esneklik sağlamaktadır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "FAA",
+          "LSA",
+          "Pilot Licensing",
+          "General Aviation"
+        ],
+        "subcategory": "regulation",
+        "regulators": [
+          "FAA"
+        ],
+        "operational_takeaway": "Light-Sport kural değişiklikleri ile pilot adayları ve genel havacılık pilotları daha geniş hava aracı tiplerinde daha düşük operasyonel maliyetlerle uçuş imtiyazı kazanmaktadır.",
+        "id": "26fdfe46e2",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/new-light-sport-rules-opening-up-general-flying/",
+            "published_at": "2026-10-31T01:00:17.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Qantas A380 Ekonomi Kabini Altındaki Mürettebat Dinlenme Konfigürasyonu",
+        "summary": "Qantas'ın Airbus A380 uçaklarında arka kargo kompartımanında ekonomi kabininin altında 12 yataklı mürettebat dinlenme modülü (crew rest compartment) bulunmaktadır. İkinci acil kaçış çıkışının 70D koltuğu altında yer aldığı açıklandı.",
+        "why_it_matters": "Uçak tip eğitimi, acil durum tahliye prosedürleri (SOP) ve kabin/kokpit mürettebat dinlenme mimarisi bilgisi açısından önemlidir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus A380",
+          "Crew Rest",
+          "Qantas",
+          "SOP"
+        ],
+        "subcategory": "human_factors",
+        "regulators": [
+          "None"
+        ],
+        "operational_takeaway": "A380 uzun menzilli uçuşlarda yorgunluk yönetimi ve acil durum tahliye yollarının konfigürasyonel detayları uçuş emniyeti standartlarına uyum açısından göz önünde bulundurulmalıdır.",
+        "id": "416ab26ead",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/qantas-airbus-a380-12-crew-bunks-under-economy-seat-70d-2nd-way-out/",
+            "published_at": "2026-10-30T21:01:18.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "Cursor ve VS Code Pazar Yerlerindeki Claude Code Eklentisinde Arka Kapı Bulundu",
+        "summary": "Cursor marketplace ve VS Code ortamlarında dağıtılan resmi olmayan Claude Code eklentilerinde uzak erişim truva atı (RAT) içeren arka kapı (backdoor) güvenlik zafiyeti tespit edildi.",
+        "why_it_matters": "Geliştirici araçlarında üçüncü taraf eklenti ve tool use ekosistemindeki siber güvenlik risklerini ortaya koymaktadır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Claude Code",
+          "Security",
+          "VS Code",
+          "Cursor",
+          "Backdoor"
+        ],
+        "subcategory": "policy_safety",
+        "entities": [
+          "Claude Code",
+          "Cursor",
+          "Anthropic"
+        ],
+        "developer_impact": "Geliştiricilerin IDE eklentileri yüklerken kaynak doğrulaması yapması ve onaylanmamış pazaryeri paketlerine karşı sıfır güven (zero trust) yaklaşımı benimsemesi gerekmektedir.",
+        "id": "d44d850984",
+        "sources": [
+          {
+            "name": "Hacker News (AI)",
+            "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+            "published_at": "2026-10-30T11:05:53.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Hacker News (AI)",
+            "url": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
+            "published_at": "2026-10-30T10:22:51.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Google'ın Uzaydaki İlk Veri Merkezi Uydusu Gemma 4 Modelini Çalıştırıyor",
+        "summary": "Google'ın uzayda konuşlandırdığı ilk TPU altyapısına sahip veri merkezi uydusu aktif hale geldi. Sistem üzerinde Google DeepMind'ın Gemma 4 açık kaynaklı modeli başarıyla çalıştırıldı.",
+        "why_it_matters": "Yörünge içi çıkarım (in-orbit inference) ve uç bilgi işlem (edge computing) altyapılarında yeni bir milattır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Google",
+          "TPU",
+          "Gemma 4",
+          "Space AI"
+        ],
+        "subcategory": "infrastructure_chips",
+        "entities": [
+          "Google",
+          "DeepMind",
+          "Gemma 4"
+        ],
+        "developer_impact": "Uzay ve uç cihaz mimarilerinde LLM inference çalıştırma imkanlarını ve düşük güç kaynaklı işlemci optimizasyonlarını göstermektedir.",
+        "id": "6f816d72cb",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+            "published_at": "2026-10-30T17:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Cisco, Mimarisini Yenilemek İçin Mühendisine Sınırsız AI Token Hakkı Tanıdı",
+        "summary": "Cisco, kurumsal eski kod tabanlarını (legacy code) yapay zeka ajanları ile yeniden yazmak amacıyla mühendisine sınırsız AI token kullanım izni tanıdı.",
+        "why_it_matters": "Kurumsal yazılım modernizasyonunda LLM ve otomatik kod dönüşümü stratejilerinin ölçeğini vurgulamaktadır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Cisco",
+          "Legacy Code",
+          "DevTools",
+          "AI Tokens"
+        ],
+        "subcategory": "dev_tools",
+        "entities": [
+          "Cisco"
+        ],
+        "developer_impact": "Büyük ölçekli refactoring ve kod tabanı dönüştürme projelerinde LLM agent kullanımının pratik sınırlarını ve maliyet/fayda dengesini sergiler.",
+        "id": "9b33074d48",
+        "sources": [
+          {
+            "name": "Hacker News (AI)",
+            "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+            "published_at": "2026-10-30T14:08:20.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "OpenAI, GPT-Rosalind-6 İçin Sistem Kartı Eklentisini Yayımladı",
+        "summary": "OpenAI, model güvenlik standartları ve değerlendirme metrikleri kapsamında GPT-Rosalind-6 için hazırlanan System Card Addendum dokümanını resmi olarak yayımladı.",
+        "why_it_matters": "Biyolojik ve ileri araştırma odaklı AI modellerinde güvenlik, hizalama ve risk analiz kriterlerini günceller.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "OpenAI",
+          "GPT-Rosalind-6",
+          "System Card",
+          "AI Safety"
+        ],
+        "subcategory": "research",
+        "entities": [
+          "OpenAI",
+          "GPT-Rosalind-6"
+        ],
+        "developer_impact": "İleri düzey araştırma modellerinin güvenlik sınırlarını ve entegrasyon risk değerlendirme parametrelerini sağlar.",
+        "id": "b744c0d000",
+        "sources": [
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE11eU8tLVFqZlU3cUxfRGJfUWhMbzBxNVk5Tm5VU0JpQXIwY3Fwa0NwYTYyb1piSlZBM3V2QzVSUVVsVUxOS3ZNVHVLdEkzR2xnVVZKbmNobHJWX3Ffcl9B?oc=5",
+            "published_at": "2026-10-30T19:17:08.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [],
+  "meta": {
+    "rss_feeds_ok": 13,
+    "rss_feeds_failed": [],
+    "rss_items_fetched": 161,
+    "rss_items_used": 86,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 198950
+  }
+}
