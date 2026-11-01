@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-31T05:36:38.936Z",
-  "latest": "2026-10-31",
+  "updated_at": "2026-11-01T05:41:28.631Z",
+  "latest": "2026-11-01",
   "briefings": [
+    {
+      "date": "2026-11-01",
+      "path": "2026-11-01.json",
+      "headline": "Akasa Air Boeing 737 MAX 8 ve Boeing 737 MAX 8F/ER uçak olayları brifingde öne çıkıyor.",
+      "counts": {
+        "commercial_aviation": 2,
+        "accidents_and_incidents": 1,
+        "piloting_and_ops": 1,
+        "ai_developments": 1
+      },
+      "has_fatal_accident": false,
+      "max_importance": 4,
+      "generated_at": "2026-11-01T05:41:28.628Z"
+    },
     {
       "date": "2026-10-31",
       "path": "2026-10-31.json",

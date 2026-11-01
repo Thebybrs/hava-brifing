@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T05:41:28.628Z",
+  "window": {
+    "from": "2026-10-31T05:39:35.863Z",
+    "to": "2026-11-01T05:39:35.863Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "Akasa Air Boeing 737 MAX 8 ve Boeing 737 MAX 8F/ER uçak olayları brifingde öne çıkıyor.",
+  "tldr": [
+    "Akasa Air'e ait bir Boeing 737 MAX 8, Kolkata'da go-around sırasında tail strike geçirdi.",
+    "Türk Hava Yolları, Karadağ seyahatleri için vize uygulaması konusunda yolcularını uyardı.",
+    "Turkish Airlines, AerCap'ten iki adet Boeing 777-300ERSF kargo uçağı kiraladı.",
+    "Anthropic, Claude modelinin video oyunlarını reverse-engineering yapmasını engellemek için önlem aldı."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Turkish Airlines İki Adet Boeing 777-300ERSF Kargo Uçağı Kiraladı",
+        "summary": "Türk Hava Yolları, AerCap'ten iki adet Boeing 777-300ERSF kargo uçağı kiralama anlaşması yaptı. Uçakların teslimatlarının Mart ile Eylül 2027 arasında gerçekleşmesi planlanıyor.",
+        "why_it_matters": "THY'nin kargo filosunun genişletilmesi ve operasyonel kapasitesi açısından kritik bir adım.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Turkish Airlines",
+          "Boeing 777-300ERSF",
+          "AerCap",
+          "cargo_mro"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Turkish Airlines",
+          "AerCap",
+          "Boeing"
+        ],
+        "id": "ec3fd9720c",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNa3RzVmMwRkkwNVc0SVhRd1Z0QjJubHl2aEdpdTBFdUlXc1V5NnJRYXQ5bjNSRGI5bVFxNVRuRVVrUm5VUXNBSnBjNTJhU1NMcUIzN3NrR0lZR1JhbFdySTF5MjVEb21LSE93Z0xQMzVSYm5DR2VFdXl1U1JYSGVXSm4yekJzSUY0LV82d3M5aFhNbFMxYzVyaGE1R0hfbUlTaF9uNlBvSGFrdVdVYk42WnVKSEFiY29zZHlDbE5xM0lkYkpGXzRPcDFraUhOckl6ZVh1bDNmaVpYamQ3UXJlSlNsdUJkRDFZTktvSkViQmdtS3V3RElnem1MeWNBeERvcWhpcXRoZnpGaHdXbjZvZXRvOVlFZw?oc=5",
+            "published_at": "2026-11-01T00:35:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Airbus, JCAB'den Design Organisation Approval Aldı",
+        "summary": "Airbus, Japonya Sivil Havacılık Bürosu'ndan (JCAB) Design Organisation Approval (Tasarım Organizasyonu Onayı) belgesini almaya hak kazandı. Bu gelişme, bölgedeki operasyonel ve yasal süreçleri hızlandıracak.",
+        "why_it_matters": "Üreticinin Japonya pazarındaki sertifikasyon süreçleri için temel bir regülasyon adımı.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "JCAB",
+          "Design Organisation Approval"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus",
+          "JCAB"
+        ],
+        "id": "416ebac1e6",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONE5vQTJUUEpwSW1IU0hWRVd1TnBTNmczUndrczJjZXd3Q2doa1Fjbko4UWhPNGtBdkVmRjFnSHMyOVZwUFRGZEJxMUlFbmFJeENuTU1UTW5nbDI5eVMtNXllSWhkRTJJbU1wUUdpdXYzR0Izbnhra1BGMzJLX0Q3UGdDMHI2aWh6VndJ?oc=5",
+            "published_at": "2026-10-31T22:20:30.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "Akasa Air Boeing 737 MAX 8 Kolkata'da Go-Around Sırasında Tail Strike Yaşadı",
+        "summary": "Akasa Air'e ait bir Boeing 737 MAX 8 uçağı, Kolkata'da gerçekleştirilen go-around manevrası sırasında tail strike (kuyruk vurma) olayı yaşadı. Olay sonrasında teknik inceleme ve soruşturma süreçleri başlatıldı.",
+        "why_it_matters": "Go-around prosedürleri, pitch kontrolü ve enerji yönetimi açısından pilotaj eğitimi için kritik bir vakadır.",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "tail strike",
+          "go-around",
+          "Boeing 737 MAX 8",
+          "Akasa Air"
+        ],
+        "occurrence_class": "serious_incident",
+        "occurred_at_utc": "2026-10-31T22:02:19.000Z",
+        "location": "Kolkata, Hindistan",
+        "aircraft_type": "Boeing 737 MAX 8",
+        "registration": null,
+        "operator": "Akasa Air",
+        "flight_number": null,
+        "flight_phase": "go_around",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [
+          "go-around sırasında kuyruk teması (tail strike)"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "9db4358a77",
+        "sources": [
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBqSXR2eVVhZXZoOGE2cFBjcmZtYmd5MHlKQTlKRmM4bDRjWnZlOGdnZGNYMklBMjhlcjJwc3piQVkwcUJyZGItbTNGQ2g2Wm9O?oc=5",
+            "published_at": "2026-10-31T22:02:19.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "THY'den Karadağ Yolcuları İçin Vize Uyarıları Yapıldı",
+        "summary": "Türk Hava Yolları, Karadağ'a seyahat edecek Türk vatandaşları için vize uygulamasının yürürlüğe gireceğini duyurarak yolcuların mağduriyet yaşamaması adına uyarılarda bulundu.",
+        "why_it_matters": "Yolcu kabul ve check-in aşamasında dokümantasyon kontrolünün önemini hatırlatır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Turkish Airlines",
+          "regulations",
+          "travel_alert"
+        ],
+        "subcategory": "regulation",
+        "regulators": [
+          "SHGM",
+          "Other"
+        ],
+        "operational_takeaway": "Yer operasyonları ve check-in ekiplerinin güncel varış/vize gerekliliklerini titizlikle kontrol etmesi gerekmektedir.",
+        "id": "19b03d485d",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOE9TRG42V3RQLUJqS1kxaE9SNjkyZXVBRkpGNGRjeGNTaElOOUVpcHVydVY5ZXNyQXBKWk1XZE0wd2dkLUNtcGNnNl80dmRXdmlNQTJSNjRNaGxwWWYxTmdXamZoWUM3NExGN21ockZZVG5TckhKdE9tVExoUjRQeVlxalFBUDJXdUlBalR3?oc=5",
+            "published_at": "2026-10-31T11:29:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYlVjU0FLZ3lFaFpTT2hpck9LWnh1aHJEa2tLMVNQNkEwbWNpTTBreW9QSWtmT3NDMW9iUS1yNndjb1g2WmNwMFdlcXNpeW5LZ2x2ZjhOOGl6QXdwbk5LbkFJenBrX3VCQ2lhekxhNHNpTTdxQWpkYWNNaE02aDhOYXlPUlF3TnJ6U1RQVHhpTWViUQ?oc=5",
+            "published_at": "2026-10-31T08:56:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPN0MtczYxQXdFczZBUkN2MVZScHdnZ1V3SHJ1aXctUlVyS1ppbFRxSG1GTEo2RS1GdVNWNlYtN3FZZHdSTk5XWUw1dDlOUkVTalFlNGt6aGE4TjlWMmtNNktqdk11cnhwZUtyLVhrQU85bDlUMWE5VDBBYVY1dDJ4M3BjYTY5WUNJdjBOemVQSXhLQ2M?oc=5",
+            "published_at": "2026-10-31T08:34:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcGlDRW5McTB6LU1BbkV6bU9iNGYtc3ZZS3FSYTZaUmI2UUFRWG5lNFU5aVpwTm51Qmt6b1NBUVhSUHQzRzFrVlY0T2FCRGVQWThhcTctOG04NHhtNmJXYS16YXVINklKQklhNXdrdFhORG1NREpmSUUtek52UTRMYW1NS01hZEdjU1h5bWlWTlhJYUUwV3RWSC1xeGlTcXBuS0xGazdfRjhQTkFMYlBLcDlWNk92dmhjZFkw?oc=5",
+            "published_at": "2026-10-31T08:08:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "Anthropic, Claude Modellerinin Video Oyunlarını Tersine Mühendislik Yapmasını Engelliyor",
+        "summary": "Anthropic, Claude yapay zeka modelinin video oyunlarını tersine mühendislik (reverse-engineering) ile klonlamasını veya çözmesini engellemek amacıyla yeni güvenlik önlemleri almaya başladığını duyurdu.",
+        "why_it_matters": "Fikri mülkiyet koruması ve kodlama yetenekleri olan agent'ların sınırlandırılması bağlamında önemlidir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Anthropic",
+          "Claude",
+          "policy_safety",
+          "reverse-engineering"
+        ],
+        "subcategory": "policy_safety",
+        "entities": [
+          "Anthropic",
+          "Claude"
+        ],
+        "developer_impact": "Geliştiriciler, kodlama asistanlarının fikri mülkiyet sınırları ve telif hakları içeren projelerdeki kullanım kısıtlamalarına dikkat etmelidir.",
+        "id": "d7cd9059dd",
+        "sources": [
+          {
+            "name": "Hacker News (AI)",
+            "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+            "published_at": "2026-10-31T21:07:58.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [],
+  "meta": {
+    "rss_feeds_ok": 13,
+    "rss_feeds_failed": [],
+    "rss_items_fetched": 162,
+    "rss_items_used": 63,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 112766
+  }
+}
