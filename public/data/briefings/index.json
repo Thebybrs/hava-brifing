@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-01T05:41:28.631Z",
-  "latest": "2026-11-01",
+  "updated_at": "2026-11-02T05:55:47.218Z",
+  "latest": "2026-11-02",
   "briefings": [
+    {
+      "date": "2026-11-02",
+      "path": "2026-11-02.json",
+      "headline": "Learjet 60 Florida'da Düştü, FAA Boeing 787 ve 747 İçin Yakıt Tankı Denetim Direktifi Yayımladı",
+      "counts": {
+        "commercial_aviation": 6,
+        "accidents_and_incidents": 3,
+        "piloting_and_ops": 3,
+        "ai_developments": 5
+      },
+      "has_fatal_accident": true,
+      "max_importance": 5,
+      "generated_at": "2026-11-02T05:55:47.212Z"
+    },
     {
       "date": "2026-11-01",
       "path": "2026-11-01.json",

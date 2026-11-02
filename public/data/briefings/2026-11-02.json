@@ -1,0 +1,575 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T05:55:47.212Z",
+  "window": {
+    "from": "2026-11-01T05:54:26.502Z",
+    "to": "2026-11-02T05:54:26.502Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "Learjet 60 Florida'da Düştü, FAA Boeing 787 ve 747 İçin Yakıt Tankı Denetim Direktifi Yayımladı",
+  "tldr": [
+    "Florida'da düşen Learjet 60 tipi iş jetinde bulunan 9 kişi hayatını kaybetti.",
+    "FAA, Boeing 787 ve 747 modelleri için 7 Aralık'tan itibaren geçerli yakıt tankı inceleme direktifi yayımladı.",
+    "Çinli teknisyenler Boeing 787'lerde kullanılan GEnx motor kanatçıklarında çatlaklar rapor etti.",
+    "American Airlines, 100'üncü yeni nesil Airbus A321 ve 11'inci A321XLR uçağını teslim aldı.",
+    "OpenAI, ChatGPT ve Codex platformları arasındaki kullanım limitlerini birleştirdi."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Çin'de Boeing 787'lerdeki GEnx Motor Kanatçıklarında Çatlaklar Rapor Edildi",
+        "summary": "Çinli teknik ekipler, Boeing 787 Dreamliner uçaklarında kullanılan General Electric GEnx motor kanatçıklarında erken yıpranma ve çatlaklar tespit edildiğini rapor etti. Durum motor bileşenlerinin hizmet ömrü hususunda endişe yarattı.",
+        "why_it_matters": "GEnx motorlarının operasyonel güvenilirliği ve periyodik NDT denetimleri açısından kritik önem taşır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing 787",
+          "GEnx",
+          "General Electric",
+          "çatlak",
+          "motor"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing",
+          "General Electric",
+          "Boeing 787"
+        ],
+        "id": "4b2067eab5",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON1VoRVhoN1R1THZYSFVXX2xidUFDanlUQ2VHTHVKSk9lbnd6UmYyeV9aSXkzN2lVTEN5SS00U0RqWmg3eDBjZGFVY3E1dF9SZmJaNTA5REczeEhWY08xVVE3aVRXTlBWODB0cjRCRlUxUzBHYUVSMEp5V1E1THVSUU9IZEp5dzlDOHp3SEJpdkJKaWJybGl6STZrWm1sY2RNOTZaRjRhRVVZT2NqUGExTExNazN5cTA1dWs0ZQ?oc=5",
+            "published_at": "2026-11-02T04:24:29.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPYnFfZmhpbVBDeTJtX3RLN3g5TlliREVnZEtuQzViRkQ4ZkJQMGx5LU0xZk0wZmZObnhZSllQMmhVNDBoQzR3a3dxckJrdU94emM4T011V21GenNIbjBxMGcyelh2emtudjhVY0tWM1U3ZkJaWkVzaXJ6LWl5aV9kV3dKd25KSC1Yb3lxdEpuS2VFMjMwQ1RSNkpSLVhJTXpvcGJHdEtIZk9UbFZFWHhVSDh0aU8tQVZyWm1pSG1ORzlFd1BsYnRqWTBERTE5SEFn0gHQAUFVX3lxTE45STBHekRIWmllZ0loNEN5b0diWlFsdnhhUjBCdnNKMWNrUWYwV1h5aDlqUmd3ZDVlRkl0QTBpT0hIT0xWRmF0cjF3NXdSVG5HNWxYZnhaeXRLY2ZwVWdQazZ1VTVMLWxWa1lHRVUyTExMaFBYV25sbnBTQ3ZETXVLUWs3UExOeElNTXVlR0lTZmc0STFvRlc0cnVpUUNqX01fOWloNldTYzJpVFlJNEpxMExyMWNGandJNVdaZ1RvMWpVa05nQXdOVVpDbW5XY1I?oc=5",
+            "published_at": "2026-11-02T04:00:12.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "American Airlines 100'üncü Yeni Nesil A321 ve 11'inci A321XLR Uçağını Teslim Aldı",
+        "summary": "American Airlines, dar gövde filosunu yenileme programı kapsamında 100'üncü yeni nesil Airbus A321 uçağını ve 11'inci uzun menzilli A321XLR modelini filosuna kattı.",
+        "why_it_matters": "A321XLR modelinin transatlantik ve uzun menzilli dar gövde operasyonlarındaki pazar payını artırdığını gösterir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus A321XLR",
+          "American Airlines",
+          "filo",
+          "teslimat"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus",
+          "American Airlines",
+          "Airbus A321XLR"
+        ],
+        "id": "aebcf80c32",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQSU11VmRiaFZJejFmMTJXbnZSV0otYUZhamlnZmVUaHVMMXNKZmlxZlFlNUNuNzdEYTV0eUtlNDNuLVdmbHoybUhwa3liTG9QRUpLNFIzZUQ1X2c4Tk5aTjgzVF9ZdXFtN0lVWC00LVNwd3BLVzE3VG9wQ2xlV1BEaHdSUVAwZXdBbXJhOTJtcGZkRUROZXUxYzVkYXBwNVdpSDA0YlNZRGFHT0szYnlTYk5UR1VGaUZ4QUhjWWRiNVVNeDVMN042V2NJQjY0LVUyQjN5UC1GNVl3TDFBZVFBejZBNURBRnMxY2pqTGgwZmRSVUtyVEV6S0doSExaUFhT?oc=5",
+            "published_at": "2026-11-01T23:35:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Southwest Airlines Boeing 737 MAX 7 Uçuşlarına Mart 2027'de Başlamayı Planlıyor",
+        "summary": "Southwest Airlines, Boeing 737 MAX 7 uçaklarını Mart 2027'de yolculu uçuşlara sokmaya hazırlanıyor. Uçaklar, -700 serisine kıyasla 13 ek koltuk, yenilenmiş kabin ve daha büyük baş üstü dolapları içerecek.",
+        "why_it_matters": "Southwest'in dar gövde filosunun modernize edilmesi ve koltuk başı birim maliyetlerin düşürülmesi hedeflenmektedir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing 737 MAX 7",
+          "Southwest Airlines",
+          "kabin",
+          "filo"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing",
+          "Southwest Airlines",
+          "Boeing 737 MAX 7"
+        ],
+        "id": "afdf0e0a0a",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/southwest-airlines-boeing-737-max-7-debut-march-2027-13-more-seats-700s/",
+            "published_at": "2026-11-01T19:25:03.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Emirates Airbus A350-900 Uçağını Dubai-Orlando Rotasında Hizmete Sunuyor",
+        "summary": "Emirates, Airbus A350-900 tipi uçağını Dubai-Orlando hattında uçurarak ABD rotalarında ilk kez bu uçağı operasyona dahil etti.",
+        "why_it_matters": "A350-900'ün Emirates filosundaki uzun menzilli kıtalararası rotalara entegrasyon sürecini işaret eder.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus A350-900",
+          "Emirates",
+          "Dubai",
+          "Orlando",
+          "rota"
+        ],
+        "subcategory": "route_network",
+        "entities": [
+          "Airbus",
+          "Emirates",
+          "Airbus A350-900"
+        ],
+        "id": "aa13fa5574",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQSFJ4czcwRUtfcEZWamVXaHFPTzdDVGtGYzZYcUhlVlA2M2FqdmRkd2RUQTd0Z2wwcll5ckZ6NUYwWVlQZ0ZvSVlQam1RcmpNekJ2SE03NXJ5N1o4U0xiaDd3cUZlSWdsekVVT0Q5T1BOQk5haHp1VHdVeWdxTG9Xc2lqRmJqQ1ctMTgwblg1QVgwaEVrZTFQTTFKR045ck01SXM3LTNKbTc0TWpReG0tRXBxZENkaHM4eWZBR0N2VkxBMXRscG91NVplRXd2cFQ1M0hMT0hxSEw5Y1pJLXNWdERiVXdSdURUekw4TlJrUXJmMU9YdXAwMTg1bkZreEt4OHRB?oc=5",
+            "published_at": "2026-11-01T22:50:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "FAA Structural Monitoring Systems'in Boeing 737NG Sertifikasyon Planını Onayladı",
+        "summary": "Structural Monitoring Systems, Boeing 737NG serisi uçaklar için geliştirdiği yapısal izleme teknolojisine dair sertifikasyon planının FAA tarafından onaylandığını duyurdu.",
+        "why_it_matters": "B737NG gövde yapısının sürekli izlenmesini sağlayarak bakım ve NDT süreçlerini hızlandırabilir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing 737NG",
+          "FAA",
+          "Structural Monitoring Systems",
+          "bakım"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing",
+          "FAA",
+          "Structural Monitoring Systems"
+        ],
+        "id": "3957368324",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUDBveWVQLU5SMGdOOC05VlVmOTFrbEY1d29ZcjQ4U1JNalBGeE1PN0h4RUJyMHBlVnk1VWl4T0RVeFJEWEdHUW1WV3JCb21HMDJvZG0zbVNCQ1RQR2prb0VMRVo2UUFfQ3NGT09FeGZMVTBtVVFQT0JxNkcyMTlsbDlOTXVxSUNsNTVVZi1iZ211NS1mZmM4THRVT3lJWDZsSDVsaWxHbk56Uk9mSV9VdFNYSjFJTFQ1cjlXaG9ZWjl5dVhwOTVFejNRX3lfNW1mTVZwSTAtVG5qRUV0NEpvdlgtVGI?oc=5",
+            "published_at": "2026-11-02T01:30:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Pakistan International Airlines İlk Boeing 787-9 Dreamliner Uçağını Teslim Aldı",
+        "summary": "Pakistan International Airlines (PIA), uzun menzilli uçuş ağını yenileme stratejisi doğrultusunda ilk Boeing 787-9 Dreamliner uçağını teslim aldı.",
+        "why_it_matters": "PIA'nın kıtalararası uçuşlarda yakıt verimliliğini artırma ve gövde yenileme adımını simgelemektedir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing 787-9",
+          "PIA",
+          "teslimat",
+          "filo"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Boeing",
+          "Pakistan International Airlines",
+          "Boeing 787-9"
+        ],
+        "id": "7ae85899a2",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVmhhSy1KNXFCTUw3aGxWdFUwMUl6RDdOSk13MnliZ3pqdlpsbG1CaHVfQUNNRHZNejdZbURaaHVDa0otSFp0Nkt0MUM4YlVhb0M0OFl0Uy15aFRDU1Vkay1kTlUxT0NyX2l4MTNraFBvZ2x6VDZ5OHM3S2M1b3ZfOUZ4Snh2dHU5dzZtN2RkT2Y3V0lvTWZkVWJNZnFDc2JoQW90SVJXd2HSAa4BQVVfeXFMT09XODhDOF92N2RPazFnSlI0VUtPb2xkTDMteGRkaDBsU2xjeldwQ0hoc0ZvX05oYmhFemg3RUZBdzNvVkNMM3pfNFZvNGlSbkkzbkFLZHkwdnlsT3VVWXNvdnJnUE1qVDdReHBUbTZmeENRdHlpMUxxMzBhYS1LWFNVWEZYRy1XY1lITTFhVE1aUUMxLWhLNTJvVTRuYTFLVmtVS29vX1FSMkJvaGZ3?oc=5",
+            "published_at": "2026-11-02T04:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "Learjet 60 Florida'da Meskûn Mahalle Düşerek Alev Aldı: 9 Ölü",
+        "summary": "Bombardier Learjet 60 tipi iş jeti, West Palm Beach (Florida) yakınlarında Greenacres bölgesinde dik bir dalışın ardından meskûn alana düşerek alev aldı. Uçakta bulunan 9 kişinin tamamı hayatını kaybetti.",
+        "why_it_matters": "Uçağın dik dalış yapması ve hızla irtifa kaybetmesi uçuş kontrol yüzeyleri veya yapısal bütünlük kaybı ihtimallerine işaret etmektedir.",
+        "importance": 5,
+        "confidence": "confirmed",
+        "tags": [
+          "Learjet 60",
+          "kaza",
+          "Florida",
+          "dalış"
+        ],
+        "occurrence_class": "accident",
+        "occurred_at_utc": "2026-11-01T18:22:18Z",
+        "location": "Greenacres, West Palm Beach, Florida, ABD",
+        "aircraft_type": "Learjet 60",
+        "registration": "N722BD",
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "descent",
+        "occupants": 9,
+        "fatalities": 9,
+        "injuries": 0,
+        "technical_findings": [
+          "yüksek hızlı dalış (high-speed dive)",
+          "dikey düşüş sonrası yangın"
+        ],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "ee89425b92",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCT3ZIaXJZX1BXem13UTBfbXhtaHFEUjY2d3RzYWR1SUZ6UnZQUndOMS14MGd5eFZKNTRYRHR1NnFWcDY4NGhEeGpuZzl3VXBPa0tVUmln?oc=5",
+            "published_at": "2026-11-01T18:22:18.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZC1LQXBhRmMtS2s2TDYwOWZrWHlqNE55UmpaTWJOOVV1ZU42N1g3NnJUNWVERDlnTURma2h0OW44c3ppaXdsRnpGcEF0X2VTZl95SklXUDBMemR3RFktQ1RqQW5IWnhZU1h6TU11amkwcGNrUTE1LVcwUDY1bHpaM01VN2FaaFA3V3BDdWUtdVlONUh0Yk1haldaRTJOWXRKUFJlQzVBWXpUU1ZSLW0xMlZla3czT3k1cWdmU2VGNzVJUQ?oc=5",
+            "published_at": "2026-11-01T21:59:55.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/learjet-60-fatally-crashes-missile-like-crash-mar-a-lago/",
+            "published_at": "2026-11-01T21:59:52.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "United Airlines Boeing 757 San Francisco'da Pas Geçme Sonrası Mayday İlan Etti",
+        "summary": "United Airlines'a ait Boeing 757 tipi uçak, San Francisco Uluslararası Havalimanı'na (SFO) gerçekleştirdiği pas geçme (go-around) sonrasında yakıtının kritik seviyeye düşmesi nedeniyle Mayday acil durumu ilan etti.",
+        "why_it_matters": "Pas geçme sonrası yakıt yönetiminin ve acil durum ilan etme eşiklerinin emniyetli uçuş icrasındaki önemini gösterir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing 757",
+          "United Airlines",
+          "Mayday",
+          "pas geçme",
+          "SFO"
+        ],
+        "occurrence_class": "serious_incident",
+        "occurred_at_utc": null,
+        "location": "San Francisco (SFO), ABD",
+        "aircraft_type": "Boeing 757",
+        "registration": null,
+        "operator": "United Airlines",
+        "flight_number": null,
+        "flight_phase": "go_around",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [
+          "düşük yakıt seviyesi"
+        ],
+        "operational_findings": [
+          "pas geçme (aborted landing)",
+          "Mayday ilanı"
+        ],
+        "investigation_status": "unknown",
+        "investigating_authority": null,
+        "id": "ec7c5151bf",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZHFWSkU3YndnZV9pODIyVEMwVWgteGVwaDBlb2I3aVp2cjRLWENuOHI1b3l4bWVjU3hCVWc3UVNjbjRlQzVPd2M3Ty0wYlExbHBWZ0p1SkFXNEtHYnVQbTNuQkJSTGRlLTNueUZ2S1VkQmYxZ0VUZ1pGNFowcUxmcEtnZzlINUVkV3c?oc=5",
+            "published_at": "2026-11-01T08:06:16.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Embraer ERJ-145LR İnişte Pistten Çıktı (Runway Excursion)",
+        "summary": "Embraer ERJ-145LR tipi N917JX tescilli uçak iniş esnasında pist dışına çıktı. Olayda yaralanma bilgisi verilmedi, soruşturma başlatıldı.",
+        "why_it_matters": "Pist dışına çıkma (runway excursion) risklerinin ve teker koyma sonrası frenleme/yön kontrolü prosedürlerinin önemini vurgular.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Embraer ERJ-145LR",
+          "runway excursion",
+          "olay"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": null,
+        "location": "Bilinmiyor",
+        "aircraft_type": "Embraer ERJ-145LR",
+        "registration": "N917JX",
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "landing",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [
+          "runway excursion"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "8d426f4496",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oRk5BNERWeEg5d2k0c0M3MDUtSG5mRXBlRmZSZGdYTDc1cUxNeURGaGJ5Sk0zYzJvMHQ2NzNwZ3pJVU92ZktJd18zWWZvNDN6OVlsRmJ3?oc=5",
+            "published_at": "2026-11-02T02:55:35.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "FAA Boeing 787 ve 747 Uçakları İçin Yakıt Tankı İnceleme Direktifi Yayımladı",
+        "summary": "FAA, 7 Aralık'tan itibaren yürürlüğe girmek üzere Boeing 787 ve Boeing 747 uçaklarında yakıt tankı denetimleri yapılmasını zorunlu kılan bir uçuşa elverişlilik direktifi (AD) yayımladı.",
+        "why_it_matters": "Yakıt deposu emniyeti ve yangın önleme standartları açısından operatörlerin MEL ve bakım takvimlerini etkilemektedir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "FAA",
+          "AD",
+          "Boeing 787",
+          "Boeing 747",
+          "yakıt tankı"
+        ],
+        "subcategory": "safety_alert",
+        "regulators": [
+          "FAA"
+        ],
+        "operational_takeaway": "Filosunda Boeing 787 ve 747 bulunduran operatörlerin ve teknik personelin 7 Aralık öncesi direktif gereksinimlerini bakım planlamalarına entegre etmesi gerekmektedir.",
+        "id": "94507f689e",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPaWxKOUlLdFVfTi0ydUFnZ1UxdjU2OVZGdDJmaXltXzRTZ1poRDlTb0Y4VldtOUxndGk3RDlyRFAzdG4za3djNEg4cHB3WmhKYzhkZHJuSVhGUzlxaDVGV19zN1lJZjh3b21VU1o0dF9pdUVQS0x0VjJMeXljck5NRi1KQ20xV1oydFJ1eERCMmp6ZUZrYm1zcGFWQ1ktS2xtVUZMWHR4bUdnUHFJLTdzWEVSRlE2NmdWMWgzT3IyQ1VmNWhMLWo2bEFuQTRYR1g5cUtPcGVyUHlJZFNPME1DYXRmNmZ2UWwyNkVaczVKaw?oc=5",
+            "published_at": "2026-11-02T00:20:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "THY Uçuş İşletme Başkanlığı'nda Devir Teslim: Kaptan Süleyman Ersin Öztopal Göreve Başladı",
+        "summary": "Türk Hava Yolları Uçuş İşletme Başkanlığı görevine Kaptan Süleyman Ersin Öztopal getirildi. Öztopal, göreve başlama mesajında pilotlara operasyonel disiplin ve emniyet vurgusu yaptı.",
+        "why_it_matters": "Türkiye'nin bayrak taşıyıcı havayolunda uçuş operasyon yönetimi ve CRM/SOP kültürünün sürdürülmesi açısından önemlidir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "Uçuş İşletme",
+          "pilotaj",
+          "yönetim"
+        ],
+        "subcategory": "training_crm",
+        "regulators": [
+          "None"
+        ],
+        "operational_takeaway": "Uçuş emniyeti standartlarının ve kokpit içi iletişimin üst yönetim seviyesinde birincil öncelik olarak vurgulanmaya devam etmesi.",
+        "id": "c3610c92b3",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeFhpOVEtZnpfMU9maXNfSTVwSUp2V240THRRa2djcmhSRTRDbldabjFzZUlneXVYRU9zMkFMaC1IdlRaczB3STVHa0dWaVpJS25OSTRBcUhjb3l3a2pyMm94TzFITUc0VkNVOTJnaHk3a2owR05FVTBpU25pU3NUWDVsNm9waXctREFGNXpRUEdEbTR3eFdBT21HTk9jZnl2TG5qbjZiY3hOV0ZWdDFF?oc=5",
+            "published_at": "2026-11-01T20:08:12.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Kalkış Öncesi Kabin ve Emniyet Prosedürleri: El Bagajı Yerleşimi",
+        "summary": "Uzun menzilli uçuşlarda kalkış öncesi kabin ekibinin emniyeti sağlamak adına yolculardan öncelikle el bagajlarını ve kişisel eşyalarını kilitli alanlara yerleştirmelerini talep etme zorunluluğu vurgulandı.",
+        "why_it_matters": "Acil tahliye durumunda kaçış yollarının açık tutulması ve olası turbülansta serbest cisimlerin yaralanmalara yol açmasının önlenmesi için kritik bir SOP adımıdır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "SOP",
+          "kabin emniyeti",
+          "kalkış",
+          "bagaj"
+        ],
+        "subcategory": "sop_procedures",
+        "regulators": [
+          "None"
+        ],
+        "operational_takeaway": "Kalkış ve iniş gibi kritik uçuş safhalarında kabin emniyeti standartlarına eksiksiz uyum sağlanması tahliye güvenliği açısından hayati önem taşır.",
+        "id": "74a2093e92",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/items-cabin-crew-ask-passengers-to-stow-away/",
+            "published_at": "2026-11-02T02:00:17.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "OpenAI ChatGPT ve Codex Platformlarında Kullanım Limitlerini Birleştirdi",
+        "summary": "OpenAI, kullanıcıların ve geliştiricilerin ChatGPT ile Codex araçları arasındaki kullanım haklarını tek bir havuzda birleştirdiğini duyurdu. Yeni düzenlemeyle kotalar iki platform arasında ortak tüketilecek.",
+        "why_it_matters": "Kodlama ve genel LLM kullanımı yapan geliştiricilerin kaynak planlamasını doğrudan etkiler.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "OpenAI",
+          "ChatGPT",
+          "Codex",
+          "limit",
+          "geliştirici"
+        ],
+        "subcategory": "dev_tools",
+        "entities": [
+          "OpenAI",
+          "ChatGPT",
+          "Codex"
+        ],
+        "developer_impact": "Geliştiriciler ChatGPT ve Codex üzerindeki token ve istek kotalarını tek bir bütçe üzerinden daha esnek bir şekilde yönetebilecek.",
+        "id": "4edad4186d",
+        "sources": [
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVXlabXh1MWFtTlJjbmJNZmZ1MlRfczh2RFIyT3ZOdDQxNDNtQUtfOF9keFdXMmtTZDFIN0xvenVELXNNYVdsQzZnT3Jud3phMTcxTVEtanVsRmJZeXJZYlI4RVRySkpwQmUxT3JjVGJUTlNQNDF0LXJiSkF2aDdBRzczbVhyVXlHNzNpZlp6UWpyQTg?oc=5",
+            "published_at": "2026-11-02T00:51:15.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTUV1YzR2cVpHWU9QZGNpdjhHRjFBVTU5VXdxUFlsa1Vld3BlM21NNkp1S3BjQW12N0pLbWUxX1VwXzFRVm9UZFpjRk9VNktUR2lVWWJBbkxRa2dtXy01RFhXZ0lwb3BBaW5sSWxhaGdudzJRZzZ0RldfNDF5OHJaLWVqUlZOU3dkYWVNUm9hVE05WjlETlFEeTJn?oc=5",
+            "published_at": "2026-11-01T08:46:25.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "OpenAI Veri Merkezlerini 'Yapay Zeka Hesaplama Kampüsü' Olarak Yeniden Adlandırmayı Planlıyor",
+        "summary": "OpenAI'ın, tepki çeken veri merkezi algısını değiştirmek ve kamuoyu kabulünü artırmak amacıyla tesislerini 'AI Compute Campuses' olarak markalamayı değerlendirdiği bildirildi.",
+        "why_it_matters": "Altyapı yatırımlarında kamuoyu ilişkileri ve yerel bölge uyum stratejilerini göstermektedir.",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "OpenAI",
+          "veri merkezi",
+          "altyapı",
+          "halkla ilişkiler"
+        ],
+        "subcategory": "infrastructure_chips",
+        "entities": [
+          "OpenAI"
+        ],
+        "developer_impact": "Büyük ölçekli veri merkezi yatırımlarının bölgesel onay süreçlerine dair stratejik yaklaşımları ortaya koymaktadır.",
+        "id": "4e2ce608ab",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+            "published_at": "2026-11-01T21:55:23.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Ekonomist Raporu: Çoğu Şirket Yapay Zekadan Henüz Finansal Getiri Elde Edemedi",
+        "summary": "Apollo ekonomistinin analizine göre, kurumsal yapay zeka yatırımlarının büyük çoğunluğu henüz şirketlerin finansal bilançolarına net bir getiri (ROI) sağlamadı.",
+        "why_it_matters": "Şirketlerin yapay zeka bütçelerini daha rasyonel ve somut fayda odaklı yönetmesi gerektiğine işaret eder.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Yapay Zeka",
+          "ekonomi",
+          "ROI",
+          "kurumsal"
+        ],
+        "subcategory": "research",
+        "entities": [
+          "Apollo"
+        ],
+        "developer_impact": "Geliştiricilerin üretim ortamına sunacağı yapay zeka projelerinde doğrudan maliyet/fayda optimizasyonuna odaklanmasını gerektirir.",
+        "id": "d0a67208f4",
+        "sources": [
+          {
+            "name": "Hacker News (AI)",
+            "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+            "published_at": "2026-11-01T22:10:45.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Minecraft'ta Eş Güdümlü Çalışan Yapay Zeka Agent Swarm'ları Bürokrasi Nedeniyle Başarısız Oldu",
+        "summary": "Minecraft ortamında uygarlık kurması amacıyla salınan 50 agent'lık yapay zeka sürülerinin, aşırı koordinasyon ve karmaşık bürokrasi döngülerine girerek başarısız olduğu rapor edildi.",
+        "why_it_matters": "Multi-agent (çoklu ajan) mimarilerinde aşırı haberleşme ve karar alma kilitlenmelerinin (deadlock) çözülmesi gerektiğini ortaya koyar.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "AI Agents",
+          "Minecraft",
+          "swarm intelligence",
+          "araştırma"
+        ],
+        "subcategory": "research",
+        "entities": [
+          "Minecraft",
+          "AI Agents"
+        ],
+        "developer_impact": "Çoklu agent sistemleri tasarlayan mühendisler için karar alma hiyerarşisinin ve bürokratik kilitlenmelerin önlenmesinin önemini kanıtlamaktadır.",
+        "id": "b4fea06836",
+        "sources": [
+          {
+            "name": "Hacker News (AI)",
+            "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+            "published_at": "2026-11-01T13:47:24.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "JavaScript Framework'lerinin Yapay Zeka Kod Üretimine ve Token Maliyetine Etkisi",
+        "summary": "Yapılan analizde, farklı JavaScript framework'lerinin LLM'ler tarafından kod üretimi sırasındaki token tüketimi ve kod kalitesi üzerindeki etkileri incelendi.",
+        "why_it_matters": "AI destekli kod üretimi kullanan geliştiricilerin kütüphane ve framework seçimlerinde maliyet etkinliğini değerlendirmesini sağlar.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "JavaScript",
+          "LLM",
+          "token maliyeti",
+          "geliştirici araçları"
+        ],
+        "subcategory": "dev_tools",
+        "entities": [
+          "JavaScript"
+        ],
+        "developer_impact": "Framework mimarisinin sadeliği, AI kod üreticilerinin token verimliliğini ve doğru kod üretme başarısını doğrudan artırmaktadır.",
+        "id": "aa086ed7cf",
+        "sources": [
+          {
+            "name": "Hacker News (AI)",
+            "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+            "published_at": "2026-11-01T06:06:19.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [],
+  "meta": {
+    "rss_feeds_ok": 13,
+    "rss_feeds_failed": [],
+    "rss_items_fetched": 156,
+    "rss_items_used": 68,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 80711
+  }
+}
