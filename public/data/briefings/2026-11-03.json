@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T05:49:53.686Z",
+  "window": {
+    "from": "2026-11-02T05:47:33.162Z",
+    "to": "2026-11-03T05:47:33.162Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "Boeing Güvenlik İçin 1 Milyar Dolar Yatırım Planlıyor; RyanAir İlk 737 MAX 10'unu Ocak Ayında Alacak",
+  "tldr": [
+    "Boeing, emniyet süreçlerini güçlendirmek amacıyla 1 milyar dolarlık dev bir yatırım yapmaya hazırlanıyor.",
+    "Busan uçağında kalkış sonrası yaşanan yakıt kontrol problemi nedeniyle acil durum ve teknik inceleme başlatıldı.",
+    "Ryanair, ilk Boeing 737 MAX 10 teslimatını 2027 yılının Ocak ayı sonu itibarıyla almayı planlıyor.",
+    "Anthropic, yapay zeka modellerinin kendi kendilerini geliştirme (RSI) eşiğine çok yaklaştığını duyurdu."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Boeing Güvenlik Odaklı Çalışmalar İçin 1 Milyar Dolar Yatırım Yapacak",
+        "summary": "Kaynaklara göre Boeing, operasyonel emniyeti artırmak ve güvenlik kültürünü pekiştirmek amacıyla 1 milyar dolarlık fon ayırma kararı aldı. Şirket, üretim kalitesi ve kalite güvence süreçlerine yönelik adımlarını hızlandırıyor.",
+        "why_it_matters": "Üreticinin güvenlik bütçesini artırması, uçak teslimat standartlarını ve filo güvenilirliğini doğrudan etkiler.",
+        "importance": 5,
+        "confidence": "preliminary",
+        "tags": [
+          "Boeing",
+          "Safety",
+          "Manufacturing"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing"
+        ],
+        "id": "d9b0f6681e",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lRFM1eDItWlZIV1RVUHp3UWg2eXVLdVBSazV3blNjaTBwQXUxSDlGRkdEZkdhY1AyVW4wM2ZFRjZkeW1BMmRJczZhbzliVDRTU0w4bS13QVdfSGFl?oc=5",
+            "published_at": "2026-11-03T05:01:55.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Ryanair İlk Boeing 737 MAX 10 Teslimatını Ocak Ayında Alacak",
+        "summary": "Avrupalı düşük maliyetli havayolu Ryanair, uzun süredir beklenen ilk Boeing 737 MAX 10 uçağını 2027 yılının ocak ayı sonlarında teslim almayı hedefliyor. Operasyonel planlamalar bu takvime göre güncelleniyor.",
+        "why_it_matters": "Yeni nesil yüksek kapasiteli dar gövde uçağın filoya girişi, havayolunun maliyet ve koltuk arzı dengesini değiştirecektir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Ryanair",
+          "Boeing 737 MAX 10",
+          "Fleet"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Ryanair",
+          "Boeing"
+        ],
+        "id": "b9b78f82fc",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQR1hmeUpOSXE0b0oyRk5qaTZVQTBucFRsNmw0VTRURmd0SzBCdkE5NS05Q2drdXZQM1U5VVpPWE9NUGM5RVFsZDNfVTN1cjczT040SXFKdXJ5X1pvd2ZobUtydXVQaEx5MDNyY1RKUXl1M2NZTUEyMXVqdm5pX1BVY0JhUGRsVjFMN0F2R2RxQWNUYWpsQWY5MFZRME81Mkk?oc=5",
+            "published_at": "2026-11-02T13:35:13.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Boeing, Çin Ticari Filosunun Önümüzdeki 20 Yılda İkiye Katlanacağını Öngörüyor",
+        "summary": "Boeing tarafından yayımlanan pazar projeksiyonlarına göre, Çin'in ticari havacılık filosu önümüzdeki yirmi yıl içinde iki kattan fazla büyüyecek. Bölgedeki yolcu talebi artışı geniş gövde ve dar gövde uçak ihtiyacını tetikliyor.",
+        "why_it_matters": "Asya-Pasifik pazarındaki büyüme hızı, global uçak üretim planlamasını ve OEM sipariş defterlerini doğrudan şekillendirir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "China",
+          "Market"
+        ],
+        "subcategory": "market_finance",
+        "entities": [
+          "Boeing"
+        ],
+        "id": "c9f5f6821a",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZkUxZDBQcXdiZVFBQ0dyN0VTQjh1amJHYkxwVkloNXZ6NnV2T3JjVXNHdFNYampZRjFOWWFSQzJKY1lOWlVabGZUYU5RWHNNX2VMdHdTblUwUVVfWjN5aTZIaFNMVkxkdjMzejFtR2RjOVpOU3pJYXl0eGRnTUdiYVpzejR4UW5HQTNFd2F2TnllODFqOThseE1tZG12ZUoybWprM2UzamwtLUdYRVgzaEM3NjFhSzdwa1ZLNWlYRzlfWFNaOVZWaG93?oc=5",
+            "published_at": "2026-11-03T04:06:07.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Icelease, Üç Adet Boeing 767-300BCF Dönüşümü İçin Anlaştı",
+        "summary": "Kargo pazarına yönelik talep artışını karşılamak amacıyla Icelease, üç adede kadar Boeing 767-300BCF (Boeing Converted Freighter) kargo uçağı dönüşümü için Boeing ile anlaşma imzaladı.",
+        "why_it_matters": "Eski yolcu uçaklarının kargo konfigürasyonuna dönüştürülmesi, kargo operatörlerinin kapasite yönetimi açısından kritik önem taşır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing 767",
+          "Cargo",
+          "Conversion"
+        ],
+        "subcategory": "cargo_mro",
+        "entities": [
+          "Boeing",
+          "Icelease"
+        ],
+        "id": "ba6467fc73",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNU9FSE9hZFp6bUpZZkljaGN6V3BBWjhLVlpXQU15ZXEwT3JyV29fajVqUnZjSG9MTmtNMlNyeDVPcUN3NnVHTnIyc0tsS0NqVUo1VV9ia1Z3cjNEdjZ2b0c4S3k4NC1LQkNWaUZjYzBCcHdvNlExU3BlSFg3aEduZUwxcHlvWmlTUUhKckZFbDlNTFd1ckNKUXpqb0tsbzgyYVBNRVFTTXQxNVl1ek1VNVFLcGpBWmRFWlI00gHAAUFVX3lxTE5EblF2b1l6M2VLNkIwRFpxNzEyeXJKZURqMjlpQk9SYkItZ2tnWmg3SjNrRUdxYmxvbHhmNXJTd2pqdWw2QmhUd19QNlVQQjVMVzdmWTMwNU1pYmlJSHdNOE1ZOHJWMzdVUkZoUW4zcUtFZGVwdEo2aUhDaWZ4TFNBUDQ0dks4QjNFbnJXVG1WVmVMUlNNTlNCeFduNnlTb0xaSmdSYXktbE9QTmNfT0U3bGk0YnotVllBOWlFRndPcQ?oc=5",
+            "published_at": "2026-11-03T02:22:34.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQc3JwV3JyLTJNNC0xZk5TM3JpdWMtalJLb01IVU55VlFCNmlnMTZJZEVHOVc3UVhuQ1NFZ3BzeWI0QmMxenVjemFnNkVnSEZiNDY5RmFpdVprdFlkYmdiQ0lXSU42M1lQcllWLXMtaDhkWU0wd0FHNjJ2U1VlenJkbnMyanROd3RaZldzZVViWGJhcGJ1SG5jQzdSOF83cTNTTnpJcWln?oc=5",
+            "published_at": "2026-11-02T15:30:16.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "Busan A321 Uçağında Kalkış Sonrası Yakıt Kontrol Problemi Yaşandı",
+        "summary": "Busan işletmesindeki bir Airbus A321, 2 Kasım 2026 tarihinde Busan yakınlarında uçuş esnasında fuel control (yakıt kontrol) problemiyle karşılaştı. Uçuş ekibi durumu yöneterek güvenli prosedürleri uyguladı.",
+        "why_it_matters": "Yakıt sistemi arızaları, motor beslemesi ve EICAS/ECAM uyarılarının zamanında yönetilmesi açısından kritik operasyonel dersler barındırır.",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "Airbus A321",
+          "Fuel System",
+          "Incident"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-02T17:43:34Z",
+        "location": "Busan, Güney Kore",
+        "aircraft_type": "Airbus A321",
+        "registration": null,
+        "operator": "Busan",
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [
+          "Fuel control problem uyarısı veya arızası"
+        ],
+        "operational_findings": [
+          "Uçuş esnasında sistem izleme ve prosedür uygulaması"
+        ],
+        "investigation_status": "not_started",
+        "investigating_authority": null,
+        "id": "4de6003741",
+        "sources": [
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBab3dOeFFMa19HbjQ5cjJTTkRhR3NvanJvSDQtVjVCVk5jaVkwRjVqcjNJRjFTOUZ0SVNrOFR0OC16Q1UxMC1PbDNuVkJpQ2VHbnRaaWVyV1Q?oc=5",
+            "published_at": "2026-11-02T17:43:34.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [],
+    "ai_developments": [
+      {
+        "headline": "Anthropic: Yapay Zekada Kendi Kendini Geliştiren Sistemler Eşiğindeyiz",
+        "summary": "Anthropic, yapay zeka modellerinin kendi kendilerini eğitme ve geliştirme (RSI - Recursive Self-Improvement) yeteneğine ulaşmaya çok yakın olduğunu uyardı. Bu durum yapay zeka yeteneklerinde dramatik bir ivmelenme yaratabilir.",
+        "why_it_matters": "Kendi kendini geliştiren modeller, yapay zeka güvenlik standartları ve kontrol mekanizmaları açısından endüstride dönüm noktasıdır.",
+        "importance": 5,
+        "confidence": "confirmed",
+        "tags": [
+          "Anthropic",
+          "RSI",
+          "Safety"
+        ],
+        "subcategory": "policy_safety",
+        "entities": [
+          "Anthropic"
+        ],
+        "developer_impact": "Model güvenliği, alignment testleri ve otonom kod/altyapı üretim sınırları yeniden tanımlanacaktır.",
+        "id": "a141fc46bf",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+            "published_at": "2026-11-02T22:14:50.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "OpenAI, ChatGPT İçin Chat ve Work Sekmelerini Birleştiriyor",
+        "summary": "OpenAI, ChatGPT platformundaki Chat ve Work sekmelerini tek bir yapıda birleştirme kararı aldı. Bu değişiklik sonrasında ChatGPT ve Codex, ortak bir token ve kullanım havuzundan kaynak tüketecek.",
+        "why_it_matters": "Geliştiriciler ve kurumsal kullanıcılar için kaynak yönetimi, kota takibi ve iş akışı entegrasyonu basitleşiyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "OpenAI",
+          "ChatGPT",
+          "Codex"
+        ],
+        "subcategory": "dev_tools",
+        "entities": [
+          "OpenAI",
+          "ChatGPT",
+          "Codex"
+        ],
+        "developer_impact": "API ve arayüz kullanım kotası ortak havuza geçeceği için maliyet ve limit takibi tek merkezden yönetilecektir.",
+        "id": "c26207d93c",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+            "published_at": "2026-11-02T13:57:53.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Oracle Yapay Zeka Altyapısı İçin 20 Milyar Dolarlık Hisse ve Tahvil Satacak",
+        "summary": "Oracle, veri merkezi ve yapay zeka altyapı yatırımlarını finanse etmek amacıyla 20 milyar dolar tutarında yeni hisse ve tahvil satış başvurusunda bulundu.",
+        "why_it_matters": "Yapay zeka modellerinin eğitim ve çıkarım (inference) maliyetleri için gereken donanım ve veri merkezi yatırımlarının devasa boyutunu gösterir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Oracle",
+          "Infrastructure",
+          "Funding"
+        ],
+        "subcategory": "infrastructure_chips",
+        "entities": [
+          "Oracle"
+        ],
+        "developer_impact": "Bulut bilişim altyapı kapasiteleri ve GPU erişilebilirlik maliyetleri uzun vadede şekillenecektir.",
+        "id": "df3c118a20",
+        "sources": [
+          {
+            "name": "Hacker News (AI)",
+            "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+            "published_at": "2026-11-02T19:27:37.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [],
+  "meta": {
+    "rss_feeds_ok": 13,
+    "rss_feeds_failed": [],
+    "rss_items_fetched": 160,
+    "rss_items_used": 106,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 140525
+  }
+}
