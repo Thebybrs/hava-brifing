@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T05:53:50.867Z",
+  "window": {
+    "from": "2026-11-03T05:52:09.426Z",
+    "to": "2026-11-04T05:52:09.426Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "THY 2026 üçüncü çeyreğinde 929 milyon dolar esas faaliyet kârı açıkladı, Lufthansa TAP Air Portugal'ı satın alıyor",
+  "tldr": [
+    "THY, 2026 yılının üçüncü çeyreğinde 929 milyon dolar esas faaliyet kârı elde etti ve 9 aylık net hasılatını 21,42 milyar dolara taşıdı.",
+    "Lufthansa Group, Portekiz hükümetiyle imzaladığı anlaşmayla TAP Air Portugal'ın %44,9 hissesini yaklaşık 1,2 milyar dolara satın aldı.",
+    "Frankfurt Havalimanı'nda bir Lufthansa Boeing 787 uçağının burun dikmesi çökmesi sonucu çalışanlar yaralandı.",
+    "Postman uygulamasının kullanıcı izni olmadan yapay zeka eklentileri yükleyip API verilerini paylaşmaya çalışması toplulukta tepki çekti."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "THY 2026 üçüncü çeyreğinde 929 milyon dolar esas faaliyet kârı açıkladı",
+        "summary": "Türk Hava Yolları, 2026 yılının üçüncü çeyreğinde 929 milyon dolarlık esas faaliyet kârına ulaştı. Şirketin ilk 9 aydaki toplam net hasılatı 21,42 milyar dolar olarak gerçekleşirken, ortaklıklarından SunExpress kârında düşüş, TGS'de ise artış kaydedildi.",
+        "why_it_matters": "THY'nin finansal performansı, küresel havacılık pazarı ve filo yatırımlarının sürdürülebilirliği açısından kritik göstergedir.",
+        "importance": 5,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "finans",
+          "bilanço",
+          "Q3"
+        ],
+        "subcategory": "market_finance",
+        "entities": [
+          "Türk Hava Yolları",
+          "SunExpress",
+          "TGS"
+        ],
+        "id": "f092e5761e",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOejlDa0l1SFpWVDN3aWx0YmtTTnluWjJfbWpzU2hnOFhjVlhkQUw0SGZ6QUlETVJFSGRhZEtpNTRQenlsSHp3TmJoczJCaWNQaVJfLUxTaDdXcGNKckRfSjd2TUhSVWZweTNVYWtHMDlndG1VUXJTendkb1RMYVdEVy0xSUozek50UWJfR1VVZzJjVlNkTHUzLXJUZjA2RHJO?oc=5",
+            "published_at": "2026-11-04T05:39:53.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWjk5ZV9TSVRJQmZnMU1TakNMN0tpQlBlVWJBMHBOY3VHV1lmMjhVMEdHSXcyM3JlUTY3NmVqMmFXcFF2dms4ZFF6dGtKcDVzQWJwMTNwX05vRFJnUl9yWjd3UlQtMFRGWDJWd3pUaldFMkhCWjZYb3dyRDViMndzOXdPN1ktRFdscm9vNzBiVzA5eThGMFZvZ1pB?oc=5",
+            "published_at": "2026-11-04T05:27:32.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0wT1ZETktDQlNva2FoaU1BVlJBal9SbkVKNmRSbVFZQklDN05fZDdDYnVZYl92T0tzaGdOcFhQSTNlanJvZFlMZE9zQ0tGRFNhaUJEZnJWbGNJSHlxUUV5dVp4ZmZoLTVpb21ydDFlSmdJdVF2MEtvLQ?oc=5",
+            "published_at": "2026-11-04T05:15:20.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNWE42eHN3eW9tVlI3VUdNQUhqdmwxbjZaYzd4MzNEU1hKM21RVmI4ZVVBaTYyaHdfZkdBcjREb0drdFMyZXNXZFVVdDdyWFBXaXNwUXhhY1ZaNWxhNWEyQVdUbmVtbkIwb0dDejRwUDBoUmJnTnI1SlhGY1M2S2F4MHFTRnkyaGRfajljdExvNVcxSlN4WU9MZFJILW5FVmNwVkpaU3BLNzRrUDIzMnU0SjVqZ1h3UzNVOWItSHZvRnppcG1aM2o5U1lSai13WnlxNHFnZlY1TEYzMUll?oc=5",
+            "published_at": "2026-11-04T05:05:57.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Lufthansa Group, TAP Air Portugal'ın %44,9 hissesini satın almak için imza attı",
+        "summary": "Lufthansa Group ve Portekiz hükümeti, Alman havacılık devinin TAP Air Portugal'ın %44,9 hissesini 1,025 milyar euro (yaklaşık 1,2 milyar dolar) karşılığında devralması için resmi anlaşmayı imzaladı. İşlem regülasyon onaylarına tabi bulunuyor.",
+        "why_it_matters": "Avrupa pazarındaki konsolidasyon hareketleri, havayolu ittifakları ve rota ağları üzerinde doğrudan etkilidir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Lufthansa",
+          "TAP Air Portugal",
+          "birleşme"
+        ],
+        "subcategory": "market_finance",
+        "entities": [
+          "Lufthansa Group",
+          "TAP Air Portugal"
+        ],
+        "id": "26659891b9",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/lufthansa-signs-12b-deal-purchase-449pc-tap-air-portugal/",
+            "published_at": "2026-11-03T20:52:16.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLUFyaWJfckwwU01tY1RJb0JSR0kzSjNyVExfSUJvZGV6Umd1c01EX0hZS2Zfb0FIWHNZeUlaZTJtQnZDd2djbmgwX0tLM2puaHF2YUZUUEFIeGQtZnNJUGJmQnVBYTJLY3h0WTR0NVBiTkp1MmJZaFpLZllzd3NHX3kzT2E4ODd2ZDNNZ2JhQVlUQU5pNXZWRVZ2MA?oc=5",
+            "published_at": "2026-11-03T18:09:27.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVzVhRllyd0U3dW56bFdlcEg2VGVVMFlKbDNSbDRfYVA2cHcxYl81aFB2YTRGN0RQcFdhQ09SUGtQa2Z4QkJJN0VMWXlPQklhZGZLeG9TMVdkU2JNM2ZUeEhjS01FdUNQdnBKVjFHZGpyVDdjQVNhZXNfLUNWVm0xMUU4LVY0ZlNQbUttOUFyczBNZ05rN0dkWTdIZFdCX3BBaFZCak84UkFERDcySEtEa1VOZncxY21WLVBYdEJ0MjVOdUJPRHZ3QUdaZS0?oc=5",
+            "published_at": "2026-11-03T13:28:24.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "Lufthansa Boeing 787'nin Frankfurt Havalimanı'nda burun dikmesi çöktü",
+        "summary": "Frankfurt Havalimanı'nda park halindeki veya operasyon sırasındaki bir Lufthansa Boeing 787 uçağının burun dikmesinin (nose gear) çökmesi sonucu çalışanlar yaralandı. Olayla ilgili teknik inceleme ve soruşturma süreci başlatıldı.",
+        "why_it_matters": "Geniş gövdeli uçaklarda meydana gelen zemin arızaları bakım prosedürleri ve operasyonel emniyet açısından önem taşır.",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "Boeing 787",
+          "Lufthansa",
+          "dikme çökmesi",
+          "Frankfurt"
+        ],
+        "occurrence_class": "ground_event",
+        "occurred_at_utc": null,
+        "location": "Frankfurt Havalimanı (EDDF), Almanya",
+        "aircraft_type": "Boeing 787-9",
+        "registration": null,
+        "operator": "Lufthansa",
+        "flight_number": null,
+        "flight_phase": "standing",
+        "occupants": null,
+        "fatalities": 0,
+        "injuries": null,
+        "technical_findings": [
+          "Burun dikmesinde çökme meydana geldi"
+        ],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "9dc90c01c0",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQWJ5SUQtY29BZ09jZnYyeFFLRk04ZTBqWTlqZnBxR1ludGl1cFpoeUFlR3A5b2sxdEVNZEU3b0NvRGJ5NHpyVkRZZFltVGZXcHF5d0RGOTZWU19KNnp6YmRERnJzY2dVSjZmRU85VEpwOWxWeERkVHNDX2xCcm5tVFNxeW1XOVFYOE9UUnIta0lpdzRqeHJ5WTVTakRRZm9xZ2V6TDcxVWQtLTDSAbABQVVfeXFMTTcwY2lWVVJUbVdvQUZLNkhhaHdLN3VEYWx1SGVUYkNnN2ZYYWxERkpFSXM3SkJuV0VPT3NNOWdRQTY2T2FPSzEzV2ZIaUwzTGQ0b3VIR1Y4TVZiU05OOW5Jc2FabGJSY284cnJMRHl3UXhqako5N3VPaWJsX203ZUhSekU3alJ3U251RTNrdXRxMGJiTDVQMTBLS3NCM09pZHU1a2xEd2NySUcxVEZhaEQ?oc=5",
+            "published_at": "2026-11-04T00:20:55.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "LATAM A320 uçağında line-up beklerken motor yangını çıktı",
+        "summary": "LATAM filosuna ait bir Airbus A320 uçağında, kalkış için line-up (pist başı sıraya girme) izni beklenirken motor yangını meydana geldi. Ekipler duruma müdahale ederken olay incelemeye alındı.",
+        "why_it_matters": "Motor yangını acil durum prosedürlerinin (Engine Fire/Severe Damage QRH) zamanında ve eksiksiz uygulanmasını gerektirir.",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "Airbus A320",
+          "LATAM",
+          "motor yangını"
+        ],
+        "occurrence_class": "serious_incident",
+        "occurred_at_utc": null,
+        "location": "Bilinmiyor",
+        "aircraft_type": "Airbus A320",
+        "registration": null,
+        "operator": "LATAM",
+        "flight_number": null,
+        "flight_phase": "pushback_taxi",
+        "occupants": null,
+        "fatalities": 0,
+        "injuries": 0,
+        "technical_findings": [
+          "Motor yangını meydana geldi"
+        ],
+        "operational_findings": [
+          "Uçak line-up izni bekliyordu"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "2fd4aa820e",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNEY4LXJUZzMySFdDZHh5Q0lkOERDRmh5OHJMTXlLZmhvSkI2cVYzYlFjcmZhdGt1dGpOOHRNVXZDaUV6ajdBWUU3WVR0WFUzMHZUNllMbExlQmIxNGY4TTkwQUFGRDdJbzh3WUVCWUJHb25OZWhMeWljUHA4WGJ4ZG9iNUItRW1kdFBEaTdPdVhjc2lWQUtwNmxmUC1uak5SX0tqVURjelZUYjVXTXJQeENHbXhrTXc?oc=5",
+            "published_at": "2026-11-03T10:35:36.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Air India Express 737 pistte backtrack yaparken donanma jeti kalkış yaptı",
+        "summary": "Air India Express şirketine ait bir Boeing 737 uçağı pist üzerinde backtrack hareketi yaparken, aynı anda bir donanma savaş uçağı kalkış gerçekleştirdi. Olay hava trafik yönetimi ve pist emniyeti açısından incelemeye alındı.",
+        "why_it_matters": "Pist ihlalleri (runway incursion) ve trafik çatışmaları pilotlar için situational awareness ve ATC talimatlarına uyumun kritik önemini gösterir.",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "Boeing 737",
+          "Air India Express",
+          "runway incursion"
+        ],
+        "occurrence_class": "serious_incident",
+        "occurred_at_utc": null,
+        "location": "Bilinmiyor",
+        "aircraft_type": "Boeing 737",
+        "registration": null,
+        "operator": "Air India Express",
+        "flight_number": null,
+        "flight_phase": "pushback_taxi",
+        "occupants": null,
+        "fatalities": 0,
+        "injuries": 0,
+        "technical_findings": [],
+        "operational_findings": [
+          "Uçak pistte backtrack yaparken donanma jeti kalkış yaptı"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "d7c96281d3",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYzhoSXlKV2ZlYXBwQldhTXJZVjNLUEZOZEs1YUluRjRhek1nYjI2SGk4RDZXNmUyb2tvb3Q2M2s5NUFJMDNrMUFkaUctS3JHTG9yYWlpVDdpSF9jcm9ZcWt5Q3Q5c0U2bUlacjFPVm9fWkczRzhtTmxTc1RfazhwZXlIZ1JzLUszSjVsQS12dTdaVHFpNzFZbFZaSkgyQ1B1WHozdGQ1REJPYlh6VlpyNU9nMmlaYXZQNzRBLQ?oc=5",
+            "published_at": "2026-11-03T09:27:14.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "ABD'de NFL maçındaki havai fişek gösterisi Black Hawk helikopterini tehlikeye attı",
+        "summary": "Seattle'da gerçekleşen bir NFL maçı öncesindeki pregame flyover sırasında, US Army'e ait bir Black Hawk helikopteri stadyumda patlayan havai fişeklerin çok yakınından geçti. Olay, düşük irtifa ve piroteknik entegrasyon risklerini gündeme taşıdı.",
+        "why_it_matters": "Stadyum ve kalabalık etkinlikleri üzerindeki askeri uçuşlarda hava sahası koordinasyonu ve emniyet protokollerinin ne kadar kritik olduğunu gösterir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Black Hawk",
+          "flyover",
+          "emniyet"
+        ],
+        "subcategory": "safety_alert",
+        "regulators": [
+          "FAA",
+          "Other"
+        ],
+        "operational_takeaway": "Düşük irtifa geçişlerinde (flyover) stadyum piroteknik gösterileri ve yer tabanlı riskler milimetrik olarakkoordine edilmelidir.",
+        "id": "99e2ff7bf0",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/us-army-black-hawk-helicopter-struck-fireworks-dramatic-nfl-flyover/",
+            "published_at": "2026-11-03T20:13:08.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "Postman'in izinsiz yapay zeka eklentisi kurması ve veri paylaşımı tepki çekti",
+        "summary": "Postman uygulamasının kullanıcı bilgisi olmadan arka planda yapay zeka eklentilerini otomatik olarak yüklediği ve tüm API verilerini paylaşmaya çalıştığı ortaya çıktı. Geliştirici topluluğunda güvenlik ve gizlilik endişeleri hızla yayıldı.",
+        "why_it_matters": "Geliştirici araçlarında otomatik AI entegrasyonlarının veri güvenliği ve hassas API anahtarlarının sızdırılması riskini barındırdığını gösterir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Postman",
+          "API",
+          "güvenlik",
+          "gizlilik"
+        ],
+        "subcategory": "policy_safety",
+        "entities": [
+          "Postman"
+        ],
+        "developer_impact": "Kullanılan geliştirme araçlarının arka planda veri paylaşım davranışları ve gizlilik ayarları sıkı bir şekilde denetlenmelidir.",
+        "id": "aad9a08fc6",
+        "sources": [
+          {
+            "name": "Hacker News (AI)",
+            "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+            "published_at": "2026-11-03T17:22:37.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Anthropic, yapay zeka modellerinin kimliğini kanıtlayan FlashProve sistemini geliştiriyor",
+        "summary": "Anthropic, kullanıcıların aldıkları bir yanıtın gerçekten iddia edilen yapay zeka modelinden gelip gelmediğini doğrulamasına olanak tanıyacak FlashProve adlı bir sistem üzerinde çalışıyor.",
+        "why_it_matters": "Model taklitçiliği ve güvenlik doğrulaması açısından yapay zeka ekosisteminde güven tesis etmeyi amaçlar.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Anthropic",
+          "FlashProve",
+          "güvenlik"
+        ],
+        "subcategory": "research",
+        "entities": [
+          "Anthropic"
+        ],
+        "developer_impact": "Model doğrulama ve kriptografik imzalama mekanizmaları gelecekteki API mimarilerine entegre edilebilir.",
+        "id": "340f379f30",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+            "published_at": "2026-11-03T22:41:03.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [],
+  "meta": {
+    "rss_feeds_ok": 13,
+    "rss_feeds_failed": [],
+    "rss_items_fetched": 166,
+    "rss_items_used": 100,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 101443
+  }
+}

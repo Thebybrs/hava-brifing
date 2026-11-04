@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-03T05:49:53.689Z",
-  "latest": "2026-11-03",
+  "updated_at": "2026-11-04T05:53:50.870Z",
+  "latest": "2026-11-04",
   "briefings": [
+    {
+      "date": "2026-11-04",
+      "path": "2026-11-04.json",
+      "headline": "THY 2026 üçüncü çeyreğinde 929 milyon dolar esas faaliyet kârı açıkladı, Lufthansa TAP Air Portugal'ı satın alıyor",
+      "counts": {
+        "commercial_aviation": 2,
+        "accidents_and_incidents": 3,
+        "piloting_and_ops": 1,
+        "ai_developments": 2
+      },
+      "has_fatal_accident": false,
+      "max_importance": 5,
+      "generated_at": "2026-11-04T05:53:50.867Z"
+    },
     {
       "date": "2026-11-03",
       "path": "2026-11-03.json",
