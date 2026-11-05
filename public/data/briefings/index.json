@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-04T05:53:50.870Z",
-  "latest": "2026-11-04",
+  "updated_at": "2026-11-05T05:55:32.563Z",
+  "latest": "2026-11-05",
   "briefings": [
+    {
+      "date": "2026-11-05",
+      "path": "2026-11-05.json",
+      "headline": "FAA'den Boeing 787 ve 747 için yakıt deposu denetim emri; THY 150 uçaklık Boeing siparişini kesinleştirdi.",
+      "counts": {
+        "commercial_aviation": 3,
+        "accidents_and_incidents": 1,
+        "piloting_and_ops": 2,
+        "ai_developments": 4
+      },
+      "has_fatal_accident": false,
+      "max_importance": 4,
+      "generated_at": "2026-11-05T05:55:32.558Z"
+    },
     {
       "date": "2026-11-04",
       "path": "2026-11-04.json",

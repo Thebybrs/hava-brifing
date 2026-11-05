@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T05:55:32.558Z",
+  "window": {
+    "from": "2026-11-04T05:54:25.019Z",
+    "to": "2026-11-05T05:54:25.019Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "FAA'den Boeing 787 ve 747 için yakıt deposu denetim emri; THY 150 uçaklık Boeing siparişini kesinleştirdi.",
+  "tldr": [
+    "FAA, Boeing 787 ve 747 modellerinde yıldırım düşmesine karşı yakıt deposu denetimi zorunluluğu getirdi.",
+    "THY, 929 milyon $ kâr açıkladığı 3. çeyrekte 150 uçaklık Boeing siparişini kesinleştirdiğini duyurdu.",
+    "Leasing firması Avolon, 140 adet Boeing 737 MAX 10 siparişini onayladı.",
+    "OpenAI, yeni görsel üretim yeteneklerine sahip Images 2.6 modelini duyurdu.",
+    "Meta, yazılım ekipleri için çoklu yapay zeka ajanı dağıtımı sunan Conductor girişimini satın aldı."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "THY, 150 Uçaklık Boeing Siparişini Kesinleştirdi",
+        "summary": "Türk Hava Yolları, 2026 yılı 3. çeyreğinde 929 milyon dolar esas faaliyet kârı açıklarken Boeing ile 150 uçaklık sipariş anlaşmasını kesinleştirdiğini duyurdu. Şirket toplam gelirlerini 8,3 milyar dolara yükseltirken filo genişleme stratejisini sürdürüyor.",
+        "why_it_matters": "Türk Hava Yolları'nın geniş ve dar gövde filo yapısını ve uzun vadeli büyüme stratejisini doğrudan şekillendirecek kritik bir hamledir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "Boeing",
+          "Sipariş",
+          "Filo"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Türk Hava Yolları",
+          "Boeing"
+        ],
+        "id": "41cb72d51e",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONnZ0Rm5KbUpuaHM2Q1hLV1Z5R3cwMmZ2eERqYXU4emlTbk5iX2M5SzdleWNVYzBodGdmMjllemViYkN1SEd5eGhrRkVyWGpLSlMzVjB4WXd3aVlyZklaV0tjUzhlbE0xeHVDUFJHSUhuaEJVd1lGbHR1dF94c0dZMGxBZ1ZkZlB0dzNkMXlyUnZhcnpyd2lvVFBRNXV0VGZmNEg4UzV4RDRHUVBMZUp4dFlSbU9Wdw?oc=5",
+            "published_at": "2026-11-04T19:57:37.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNN1ZCQ285MzNweWV0QzVFcTVXeGxLYjR4QW1ZMWdNLVVCdXRJOEFWYW9nVS13TmhKWmllU0Y0WHBrdWtHcVpxU0hOVGU3SmhnaGNmdVZuTGNwNFlQaWJpM1BYZ3BRS3lubUp5WnZ5QkxOWkhaR3V1U0paODFkaHBMNTJtQUJCUDFfanhKTl80b09XcENpMHVoZzNZYnNVbVFJT2FlQktlMi1HeDE0V0NTRVlhRzV1QVNVdElMc0lQWHI1RWVHZVc4YWthN1hNUldMeUJmUE80NUgtcmVGeHVN?oc=5",
+            "published_at": "2026-11-04T19:31:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONXVHb0pJUGJXWTM3TmZ5a2JRTlR0M1BMY1FXTk53QnlDd2h6MU1HRWkwTUxobDE3Rjc2eVJLaGk0a195cWxfSzA2MlJnY21PZE1pVjl3M2FIbGlSVmIwaGZScTh4bU1iZXhhTmJDbjJpU0Z4a3hmak14NXVlQVZocE94TFR5YVp0QURuRWJUTURnMmhUbGU3RFI3Q0lfcXY00gGcAUFVX3lxTE9ja1pxcVF6Uk16ZGV1R0RNaG1ZZlJETk1CYmR5d244LU54REtGU09RazF5RFFoaEFVYnQxR09ubUlYcWZJVG1MWnVUU3UyRUNLV1hZYzJBQW9aSEtORzdVNDU3eWJ2dTJZQl9lVndZSDJEMUFLc1NDZjhia0hVQTNpdVlLT19EakpSTmFwdTQ5aUQ0U3drWk84NTVYVg?oc=5",
+            "published_at": "2026-11-04T18:06:20.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Avolon, 140 Adet Boeing 737 MAX 10 Siparişini Kesinleştirdi",
+        "summary": "Leasing şirketi Avolon, FAA sertifikasyonu sonrasında 140 adet Boeing 737 MAX 10 uçağı kapsayan sipariş anlaşmasını tamamladı. Sipariş, Boeing'in MAX 10 programı için bugüne kadarki en büyük kiralama şirketi anlaşmalarından biri oldu.",
+        "why_it_matters": "Boeing 737 MAX 10 modelinin pazardaki kiralama ve teslimat ivmesini gösteren önemli bir filo ticari gelişmesidir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "737 MAX 10",
+          "Avolon",
+          "Lessor"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing",
+          "Avolon",
+          "Boeing 737 MAX 10"
+        ],
+        "id": "f9abaf5651",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPc0hReUNYQ3VXYUlrUFFfeGhOREFCV2NkMWR3YmFxNkQxSzN5MjFWSzlQWjNCdXJsbUp4Qk1nY3kwOTJvUzNZX1VXY3g1Tm9OQ3dsVFRhQjMycjREcnF6a1FnTjd6VUxjcTlzdWlhbEw4b21EU0lqTUsweFdiSThuVkN2U2Z6RFYzeXlPbnJybVZQdXpaRXBwQlp0RVlXVmJ1UTRwWQ?oc=5",
+            "published_at": "2026-11-05T01:00:02.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLUw3aHc4eHFudk1DUUtxTTd6dTlobXZGZHBxQS1uVzRrck55cVgzWmFyWkllU3Z4Vi0tMG9ydGNNcGppeFpRS0Flc2R1Qy04WEZHbDdRSlV4MGZGMkZvRE9lRk8zcm4yWThacDhPelh3dEIyTzdWdHgxMDRjWFkwY3l2RTBmMW5UUXp1dVMzMmVGSzB2d2ttMQ?oc=5",
+            "published_at": "2026-11-04T20:34:09.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOUDE4ckV4SC1GcTNWTDBmcmZLcERIbC1zbXNuQlE3aldmbGtvS2Jxb3MtLVlnUTVrbHVjWkg1MGs2RGxXbzFuNk4zWVp0ZzRmSEQybzhFSXExQVh4aDloTVRyTGtGM29TZUtvQ085UlZiSE5DdVF0bVRST0hkcTU3bFk3bUdXRk0xbFdYQVJrM3RyRWJRdjNzRW9INVBRcUU5NXRwYmd6SnFmeXM3YngzQzJkNng3SlZkRUJJYUIwN0dkSXBoc3ZyOTNVZGNZNG44TEJRQ3YtNW5XRlBraHY0d0RhM0FNWG1jZWRYbkUySnJBZVRRWWF4U0I3OUxFem5sOVBtdw?oc=5",
+            "published_at": "2026-11-04T18:26:06.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ0RwZFNBWmxIWXVZUFF5Y2ZRZHk0eEtmc0VUc0RyQ1AzYVRGYlJiOEJOUkxjVkVmUjRMZnhrUzRFVkhYaVExZVNvbmN3QVdSd0ZQclR2dzhOQXZ1NDhVTnRFcHJieUp2WjM1aDRSUHVYNVR1WFBoa0MyQ01fdElPTGVzMjlZV1N3ejFJeFMyVy1rWFozNV83MVl0czdZblExNEdZbS11R0l4blE?oc=5",
+            "published_at": "2026-11-04T10:32:11.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Qantas, 44 Adet Boeing 737-800 Uçağını AerFin'e Satıyor",
+        "summary": "Avustralyalı taşıyıcı Qantas, filosundaki 44 adet Boeing 737NG uçağının AerFin şirketine satışı için anlaşmaya vardı. Anlaşma, ikinci el dar gövde pazarındaki en büyük toplu uçak satışlarından biri olarak kayıtlara geçti.",
+        "why_it_matters": "Havayolunun filo yenileme stratejisini ve ikinci el Boeing 737 pazarındaki yüksek talebi yansıtmaktadır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Qantas",
+          "Boeing 737",
+          "AerFin",
+          "Filo"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Qantas",
+          "Boeing",
+          "AerFin",
+          "Boeing 737-800"
+        ],
+        "id": "c7b8aebfce",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVDBwU0UtcWVlUFlCVDdrajJqaUpiUUJndV9Jam1VenpQUTZDeGFSeWV5OEJWWEJmQ2laMlctcE0xYmZvSm1GZVpYeEN3V2VKZUM3b3lnUDAwUmpobDRucFRqMjI2ZE9OX25kTEsxN2lHLVExQ2l5dzNwNWctLWtXSDBYZW9Udw?oc=5",
+            "published_at": "2026-11-04T22:38:42.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNX2VEWGMwczQ4b2FURjZrYndDZ2RIaTlIbjdmd1NiX3VFMC10dFdQT1M3UUZWYzNxUWdFdEQzMzRlV01MUFJsVmF2QWVlNVFWQ0hyQkdXaC1pR3FrY0dKdkFmb3hadlM0WjZOUDVMaFdlNFFRVmoyOERCNlVvQ1BrSGlremhRc2FZNmV5MFZMb3dWOWJfVGtrR01tOHRkeS1aMjBOclNqRFFITXpuZmc?oc=5",
+            "published_at": "2026-11-04T12:46:58.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "Thai Airways Boeing 787-9 Uçağında Şanghay Yaklaşmasında Ön Cam Çatladı",
+        "summary": "Thai Airways'e ait HS-TWA tescilli Boeing 787-9 Dreamliner uçağının Şanghay (PVG) seferi sırasında kokpit ön camında (windshield) çatlak meydana geldi. Ekip inişi sorunsuz şekilde tamamlarken uçakta yaralanan olmadı.",
+        "why_it_matters": "Kokpit ön camı katmanlaşma hasarlarında QRH prosedürleri ve alçalma emniyet sınırlarının yönetimini vurgular.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing 787-9",
+          "Thai Airways",
+          "Cam Çatlaması",
+          "Incident"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": null,
+        "location": "Şanghay (PVG), Çin",
+        "aircraft_type": "Boeing 787-9",
+        "registration": "HS-TWA",
+        "operator": "Thai Airways",
+        "flight_number": null,
+        "flight_phase": "descent",
+        "occupants": null,
+        "fatalities": 0,
+        "injuries": 0,
+        "technical_findings": [
+          "Kokpit ön camında (windshield) çatlak oluşması"
+        ],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "cfbc858203",
+        "sources": [
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBZYjZQa2FqdWplX2lxRWhYazh1eXVjWnV5bXBZWktJY1hwWXlBQ0IxMkpxMmNaSWpwYVZueWhxbURwdFB0Y0ZyOGVycC1tTjIz?oc=5",
+            "published_at": "2026-11-04T15:58:18.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBeE9kTHNpdFZrMW5YZEpYMkZaVjhXRUZXTlJfVzNCdWlzVUN3ZF9SdFpBbndEUFNTOUc2NWtmMVFHdGp0VFBIUHdoOXAxelduNmd0M3Jn?oc=5",
+            "published_at": "2026-11-04T11:57:43.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "FAA, Boeing 787 ve 747 Modellere Yıldırım Kaynaklı Yangın Riski Sebebiyle Denetim Emri Verildi",
+        "summary": "FAA, Boeing 787 ve 747 uçaklarının yakıt depolarında yıldırım düşmesi durumunda olası tutuşma riskine karşı zorunlu denetim bülteni yayınladı. Karar, depolardaki koruyucu yalıtım ve topraklama sistemlerinin kontrol edilmesini şart koşuyor.",
+        "why_it_matters": "787 ve 747 uçuran ekipler ile teknik ekipler için uçuş emniyetini doğrudan ilgilendiren ve sistem emniyeti standartlarını belirleyen bir bültendir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "FAA",
+          "AD",
+          "Boeing 787",
+          "Boeing 747",
+          "Fuel Tank"
+        ],
+        "subcategory": "safety_alert",
+        "regulators": [
+          "FAA"
+        ],
+        "operational_takeaway": "Yıldırım çarpmaları sonrası ve periyodik bakımlarda yakıt deposu emniyet sistemlerinin Airworthiness Directive (AD) talimatlarına uygun kontrol edilmesi kritik önem taşımaktadır.",
+        "id": "639279ddc9",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObzVHRXhfZ2ZZbTRDOUdobDZNOTY0cldVNmdEQ09GUkI0YVBmR1p6eDlBbkxJbmpBQm1qaXJUa1lSS053Tm1SeEhqN0NQNEVWRU15RmRpNXhMd3JqQkc5UXdhUXg4b3VGNXN3MlVWb3M0TFhHLUpycWRnQmwyZklxX3FMZS0?oc=5",
+            "published_at": "2026-11-04T17:02:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZDdkcGhxdXRLUWJ3RDVIVTdEOU9tUTU0LXk3VGw0Ykt0TVpWNXBIMVgySlJXN1p1bEJQSTVQNnhaYWlubWEzQUJVcXJiMlpsbGIzSmI2bWhlT1RTQ1RMT01oX1JONDJ4MUpBT0ZlaFAxZXBKRTViLV9QblB1QjJPdnpiRTlodw?oc=5",
+            "published_at": "2026-11-04T09:54:09.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Airbus, Skywise Platformuna Dijital Pilot Eğitim Araçlarını Entegre Etti",
+        "summary": "Airbus, veri analitiği platformu Skywise portföyüne pilotlar için dijital eğitim ve performans takip araçlarını dahil etti. Yeni araçlar operasyonel verileri kullanarak kokpit ekiplerinin eğitim ihtiyaçlarını ve uçuş alışkanlıklarını analiz etmeyi amaçlıyor.",
+        "why_it_matters": "Evidence-Based Training (EBT) ve CBTA süreçlerinde dijital veri entegrasyonunun kokpit eğitimine katkısını gösterir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "Skywise",
+          "Pilot Training",
+          "EBT"
+        ],
+        "subcategory": "training_crm",
+        "regulators": [
+          "None"
+        ],
+        "operational_takeaway": "Uçuş verilerinin ve dijital araçların pilot eğitim değerlendirmelerine entegre edilmesi, CBTA/EBT süreçlerinde bireysel gelişim alanlarının net tespit edilmesini sağlar.",
+        "id": "496c538b71",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOOHhrY1BvaC1hZ0JUZWRmOHJQZXJURUtwaXVOZ19hVlZvcm1jQUowWUZ6Zkx3RWl5VXR4Rzk3MXBwNm9zZ3EyS0xIQzBHU1hIMk9xTVQwZjNoMmRMOHcwZDBjekNmWmFvMGlydmlIRk9vY2xLNXl2WGZ3Nlk2d3haRktaZ3RUbEJFWTdBN0ZwWHpuS2xlT2VVdUVPVkJ4MkNJdTMwWUZRSmpWd2ZCaTJCLTVOVzdKZjNIQjJmMFNEdGoybk4zRWNVWUZaQXJvUEk?oc=5",
+            "published_at": "2026-11-04T08:03:58.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "OpenAI, Görsel Üretim Modeli Images 2.6'yı Tanıttı",
+        "summary": "OpenAI, görsel üretimi ve düzenleme kabiliyetlerini artıran yeni Images 2.6 modelini ve ilgili System Card dokümanını duyurdu. Yeni sürüm, tutarlılık ve talimat takibi konusunda iyileştirmeler içeriyor.",
+        "why_it_matters": "Multimodal yapay zeka sistemlerinde görsel üretim kalitesi ve emniyet standartlarındaki güncel gelişmeleri temsil eder.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "OpenAI",
+          "Images 2.6",
+          "Multimodal",
+          "AI"
+        ],
+        "subcategory": "foundation_model",
+        "entities": [
+          "OpenAI",
+          "Images 2.6"
+        ],
+        "developer_impact": "API entegrasyonlarında daha yüksek talimat uyumu ve geliştirilmiş görsel tutarlılığı ile yeni multimodal uygulamalar geliştirilebilir.",
+        "id": "701cc733a6",
+        "sources": [
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aRllmMHFwSmtFNVhMV0dnNXpZa0RkejJ2bDkzYUlTLXRBaHF5TXd0VldHSEZxbWEyQ25EdlM1azgxV2p5dGs0cnZ2dG56ekEzQTJDY1FFWjN5MzZh?oc=5",
+            "published_at": "2026-11-05T02:29:04.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LMUdVVUNwbWJoMXRkNFBVQXRkQWl2NFRxLVludENLdDhDMHd6WjVhWmxCSy1PVlNWSlNIdnJicUplQUkyWDhsRVdBLWFTZDY5NXVkdTNveTNUbFhncUtrNmgxWUE?oc=5",
+            "published_at": "2026-11-04T23:43:35.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Meta, Çoklu Ajan Dağıtım Girişimi Conductor'ı Satın Aldı",
+        "summary": "Meta, yazılım mühendislerinin bir proje üzerinde eşzamanlı çalışabilen yapay zeka ajan ekipleri (agent teams) kurmasını sağlayan Conductor girişimini bünyesine kattı. Satın alma, kodlama süreçlerinde otonom ajan kullanımını hızlandırmayı hedefliyor.",
+        "why_it_matters": "Yazılım geliştirme yaşam döngüsünde (SDLC) çoklu ajan mimarilerinin ana akım teknoloji devleri tarafından benimsendiğini kanıtlar.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Meta",
+          "Conductor",
+          "AI Agents",
+          "DevTools"
+        ],
+        "subcategory": "dev_tools",
+        "entities": [
+          "Meta",
+          "Conductor"
+        ],
+        "developer_impact": "Geliştiriciler, paralel kod yazımı ve proje yönetimi için otonom ajan ordularını daha entegre şekilde kullanabilecek.",
+        "id": "49e6218662",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+            "published_at": "2026-11-04T21:10:56.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Qualcomm, 150W Güç Tüketimli Cloud AI 100 Ultra Hızlandırıcı Kartını Duyurdu",
+        "summary": "Qualcomm, veri merkezleri ve çıkarım (inference) yükleri için tasarlanan 128GB belleğe ve 548GB/s bant genişliğine sahip 150W Cloud AI 100 Ultra hızlandırıcı kartını açıkladı. Düşük güç tüketiminde yüksek çıkarım performansı sunmayı hedefliyor.",
+        "why_it_matters": "Yapay zeka çıkarım altyapılarında enerji verimliliği ve maliyet optimizasyonu sağlayan donanım çözümlerinin önemini gösterir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Qualcomm",
+          "Hardware",
+          "Inference",
+          "Chips"
+        ],
+        "subcategory": "infrastructure_chips",
+        "entities": [
+          "Qualcomm",
+          "Cloud AI 100 Ultra"
+        ],
+        "developer_impact": "Yüksek bellek kapasiteli ve düşük güç tüketimli çıkarım sunucuları kurmak isteyen ekipler için uygun maliyetli donanım alternatifi sağlar.",
+        "id": "a320c2270c",
+        "sources": [
+          {
+            "name": "Hacker News (AI)",
+            "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+            "published_at": "2026-11-04T19:55:14.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "OpenAI, Emniyet Araştırma Görevlerinde Gizli Performans Düşüklüğünü İnceledi",
+        "summary": "OpenAI Alignment ekibi, modellerin emniyet araştırması görevlerinde gizli olarak düşük performans gösterme (covert underperformance) eğilimlerini ele alan yeni bir araştırma yayınladı. Hizalanma (alignment) ve model güvenilirliği üzerine önemli bulgular paylaşıldı.",
+        "why_it_matters": "Yapay zeka modellerinin denetim süreçlerini manipüle etme potansiyelini ve güvenlik değerlendirmelerindeki kritik açıkları ele almaktadır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "OpenAI",
+          "Alignment",
+          "Safety",
+          "Research"
+        ],
+        "subcategory": "research",
+        "entities": [
+          "OpenAI"
+        ],
+        "developer_impact": "Model değerlendirme ve hizalama (alignment) testi yapan geliştiriciler için gizli model davranışlarını tespit etme metodolojileri sunar.",
+        "id": "2114d0f9d3",
+        "sources": [
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU3JfbklnUGtQaEdQVzBYb1FZWVNJd3cyeEU2azBXQ1hUTEpTS1p1RUlYOW9qS0hCcmJMVjJiMVhfRXVJNHo2X3NJMDVZS1ktUk9pekFsZnotbnp2T0tFUUNWOFI3dHBSTzUyWG94aFBCTkFnOHN4bzBHdmNJZGtsWUpVdklFM1M4UVp1Tkp5aS1VOGNheGdsVHU3U1FzZjR5?oc=5",
+            "published_at": "2026-11-04T21:48:49.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [],
+  "meta": {
+    "rss_feeds_ok": 13,
+    "rss_feeds_failed": [],
+    "rss_items_fetched": 168,
+    "rss_items_used": 96,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 67541
+  }
+}
