@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T05:55:32.563Z",
-  "latest": "2026-11-05",
+  "updated_at": "2026-11-06T05:53:12.201Z",
+  "latest": "2026-11-06",
   "briefings": [
+    {
+      "date": "2026-11-06",
+      "path": "2026-11-06.json",
+      "headline": "THY 9 Aylık Yatırımda 4,6 Milyar Doları Aştı, OpenAI GPT-6 Cyber Modelini Tanıttı",
+      "counts": {
+        "commercial_aviation": 5,
+        "accidents_and_incidents": 2,
+        "piloting_and_ops": 2,
+        "ai_developments": 5
+      },
+      "has_fatal_accident": false,
+      "max_importance": 5,
+      "generated_at": "2026-11-06T05:53:12.196Z"
+    },
     {
       "date": "2026-11-05",
       "path": "2026-11-05.json",

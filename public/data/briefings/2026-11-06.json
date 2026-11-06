@@ -1,0 +1,525 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T05:53:12.196Z",
+  "window": {
+    "from": "2026-11-05T05:52:33.924Z",
+    "to": "2026-11-06T05:52:33.924Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "THY 9 Aylık Yatırımda 4,6 Milyar Doları Aştı, OpenAI GPT-6 Cyber Modelini Tanıttı",
+  "tldr": [
+    "THY'nin 9 aylık yatırımları 4,6 milyar dolara ulaşırken, Asya pazarı gelirde Avrupa'yı geride bıraktı.",
+    "Airbus, Ekim ayında 74 uçak teslim ederek 2026 yılı için koyduğu 870 uçaklık teslimat hedefine yaklaştı.",
+    "THY Uçuş Akademisi, pilot eğitimi kapasitesini artırmak amacıyla iki yeni simülatör siparişi verdi.",
+    "OpenAI, siber güvenlik ajanlarına yönelik yeni nesil GPT-6 Cyber modelini ve System Card raporunu yayınladı.",
+    "Google DeepMind, 15 saniyelik video üretimi yapabilen ve %30 daha ucuz Gemini Omni 1.2 Flash modelini duyurdu."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "THY 9 Ayda 4,6 Milyar Dolar Yatırıma Ulaştı; Asya Gelirleri Avrupa'yı Geçti",
+        "summary": "Türk Hava Yolları, 2026 yılının ilk dokuz ayında toplam yatırım tutarının 4,6 milyar dolara ulaştığını açıkladı. Şirketin toplam gelirleri artış gösterirken net kârlılıkta gerileme kaydedildi. Gelir dağılımında ise Asya pazarı ilk kez Avrupa bölgesini geride bıraktı.",
+        "why_it_matters": "THY'nin filo genişletme yatırımları sürerken pazar ağırlığının Doğu'ya kayması operasyonel stratejileri doğrudan etkiliyor.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "Finans",
+          "Filo Yatırımı",
+          "Asya Pazarı"
+        ],
+        "subcategory": "market_finance",
+        "entities": [
+          "Türk Hava Yolları",
+          "THY"
+        ],
+        "id": "ace609e63f",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWWZtajlZblNaSnhRaDN0ZjdoQ19NMnE4RVRUN29tZTk1a0JMMDN4VFRiSFgwN0dJYzJ5dTVCYlh6U0pvSFJwa3dLMWdfaktDUzJyY0Y4ZnBWamtUSk9aQ3pOaUZTMHRJT2lJVGpGbEtDTHB5MDRHUFlqSmtFa3NMb3dNOHdMMFpaVVY2bDBTQUVrNklE?oc=5",
+            "published_at": "2026-11-05T20:48:19.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWDFzdzI2Ui1uU0FNOVVpbnVGeFlWVDZ6TEZ4d1F3VG1adFNFWmhQNmVVck1zNHpTMXJZWkQtU2UySlNCRFFIMmt0S0N5ZUNfYU14Sngxek5aVFhxZDExOS1EbVhVWFRFcF83NFdqV2NSMkVBOFF6UVZFNVcwbVpES2F5LVNWMzVpWWM4OXd3Q3FJbE9sVGt4bFNnSXBCaGJybjBv0gGoAUFVX3lxTE1TQ0pfeGs1YTFtaGd0aE1veVJrQnhHM0tFX3RNRmtjbUpNYmdhbC1ZU01udkhYTnh3MjVSM3h6TE1FUW9QNG1yWlhfYTEya3oxaGdEWU55bDVnLWlVeUQ3VDRYd2VVZ0pKZnl6WnBYeDU5WF9YQ0t5SW93M3FWdkdaeDdPQUhSbjB3dVAzMW1lY3RKMWl4U21DUmxBQ1BKdTBBWmFDanpWcA?oc=5",
+            "published_at": "2026-11-05T14:56:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOWVfOUtqVmpVT2NJdWxKV2JOSmZ1ZVNocGdTMUt5cXRCcGVoajJVWGo5TUNrUWd6clBvRGVEYU4zUEZjQV9LYnl0cUh3elBCSzVrc2JsaHBBWFF0emc5QTJBLXhzRVBINHlMRGtUWk9JbllGZE5CTGhoRW5ES01BMGMtWWpvZUNHaEJtc1VCcWNSSGtZcDFLb3l3NTA2MS02UjhOSlF6T1phOFdmS2ZSWmVjaGQwRnNOQlROMnQ3eWZSbUJMa1B5Nm9QQktsZjU4c3luSQ?oc=5",
+            "published_at": "2026-11-05T11:13:56.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZFZqSU5BcUZGOGZTVkJ5RmxqeTNRM0RLMXRweUh5OGtTZUstRkNkc0ZMSl95dFJKdFNKVjFicmdRUHFwc2NPcUZ2NHF4VHdlSDNQZlFvU3VtZFpsSDNsamhwcG1FQU9BQUQyeGt1d3FhWkc3RVNsSVAxZ3FnNm9wckpPZktwMVZhMFY2bWJvUHdFUkJJZzJIdkZ4Z3gybjRMZFUycGtrZw?oc=5",
+            "published_at": "2026-11-05T08:15:55.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Airbus Ekim Ayında 74 Uçak Teslim Etti; Yıl Sonu Hedefi 870 Uçak",
+        "summary": "Airbus, Ekim 2026 döneminde havayollarına yaklaşık 74 uçak teslimatı gerçekleştirdi. İmalatçı, tedarik zinciri aksaklıklarına rağmen 2026 yılı sonu için belirlediği 870 teslimatlık yıllık hedefini korumaya çalışıyor.",
+        "why_it_matters": "Küresel uçak teslimat hızları, havayollarının kapasite planlamasını ve tip eğitimi takvimlerini doğrudan belirliyor.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "Teslimat",
+          "A320",
+          "A350"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus"
+        ],
+        "id": "283ebbcb49",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQM2lNVWRHUkU0a0t1cFVjUFlZODdoSzdCaHhDVmhDN2NDN2hsYU5Ld05EQ2FwSzMwTUdEQmxxZlBob2ZDTXd6ODZTOVk0RlRNYko2SFR3SzN2UmNvaUphUm9PRF9FdEJNaXY2bHAzQUtwdFptT0k4Ni1KZVRfM3hfSUZNNXRtaFNxel9seHhZbGs1MVBuNmdGWi12UzJxYlQxUkNLS1hLU0xOYTNRcFdFUjhYNGFKYzVCTDFJ?oc=5",
+            "published_at": "2026-11-05T18:46:34.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPemtBeGljd3N6SFNSaEFCNTU3RDFQVnN2V3BsdGFSaVdOY3lyRDJOdGxSQjdENFpUdFRfWG42MEkwR3pZd2JablM5ZUpnUEMyNzR6alN6Vnk4VG9hdlRURWEwempiNEh5bDhLV3h5Ym90ZnZWcHU5MnFjdjlOcGxiMndrMzVxMGw5UzBydVJmX0E?oc=5",
+            "published_at": "2026-11-05T17:20:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE95TjIyN3Rld3FpSWpYeFM5RTJYVDRPd0FpbWhRcnRreGRBckl1QzJEOWxtMjlhQ1dlVHdGVlRZZENSS0R4bzJxU1RQRGpDbGJVUm9VWVVpVTUzQlB5OUdSNmlRRG5lWG93Z3FLYlBrVVY?oc=5",
+            "published_at": "2026-11-05T14:01:07.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcVpZS0pHTTVycjJxcjdIalZqYk85RVE2YXk3bFZTWnZTMWh2NVREMmU4R3RwM29FbWVTeF9LM2JqSzNHdC1pejFrLWhrZVJEdzlEeVo4ZGJveWFWTk5XY3J2WEZiQ2R1VHIwRUdwWUN6NjlHd2FVTUVqLXQ0U2FnWlFCVFg2U3R1Z2pHSWozSkxWaDRHajR0UURiNnNNRHpTT0xMUnZDRkozS3B1Rks0X3pn?oc=5",
+            "published_at": "2026-11-05T12:31:32.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Philippine Airlines A350-1000 Kesin Sipariş Sayısını İki Katına Çıkardı",
+        "summary": "Philippine Airlines, Kuzey Amerika uzun menzil ağını genişletme stratejisi kapsamında Airbus A350-1000 geniş gövde uçakları için verdiği kesin sipariş miktarını ikiye katladığını duyurdu.",
+        "why_it_matters": "A350-1000 platformu ultra uzun menzilli kıtalararası rotalarda pazar payını artırmaya devam ediyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus A350-1000",
+          "Sipariş",
+          "Philippine Airlines"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus",
+          "Philippine Airlines",
+          "Airbus A350-1000"
+        ],
+        "id": "bded08db5d",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTkVTam5nRkt2eEd2RW1IOUdTa3p4VVV2SkVLaW9WU1NfWDJTTjRhcURGcXpoODBOWDRoR3hLMUlwcUVKVExLWjdhQ1YxNF9yaGJ2WDB6Z2FjZWNtV0pPS2ZBbTdNY2ppdEJCdmVzU01ReTFHOFBtbmNobUhzSkJHdHgtQXlVQ3lGMlljQWNLbUNMMUVXeTBoX0FONWhYLU1CRGJENDBjTklfWlVrOW1HdDNkZlM1NTVlcnY1aGhyNk9GeXkzaHc3ZmI3ZTJ3TVJ4N2cxZUxzb0NYQW53dGRJ?oc=5",
+            "published_at": "2026-11-06T04:37:42.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "KLM Yeniden Yapılanma Kapsamında İstihdam Azaltımına ve Filo Yenilemeye Gidiyor",
+        "summary": "KLM, operasyonel verimliliği artırmak amacıyla hazırladığı yeni yapılandırma paketi çerçevesinde iş gücü kesintisine gideceğini ve Avrupa içi kısa/orta menzil filosunu yenileyeceğini duyurdu.",
+        "why_it_matters": "Avrupalı bayrak taşıyıcıların maliyet baskısı altında filolarını modernize etme zorunluluğunu gösteriyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "KLM",
+          "Yeniden Yapılanma",
+          "Filo"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "KLM",
+          "Air France-KLM"
+        ],
+        "id": "b59fecbc75",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTDU2aFp5UlUyVl9jeXAxQ0VnU2NoMVJ6b0FDZVJTNWdDUTJDNFQtYTZIMUFxdXNWS2hWVzNUZldPaWxZUEE1cUljOHRTTHJQZ2VMcXFwTEZFVndTRFpubFgyVFhkeXEwby11Tmx1WHpMZEt3QmlnS0V4QUtPMWZTaTBnM2psM1hQQ2lNS1lqWExTWWVSbThLVVY4aEllTEp5REUzZGNXYXhhMGVQOHVzemo4MkpkWS1fdkRv?oc=5",
+            "published_at": "2026-11-05T08:51:38.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Seattle Boeing Field Kontrol Kulesindeki Arıza Nedeniyle Uçuş Sınırlaması Getirildi",
+        "summary": "Seattle Boeing Field havalimanı kontrol kulesindeki sızıntı ve teknik arızalar nedeniyle hava trafik kontrolörleri geçici bir kuleye taşındı. Onarım çalışmaları süresince havalimanındaki uçuş operasyonlarına ciddi kısıtlamalar uygulandı.",
+        "why_it_matters": "Boeing'in ana test ve teslimat merkezlerinden birinde ATC altyapı sorunu nedeniyle operasyon aksaklıkları yaşanıyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing Field",
+          "ATC",
+          "KBFI",
+          "Kısıtlama"
+        ],
+        "subcategory": "airports_atc",
+        "entities": [
+          "Boeing Field",
+          "FAA"
+        ],
+        "id": "9e91df05cd",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQWxtOXQzdmdHdFJFdi0xRWk4X28xYmE1bFpMU3BnWG81ZjZsOTJaQnVrYUVHbUFXSlFGUzh4bVhPd3VkWUZzcVdnODByVEdlZGVvQ29tQXlYblBnRUExREJQWDlobHJwOThxTzBqekVYd2lxRlY1THFLd2dXamJpZFpvdGlpeDNyb05RSDJMeWhYVTh1Z2xDWnFBbkd2WGdhSGJ3WW94NlJuYlY0?oc=5",
+            "published_at": "2026-11-06T01:41:15.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1hX1pxeXMtckwxWThiQTZiaHUweGlnNnQ5di1rVnVRRWtHVnd6eEFBbjZ5cnVZU1ZQMmxXdTBmVm1JNFd2V0s1aFNQMW84cl93eTlHc1VWWTVnMlFRT3MwUnhZR1NIcHFOSGFCUUxLcVBRTVJkOFNpcU93?oc=5",
+            "published_at": "2026-11-06T00:51:32.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQalVqanBIMjBtMWdlRktNT2JBblh4NUMyS0h4dG9yeVVCZS11eUN3R044UWhQZlBKOE5QZ1ViaU9zOHlLNEI3Z2xwVmpIN2FyTHNSSlk3TG9WVW1KS3N1ZHFsOUR4cnZkeGd2MmVsOGd6NDc0OHd4RnZraDJlS1pzVmktYWFtYno5SGJES1RyOVlYZ2d2TXNmNXBIdzRoYkN2RjItaXRUY3NRd1ZpYmZFcEFiSVBFTG9qcXdMOFJpVG5MX2tUaF9UdEEwVEU5WDJMQzJyLUVVUDMzVDBUdGFCX2U1TVFRaFE3a3FEazh6T05NbzlTLUdhR3NEWXpHRTdlOWlaV1BScjVUOEkxcVExRVJtZVhKQ09wbGRnMGFFOVhkT2M?oc=5",
+            "published_at": "2026-11-05T21:06:42.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObGt5LWI3R3JIeDhBUTFDMHA0YWpIYVd4V0x1Q1ZnN0RJRi1lamRDZDdtNk9yMWp1TjhCOEFsNTVZZUtwVHV2allseUlWOTdlQW9TNUtxNWF1emxXWTBzbmJGUG1RT3ZlZHRPWHAtaWdmSGxtN2xYUWRQeEM3UlduTXhDYUNqQ2txVEJWZnlpUExGbTBFRTA3bFd3NHJob0steGRrNHkyM0ZxOG45R0tYSXRDLTdlQQ?oc=5",
+            "published_at": "2026-11-05T19:33:34.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "Austral/Aerolineas E190 Rosario Yaklaşmasında Elektrik Arızası ve Dikme Kilitlenme Uyarısı Yaşadı",
+        "summary": "Austral/Aerolineas Argentinas işletmesindeki Embraer E190 tipi uçak, Rosario yakınlarında alçalma safhasında elektrik sistem arızası ve burun iniş takımı kilitlenmedi (unsafe nose gear) uyarısı aldı. Ekip ilgili QRH prosedürlerini uyguladı.",
+        "why_it_matters": "Elektrik sistemi arızaları ile iniş takımı ikazlarının eşzamanlı yaşanması kokpit yükünü artırıp emniyet marjını daraltır.",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "Embraer E190",
+          "Elektrik Arızası",
+          "Nose Gear",
+          "Ciddi Olay"
+        ],
+        "occurrence_class": "serious_incident",
+        "occurred_at_utc": "2026-11-05T00:00:00Z",
+        "location": "Rosario, Arjantin",
+        "aircraft_type": "Embraer E190",
+        "registration": null,
+        "operator": "Aerolineas Argentinas",
+        "flight_number": null,
+        "flight_phase": "descent",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [
+          "Elektrik sistemi arızası",
+          "Unsafe nose gear ikazı"
+        ],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "561d9a6f6a",
+        "sources": [
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA0Tk9FcGdtWW5XOXEyQzN3Z0Q0S3U1YlBLNEd2cHhqTnRFVGUxeU5EcklCU0Y3M3VORFRBRVN6Y0xsSGNucWtoNUZBM3VjamoteldBdXFfQk8?oc=5",
+            "published_at": "2026-11-05T15:36:22.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Paraşüt Uçuşu Yapan Cessna Caravan Kazasında Pilotun Dik Dikalıştan Çıkamadığı Açıklandı",
+        "summary": "Paraşüt atlayışı operasyonu yapan Cessna Caravan uçağının karıştığı ölümlü kazanın incelemesinde, pilotun kasten başlatılan dik alçalış (steep descent) manevrasından uçağı toparlayamadığı tespit edildi.",
+        "why_it_matters": "Paraşüt atlayış operasyonlarında dik alçalma manevraları ve uçuş zarfı limitlerinin aşılmaması hayati önem taşır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Cessna Caravan",
+          "Paraşüt Uçuşu",
+          "Kaza İncelemesi"
+        ],
+        "occurrence_class": "accident",
+        "occurred_at_utc": null,
+        "location": "Bilinmiyor",
+        "aircraft_type": "Cessna 208 Caravan",
+        "registration": null,
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "descent",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [
+          "Kasten başlatılan dik alçalış manevrasından zamanında çıkılamaması"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "75b724a846",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNR1Q0UmNWMjhCUjR2NW1hWEJUT28tUWY3QWZEcGF5MjBBLVhtMHFqNVRZZ01KVjZlN3hITXQyc1p5LV9QU2JzWXJad3ZGbFE4OUFwWWIwV0F5Y1o3ZDZnR3p0dnFqY2pMcVctUTRtYmZOT1FXSlVrZ1B6amdJc1o2aTJ3LVR3YjU1X3loR3JwTV9FX2VIMjFlN2pzU0RrTXFhXzFqNWNqWElLY1ptQkxyek5yMHBESHVUZHlua0wtSXZVZ1Z2WC02SWVR?oc=5",
+            "published_at": "2026-11-05T10:28:09.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "Türk Hava Yolları Uçuş Akademisi İki Yeni Simülatör Siparişi Verdi",
+        "summary": "Türk Hava Yolları Uçuş Akademisi (TAA), artan pilot adayı eğitimi ihtiyacını karşılamak ve simülatör kapasitesini büyütmek amacıyla iki adet yeni uçuş simülatörü siparişi verdiğini duyurdu.",
+        "why_it_matters": "Pilot eğitiminde sentetik eğitim cihazı (STD) kapasitesinin artırılması, tip eğitimi ve ab-initio süreçlerinin kalitesini artırır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "Simülatör",
+          "Pilot Eğitimi",
+          "TAA"
+        ],
+        "subcategory": "training_crm",
+        "regulators": [
+          "SHGM"
+        ],
+        "operational_takeaway": "Filo büyüme hedefleri doğrultusunda simülatör kapasitesinin artırılması, pilot adaylarının EBT ve tip öncesi pratik eğitim imkanlarını güçlendirir.",
+        "id": "24b72cdaa2",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeXBTZXd6QW56UHI4bTBwUDhic1NGT01EWjZSWHRWdjhZaHNTV1d5eEV2OGFQZHZuYVY1ZkE4c3NucUVtTVBSbEpNM3dUNE0tbVVjYUM2UFZaN0xQSExpclRzZ0VCZjBVQnVUOGd6djBiQnQtQnoxQk5tR1EzUkl3eE0yUDFmVXlUeHgyUjczRVZTeHVhRXM5MA?oc=5",
+            "published_at": "2026-11-05T20:54:57.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Airbus ve Blue Angels Air Hindistan Pazarı İçin Ab Initio Eğitim Anlaşması İmzaladı",
+        "summary": "Airbus Flight Academy, EATS 2026 fuarında Hindistan merkezli Blue Angels Air ile Ab Initio pilot eğitimi sunmak üzere anlaşma imzaladı. Ortaklık, bölgedeki havayollarına sıfırdan lisanslı pilot yetiştirmeyi hedefliyor.",
+        "why_it_matters": "Hızla büyüyen pazarlarda standartlaştırılmış Airbus ab-initio müfredatlarının yaygınlaşmasını sağlıyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "Ab Initio",
+          "Pilot Eğitimi",
+          "EATS 2026"
+        ],
+        "subcategory": "training_crm",
+        "regulators": [
+          "Other"
+        ],
+        "operational_takeaway": "Küresel havayolu ihtiyacı doğrultusunda ab-initio safhasından itibaren havayolu konseptli SOP ve TEM odaklı müfredatların entegrasyonu hızlanmaktadır.",
+        "id": "63da9a7ae9",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNN3g3aGN0aHFiSjUzSjRKb09fNTZvR0ZiRnEzZGtoMmVYZmFTQk43X29obUV3MmNfOEphQjRhd203eUtDMWpBdmxIdm5nb3BYbjdOWUhreE5EWkRLd29uNDVDeWM1ZTBFY2lOS1NJNGNnRk1kcXl2WnF6c1ZSLUF4ak9rbm1kazNIVk9jUFVCNXpiWEt3aG4tbDQ1UFZKX1VuTGEtT3N3?oc=5",
+            "published_at": "2026-11-05T19:06:41.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOVhGYXBPSkc0Nl9FaGdzM2RrZ1dLblY3d1pwS21CYm1CaUtQSkhCZnhTSjUzdGctUE05cWlONFVmeHlGTkNCWXlTZ01hejh1cVUzYU9MMGRxTEx0ZG5aX0MwdHNYdC1tZzlDNjNFakg1blBBOWR3bVNsdll6cVE0NWZzb2lUVW03TnVON2dxNnQ?oc=5",
+            "published_at": "2026-11-05T15:36:56.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNeW8tMmtDX2ZZYVdwV3VkMkU4S3BhUWNDZ1ozWENZV0JmZ3RldlJYVG5DdjNXZkx3aEEzRGJLM1pLYlZtekRVeG5DdmdwR3JvX2tVZjJtRzhMUDEydzc0YW8tckQtaXRtOEo4ekVRWFhXbndFZHVRaElCd1dMTk5GeDRreUV2QkVaN1cxODNYbnpNb2FtdGxsSzdKeWlhU0IzcmJQMVRBS05DQ3lCbnFYZE14OUVPLWxOVEpwSldrQ0wyYVczay03a2w3YkUtSmVodkJCdzlHQTItMldp?oc=5",
+            "published_at": "2026-11-05T07:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "OpenAI Siber Güvenlik Odaklı GPT-6 Cyber Modelini ve System Card Raporunu Yayınladı",
+        "summary": "OpenAI, dijital altyapı emniyeti ve siber savunma ajanları için özel olarak geliştirilen GPT-6 Cyber modelini tanıttı. Eşzamanlı yayınlanan GPT-6 Cyber System Card belgesinde modelin güvenlik sınırları ve hizada kalma (alignment) test sonuçları detaylandırıldı.",
+        "why_it_matters": "Siber güvenlik alanında otonom ajanların kullanımı için gelişmiş hizalama ve güvenlik kıstasları tanımlanıyor.",
+        "importance": 5,
+        "confidence": "confirmed",
+        "tags": [
+          "OpenAI",
+          "GPT-6 Cyber",
+          "System Card",
+          "Cybersecurity"
+        ],
+        "subcategory": "foundation_model",
+        "entities": [
+          "OpenAI",
+          "GPT-6 Cyber"
+        ],
+        "developer_impact": "Siber güvenlik uygulamaları geliştiren yazılımcılar için otonom güvenlik analizi ve kod inceleme yetenekleri sunan hizalanmış yeni bir model altyapısı sağlıyor.",
+        "id": "791c05cfca",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+            "published_at": "2026-11-05T19:06:12.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBLbmxQaGx2MHJGZlFvMXNLazJOTVlBWHdLMUhIdVRabkZ2SEpDMTV2NVZ4MHgyMjdUQUdwNjUzTVh3bmVlSFhUZTl5QVJ5SUNtOEE4am1MN0NBbHM?oc=5",
+            "published_at": "2026-11-05T17:18:42.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5tRzhtYk1MeTljUjdBLW5pMUJCVWJYZ0RzUXB3a0VnVlVtTEtCRHhDR1ZGeEZwOXNvdUp3N2hOMklObzBQbHRsV3lna0xiLXNlSHBOS3RyS0M3dFRZMFE?oc=5",
+            "published_at": "2026-11-05T17:18:03.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Google DeepMind Gemini Omni 1.2 Flash Modelini Duyurdu",
+        "summary": "Google DeepMind, 15 saniyelik doğal video üretimi ve düzenleme yeteneğine sahip Gemini Omni 1.2 Flash modelini sundu. Yeni sürüm, daha yüksek görsel tutarlılık sağlarken çıkarım (inference) maliyetlerini %30 oranında düşürüyor.",
+        "why_it_matters": "Multimodal modellerde video üretimi ve düzenleme maliyetlerinin düşmesi otonom ajan ve içerik uygulamalarında erişilebilirliği artırıyor.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Google DeepMind",
+          "Gemini Omni",
+          "Multimodal",
+          "Video AI"
+        ],
+        "subcategory": "foundation_model",
+        "entities": [
+          "Google DeepMind",
+          "Gemini Omni 1.2 Flash"
+        ],
+        "developer_impact": "Video işleme ve multimodal ajan geliştiren yazılımcılar için %30 daha düşük API maliyeti ve native 15 saniyelik video üretimi imkanı tanıyor.",
+        "id": "3b07b7a5c8",
+        "sources": [
+          {
+            "name": "Google AI / DeepMind",
+            "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+            "published_at": "2026-11-05T17:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Anthropic Claude İçin Plaid Entegrasyonlu Kişisel Finans Aracını Tanıttı",
+        "summary": "Anthropic, Claude platformuna kullanıcıların banka ve kredi kartı hesaplarını Plaid altyapısı üzerinden bağlayarak finansal analiz yapmasını sağlayan Personal Finance özelliğini ekledi.",
+        "why_it_matters": "LLM'lerin finansal veri entegrasyonu üzerinden doğrudan kişisel ve kurumsal veri analitiği yapma yeteneği genişliyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Anthropic",
+          "Claude",
+          "Plaid",
+          "Personal Finance"
+        ],
+        "subcategory": "product_launch",
+        "entities": [
+          "Anthropic",
+          "Claude",
+          "Plaid"
+        ],
+        "developer_impact": "Plaid benzeri finansal veri API'lerinin büyük dil modellerine güvenli entegrasyonu için örnek bir ürün mimarisi sunuyor.",
+        "id": "41ded80e19",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+            "published_at": "2026-11-05T18:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Box, Nvidia Nemotron Tabanlı Yeni Ajan Arama Sistemini Tanıttı",
+        "summary": "Box, Nvidia Nemotron altyapısını kullanarak geliştirdiği ajan odaklı içerik getirme sistemini duyurdu. Yeni sistemin 4 kat daha hızlı yanıt verdiği, %20 daha az hata yaptığı ve %90 daha az token tükettiği bildirildi.",
+        "why_it_matters": "Kurumsal veri arama sistemlerinde token tasarrufu ve düşük gecikmeli bilgi erişimi verimliliği doğrudan etkiliyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Box",
+          "Nvidia",
+          "Nemotron",
+          "RAG",
+          "Agents"
+        ],
+        "subcategory": "dev_tools",
+        "entities": [
+          "Box",
+          "Nvidia",
+          "Nemotron"
+        ],
+        "developer_impact": "Enterprise RAG ve arama mimarilerinde %90 token tasarrufu ve 4x hız artışı sağlayan model optimizasyonunun pratikteki gücünü gösteriyor.",
+        "id": "2e8f73eec4",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
+            "published_at": "2026-11-05T14:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Dropbox, AI Ajan Altyapısını Güçlendirmek İçin Tigris Data'yı 350 Milyon Dolara Satın Aldı",
+        "summary": "Dropbox, geliştiricilerin AI modelleri ve ajanları inşa etmesine yönelik hazırlanan DBX Agent Cloud depolama platformunu desteklemek üzere Tigris Data şirketini 350 milyon dolar karşılığında bünyesine kattı.",
+        "why_it_matters": "Yapay zeka ajanlarının veri depolama ve altyapı gereksinimleri büyük bulut depolama sağlayıcılarının yatırımlarını şekillendiriyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Dropbox",
+          "Tigris Data",
+          "AI Infrastructure",
+          "Agents"
+        ],
+        "subcategory": "infrastructure_chips",
+        "entities": [
+          "Dropbox",
+          "Tigris Data"
+        ],
+        "developer_impact": "AI agent sistemleri geliştirenler için DBX Agent Cloud çatısı altında düşük gecikmeli veri depolama altyapısı hedefleniyor.",
+        "id": "fb5baf993b",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+            "published_at": "2026-11-05T15:19:05.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [],
+  "meta": {
+    "rss_feeds_ok": 13,
+    "rss_feeds_failed": [],
+    "rss_items_fetched": 166,
+    "rss_items_used": 92,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 38274
+  }
+}
