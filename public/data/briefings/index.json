@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06T05:53:12.201Z",
-  "latest": "2026-11-06",
+  "updated_at": "2026-11-07T05:43:22.729Z",
+  "latest": "2026-11-07",
   "briefings": [
+    {
+      "date": "2026-11-07",
+      "path": "2026-11-07.json",
+      "headline": "Southwest Airlines Boeing 737 Kalkışta Motor Kaybetti; Airbus Ekipleri Buzlanma Prosedürleri İçin Uyardı",
+      "counts": {
+        "commercial_aviation": 5,
+        "accidents_and_incidents": 2,
+        "piloting_and_ops": 1,
+        "ai_developments": 2
+      },
+      "has_fatal_accident": false,
+      "max_importance": 5,
+      "generated_at": "2026-11-07T05:43:22.726Z"
+    },
     {
       "date": "2026-11-06",
       "path": "2026-11-06.json",

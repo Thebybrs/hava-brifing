@@ -1,0 +1,354 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T05:43:22.726Z",
+  "window": {
+    "from": "2026-11-06T05:41:37.506Z",
+    "to": "2026-11-07T05:41:37.506Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "Southwest Airlines Boeing 737 Kalkışta Motor Kaybetti; Airbus Ekipleri Buzlanma Prosedürleri İçin Uyardı",
+  "tldr": [
+    "Southwest Airlines Boeing 737 kalkış sonrasında #2 motorunu kaybetti ve acil iniş bildirdi.",
+    "Airbus, uçuş ekiplerini motor buzlanması ve ice shedding prosedürlerine sıkı sıkıya uymaya çağırdı.",
+    "Boeing'in 737 Max teslimatları Ekim ayında son bir yılın en düşük seviyesine geriledi.",
+    "Swiss A321 Zürih'te kabinde garip koku rapor etmesinin ardından olay kayda geçti."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Alaska Airlines, Tüm 737-700 Filosunu 2027'de 737 MAX 10 ile Değiştirecek",
+        "summary": "Alaska Airlines, filosundaki tüm Boeing 737-700 uçaklarını 2027 yılı içerisinde tamamen Boeing 737 MAX 10 modeline dönüştürme kararı aldı. Şirket, filo standardizasyonu ve verimlilik odaklı bu hamleyle operasyonel maliyetleri optimize etmeyi hedefliyor.",
+        "why_it_matters": "Filo modernizasyonu ve Boeing narrowbody teslimat planlamaları açısından kritik bir stratejik adımdır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Alaska Airlines",
+          "Boeing",
+          "737 MAX 10",
+          "fleet"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Alaska Airlines",
+          "Boeing",
+          "Boeing 737 MAX 10"
+        ],
+        "id": "cffa04001f",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZ2dXUS01eHpHZW9FbWJjbWpycTYyMy1PQnVFeUdEckhoNm9aWHpBWmt2SGVPa1pWc3c5ei1zdHFIbjRQVW01SEtmRjhobEdZdkFtVXJIQ3dKQmVTTUxVMVpQNzMtM1dubXU1Z0pYeE96Q05idVJWczFtOF9IWnI5Q3FPbGh4SlAyX3JmNFE3bVBLbXh5bVAtUjRUMWNoSTRZRzlQd2Z2Ykw?oc=5",
+            "published_at": "2026-11-06T19:00:40.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Airbus A330-900 Maksimum Yolcu Kapasitesi 480'e Çıkarıldı",
+        "summary": "Airbus, A330-900 modelinin maksimum oturma kapasitesini 480 yolcuya yükselttiğini duyurdu. Bu hamle, havayollarının yüksek yoğunluklu hatlarda koltuk maliyetlerini düşürmesine olanak tanırken rakip geniş gövdeli uçaklarla rekabeti güçlendiriyor.",
+        "why_it_matters": "Geniş gövde pazarındaki kapasite rekabetini ve havayolu kabin konfigürasyon stratejilerini doğrudan etkiler.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "A330-900",
+          "capacity",
+          "widebody"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus",
+          "Airbus A330-900"
+        ],
+        "id": "1117ec6b4c",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPR0ZIXzRCOWduNzllQmMzS3FXNElOelpfdTVVanluaVRweG9Kdk1ndXFkeGZQb1RodWJjSi1pV0FDMDc4YnNzNUhUSHVLRnVYdjRPb29Wb3NSQTAxY0hNaXM2LV9DUUFROHc0WVptUzRJT3pEbTNwQUV0V3NiV0ZwRWsxdFlZQUFGZ1E?oc=5",
+            "published_at": "2026-11-06T20:43:55.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSkttRUFsQWJpR01DWG9tS0xoV2FYd0hVSDlCT1cweWF3R0dCMEpQc2wtTGVWbTVTeXJibWVtdEtwcW5ET0ctblFiWUZwZkJydTVrWThGaWduMmRMNEhhNGhFUDZFOVFhdld3d2lfY000NVFmTjRHRG5VWGZNbVpfd2xacWI1RFJlRjBqZ3BkX0ZaRERuNUJ6SmNnT0FHX2ppVVFrcm44RnM?oc=5",
+            "published_at": "2026-11-06T11:40:41.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "China Eastern Airlines, 101 Yeni Airbus Uçağı İçin LEAP Motorlarını Seçti",
+        "summary": "China Eastern Airlines, sipariş ettiği 101 yeni Airbus dar gövdeli uçak için CFM International LEAP motorlarını tercih ettiğini açıkladı. Havayolu, mevcut motor tercihini sürdürerek bakım ve operasyonel uyumluluğu korumayı amaçlıyor.",
+        "why_it_matters": "Motor üreticileri ve büyük ölçekli filo tedarik zinciri tercihleri açısından pazar dengelerini gösterir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "China Eastern",
+          "Airbus",
+          "LEAP",
+          "engines"
+        ],
+        "subcategory": "other_oem",
+        "entities": [
+          "China Eastern Airlines",
+          "Airbus",
+          "CFM International"
+        ],
+        "id": "588cc1870a",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbmxXNlAzNDg5bng1S090NE9wNWYxRXlYLWRuV3diN01ndmszRklpTm9LYU92dVk4OWtOV2ZpdGZiZE1PRkt0dXlieXlEODJOUzhnVWdvbUhCYjgyRTE4VmtObFIwUFdRd1FaZW5ya3pNM1lrYTV6VGNNdnVhZ3V6VFduLUdVNWJUZWt3ajI0NGNVNE9xUkE?oc=5",
+            "published_at": "2026-11-06T18:35:40.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Boeing'in 737 Teslimatları Ekim Ayında Son Bir Yılın En Düşük Seviyesine İndi",
+        "summary": "Boeing'in 737 serisi uçak teslimatları Ekim ayında düşüş göstererek son bir yılın en düşük seviyesine geriledi. Raporlar, üretim ve tedarik zinciri dalgalanmalarının teslimat performansını baskılamaya devam ettiğini ortaya koyuyor.",
+        "why_it_matters": "Üretim hızı ve finansal projeksiyonlar açısından Boeing'in operasyonel kısıtlarını izlemek için önemlidir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "737",
+          "deliveries",
+          "production"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing"
+        ],
+        "id": "89c7195196",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBGZzVCN2tuRkVXZXZwcWxoUGw5dDNtRi02ajVwV1hMeXRYNUFfVkx1cVBIS3RzN19qTWFZQ0hnM3c3OEZkTElWVERTUl93c2MwMS00SkhqaUppb3ZHbGtISWlzN0tETF9HamNUWHExVXNLZHBicnpR?oc=5",
+            "published_at": "2026-11-06T18:01:40.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNel9uYkFWWFFNMWVGU1hvLXFJZm10QVJYS3pOM1hhc1dTMWllVnhXd2tySDJ4V2JUU182YmJnTVZEWmVyWUVTUHdmNndvTERDRzZwdG9yTk54di1wakZhZHMxT3pNSkZPNFVDNEg0NFVEYUFQSEhXekc2U1pDenVoU21PWUNPZkR0ekQ2MDdKLVRidXdfTkMyQm80cURVcFY5cVJQcmx1Wkp3LTJORXk5dkVTLXpSQQ?oc=5",
+            "published_at": "2026-11-06T16:45:40.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "IAG, İlk Boeing 777-9 Teslimatının 2028 Yılına Kaydığını Bildirdi",
+        "summary": "International Airlines Group (IAG), sipariş ettiği ilk Boeing 777-9 tipi uçakların teslimat takviminin 2028 yılına ertelendiğini açıkladı. Gecikme, uzun menzilli filo yenileme ve genişleme planlarını etkiliyor.",
+        "why_it_matters": "Geniş gövde tedarik zinciri gecikmelerinin havayolu grup planlamalarına etkisini gösterir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "IAG",
+          "Boeing",
+          "777-9",
+          "delivery"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "IAG",
+          "Boeing",
+          "Boeing 777-9"
+        ],
+        "id": "516df7fdad",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN3BiM19ZYUJWdTBkQl9JQ0Y4LVJ6Rk4yVXh2bFV4YU1fRC1UMk9SWWZ3dVJTYmdCZl9JR2xuM3ViUWdKUDBVS2NjNEg1ck15WlBrRnhIOTlCdzVHZmNNYUU3a2xyVVBzTklQa3VtUlBFTDVhaWFfWm5reWFFdVVsRzU3cTF6a3BUSDBpM1hwX0RVSk9BVUw1ZA?oc=5",
+            "published_at": "2026-11-06T13:15:24.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "Southwest Airlines Boeing 737 Kalkış Sonrası #2 Motorunu Kaybetti",
+        "summary": "19 yıllık bir Southwest Airlines Boeing 737 uçağı, kalkıştan hemen sonra #2 motorunu kaybetti ve acil durum (emergency) bildirdi. Uçak güvenli bir şekilde iniş gerçekleştirirken olayda can kaybı bildirilmedi.",
+        "why_it_matters": "Kalkış safhasında yaşanan kritik motor arızaları ve engine failure prosedürlerinin uygulanması açısından hayati önem taşır.",
+        "importance": 5,
+        "confidence": "preliminary",
+        "tags": [
+          "Southwest Airlines",
+          "Boeing 737",
+          "engine_failure",
+          "emergency"
+        ],
+        "occurrence_class": "serious_incident",
+        "occurred_at_utc": "2026-11-06T23:23:01Z",
+        "location": "Bilinmiyor, ABD",
+        "aircraft_type": "Boeing 737-700",
+        "registration": null,
+        "operator": "Southwest Airlines",
+        "flight_number": null,
+        "flight_phase": "initial_climb",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [
+          "#2 motor kaybı"
+        ],
+        "operational_findings": [
+          "Kalkış sonrası acil durum (emergency) deklare edildi"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": "NTSB",
+        "id": "1004b542b6",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdFBjc0JTeHFnS3ozOERFT1JjREFXWmxleGxZU3QxTm8yNUJmdm10Y19XY0NIWmtYVHRiQkEzcXFCNnZqc19KYjZ4YXB1Z2E1Q1lFUW9jRjZCX01PR0lwMFJzbXNwMGVzSFpXbnRpTmRsYVVKTmFtV3NFc3Y1RjM2VTFBZXl1X1pxRGJaQ2tmNVZ1UlhPdmNKbndoU0VMZEE?oc=5",
+            "published_at": "2026-11-06T23:23:01.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Swiss A321 Zürih Seferinde Kabinde Garip Koku Nedeniyle Olay Yaşadı",
+        "summary": "Zürih'te gerçekleşen bir Swiss operasyonunda Airbus A321 tipi uçakta kabin içerisinde garip koku rapor edildi. Ekipler standart emniyet prosedürlerini uygulayarak durumu kontrol altına aldı.",
+        "why_it_matters": "Kabin içi duman ve koku (fume event) prosedürlerinin kokpit ekibi tarafından yönetilmesi açısından önemlidir.",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "Swiss",
+          "Airbus A321",
+          "cabin_odor",
+          "incident"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-06T12:55:06Z",
+        "location": "Zürih Havalimanı (LSZH), İsviçre",
+        "aircraft_type": "Airbus A321",
+        "registration": null,
+        "operator": "Swiss International Air Lines",
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [
+          "Kabinde garip koku (strange odour)"
+        ],
+        "operational_findings": [],
+        "investigation_status": "not_started",
+        "investigating_authority": null,
+        "id": "6c12ea7c20",
+        "sources": [
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9yYXlrYldzRENORFh1enBPQ0Jpc1pmTHFCZENTVDlkeDVVSnpnb1pfNlRmTkU1aFNTS1BMaW85elBqMl9uV2VLaHZMUEp4NUVjTVFOR2VSOV8?oc=5",
+            "published_at": "2026-11-06T12:55:06.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "Airbus Uçuş Ekiplerini Motor Buzlanması Prosedürlerine Uymaya Çağırdı",
+        "summary": "Airbus, yayımladığı operasyonel bültende uçuş ekiplerinin motor buzlanması ve ice shedding (buz dökülmesi) prosedürlerine harfiyen uymasını talep etti. Özellikle soğuk hava operasyonlarında motor koruma limitlerine dikkat çekildi.",
+        "why_it_matters": "Soğuk hava operasyonlarında motor hasarlarını ve kompresör stall risklerini önlemek için kritik SOP hatırlatmasıdır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "engine_icing",
+          "SOP",
+          "safety_alert"
+        ],
+        "subcategory": "safety_alert",
+        "regulators": [
+          "EASA",
+          "FAA"
+        ],
+        "operational_takeaway": "Soğuk hava şartlarında ve buzlanma sahalarında FCOM motor buzlanması ve ice shedding prosedürleri eksiksiz uygulanmalıdır.",
+        "id": "36e7c53a90",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNV2IwNGUxeDRCU2NkdkZwQ1BHZWJlT2VWUldScVFIZlJZZ3dHekc1dFdkdHRTOUJxZ1FEUEFHRzJaS3ZTSzNLWk1TMzJHSWQzeUMzV3hPTnA3SFNCUU1TZm9MRWlCa1ZYeE1SNDk2emI2UFdRbWwyOTBKNWpfYjVmYWhXVDcyOFh2TlBNdGU3VEExd01ob2xYYXgxbE9vUEYyMk5OQW9zekhsRWpweWxfbXI5ejlIZw?oc=5",
+            "published_at": "2026-11-06T22:51:17.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "OpenAI 1.25 Trilyon Dolar Değerlemeyle 11 Milyar Dolar Ek Finansman Sağlıyor",
+        "summary": "OpenAI'ın henüz kapanmamış olan yeni bir finansman turunda 1.25 trilyon dolar değerleme üzerinden 11 milyar dolar ek kaynak topladığı bildirildi. Yatırım turunun önümüzdeki haftalarda tamamlanması bekleniyor.",
+        "why_it_matters": "Yapay zeka altyapısı ve büyük dil modellerinin finansal sürdürülebilirliği açısından sektör ölçeğini gösterir.",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "OpenAI",
+          "funding",
+          "valuation",
+          "AI"
+        ],
+        "subcategory": "infrastructure_chips",
+        "entities": [
+          "OpenAI"
+        ],
+        "developer_impact": "Yapay zeka araştırma bütçeleri ve büyük ölçekli altyapı yatırımlarının artarak devam edeceğini gösterir.",
+        "id": "c0d89ab854",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+            "published_at": "2026-11-06T22:53:46.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Palo Alto Networks, AI Ajan Güvenliği Girişimi Clutch'ı Satın Alıyor",
+        "summary": "Palo Alto Networks, yapay zeka ajan güvenliği alanında faaliyet gösteren Clutch girişimini yaklaşık 500 milyon dolar karşılığında satın almak için görüşmeler yürütüyor. Girişim daha önce 85 milyon dolar değerlemeye sahipti.",
+        "why_it_matters": "AI ajan sistemlerinin yaygınlaşmasıyla birlikte güvenlik ve kimlik denetimi araçlarının önem kazandığını gösterir.",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "Palo Alto Networks",
+          "Clutch",
+          "AI_security",
+          "acquisition"
+        ],
+        "subcategory": "policy_safety",
+        "entities": [
+          "Palo Alto Networks",
+          "Clutch"
+        ],
+        "developer_impact": "AI ajan mimarileri geliştirirken güvenlik, yetkilendirme ve sızma testleri öncelikli hale gelmektedir.",
+        "id": "7f577e0441",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+            "published_at": "2026-11-06T06:28:32.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [
+    "Hacker News (AI) RSS alınamadı: HTTP 502 (Bad Gateway) — https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=80"
+  ],
+  "meta": {
+    "rss_feeds_ok": 12,
+    "rss_feeds_failed": [
+      "hn_ai"
+    ],
+    "rss_items_fetched": 149,
+    "rss_items_used": 77,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 105222
+  }
+}
