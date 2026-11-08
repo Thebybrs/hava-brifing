@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T05:43:30.456Z",
+  "window": {
+    "from": "2026-11-07T05:43:02.966Z",
+    "to": "2026-11-08T05:43:02.966Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "Avolon 140 Adet Boeing 737 MAX 10 Siparişini Kesinleştirdi; Claude Code'da Güvenlik Açığı Saptandı",
+  "tldr": [
+    "Avolon, Boeing ile 140 adet 737-10 uçağını kapsayan sipariş anlaşmasını nihai olarak kesinleştirdi.",
+    "United Airlines ekibi, şiddetli fırtına bölgesinden geçen ATC rotasını reddederek emniyetli rotada ısrar etti.",
+    "Claude Code'un 'Don't Ask Again' özelliği, 1.122 açık GitHub dosyasında parola sızıntısına yol açtı.",
+    "Air Canada, bazı uzun menzilli Boeing 787 uçuşlarını verimlilik amacıyla Airbus A321XLR ile değiştirecek."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Avolon, 140 Adet Boeing 737-10 Uçağı İçin Siparişini Kesinleştirdi",
+        "summary": "Kiralama şirketi Avolon, 140 adet Boeing 737-10 uçağı kapsayan sipariş anlaşmasını nihai olarak kesinleştirdi. Anlaşma, Boeing'in dar gövdeli 737 MAX ailesinin en büyük varyantı olan 737-10 programına önemli bir teslimat desteği sağlıyor.",
+        "why_it_matters": "Boeing 737 MAX ailesinin en büyük üyesi olan 737-10 modeli için kiralama pazarındaki güçlü talebi ve filo büyüme planlarını gösteriyor.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "Boeing 737 MAX",
+          "Avolon",
+          "Fleet"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Avolon",
+          "Boeing",
+          "Boeing 737-10"
+        ],
+        "id": "173eafb053",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTVNmZE9uVXczQjQxVTBMcklCMkxuX3ZmNndaTlJHVmQ1UEk4cXRWTWFkbzFtQlJ0U0V0Z2ViS3RUV3gwX3dEOU90bllCR0hnMTVadmlic2w1ZkhtR0VXN25yYXZGZUZHMEJINUdKaUlTWmRvbXl0TmFTQVFjMmdhYUxXT09HY1dGQkowaVkxZkNnaVF6MUI0?oc=5",
+            "published_at": "2026-11-08T05:00:45.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Air Canada, Bazı Boeing 787 Rotalarında Airbus A321XLR Kullanmaya Hazırlanıyor",
+        "summary": "Air Canada, daha önce Boeing 787 geniş gövde uçaklarla icra ettiği bazı uzun menzilli hatlarda Airbus A321XLR dar gövde uçaklarını konuşlandırmayı planlıyor. Bu değişim, havayolunun ince uzun hatlarda koltuk başı maliyet ve verimlilik optimizasyonu stratejisini yansıtıyor.",
+        "why_it_matters": "Uzun menzilli dar gövde (A321XLR) uçakların geniş gövdelerin yerini alarak rota ekonomisini nasıl değiştirdiğini örnekliyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus A321XLR",
+          "Boeing 787",
+          "Air Canada",
+          "Fleet Strategy"
+        ],
+        "subcategory": "route_network",
+        "entities": [
+          "Air Canada",
+          "Boeing 787",
+          "Airbus A321XLR"
+        ],
+        "id": "bd28c5515c",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTmtDTWZ6MFRHbmNscEhzZUE1Sl9LcGp0MGExUWplaHYwX2M2cG1DNk12eDFJc2Q1M2Z4YmxEVm1pdDFHUDdoREJ5Z1NaSjRxX2pxTFlHb2FrdlVlUy14cElPYV9WU2hOSzNqdG5IekVkRGZUaVpCN3E4cU5xR1lLZko0eWFoN25oZVVTNlRJbw?oc=5",
+            "published_at": "2026-11-08T01:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Boeing: Çin Ticari Uçak Filosu Önümüzdeki 20 Yılda İki Katından Fazla Büyüyecek",
+        "summary": "Boeing tarafından yayımlanan pazar öngörüsüne göre, Çin'in ticari havacılık filosunun önümüzdeki 20 yıl içerisinde iki katından fazla büyümesi bekleniyor. Raporda bölgesel hava trafiğindeki artış ve filo yenileme ihtiyaçları vurgulanıyor.",
+        "why_it_matters": "Küresel uçak üreticileri için Çin pazarının uzun vadeli stratejik önemini gösteriyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "China",
+          "Market Forecast"
+        ],
+        "subcategory": "market_finance",
+        "entities": [
+          "Boeing",
+          "China"
+        ],
+        "id": "ea1d1ec651",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSjlJeWRoOW1nTy1hbU9BSTAyUFQyVDhFZmRRcGNqeU83bW9qWlYxVmJBNXZGYm1BYW15cUYxQWdvdXNpb1VicmVDVnp2YWxpUkVLRGFMazBvckdncXVyaUlMaGpIUUcxazFLN2lpWW01c1pSR0VLOHdxMVlqM0hnQnN2bEN0eEUzbGJXQmY3RmJkVUx6cktFMTdheVlQV09RTGlHaDVJRWRUWVE?oc=5",
+            "published_at": "2026-11-07T22:20:59.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Eurofighter Burun Konikine Sahip Airbus A320 Uçar Radar Laboratuvarı Olarak Göreve Başladı",
+        "summary": "Eurofighter radar burun donanımı entegre edilen özel bir Airbus A320 uçağı, uçar radar test ve geliştirme laboratuvarı olarak hizmete girdi. Uçak, gelişmiş aviyonik ve radar sistemlerinin havada test edilmesinde kullanılacak.",
+        "why_it_matters": "A320 platformunun özel aviyonik ve test görevleri için modüler kullanım kabiliyetini sergilemektedir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus A320",
+          "Avionics",
+          "Radar Test"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus",
+          "Airbus A320",
+          "Eurofighter"
+        ],
+        "id": "12b8348874",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcEVyb21sc1lsZWNEd1B3UWs1MEMycE81NnpSWUotS01ubzZWTVY4ZlQ3NEprTWJmRjVfMjZSSk5wNEg4WG9hSjhiQWxnNmNXS0EyM09DUHROaXljOExvZDRyZWhXWGtiMDhDcC1xZGVYQWVWazhGTE9nR3pCQjZXbVhIazF6SjdKU0dCRUJiOUJUOHdDdXZnNndadmFmemw1N3M3aHFLOA?oc=5",
+            "published_at": "2026-11-07T16:47:09.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "Robinson R66 Turbine Helikopter Kaza Yaptı (PP-MYO)",
+        "summary": "7 Kasım 2026 tarihinde PP-MYO tescilli bir Robinson R66 Turbine helikopteri kaza (accident) geçirdi. Kaza sonrası teknik ve operasyonel inceleme başlatıldı.",
+        "why_it_matters": "Döner kanat operasyonlarında emniyet takibi açısından önem taşımaktadır.",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "Robinson R66",
+          "Accident",
+          "Helicopter"
+        ],
+        "occurrence_class": "accident",
+        "occurred_at_utc": null,
+        "location": "Bilinmiyor",
+        "aircraft_type": "Robinson R66 Turbine",
+        "registration": "PP-MYO",
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "6e607c3e60",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0wOG51TF9sYVd1QzVYQmcyWGhnSHpoWHR1V2IxZDFBcUk2OC1Od3BJeFFvRk1qcFIyNnlMMlpZQ0JGODlFcFRydDF3eXJ3UTlVZXpzakJR?oc=5",
+            "published_at": "2026-11-07T23:39:29.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Cessna 172M Skyhawk (N57BM) Olayı Yaşandı",
+        "summary": "7 Kasım 2026 tarihinde N57BM tescilli bir Cessna 172M Skyhawk uçağında operasyonel bir olay (incident) meydana geldi. Olayın ayrıntılarına ilişkin soruşturma devam etmektedir.",
+        "why_it_matters": "Genel havacılık emniyeti açısından takip edilen olaylar arasındadır.",
+        "importance": 2,
+        "confidence": "preliminary",
+        "tags": [
+          "Cessna 172",
+          "Incident",
+          "GA"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": null,
+        "location": "Bilinmiyor",
+        "aircraft_type": "Cessna 172M Skyhawk",
+        "registration": "N57BM",
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "22bd6783c7",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9kZlBXbVZxRTZNVUoxeERqMzVROWFuV29kQjlCUDYtQzJ5QlplNFhmazlPZWRVRWxWbjlZQ1FJMUpDWUNtZWNvek10WHVUeVFqVjN2VVFR?oc=5",
+            "published_at": "2026-11-08T01:17:53.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Bombardier CRJ-200ER (RA-67162) Olay İncelemesi",
+        "summary": "6 Kasım 2026 tarihinde RA-67162 tescilli Bombardier CRJ-200ER uçağında bir olay (incident) yaşandığı rapor edildi.",
+        "why_it_matters": "Bölgesel jet operasyonlarında emniyet takibi.",
+        "importance": 2,
+        "confidence": "preliminary",
+        "tags": [
+          "CRJ-200",
+          "Incident"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": null,
+        "location": "Bilinmiyor",
+        "aircraft_type": "Bombardier CRJ-200ER",
+        "registration": "RA-67162",
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "3c26afc4cd",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ydjdCdHJKMkRaclZoR01WWDdxNC1TTDJMa29iWlBVb3lDNktyUXZxZTdGdzQ3OV9IQmc4b3BnUktySzU2ckN6UWlYOFFhTUNRYjBJR05R?oc=5",
+            "published_at": "2026-11-07T10:58:25.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "United Airlines Pilotları Şiddetli Fırtına İçinden Geçen ATC Rotalamasını Reddetti",
+        "summary": "San Antonio (SAT) - Washington Dulles (IAD) seferini yapacak United Airlines uçuş ekibi, ATC tarafından verilen rota önerisini reddetti. Pilotlar, önerilen rotanın uçuşu doğrudan şiddetli bir gök gürültülü fırtınanın (severe thunderstorm) en tehlikeli bölgesine yönlendireceğini tespit ederek alternatif emniyetli rota talep etti.",
+        "why_it_matters": "Hava durumu kaçınma (weather avoidance) kararlarında pilot komuta yetkisinin (PIC authority) ve TEM (Threat and Error Management) uygulamasının önemini göstermektedir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "CRM",
+          "TEM",
+          "Weather Avoidance",
+          "ATC",
+          "PIC Authority"
+        ],
+        "subcategory": "sop_procedures",
+        "regulators": [
+          "FAA"
+        ],
+        "operational_takeaway": "Ekip, ATC talimatlarına körü körüne uymak yerine olumsuz hava koşullarında PIC yetkisini kullanarak radar verilerine göre emniyetli rotada ısrarcı olmalıdır.",
+        "id": "fe04b84665",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/united-airlines-pilots-defy-atc-orders-fly-through-worst-part-severe-storm/",
+            "published_at": "2026-11-07T20:24:07.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "Claude Code'un 'Don't Ask Again' Özelliği 1.122 Açık GitHub Dosyasında Parolaların Sızmasına Neden Oldu",
+        "summary": "Geliştirici aracı Claude Code'da yer alan 'Don't Ask Again' seçeneğinin, hassas parolaları ve gizli anahtarları (secrets) commit dosyalarına dahil ederek 1.122 kamuya açık GitHub deposunda sızıntıya yol açtığı tespit edildi.",
+        "why_it_matters": "AI agent ve kodlama araçlarının otomatik onay mekanizmalarındaki güvenlik açıklarının kod depolarında ciddi veri sızıntılarına yol açabileceğini gösteriyor.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Claude Code",
+          "AI Security",
+          "GitHub",
+          "DevSecOps"
+        ],
+        "subcategory": "dev_tools",
+        "entities": [
+          "Claude Code",
+          "GitHub"
+        ],
+        "developer_impact": "AI kodlama ajanları kullanırken otomatik onay seçeneklerine dikkat edilmeli ve git commit öncesinde secret scanner araçları çalıştırılmalıdır.",
+        "id": "11ee0535ba",
+        "sources": [
+          {
+            "name": "Hacker News (AI)",
+            "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+            "published_at": "2026-11-07T20:45:32.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "ABD İstihbarat Notu: Çin İstihbaratı Nvidia CEO'sunu İzlemek İçin Teknoloji Yöneticisini Devreye Soktu",
+        "summary": "ABD istihbarat notuna göre Çin Devlet Güvenliği Bakanlığı, Nvidia CEO'su hakkında bilgi toplamak için bir teknoloji yöneticisini devşirmeye çalıştı. Olay, AI çip endüstrisindeki jeopolitik rekabeti ve istihbarat tehditlerini ortaya koyuyor.",
+        "why_it_matters": "Yapay zeka donanım ve çip sektörünün küresel güvenlik ve casusluk hedefi haline geldiğini kanıtlıyor.",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "Nvidia",
+          "AI Chips",
+          "Security",
+          "Geopolitics"
+        ],
+        "subcategory": "infrastructure_chips",
+        "entities": [
+          "Nvidia",
+          "Megaspeed"
+        ],
+        "developer_impact": "Kritik AI donanım ve altyapı tedarik zincirlerinde kurumsal güvenlik protokollerinin artırılması gerektiğini gösteriyor.",
+        "id": "145c45fce0",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+            "published_at": "2026-11-07T21:17:08.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [],
+  "meta": {
+    "rss_feeds_ok": 13,
+    "rss_feeds_failed": [],
+    "rss_items_fetched": 171,
+    "rss_items_used": 50,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 27491
+  }
+}

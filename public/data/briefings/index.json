@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07T05:43:22.729Z",
-  "latest": "2026-11-07",
+  "updated_at": "2026-11-08T05:43:30.459Z",
+  "latest": "2026-11-08",
   "briefings": [
+    {
+      "date": "2026-11-08",
+      "path": "2026-11-08.json",
+      "headline": "Avolon 140 Adet Boeing 737 MAX 10 Siparişini Kesinleştirdi; Claude Code'da Güvenlik Açığı Saptandı",
+      "counts": {
+        "commercial_aviation": 4,
+        "accidents_and_incidents": 3,
+        "piloting_and_ops": 1,
+        "ai_developments": 2
+      },
+      "has_fatal_accident": false,
+      "max_importance": 4,
+      "generated_at": "2026-11-08T05:43:30.456Z"
+    },
     {
       "date": "2026-11-07",
       "path": "2026-11-07.json",
