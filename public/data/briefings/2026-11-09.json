@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T05:58:04.247Z",
+  "window": {
+    "from": "2026-11-08T05:57:13.318Z",
+    "to": "2026-11-09T05:57:13.318Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "LAX'te Air France A350 ve American A321 Yakın Geçiş Yaşadı; Şiddetli Jet Stream Overspeed Olaylarını Artırdı",
+  "tldr": [
+    "LAX'te Air France A350 ile American A321 arasında yanlış dönüş kaynaklı ciddi bir yakın geçiş olayı yaşandı.",
+    "Atlantik üzerindeki şiddetli Jet Stream, transatlantik uçuşlarda overspeed vakalarının artmasına neden oldu.",
+    "THY, Hanoi rotasındaki direkt sefer sayısını haftalık 10 frekansa çıkardığını duyurdu.",
+    "Goldman Sachs, güvenlik ve gizlilik gerekçeleriyle Claude Code kullanımını çalışanları için durdurdu."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "THY Hanoi Sefer Sayısını Haftalık 10 Frekansa Çıkarıyor",
+        "summary": "Türk Hava Yolları, Vietnam'ın başkenti Hanoi'ye düzenlediği direkt uçuş frekansını haftalık 10 sefere yükseltti. Havayolu bu adımla Güneydoğu Asya ağındaki yolcu kapasitesini ve pazar payını artırmayı hedefliyor.",
+        "why_it_matters": "THY'nin Uzak Doğu ağındaki frekans artışı, bölge operasyonlarında pilot görevlendirmelerini ve uçak rotasyonunu etkilemektedir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "Hanoi",
+          "Rota İnovasyonu"
+        ],
+        "subcategory": "route_network",
+        "entities": [
+          "Türk Hava Yolları",
+          "THY"
+        ],
+        "id": "93969963e0",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdXVXM3RVaG92YjhIOGFYM3lGRmszNkRmOHY0blczWU84V3pJVlM0N1lZdW9pMHc0d3pQTWhlbDgwRGFVUXNhcGtTTXRjTFJqWHI4SXJHUGJDVzd4RTR4TXhiSW1QcGg0ci1tRkMzNHdPRGEzRzRNdTB1ZFZzcnV5NG1TS1NaMWY4WXc?oc=5",
+            "published_at": "2026-11-09T05:37:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "CFM, China Eastern'ın 101 Adet A320neo Uçağı İçin Motor İhalesini Kazandı",
+        "summary": "CFM International, China Eastern Airlines'ın 101 adet Airbus A320neo ailesi uçağına güç sağlamak üzere LEAP-1A motor anlaşmasını sağladı. Anlaşma uzun vadeli bakım ve yedek motor desteğini de kapsıyor.",
+        "why_it_matters": "A320neo filolarında motor tedarik ve bakım anlaşmaları, teknik operasyon emniyeti ve filonun faal kalma oranını belirler.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "CFM LEAP",
+          "Airbus A320neo",
+          "Motor Anlaşması"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "CFM International",
+          "China Eastern Airlines",
+          "Airbus A320neo"
+        ],
+        "id": "6d19a16483",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTDhxNzJyR0lYa2lKSFBiSHpiRURleG01VXpBQmc5MGpKX0tKTVlRMHlTSkRWMmJaRVZGanNTZXJZOHo0elpkbHZNa0hFcVhkc0FrXzBFeUNXWXVhamZMZ0xTR0hOYnM0WTZWcFRkRnY4SjZQTGpiOElzR3lFSk5YeDJmZjBlUlpzR2tNMWZqRWxGajJQcndGcDhPbXlvQdIBowFBVV95cUxQNEFFOHU0V1YwcnlMNTdoMDR6NXFlUG9ZR0d6c1hJVS1zU0hJa3JPN0NBTTd6d3h3U0xJLUx4UVJ6alJocC1vbFJ3dGtXTDduOTVmdDNGS0JPLWthMzM2V2loalJTT056Y3lEVmhFM21YUE56cXZUSndRZmRNdUY0QjdsVDlUYW8tQzAzVk5HLVYtWG9sWDhsN2ZZZjAzcXMtZ2U4?oc=5",
+            "published_at": "2026-11-08T14:21:34.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "AerFin, Qantas İle 44 Adet Boeing 737NG Uçağı İçin Anlaşma İmzaladı",
+        "summary": "Havacılık hizmetleri sağlayıcısı AerFin, Avustralyalı Qantas ile 44 adet Boeing 737NG uçağını kapsayan filo ve yedek parça tedarik yönetimi anlaşması gerçekleştirdi.",
+        "why_it_matters": "İkinci el dar gövde filolarının ömür devri yönetimi ve MRO parça tedarik zincirleri havayolu işletme maliyetlerinde kritik rol oynar.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing 737NG",
+          "Qantas",
+          "AerFin"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "AerFin",
+          "Qantas",
+          "Boeing 737NG"
+        ],
+        "id": "40a8fb91e4",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQzNESGpOdnNxdDk2OS12TVpQYWxVMkw5RVJ6Qi1MNEcyNWJteXJ0clotMmNxLUZYVzNzYjBWd2Y5UlR0M09nS25HdnJfUi1UVzUxOEdkTTdWTkw3RlRfRTNjVUVKZUpHSGxSbERnblllSkMxOGR2cHVublRPWVYwUFBmUFI?oc=5",
+            "published_at": "2026-11-09T04:30:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Air France 60 Adetlik Airbus A220 Filo Teslimatını Tamamladı",
+        "summary": "Air France, sipariş ettiği 60 adet Airbus A220-300 uçağının teslimat sürecini tamamladı. Şirket bölgesel filodaki yenilemeye rağmen eski nesil A318 uçaklarını operasyonda tutmaya devam ediyor.",
+        "why_it_matters": "Dar gövde filolarındaki tip geçişleri ve yaşlı uçakların operasyonda kalması ek mühendislik ve tip derecelendirmesi süreçleri gerektirir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Air France",
+          "Airbus A220",
+          "Filo Yenileme"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Air France",
+          "Airbus A220",
+          "Airbus A318"
+        ],
+        "id": "36722c70fa",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWC02NXdZU2VXRzNvdUNaa1hieVBLdTdpYV9kLW95R2FTeWwyODMyNFZFZDVNMC1ieEc5SktnUzVtTEhGeUNaU2ZBbFVuLTE2dWNpLTcxUVhWWHhwS2lSd2t0YVprNW95b05FdmFKRkJXb1pwcXRYWGJqN1pRTTJIc1pmZllnMVVHQ3dIMWF6ZkJkT09xMkV3?oc=5",
+            "published_at": "2026-11-08T21:06:26.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "LAX'te Air France A350 ile American A321 Arasında Yakın Geçiş Yaşandı",
+        "summary": "Los Angeles Uluslararası Havalimanı (LAX) hava sahasında Air France Airbus A350 uçağı ile American Airlines Airbus A321 uçağı arasında yetkisiz bir dönüş sonrasında ciddi yaklaşma olayı meydana geldi. Olay sırasında ayırma standartları ihlal edildi.",
+        "why_it_matters": "Yoğun havalimanı kalkış ve yaklaşma kulvarlarında ATC talimatlarına uyum ve TCAS çözümlerinin zamanında uygulanması çatışma emniyetinin temelidir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "LAX",
+          "Airbus A350",
+          "Airbus A321",
+          "Near Miss"
+        ],
+        "occurrence_class": "serious_incident",
+        "occurred_at_utc": null,
+        "location": "Los Angeles (LAX), ABD",
+        "aircraft_type": "Airbus A350",
+        "registration": null,
+        "operator": "Air France",
+        "flight_number": null,
+        "flight_phase": "initial_climb",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [
+          "Yetkisiz dönüş (unauthorized turn)",
+          "Hava sahası ayırma ihlali (loss of separation)"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": "NTSB",
+        "id": "d8e1305dac",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/air-france-a350-american-airlines-a321-near-midair-collision-lax/",
+            "published_at": "2026-11-09T05:12:37.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Piper PA-44 Turbo Seminole Kosta Rika'da Gövde Üzeri İniş Yaptı",
+        "summary": "Piper PA-44-180T Turbo Seminole tipi çift motorlu eğitim uçağı, iniş takımları açılmadan gövde üzeri iniş gerçekleştirdi. Olayda uçakta maddi hasar meydana gelirken can kaybı yaşanmadı.",
+        "why_it_matters": "İniş takımı ikaz sistemlerinin kontrolü ve checklist disiplini, gövde üzeri iniş olaylarını önlemede hayati role sahiptir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Piper PA-44",
+          "Gear-up Landing",
+          "TI-BFU"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": null,
+        "location": "Kosta Rika",
+        "aircraft_type": "Piper PA-44-180T Turbo Seminole",
+        "registration": "TI-BFU",
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "landing",
+        "occupants": null,
+        "fatalities": 0,
+        "injuries": null,
+        "technical_findings": [
+          "Gövde üzeri iniş (gear-up landing)"
+        ],
+        "operational_findings": [],
+        "investigation_status": "unknown",
+        "investigating_authority": null,
+        "id": "b032c1d3f7",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCMXRqNjRPRWplbWlKeC14TUFHUHQ3MjhFWWZUaGFnV2hmeVZZZndEbG5Ba08xYWo1ZW1fY000c2c0c1dJOUxlWnQ5MU12eFgwb3licnlR?oc=5",
+            "published_at": "2026-11-08T18:04:56.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Aero L-39C Albatros Tipi Uçak ABD'de Kaza Yaptı",
+        "summary": "N339NA tescilli Aero L-39C Albatros tipi jet uçağı operasyon sırasında kaza yaptı. Olayla ilgili resmi inceleme başlatıldı.",
+        "why_it_matters": "Askeri menşeili sivil jetlerin operasyonel emniyeti ve bakım standartlarının takibi önem taşır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Aero L-39",
+          "N339NA",
+          "Kaza"
+        ],
+        "occurrence_class": "accident",
+        "occurred_at_utc": null,
+        "location": "ABD",
+        "aircraft_type": "Aero L-39C Albatros",
+        "registration": "N339NA",
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": "NTSB",
+        "id": "25302c6067",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95dUZUSjFtQzRuM0ZFWXAwNXpJMDlFdmhYRVo3azc2SHZBazhfSVFtaTFJZDM0TnlkYnFoMHdZaU9fQUE4VndfYmQ4dl91YklrajJJTllB?oc=5",
+            "published_at": "2026-11-08T23:02:42.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "Şiddetli Jet Stream Transatlantik Rotalarda Overspeed Vakalarını Artırdı",
+        "summary": "Kuzey Atlantik üzerinde etkili olan aşırı güçlü Jet Stream rüzgarları, transatlantik uçuş gerçekleştiren ticari jetlerde öngörülmeyen Mach artışlarına ve overspeed ikazlarına yol açtı. Uçuş ekiplerinin yüksek irtifa rüzgar değişimlerine karşı dikkatli olması istendi.",
+        "why_it_matters": "Yüksek irtifa seyir safhasında overspeed durumları uçak gövdesine binen dinamik yükü artırır ve emniyet marjlarını daraltır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Jet Stream",
+          "Overspeed",
+          "Transatlantic"
+        ],
+        "subcategory": "human_factors",
+        "regulators": [
+          "None"
+        ],
+        "operational_takeaway": "Jet Stream koridorlarında seyrederken Mach tutma modları ve Autothrust tepkileri hassas izlenmeli; ani rüzgar makaslarında sürat limitlerine yaklaşmadan manuel thrust ve pitch müdahalesi değerlendirilmelidir.",
+        "id": "f6ab340b8c",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdHd6MzJYTFpicGVTdW82elpzUXF6cFlwa3l1SWFTWDNBZUliLWJCYnc4UGV2dXJvYkJCWUh1S042bUZyZHZQNVdaRS0tSkh6Rl9pQlc0RmFrVl9WLUY0S1NPQWEwS3lGVGY2SGh0amJBeWo2a2lkdVRaVWZkQktyTDIzNWkxZWJGNkMzQ294Q3FYYXEtbE5nY3ZwSHQtazJrS0hV?oc=5",
+            "published_at": "2026-11-08T23:11:42.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Pistlerde Biriken Kauçuk Kalıntıları Frenleme Performansını Riskte Bırakıyor",
+        "summary": "İniş yapan uçakların teker koyma esnasında bıraktığı kauçuk birikintileri, pist yüzeyindeki sürtünme katsayısını azaltmaktadır. Havalimanı otoriteleri düzenli hidro-temizlik çalışmalarıyla durma mesafesi emniyetini sağlamaktadır.",
+        "why_it_matters": "Düşük pist sürtünme katsayısı, özellikle ıslak ve kontamine pistlerde runway excursion riskini katlayarak artırır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Pist Sürtünmesi",
+          "Runway Excursion",
+          "Frenleme"
+        ],
+        "subcategory": "sop_procedures",
+        "regulators": [
+          "None"
+        ],
+        "operational_takeaway": "Islak veya yüksek trafikli pistlere yaklaşmada frenleme performansı hesaplanmalı, touchdown bölgesine zamanında temas ve stabilised approach kriterlerine uyulmalıdır.",
+        "id": "6d6d4fa29e",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/airports-remove-rubber-deposits-runways-keep-jets-braking-safely/",
+            "published_at": "2026-11-08T23:00:17.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "Nvidia Yönetim Kurulu CEO Jensen Huang Hakkında Kurumsal İnceleme Başlattı",
+        "summary": "Nvidia Yönetim Kurulu, CEO Jensen Huang'ın şirketteki iç ilişkileri ve olası casusluk iddiaları kapsamında bir soruşturma başlattı. Huang'ın şirket içi notta ilişkiyi kabul etmesi sonrası yönetim kurulu idari seçenekleri değerlendiriyor.",
+        "why_it_matters": "Yapay zeka çip pazarının lideri Nvidia'daki yönetimsel krizler, küresel donanım tedarik zincirleri ve altyapı projeleri için risk yaratmaktadır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Nvidia",
+          "Jensen Huang",
+          "Governance"
+        ],
+        "subcategory": "policy_safety",
+        "entities": [
+          "Nvidia",
+          "Jensen Huang"
+        ],
+        "developer_impact": "GPU tedarik planlamaları ve uzun vadeli AI altyapı yatırımlarında kurumsal yönetim risklerinin dikkate alınması gerekmektedir.",
+        "id": "367c986574",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+            "published_at": "2026-11-09T05:26:29.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+            "published_at": "2026-11-08T21:00:11.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Goldman Sachs Güvenlik Endişeleri Nedeniyle Claude Code Kullanımını Durdurdu",
+        "summary": "Goldman Sachs, Anthropic'in yazılım geliştirme aracı Claude Code'un bankacılar ve tüccarlar tarafından kullanımını askıya aldı. Kararın arkasında kod depolarında hassas verilerin ve parolaların sızmasına yol açan güvenlik riskleri bulunuyor.",
+        "why_it_matters": "Finans ve kritik altyapı sektörlerinde AI agent'larının ve otomatik kodlama araçlarının veri güvenlik standartları sıkılaşıyor.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Claude Code",
+          "Goldman Sachs",
+          "AI Security"
+        ],
+        "subcategory": "dev_tools",
+        "entities": [
+          "Goldman Sachs",
+          "Anthropic",
+          "Claude Code"
+        ],
+        "developer_impact": "Kurumsal projelerde Claude Code gibi agent araçları kullanılırken hassas kimlik bilgileri ve gizli dosyaların sürüm kontrol sistemlerine sızmaması için strict linter ve izole sandbox yapıları kurulmalıdır.",
+        "id": "c0449a7064",
+        "sources": [
+          {
+            "name": "Hacker News (AI)",
+            "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+            "published_at": "2026-11-08T18:16:07.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [],
+  "meta": {
+    "rss_feeds_ok": 13,
+    "rss_feeds_failed": [],
+    "rss_items_fetched": 166,
+    "rss_items_used": 71,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 50931
+  }
+}

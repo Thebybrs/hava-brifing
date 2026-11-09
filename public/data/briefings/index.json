@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-08T05:43:30.459Z",
-  "latest": "2026-11-08",
+  "updated_at": "2026-11-09T05:58:04.252Z",
+  "latest": "2026-11-09",
   "briefings": [
+    {
+      "date": "2026-11-09",
+      "path": "2026-11-09.json",
+      "headline": "LAX'te Air France A350 ve American A321 Yakın Geçiş Yaşadı; Şiddetli Jet Stream Overspeed Olaylarını Artırdı",
+      "counts": {
+        "commercial_aviation": 4,
+        "accidents_and_incidents": 3,
+        "piloting_and_ops": 2,
+        "ai_developments": 2
+      },
+      "has_fatal_accident": false,
+      "max_importance": 4,
+      "generated_at": "2026-11-09T05:58:04.247Z"
+    },
     {
       "date": "2026-11-08",
       "path": "2026-11-08.json",
