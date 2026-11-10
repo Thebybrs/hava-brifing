@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T05:50:47.641Z",
+  "window": {
+    "from": "2026-11-09T05:48:03.382Z",
+    "to": "2026-11-10T05:48:03.382Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "Qantas Projesi İçin Uçan Airbus A350-1000ULR Dünya Mesafe Rekorunu Kırdı, Boeing Üretim Yavaşlaması Nedeniyle İşçi Çıkarıyor",
+  "tldr": [
+    "Airbus A350-1000ULR, Qantas test uçuşunda 14,388 mil mesafe katederek dünya rekoru kırdı.",
+    "Boeing Commercial Airplanes, üretim aksaklıkları nedeniyle iş gücünün %5'ini azaltacağını duyurdu.",
+    "PAL, dokuz adet ilave Airbus A350-1000 siparişini kesinleştirdi.",
+    "Air Arabia Maroc A320 olayında kaptanın somatogravic illusion etkisinde kaldığı açıklandı."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Airbus A350-1000ULR Qantas Test Uçuşunda Dünya Mesafe Rekorunu Kırdı",
+        "summary": "Airbus A350-1000ULR, Qantas Project Sunrise operasyonları kapsamında gerçekleştirdiği test uçuşunda 14,388 mil (24 saatlik uçuş) katederek en uzun ticari uçuş dünya mesafe rekorunu kırdı. Uçak, havayolunun ultra uzun menzilli hat operasyonları için hazır olduğunu kanıtladı.",
+        "why_it_matters": "Ultra uzun menzilli ETOPS ve rota planlaması ile çok düşük yakıt tüketimi standartlarını belirleyen yeni nesil widebody performansını gösterir.",
+        "importance": 5,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "Qantas",
+          "A350-1000ULR",
+          "ProjectSunrise",
+          "Record"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus",
+          "Qantas",
+          "Airbus A350-1000ULR"
+        ],
+        "id": "4cb4dd847d",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTTY3XzNlaUJuZWNZbi1Sd0xONkNSeWtVSXRtYXJBVDd6S3RVcHJNS293dUIwM2g5ekRYdk9kNUlOaDFvZm9JWEp3ZmJIcmQya245ZXRHZUxwa245NkpQSTEzX2MyVjRwcHJ2cnZQZ2oxZzh6dzdOTmpTUDVfT05hNHhnRHpqcGpYbHJXNi1udGRaZ2loenZJ?oc=5",
+            "published_at": "2026-11-10T05:01:52.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNLUdHei1wOHJQVDFaQm5la0xPWTlXbWFFd3lSZkttUGk1V2FreEpqX3VFaVladG5FSmliOWxfbGQ2anNqNGVvU2RiazA0RzAzczZoNE5tMzh4X2VRYzZ2MmJMa1dYWko4UjQ3WXpuemlGdURVcXlzdXlIVE96UkJVaC1Fd0tmd0VYNFQtU2xPNGZlZEpUTXpJbzRDSTU0UF8xV0REY2lwQm43amRPcVJGV1NSV0JkUWV4SHBIV3VR?oc=5",
+            "published_at": "2026-11-09T22:53:22.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSHhyaXZiMzNPS3M0ZGp0M2JkZFdXSlpzVy1ac1M1ZTlrYTUzbHF6bHhsRmo5dTJyU20wMTRnU1dUMWtralNua09wUERqcnFLN0wzVGdCMU1zQy0yLVF6MF9PLUpDMDZaejFHZ1JJaDg0anB0Um9MUkg0SDJucV9oVnBLeEZZdw?oc=5",
+            "published_at": "2026-11-09T22:17:03.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNR2lDVWUwY2dFMkdhbU43eFRaTUpLSzhjUHRYZnVIVWFSLVNTUnBSMHJrTUFKRTBQZjhBSElsRE1rd2JBQTRmeU95akUyM3NiMGwwcGp4NXN0YkRyQlJNWGs5Y0RNaXVQRTRRVnAwdTZobGdQbVpObGxiYmlJZGRMQkFKeVpvT3o5bjhKVzdsSXp3a094SUk1ZnktcEJDbS1mVGhkdkt2LU1RNWdFR1YwdlU2bDhHdFlt?oc=5",
+            "published_at": "2026-11-09T17:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Boeing Üretim Yavaşlaması Nedeniyle Ticari Havacılık İş Gücünün %5'ini Azaltıyor",
+        "summary": "Boeing, fabrika ve tedarik zinciri zorlukları ile üretim artış hızının yavaşlaması nedeniyle Boeing Commercial Airplanes bölümündeki iş gücünün yaklaşık %5'ini (yaklaşık 2,500 çalışan) azaltma kararı aldığını duyurdu. İşten çıkarma bildirimlerinin Aralık ayında başlaması bekleniyor.",
+        "why_it_matters": "Tedarik zinciri dar boğazlarının ve fabrika aksaklıklarının Boeing'in ticari uçak üretim ramp-up planları üzerindeki doğrudan operasyonel etkisini gösterir.",
+        "importance": 5,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "Layoffs",
+          "SupplyChain",
+          "Manufacturing"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing",
+          "Boeing Commercial Airplanes"
+        ],
+        "id": "809ab9e451",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMU5DU3RfbTNmbkRyRk1RUk81TXVkTXM4X1lEd1J1a19nNnNia2xCbTYtOGgtSGVQRnM2T0tYclBNdDNUZTIxYUJGczFQcG5RRFAxN1Q5dy1NVUxZMVdOQWpObzZvd0Rya3duZ0MyUDNIZXhQaV9ieUtfUlNNTmJHaGlUVl9lN25sMzlrLVBLVzdEUWNGTXVfbE1tc1hGMFZiak8xcHZ2UUxUbUd6amhhOGFBUXIxTHFSVjhVc1NBcDFoNGfSAdcBQVVfeXFMTk5qYVBUdFdkbF90a1FhSTNCWnh6clh3cmRKYkFPM3c2R2d5ejhQODdEb2l0YlRuclFVUTFJTnFidjl6ZVNkdXd6QXRuekJUdUNKNmVhcDJVa3dCby0tRExMLW5kYXdQcjM1c1hETzJSbXNIX0hIcW9tTnh0TWRQamF2ZHVJaFdYaERmTnVwa3ExeVlEOFVQMlVjdkZVZHRYb1U0dEJMbHJ6QTFaRGxnejdoN3AteUlmbnBKYkplc1NrNnR6RmhXTlVRaVpEdDFONjVNXzl0MVE?oc=5",
+            "published_at": "2026-11-10T03:30:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaW9XWm1jeTZGZjZBQVZwUDVYMEZCbmlxakl3dnNQQkVkUk91WGxHNVVFQnBGcENteS1FRkZieUI0OE9yNWZ3Znl6MC15cmxCUUJpVTdWajZTOEFobGlYamw5ZkxIS1c5bTlfVjdfS2VmV1NVcGxZbWJ4NHFERU9XSVVHZ0VPRVE?oc=5",
+            "published_at": "2026-11-10T02:55:34.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMEVmam1ETHZfa2xUTHpCOWdGVnpSMHRaejBhNVdOWk16WVJtM2VBUWI5VHdOVmpMZVJFa1JxMG8xWDExUE9aX3VtTTVJRl9VeFRSd05MY2Nld0Z6TnhSZnd1aFhZZTRQQzdpM3NsQnNXTDlrZnJLdElOTDg3ZVNTTzhXX295Q19jMHNnaFdWNDJTY2hQbnFrTC05ODJQeDI3NjJUNktaSVhfOVVlX1hocU80R0lvOUYwTnF2ODlPRjFPUWc?oc=5",
+            "published_at": "2026-11-10T00:10:44.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/boeing-cuts-5pc-commercial-airplanes-workforce-production-slows/",
+            "published_at": "2026-11-09T23:25:34.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Philippine Airlines Dokuz Adet Airbus A350-1000 Siparişini Kesinleştirdi",
+        "summary": "Philippine Airlines (PAL), filosunu genişletme stratejisi kapsamında dokuz adet ilave Airbus A350-1000 siparişini kesinleştirdiğini duyurdu. Anlaşma, havayolunun geniş gövde kapasitesini artırma hamlesini pekiştiriyor.",
+        "why_it_matters": "Geniş gövde pazarındaki uzun menzilli uçak talebinin ve Airbus A350 serisinin pazar payının güncel durumunu gösterir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "PhilippineAirlines",
+          "A350-1000",
+          "Order"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus",
+          "Philippine Airlines",
+          "Airbus A350-1000"
+        ],
+        "id": "53a5ef7df6",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbzdQV21mSUo0X3Zabkc0VnN5dWFJZ3hLTXBvc0hyMW4xa1B2anZ0YmJ6Y2NWUHJnRUMxOFh6QU00am5hdnRaRWx2UVc1bTVBWjJiS3VoMXpSaWJKaTRLNUo0dVFobGVhVUliRGZKT1kzemIyY2x0Wk5adHpTTWdiUVY4ZzFRN2UyLXp1a0hn?oc=5",
+            "published_at": "2026-11-10T01:53:22.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Delta Air Lines'ın İlk Airbus A350-1000 Uçağı Tam Boya İle Görüntülendi",
+        "summary": "Delta Air Lines'ın sipariş ettiği ilk Airbus A350-1000, Fransa'nın Toulouse kentindeki Airbus tesislerinde tam havayolu livery ile görüntülendi. Uçağın Haziran 2027'deki ticari hizmet başlangıcına yönelik hazırlıkları devam ediyor.",
+        "why_it_matters": "Büyük taşıyıcıların geniş gövde filo modernizasyon takvimlerini ve teslimat süreçlerini izlemek için kritik bir göstergedir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "DeltaAirLines",
+          "Airbus",
+          "A350-1000",
+          "Livery"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Delta Air Lines",
+          "Airbus",
+          "Airbus A350-1000"
+        ],
+        "id": "12856da39a",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/delta-1st-a350-1000-spotted-debut-june-2027/",
+            "published_at": "2026-11-09T23:48:43.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "THY'nin Ekim Ayı Yolcu Sayısında Sınırlı Düşüş, Doluluk Oranında Artış Yaşandı",
+        "summary": "Türk Hava Yolları (THY), 2026 yılının ilk 10 ayında toplam 81,5 milyon yolcu taşıdığını duyururken, ekim ayında yolcu sayısında sınırlı bir gerileme, buna karşın doluluk oranlarında artış kaydedildiğini açıkladı.",
+        "why_it_matters": "Bayrak taşıyıcı havayolunun operasyonel verimlilik ve talep dalgalanmalarındaki performansını takip etmek açısından önem taşır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "TurkishAirlines",
+          "Traffic",
+          "Financial"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Türk Hava Yolları"
+        ],
+        "id": "30c353a49c",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOWJHd2phOVhBZnFrYW5OcWtkUDgtUWgwYVA5Y3hhWFA0QkszTzdJSEJTRGFRREVlMVhFT0VQRVRxc2JZbTlRaWh0ZExZeXdjTzBKOXNDZHRCNVlfTkR2RHdKMVhPQkhmazdZY2FIU0N0eGg2UXh6czJ1YklYNWwzQ3M1aTJsR2NVZVlDejNR?oc=5",
+            "published_at": "2026-11-10T00:29:47.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMGZxQktVTC1zVGlLbU1fU1VCWHN4anNZWE9zXzZtOHFKTlJCcWJrREljQk00cEIxMGZ2TDA1V1loblJycElDNG8wVmR6VEF3MHRlMU9qZTI1VHR3RjZ5a2hXN0k2VG9lWHVuQi1hMnFYX2hheXNLZ1hFV3VXbVR2YW1BR2w?oc=5",
+            "published_at": "2026-11-09T18:20:12.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTE12ZDlidmNYNDdSVGtfa3RCck1vT1FGNXVsdTByR19Fejl5MjNwNGNqaTVHbFc3YjlzdlZpMDRuN2dEaFNrUG1fY09STTdQZlFPc1YzZS1seE5zc18tS0g0b1VFNmtvNjIyWC1VaXNmVVZheXZYeGJ6SWpOUlRJaVdxaFFlYkc0VjJUR1BxeUdKa1JjMDhBcXlBWDBZbW5HVHc?oc=5",
+            "published_at": "2026-11-09T16:45:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZkJIR1RVaEJJSDMxaHlvcGNVWElUZ0dkamFyczNwSUJjZHJDMUhaUkhMSXZhLVpaVktham5hVDMtdlFBYXh6d2Jta1VqQ1ZJWEtHNmx3R2FkTGRJaXlVRm9MbkR5aFRRQ3g0bFJfTllZNmo1aDBWeVNXTlFRMEJuWWpNTVNfYjlDdzJTRTJxYTNQMXZfQk9WQzhkTnVkcjZRbVNQdHNaVDY1U2h5Yy1jSmp4djRoUjJwVFBIblBvaEpBNFpqdEx0dlRPRGZkQQ?oc=5",
+            "published_at": "2026-11-09T15:25:12.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "Air Arabia Maroc A320 Uçağında Somatogravic Illusion Tehlikesi",
+        "summary": "Air Arabia Maroc şirketine ait bir Airbus A320 uçuşu sırasında, kaptan pilotun somatogravic illusion (yanılsama) etkisinde kaldığı ve uçağın denize neredeyse çarpma tehlikesi atlattığı rapor edildi. Olay, uzaysal yönelim kaybının (spatial disorientation) tehlikeli sonuçlarını ortaya koydu.",
+        "why_it_matters": "Gece veya düşük görüş şartlarında ivmelenme algısının pilotaj üzerindeki kritik etkilerini ve human factors eğitiminin önemini vurgular.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "AirArabiaMaroc",
+          "A320",
+          "HumanFactors",
+          "SpatialDisorientation"
+        ],
+        "occurrence_class": "serious_incident",
+        "occurred_at_utc": null,
+        "location": "Bilinmiyor",
+        "aircraft_type": "Airbus A320",
+        "registration": null,
+        "operator": "Air Arabia Maroc",
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [
+          "Somatogravic illusion affected captain",
+          "Aircraft nearly hit sea"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "f10d2c6139",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdkNKVjh2NUxnemtzOE5mOWJoM3hXTmtpdzJpcHAyMmNVTmpYLVUxeVk0czRJelVUaHF3Wkg2cXJYdVhHc3YwcHpNRmI4S3pvZGhBa1dHZnFsbkNyN3hXMjVNWFVxYmpiajk0VTl5YmZwSXlOT21ja29uRHlzWmMyTjk4aDUwQ05hSzRhWF9rbXhQdWNOLUMyNkZoYm9HazNFcFpDb01IT2JGWF9NRllBR0dKZEtZbHUwbWt5cmxtaTRYSDEtOEt0cHRyYw?oc=5",
+            "published_at": "2026-11-09T14:49:49.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Miami'deki Learjet 60 Kazasında NTSB Kokpit Ses Kayıt Cihazını Kurtardı",
+        "summary": "Güney Florida'da 1 Kasım'da meydana gelen ve dokuz kişinin ölümüne yol açan Learjet 60 kazasının olay yeri inceleme aşamasını tamamlayan NTSB, Kokpit Ses Kayıt Cihazı (CVR)'nın kurtarıldığını ve saha incelemesinin bittiğini açıkladı.",
+        "why_it_matters": "Kaza kırım soruşturmalarında CVR verilerinin okunması, sonuşuş hatası veya sistem arızalarının tespiti için kritik bulgular sağlar.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "NTSB",
+          "Learjet60",
+          "CVR",
+          "AccidentInvestigation"
+        ],
+        "occurrence_class": "accident",
+        "occurred_at_utc": null,
+        "location": "South Florida, United States",
+        "aircraft_type": "Learjet 60",
+        "registration": null,
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": 9,
+        "fatalities": 9,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [
+          "Aircraft crashed into ground during fatal accident earlier in month"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": "NTSB",
+        "id": "f0400c3566",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/ntsb-recovers-cockpit-voice-recorder-miami-crash-on-scene-investigation/",
+            "published_at": "2026-11-10T00:02:59.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Aer Lingus A330-300 Shannon Yakınlarında Weather Radar Arızası Yaşadı",
+        "summary": "Aer Lingus şirketine ait bir Airbus A330-300, 9 Kasım 2026 tarihinde Shannon yakınlarında seyrederken weather radar sisteminde arıza meydana geldiğini bildirdi. Olay güvenli şekilde yönetildi.",
+        "why_it_matters": "Kritik meteoroloji sistemlerinin uçuş sırasında arızalanması durumunda dispatcher ve kokpit ekibi arasındaki karar mekanizmalarını test eder.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "AerLingus",
+          "A330",
+          "WeatherRadar",
+          "Incident"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-09T19:58:05Z",
+        "location": "Shannon, Ireland",
+        "aircraft_type": "Airbus A330-300",
+        "registration": null,
+        "operator": "Aer Lingus",
+        "flight_number": null,
+        "flight_phase": "cruise",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [
+          "Weather radar issues"
+        ],
+        "operational_findings": [],
+        "investigation_status": "unknown",
+        "investigating_authority": null,
+        "id": "8262f77a6f",
+        "sources": [
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA5ZHVMdFREVmVpTnljWXB3LTYzQXk2dDE4ZnlFblN4M18wWGl0NUEwSkRWV2ZCUTExV1BEbFEzTmRESF9STzdCNEtENVhSLVB2cUxXNVE5alU?oc=5",
+            "published_at": "2026-11-09T19:58:05.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Atina Yakınlarında Uçan United Boeing 787-9 Uçağında Kokpitte Koku Tespiti",
+        "summary": "United Airlines'a ait bir Boeing 787-9, 9 Kasım 2026'da Atina yakınlarında seyir halindeyken kabin/kokpitte olağandışı bir koku (unusual odour) algılanması üzerine prosedürleri devreye soktu.",
+        "why_it_matters": "Aviyonik veya klima sistemlerinden kaynaklanabilecek duman/koku vakalarında QRH prosedürlerinin uygulanmasının önemini gösterir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "UnitedAirlines",
+          "B787",
+          "Odour",
+          "SOP"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-09T13:05:54Z",
+        "location": "Athens, Greece",
+        "aircraft_type": "Boeing 787-9",
+        "registration": null,
+        "operator": "United Airlines",
+        "flight_number": null,
+        "flight_phase": "cruise",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [
+          "Unusual odour on board"
+        ],
+        "operational_findings": [],
+        "investigation_status": "unknown",
+        "investigating_authority": null,
+        "id": "6b1647dcc2",
+        "sources": [
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA1dlZjd0lFcUlFd2JuaUJDbmVVZ1BHRjkycnBvWFNPNzVoX0dSMGQ4YnFvc2NLVVBTb1kxZzdEVjctMXdsUUc1b1huSVc1UXFFZDNyVmlrczU?oc=5",
+            "published_at": "2026-11-09T13:05:54.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "Airbus A320neo Kompetans Bazlı Sistemler Eğitimi Sıralamasına Dahil Edildi",
+        "summary": "Halldale Group raporuna göre, Airbus A320neo uçak sistemleri ve operasyonel prosedürleri, kompetans bazlı eğitim (CBTA) müfredatlarına ve sistem eğitim hatlarına resmen entegre edildi.",
+        "why_it_matters": "Pilot adaylarının A320neo tipi intibak ve sistem eğitimlerinde modern CBTA standartlarının uygulanması açısından kritik bir adımdır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "A320neo",
+          "CBTA",
+          "Training"
+        ],
+        "subcategory": "training_crm",
+        "regulators": [
+          "None"
+        ],
+        "operational_takeaway": "A320neo sistem eğitimlerinde kompetans bazlı modüllerin artması, arıza yönetimi ve normal/alternate law geçişlerinin simülatör entegrasyonunu güçlendirecektir.",
+        "id": "a997c0ad36",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWGxWZ0dJenpwdkJOYkItcmMwQWxxRDF4eTFpMjlOUTJmUDRRMm5sVGdQVk5IeDZYV29SVWk5Y010ZDhsVGdJbFJ2Vk0tZk0xZEJwZXdhVzlrekx0cjJSSHV0WERhMVJMYUNWSmJJb1hxb25sY2l4SW5zeXUzUnRkVUlMaTNpdllYc19BOVFuSlBfeF9yWG8yVlM1bFQxQTJ2eVdr?oc=5",
+            "published_at": "2026-11-10T02:57:09.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "Anthropic Yeni Mythos ve Fable Modellerini Duyurdu",
+        "summary": "Anthropic, kodlama, akıl yürütme (reasoning) ve vizyon alanlarında gelişmeler sunan yeni Mythos ve Fable modellerini piyasaya sürdü.",
+        "why_it_matters": "Geliştiriciler için gelişmiş kodlama ve mantıksal çıkarım yapabilen yeni nesil model alternatifleri sunar.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Anthropic",
+          "Mythos",
+          "Fable",
+          "LLM"
+        ],
+        "subcategory": "foundation_model",
+        "entities": [
+          "Anthropic"
+        ],
+        "developer_impact": "Kodlama ve reasoning benchmarklarında iyileşmeler sunan yeni modeller API entegrasyonlarında alternatif oluşturuyor.",
+        "id": "2dc7c3714e",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+            "published_at": "2026-11-09T19:24:51.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Meta Hafif Ajan Modeli Muse Ember'ı Yayınladı",
+        "summary": "Meta, milyon token başına 0.10 dolar maliyetle çalışan, ajan yürütme (agent execution) odaklı hafif modeli Muse Ember'ı duyurdu.",
+        "why_it_matters": "Düşük maliyetli agent tabanlı yazılım geliştirme süreçleri için ekonomik bir alternatif sunar.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Meta",
+          "MuseEmber",
+          "Agent",
+          "OpenWeights"
+        ],
+        "subcategory": "open_source",
+        "entities": [
+          "Meta"
+        ],
+        "developer_impact": "Çok düşük maliyetli token fiyatlandırması, yüksek hacimli agent iş akışlarının maliyetini büyük ölçüde düşürür.",
+        "id": "2ee1d816fc",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+            "published_at": "2026-11-09T18:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [
+    "Hacker News (AI) RSS alınamadı: This operation was aborted"
+  ],
+  "meta": {
+    "rss_feeds_ok": 12,
+    "rss_feeds_failed": [
+      "hn_ai"
+    ],
+    "rss_items_fetched": 140,
+    "rss_items_used": 94,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 164261
+  }
+}

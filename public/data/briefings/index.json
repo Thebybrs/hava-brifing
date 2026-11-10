@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-09T05:58:04.252Z",
-  "latest": "2026-11-09",
+  "updated_at": "2026-11-10T05:50:47.646Z",
+  "latest": "2026-11-10",
   "briefings": [
+    {
+      "date": "2026-11-10",
+      "path": "2026-11-10.json",
+      "headline": "Qantas Projesi İçin Uçan Airbus A350-1000ULR Dünya Mesafe Rekorunu Kırdı, Boeing Üretim Yavaşlaması Nedeniyle İşçi Çıkarıyor",
+      "counts": {
+        "commercial_aviation": 5,
+        "accidents_and_incidents": 4,
+        "piloting_and_ops": 1,
+        "ai_developments": 2
+      },
+      "has_fatal_accident": true,
+      "max_importance": 5,
+      "generated_at": "2026-11-10T05:50:47.641Z"
+    },
     {
       "date": "2026-11-09",
       "path": "2026-11-09.json",
