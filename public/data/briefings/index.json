@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T05:50:47.646Z",
-  "latest": "2026-11-10",
+  "updated_at": "2026-11-11T05:54:08.732Z",
+  "latest": "2026-11-11",
   "briefings": [
+    {
+      "date": "2026-11-11",
+      "path": "2026-11-11.json",
+      "headline": "Cathay Group 14 ek Airbus siparişi verdi; Boeing iş gücünü %5 azaltıyor",
+      "counts": {
+        "commercial_aviation": 4,
+        "accidents_and_incidents": 3,
+        "piloting_and_ops": 1,
+        "ai_developments": 2
+      },
+      "has_fatal_accident": false,
+      "max_importance": 5,
+      "generated_at": "2026-11-11T05:54:08.728Z"
+    },
     {
       "date": "2026-11-10",
       "path": "2026-11-10.json",

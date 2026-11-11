@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T05:54:08.728Z",
+  "window": {
+    "from": "2026-11-10T05:52:08.473Z",
+    "to": "2026-11-11T05:52:08.473Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "Cathay Group 14 ek Airbus siparişi verdi; Boeing iş gücünü %5 azaltıyor",
+  "tldr": [
+    "Cathay Group, ek A330neo ve A321neo uçakları için Airbus ile yeni bir sipariş anlaşması imzaladı.",
+    "Boeing, üretim temposunu ayarlamak amacıyla ticari havacılık iş gücünün %5'ini azaltıyor.",
+    "Lufthansa, ilk A350-1000 uçağını teslim alarak 700. Airbus filosuna ulaştı.",
+    "United Airlines uçuşunda bir yolcunun kokpite girmeye çalışması üzerine pilotlar acil durum kodu squawk etti."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "The Cathay Group 14 ek Airbus uçağı sipariş etti",
+        "summary": "Cathay Group, genişletme ve yenileme stratejisi kapsamında ek A330neo ve A321neo uçaklarından oluşan 14 adetlik yeni bir Airbus siparişi verdiğini duyurdu.",
+        "why_it_matters": "Havayollarının filo modernizasyonu ve geniş widebody/narrowbody stratejileri açısından önem taşır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "Cathay",
+          "A330neo",
+          "A321neo",
+          "Order"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus",
+          "Cathay Group",
+          "A330neo",
+          "A321neo"
+        ],
+        "id": "5123c89e63",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNHN4OGpZajBLMGowd3NybWd0dEkxVGkxVXM0MGFQS21uRU82QzB0SWx2R1U5ZDZQODdIR2JmRVIyLTdJQWhQUi1fZW5CUGNlSHBJbWpkSHRDYmZ6bXgtc3lpT2V2Vk1XeG1XNjB4dXN5RjIyTmZmYTBodjlBRlF0VzYxeWhueVdFTlluOEN6VEFWS0tfZC01cFA2SzBjdzc0aWNWX0ZRcTQ3MkpmUXJQNA?oc=5",
+            "published_at": "2026-11-11T03:59:24.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUDhSdGpPa1o0ZDJNcnFOcnF0M3Y3WHJvWkZnZHp3TDRqUTJyZFRTWF83V2hBNXdIdzJUeDNiYWpVOHhLQW9NLVZjY3pSbFdPdU1NZ1NzeFYwM2VqekdLVjV6RzdiSzh5cjlQSW14Mi1rTTh1UGxBeTItS2xmdThGdUJqRlVYYnVzejBxMk9MWm9nUGc?oc=5",
+            "published_at": "2026-11-11T05:28:30.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Boeing üretim temposunu ayarlarken iş gücünün %5'ini azaltıyor",
+        "summary": "Boeing, üretim temposunu yeniden düzenleme kararı doğrultusunda ticari havacılık birimindeki iş gücünü %5 oranında azaltma planını çalışanlarına duyurdu. Ekim ayında teslimatların düşmesine karşın siparişlerin güçlü seyrettiği rapor edildi.",
+        "why_it_matters": "Üretim hızları ve tedarik zinciri istikrarı, küresel filo teslimat planlarını doğrudan etkiler.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "Deliveries",
+          "Orders",
+          "Layoffs"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing"
+        ],
+        "id": "63f40cbc41",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeHRiVW80RzM3QTlZajVRalVtUjVNLXhyU2pEeVVQRUU4cldGdHNZdUpxOERrQ200ZDFsX2RWaElxSjQwcUt1eG1WQ0JOVWtrUkxPbE1PMmJuLVdkRl9MNEtzZTJHSlNKcUpKeHdpOEN0Tll3VFNjNFpuLWVnc2VybWpISXVQcUUzUG5JWkVqYmlmdGZYdlBF?oc=5",
+            "published_at": "2026-11-11T05:04:16.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMDdCcUpWbWFua21BZ01qX3d6OC1HUU1jOWRiNkNSclBqcGNtM0E5MFJqbjBZTGFpOUhxZVdjUkxldEpKeHRYRzgzWWwwcEZRMFZOTFlpLU9mb3RSc1gxb3A2YWN5OVJWQ1Y4ekdpVjlQVnJ0TVduRWtQX0tFYkhsNVFkMktLVjExSURlMW13Y05mdmVGd2M2Yg?oc=5",
+            "published_at": "2026-11-10T23:54:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNGhfcm1FN09aZDAyVGpRd1dKdGNJVWlucGZoT29iMEhScUM5SUhQdGdkbF9oaXlYekxoSWFzaEVFN2MteHNsUVVmSkN3aEQxd0syaUpVSmN2U3BmZktLYkVBU1BnRGEtQklVYXBNTFdDZWRRSW9zYkNpVXJUaGlWT0lhbDEwYlBDWnl3?oc=5",
+            "published_at": "2026-11-10T17:09:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUHltOTdEblNBbFM2X1VxRnc4Zk10eDBSX2YxZ1B2U3Q2OGdYYk1zUzFMa0Nnc2dIeUh5dHBpZ0Ruc014WnNlR01zTGtwdVFHbDBITVB0ODVJN3VQMDNsX1cwRWpPN1lpM01aODVlNGpPeVRfVlNPeVFtRUJnYTNZejBiOG1fWFBpRnBIZFhnMzhzdnJIUEQxQVVKRVUwRlpPcVprY3dhQ01LSnZkYU5DR3hLcFNDQQ?oc=5",
+            "published_at": "2026-11-10T16:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Lufthansa ilk A350-1000 uçağını teslim aldı",
+        "summary": "Lufthansa, filosunun ilk Airbus A350-1000 uçağını teslim alarak toplamda 700. Airbus uçağını envanterine dahil etti.",
+        "why_it_matters": "Havayolunun uzun menzil kapasitesi ve geniş gövde operasyonel stratejisi için kritik bir kilometre taşıdır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Lufthansa",
+          "Airbus",
+          "A350-1000",
+          "Fleet"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Lufthansa",
+          "Airbus",
+          "A350-1000"
+        ],
+        "id": "7aff0dfde2",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYzhpLWphMV9DbnBxckVZSi1JbFRaZG1tRllSNEZ5SlFOZHY4VWxvOVN1cThMVVlFajdFTkdVa2hQNU9NblpGU3dLX3gwVzlwbkN2ZFNFa2JuSFY5RTVrZVdMWW5uc0k3TnlxU09LcUZhNjk3Tk83d1pGVVo4VEEwM080Tnk5UjVCWFV2aWtoaGljQl9jZ2V2SFhEd9IBoAFBVV95cUxNRXoyR2pOem1VbEtiRlkxQnhWcmxuNXA5WHJ1Qjd3amp5XzlDa0owV2tpZmcxNVJ3MFB1YnpPTGVDQ3E4b3lwaVI0aFZvNzY4UjYyUkdhZEY5QWhpWDJ5OUd0SmJyVk9Ld3otN2s0ZllTRXRXM3FiV0NTZDNGTlpicHVDNUhFOXdzM2tSQ0hkaTc2UEw1OV8wVURiV19sUlBw?oc=5",
+            "published_at": "2026-11-10T15:05:30.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPT0VsM3dMbVJkdnNaUjcwaVdBQjFydXRSZFBFdzRJX2FQSzhVRGhIanNuNmlybTI4dHhzbFprb0E2a3UzZmJJRzE2MkxlX3BYTXJzU2R4MVBCMUJQcXUwaXF5MFltUm5GVHptb09fTmJCUTBWRFYzVmx1aUZUSkk0MVFnWVZDdXJsSGxSVndHV2p3RlRGdjVEZDU0QzgxM0t3MW9ZdkxYdkg4aVNDMW1UWklheVMxSE9mMEFYbkxWcWVxN0gyZFpEN3Bmc2l5YXdjNmc?oc=5",
+            "published_at": "2026-11-10T14:06:24.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ3dkTE55endfTWVOVkZ4X2M0Yld6OWVYVC1tSjRlSkszSTFUY0xleFkxd005V1EtSERaYXVoakhOOFhFbm4talI1dGdrZlp1V0tLTUk5SDhuSkZrcUk2VndLbm5XN1BrMVRZWmNQeHBsYktnTVY4bVhOX1FuaGxnZWR6bkY3RTE1bVlTRWpkTldPU1lkNUZUYUhnRFBGbVJ3ZVhEdU5ra1FINEY4MnF5cXY1T3hkd0JINXhleWRuSm1vVHhLM2M0QnZTMA?oc=5",
+            "published_at": "2026-11-10T12:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "THY, Boeing ve İTÜ'den sürdürülebilir havacılık yakıtı iş birliği",
+        "summary": "COP31 zirvesinde Türk Hava Yolları, Boeing ve İTÜ iş birliğiyle Türkiye'nin sürdürülebilir havacılık yakıtı (SAF) planı kamuoyuna açıklandı. Öte yandan THY'nin ilk 10 ayda 81.5 milyon yolcu taşıdığı bildirildi.",
+        "why_it_matters": "Çevreci yakıt geçişleri ve yolcu performans verileri, operasyonel planlama için takip edilmelidir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "Boeing",
+          "SAF",
+          "COP31"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Türk Hava Yolları",
+          "Boeing",
+          "İTÜ"
+        ],
+        "id": "e6c9c4fb0f",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUldMRVNtckxudkplOUp1N25haVJPSFcyZmxxZjdzOFhwMkM1ODNVSDIzVlEwaDJLVG5ndk1qZjhGV09jMU9lRE5pdGE3WTh1VUl4NmM1SmtXTTZRRzNXX0p3ZGZDR0JiOVJLbFFMdnVIaUJydG5BSWdPOElSeUEwZy0weHQzdm12WlJpSUJZTVFodnF6dzdjUUVB?oc=5",
+            "published_at": "2026-11-11T04:01:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOVJqcHlCNTA4RDBFeTdNa2tFei11UDFsRzNqYmxDMk5LVV9ISTRSY0FLbmF3ZEZGbHBfUjVUQ1BTTXNxT0tWNmZGaWZfWThNSXpieUkzTmNwR0VmZzNCeEJEZC1US2dkNW1zSV81Njl1UE51ZmFUMkJaTU9kclh0UWVfMHl6SDV2Y3RweXZB?oc=5",
+            "published_at": "2026-11-11T03:50:16.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUGJDczE0Y3hROGpZUmlGYzFuTTlsWkhFYTY3NGVuWVdKNHFWVzVJOXpQNExzYndQVGF0Z2pGOFNYYnQ4SHRhOHJEYzVlcXgwTEtuUWFESFlUcm5DQ2dtS0x1RGt6ckFNUjVKRHVuVTlZNGoxUktRcmE3YmU2MmV4YWRmb3NCMHZjUzlhWVVpb2ZuZXN3SGxSTFROTQ?oc=5",
+            "published_at": "2026-11-10T20:00:23.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOeDd6TlR1WFVCTW5QSkZMaThSMFJ6S0txRTJfVEoxUENtbTQ0N2E0UXROeTBkbTJ1cHRvX09RRHFRUFQ3LUZmMlRSWVJoUzZ3X3JwOUUwVFhPUlNnTUJfUGNybElORE8zdzNoUmlaUnhqdjBLTW9CZWhsNXVnSlQzZFJJTWlEcXpranVPSDhEY1FRd3BSTmtYakxIM2QwSmtoUVN6U05ETGJib0lLYVFUVkVuSmhidmFSWTRfdENkYXNyOVh5NFFMY1VWSTlpdVRn0gHTAUFVX3lxTE44T09PblpDa2NGR0lySkJwZTQwR0JJWjhkZm9XLUp0N3lzUUFaYjVCZnlrWGFuVExrXzM1YTc0Uy1sbFl6MVZ6TWx2VFFMUGdITnItTklPcF9VLUVIdS1vbVZFRllGTWIzYXZmMkdHbnkwVkVPeDFDUWduNTJ3ZFBqVVEzeGFIYV9WOG5od1c5cldqOG1HTFlfTjk3N1ZpcDVqNDA3MU5FU1FmQ0dNV0dhOFJqQ0lpWjhFTEdTLXZndWhqVTFfVEVwNHlmcU90cU52ZEE?oc=5",
+            "published_at": "2026-11-10T14:35:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "United Airlines uçuşunda yolcu kokpite girmeye çalıştı",
+        "summary": "United Airlines seferini gerçekleştiren bir uçakta, bir yolcunun kokpite gümrükten geçip saldırmaya çalışması ve bomba tehdidinde bulunması üzerine pilotlar korsanlık kodu (hijack code) squawk etti. Yolcu gözaltına alındı.",
+        "why_it_matters": "Kokpit güvenliği, kabin müdahale protokolleri ve acil durum transponder kodlarının kullanımı açısından kritik bir olaydır.",
+        "importance": 5,
+        "confidence": "confirmed",
+        "tags": [
+          "United Airlines",
+          "Security",
+          "Squawk",
+          "Cockpit"
+        ],
+        "occurrence_class": "serious_incident",
+        "occurred_at_utc": null,
+        "location": "Bilinmiyor",
+        "aircraft_type": "Bilinmiyor",
+        "registration": null,
+        "operator": "United Airlines",
+        "flight_number": null,
+        "flight_phase": "cruise",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [
+          "Yolcunun kokpite girmeye çalışması",
+          "Hijack code squawk edilmesi"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": "Bilinmiyor",
+        "id": "57c09d85a2",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/united-pilots-squawk-hijack-code-passenger-storm-cockpit-bomb/",
+            "published_at": "2026-11-11T05:32:58.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Antonov An-124 kalkış sırasında parça düşürdü",
+        "summary": "Nagoya'dan kalkış yapan bir Antonov An-124 tipi kargo uçağı, tırmanış sırasında gövdesinden parça düşürdü. Olay sonrasında güvenlik önlemleri alındı.",
+        "why_it_matters": "Yapısal bütünlük, FOD (Foreign Object Debris) riski ve kalkış emniyeti açısından takip edilmelidir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Antonov An-124",
+          "Nagoya",
+          "Incident"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-10T00:00:00Z",
+        "location": "Nagoya, Japonya",
+        "aircraft_type": "Antonov An-124",
+        "registration": "UR-82007",
+        "operator": "Bilinmiyor",
+        "flight_number": null,
+        "flight_phase": "initial_climb",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [
+          "Kalkış sırasında parça kopması"
+        ],
+        "operational_findings": [
+          "Nagoya kalkışı"
+        ],
+        "investigation_status": "not_started",
+        "investigating_authority": null,
+        "id": "a5c21b6d90",
+        "sources": [
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1qXzNNWFI3aC0xUXh1NzBMbFNSMnV6TWtsaTVGb1VxS1dUN3dzVTJFQnZiMXY5UEpzaHdrdTE2MENjMTZ4WWREaXptQ1hwQnRyV2JfNmFwZFU?oc=5",
+            "published_at": "2026-11-10T19:56:58.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE90WFBmVVpsTU1JYUd5TEtiQlRGOGRVRFNYLTY0QkFhTUVjZ3JYbjlNNGRUaU5UcjhTcnoxdlUtRjh0am9OU1l1SkwzM1VDVVZhd2E2eThn?oc=5",
+            "published_at": "2026-11-10T13:13:18.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Serve Cargo Boeing 737 uçuş sırasında ön cam patlaması yaşadı",
+        "summary": "Serve Cargo şirketine ait bir Boeing 737 kargo uçağı sefer sırasında ön camının (windshield) parçalanması/çatlaması sorunuyla karşılaştı ve operasyonu güvenli şekilde tamamladı.",
+        "why_it_matters": "Kokpit basınç kaybı ve ön cam arızalarına karşı acil durum prosedürlerinin uygulanması açısından önem taşır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing 737",
+          "Windshield",
+          "Serve Cargo"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-10T00:00:00Z",
+        "location": "Bilinmiyor",
+        "aircraft_type": "Boeing 737-800",
+        "registration": null,
+        "operator": "Serve Cargo",
+        "flight_number": null,
+        "flight_phase": "cruise",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [
+          "Windshield shattered (ön camın parçalanması)"
+        ],
+        "operational_findings": [],
+        "investigation_status": "not_started",
+        "investigating_authority": null,
+        "id": "94ea0387d6",
+        "sources": [
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE92bDloaEp4S1ZyR3dDejlueEQ4Rzk5aVFaamktWUZqX3RiT1Q3c3lXbElYclJxQWZId2c3dkhDWVlBcTR6WFdfWEVWRk1MSjhpSjYxSTJESFg?oc=5",
+            "published_at": "2026-11-10T18:37:04.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "CPaT Global, A320neo sistemleri eğitim kursunu genişletti",
+        "summary": "CPaT Global, pilot eğitim programlarına yönelik Airbus A320neo uçak sistemleri kursunu genişleterek portföyünü güncelledi.",
+        "why_it_matters": "Tip eğitimi ve modern uçak sistemleri (FCOM/ECAM) yeterlilikleri pilot adayları için temel unsurlardır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "CPaT",
+          "Airbus A320neo",
+          "Training",
+          "SOP"
+        ],
+        "subcategory": "training_crm",
+        "regulators": [
+          "None"
+        ],
+        "operational_takeaway": "A320neo tip eğitimi alırken güncellenmiş sistem modüllerinin takip edilmesi, modern uçak elektroniğine adaptasyonu hızlandırır.",
+        "id": "eb5864a7a9",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdTJMZTNVRGZyS1c0MEkyZ19wNU9NRGQyNnFmWEw3QjlkYWVsWXlsTnpITzBURlRLd0kzTHdjRGcxRkVmRmxuZVVSbW8wZHhtdGw5XzNjOUhyangtWEQ4b0V0RUhMUEdtX3I5R0hGaWlXVFRBbDZIQnZVc05IdkV3WUtfVHRzZm9wMG1lTkgycTI2ekw5cy10SlZlMTZKbXlSTFBRZWMwT2QyakxwWFhLYWlJdG1SZzdzMUNpMEdn?oc=5",
+            "published_at": "2026-11-10T22:19:57.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "New York'tan OpenAI ve Anthropic'e yeni yapay zeka denetimi",
+        "summary": "New York eyaleti, büyük yapay zeka geliştiricilerinin kayıt olmasını, güvenlik uygulamalarını açıklamasını ve kritik olayları raporlamasını zorunlu kılan kapsamlı yapay zeka güvenlik yasasını yürürlüğe koymaya hazırlanıyor.",
+        "why_it_matters": "AI geliştirme süreçlerinde regülasyonlar ve uyumluluk yükümlülükleri açısından sektörü etkilemektedir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "OpenAI",
+          "Anthropic",
+          "Regulation",
+          "Safety"
+        ],
+        "subcategory": "policy_safety",
+        "entities": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "developer_impact": "Geliştiriciler ve model sağlayıcılar, yasal uyumluluk için güvenlik denetim kayıtlarını ve olay raporlama süreçlerini şeffaf hale getirmek zorundadır.",
+        "id": "d7ed3db1f3",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+            "published_at": "2026-11-10T20:52:13.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Anthropic halka arz için hisse fiyat aralığını belirledi",
+        "summary": "Anthropic, potansiyel değerlemesini 1.404 trilyon dolara taşıyabilecek halka arz (IPO) için hisse başına 70 ila 78 dolar arasında bir fiyat aralığı belirledi.",
+        "why_it_matters": "Yapay zeka ekosistemindeki dev şirketlerin finansal büyüklüğü ve pazar dinamikleri açısından önem taşır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Anthropic",
+          "IPO",
+          "Valuation"
+        ],
+        "subcategory": "foundation_model",
+        "entities": [
+          "Anthropic"
+        ],
+        "developer_impact": "Finansal sermaye akışları, temel model araştırmaları ve API altyapı yatırımlarını doğrudan desteklemektedir.",
+        "id": "4c5e79fd57",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+            "published_at": "2026-11-10T19:57:52.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+            "published_at": "2026-11-10T14:01:39.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [
+    "Hacker News (AI) RSS alınamadı: HTTP 502 (Bad Gateway) — https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=80"
+  ],
+  "meta": {
+    "rss_feeds_ok": 12,
+    "rss_feeds_failed": [
+      "hn_ai"
+    ],
+    "rss_items_fetched": 147,
+    "rss_items_used": 89,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 120257
+  }
+}
