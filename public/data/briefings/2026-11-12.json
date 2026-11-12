@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T05:55:23.427Z",
+  "window": {
+    "from": "2026-11-11T05:54:42.333Z",
+    "to": "2026-11-12T05:54:42.333Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "THY Chengdu seferlerini başlattı; Airbus stabiliser jam prosedürünü güncelledi; Google Gemini Decisions API'yi sundu.",
+  "tldr": [
+    "THY, Çin'deki 4. uçuş noktası olan Chengdu seferlerini başlatarak Çin'e haftalık frekansını 76'ya çıkardı.",
+    "Singapore Airlines A350-941 uçağı, kabinde duman tespit edilmesi üzerine emniyet tedbirleri kapsamında inceleniyor.",
+    "Airbus, pilot hatalı trim müdahalesi sonrası A320/A321 stabiliser jam prosedürlerinde netleştirmeye gitti.",
+    "Google DeepMind, çok modlu kararlar için Gemini Decisions API hizmetini erişime sundu."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "THY, Çin'deki 4'üncü Rotası Olan Chengdu Seferlerini Başlattı",
+        "summary": "Türk Hava Yolları, Çin'deki uçuş ağını genişleterek Chengdu seferlerini başlattı. Bu yeni rota ile birlikte THY'nin Çin'deki dördüncü uçuş noktası devreye girerken, ülkeye düzenlenen haftalık toplam sefer sayısı 76'ya yükseldi.",
+        "why_it_matters": "THY'nin Asya-Pasifik pazarındaki ve Çin rotalarındaki operasyonel kapasitesini ve pazar payını artırmaktadır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "Chengdu",
+          "Çin",
+          "Rota Expansion"
+        ],
+        "subcategory": "route_network",
+        "entities": [
+          "Türk Hava Yolları",
+          "THY",
+          "Chengdu"
+        ],
+        "id": "dd01282aa7",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQnN2ajFGTGtCc3BPTWFRUmVlQkp5a3pJQ0Zwd1RyeWdCM1BLVEVpanRkNmZqTjlTQW5uMndPUnU4SlN3WE1FOGdQN010REc0WjBqSWh5RzBlVkk3NWZxYWkyRVZ0WU9pMWc3VHJ3WEE5XzFpajJWal9iUHVKQkQzdU9JLVlCX05kMXdkeVFQZWZDcUE3Z0MyWQ?oc=5",
+            "published_at": "2026-11-12T04:00:52.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORnYxUThKdlhXSFNpSU4zVkYxY2J0b3AxbDdXWWFhM0xjZDRpS0t6Z1h2eTFGWUQ4ZGNvV3BRdzJvV25JWWdoUUhiVmdMN3FYcFFJVjZuTTFiRzdnU2lqckp0b0tPeUxNbnNiYzJFMHNDNGpKbDRRS1h5WHc3Szh2dHY1MVkzX0tuZkhUaEl4elZic3oySmJqYWd3OFhYX1BBZVNR?oc=5",
+            "published_at": "2026-11-12T01:00:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWjJ1dVZoYU5TU095Y09ERjRpSGVFWk1EVncwNE5BRll5NXhLQlZGaXpQdHoybU5YMzJWZWlXY1NfbVVLWXFhSW1JVVNtai1OQzg3ZmFsX05Uam1Dd3NBTGNNRld5ZkdtbmIyd3ZVenU0ZVpKQ1JHVWpKZ0EzdGp6YXVBbENhMzQ5QmFpdE5zNUJOZWE3NEpJOHNR?oc=5",
+            "published_at": "2026-11-11T12:33:14.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMjlsMHJTVFNwNDBlMlRpUTlPcVZ0V3U3UngzOHYzVUhJN04tOExUaWpNMUlaSzIyM3lGV2k2TGVYN3RuYjRRWGE4QllyVjVGSl84R1p0OVlGajU2M0dvanRoWVdYY3FMeDBjZWF4bEF3OFlDQ2NIZ2dfRlM1bF9iTFdDV3BiOHdsM282Yg?oc=5",
+            "published_at": "2026-11-11T10:55:55.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Airbus Jeti Avustralya-Fransa Arasında 24 Saatlik Uçuşla Dünya Mesafe Rekorunu Kırdı",
+        "summary": "Qantas operasyonuyla gerçekleşen Airbus uçuşu, Avustralya ile Fransa arasındaki 14.388 millik mesafeyi 24 saat kesintisiz uçarak ticari havacılıkta mesafe rekorunu kırdı.",
+        "why_it_matters": "Ultra uzun menzilli (ULR) ticari uçuşların teknik ve operasyonel sınırlarının genişlediğini göstermektedir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "Qantas",
+          "ULR",
+          "Mesafe Rekoru"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus",
+          "Qantas"
+        ],
+        "id": "e4b223d231",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQTGJPS3lNajJmSHkzdkpCN1B1czk3UmFya3o3bGg4VEZIczh4XzFuN3V4VkhHaUV2Q1VmLWFJRE4xM1pOS3pSVThXM21yQWJTeEFGWklhakZjVjhHUlRkV2U2TFpEQnBRTlBVaWRZd01tTEpfN1hZLVBYb215UVVqRldlOWNENlNvdFk5Q2E0QVlXNEJVV0pIRkEzbDJkS1NPZUx2aE43VXI5X1p5REl2QW1xQ1pENzdDRGMtR05hLUlyWkQ1TzNhZmd6MFBoXy1WTlNDc0NtMGRQcGMtWmM1WXdfVXZrRm5LUEE?oc=5",
+            "published_at": "2026-11-12T04:41:57.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBNnBkUTZ3Yk02YmxkV1hUVGdfc0tockFnUFg4ZkU3b09YbFhtVWxmN011b1FGOTNCdW1hRXkzUmxZTGphbGtOSW12VEpuQ29Sck1oaWlvdnV2UXZfUXdR?oc=5",
+            "published_at": "2026-11-11T15:16:48.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWVJ0S2Nad2xLRzNQVkttQWNTTkVvSjBmX3JxLVo0RmYzbUhzY3poNVBweXRyakNIN0xPYzFORk1qZjBnR2NkN0lZbHNrV25tb1RVd09kZWdMUEFrSWxFVlJCLWpuS0dEZVdwWDB0bnZtelgwZlVQdlVEMDVieUhxdUxCSW85M1RhS3A1Uzg2VHl3QVRPTEZzcg?oc=5",
+            "published_at": "2026-11-11T13:42:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "CDB Aviation, Türk Taşıyıcı Freebird Airlines'a İki Adet Airbus A321ceo Kiraladı",
+        "summary": "CDB Aviation, Türk havayolu şirketi Freebird Airlines ile iki adet Airbus A321ceo uçağının uzun dönemli kiralanması konusunda anlaşma vardığını duyurdu.",
+        "why_it_matters": "Türk sivil havacılık filosunun orta menzil dar gövde kapasitesini artırmaktadır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Freebird Airlines",
+          "CDB Aviation",
+          "A321ceo",
+          "Leasing"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Freebird Airlines",
+          "CDB Aviation",
+          "Airbus A321ceo"
+        ],
+        "id": "0ac47ee12c",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVHd4czNEWGVGYURXbkRfWUxVamd4c25lNjJCeDcxcldDTm9fQ0hvQi16UWpXUW1yY29mWkRab1ZFRlp0VmtUQ3ZQRkxnNTRpQTVYalBnNEhmOGFHYlZwQ3VDQS1WeTM1TFlLQnItQi1wOUlRWlFEZzZYS1ctWFZ1a0c0cklTZ29oNXpHNVRSUTl6SnpnbGpr?oc=5",
+            "published_at": "2026-11-11T14:46:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Boeing, 30 Adet 777X Uçağını Kesin Sipariş Listesinden Çıkardı",
+        "summary": "Boeing, teslimat takvimindeki gecikmeler ve ASC-606 muhasebe standartları gereğince 30 adet Boeing 777X uçağını resmî kesin sipariş (firm backlog) listesinden çıkardığını açıkladı.",
+        "why_it_matters": "Geniş gövde pazarında 777X programının teslimat takvimi ve finansal riskleri üzerindeki baskıyı yansıtmaktadır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "777X",
+          "Backlog",
+          "ASC-606"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing",
+          "Boeing 777X"
+        ],
+        "id": "a69f2e25d9",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeFVPSmhGOUQ4cDlTbHV5YlVCRXFMb0xzVmlReW5PWmJ5aC1PcHgxTlptVjJwQkk3QldWblNCeExOS3JTb0Vwd3lTVVNwZkpjelBnckNnbVFYc2lHZDh1OU9XM29ZRVphUDBzdzNxb1A1THpNU0tZTWhDQ3VIUWV1a0Eyd1doa0tpTDJiU2x1emppOGI0YjYtag?oc=5",
+            "published_at": "2026-11-11T17:50:05.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Etihad Airways, Kuzey Amerika Rotalarındaki Tüm Airbus A380 Seferlerini Sonlandırıyor",
+        "summary": "Etihad Airways, ağ planlaması kapsamında Kuzey Amerika uçuşlarında kullandığı Airbus A380 tipi uçakları bu rotalardan çekme kararı aldı.",
+        "why_it_matters": "Havayollarının süper geniş gövde filolarını daha verimli ve yüksek talepli bölgesel hatlara kaydırdığını göstermektedir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Etihad Airways",
+          "Airbus A380",
+          "Kuzey Amerika",
+          "Filo Planlama"
+        ],
+        "subcategory": "route_network",
+        "entities": [
+          "Etihad Airways",
+          "Airbus A380"
+        ],
+        "id": "6eecdde85e",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPblV2el90dWRhWkdJVnRpLVA0MzZGWGgya2xpMXI5VU1uUWFuVjFSY3pFR2J0S2tDelIzeUpEUzdCQi1jdlpRUExOSlhHLUNmOGRFVWJuOVcteXRudkp1MG5QZmlCVGtSNUhzdEF0QjZ3ejVYMWw4REE3YXgyX0dMWHJJRWdqRVUtdld2SUZLa3ZYUQ?oc=5",
+            "published_at": "2026-11-11T15:00:18.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "Singapore Airlines A350-941 Uçağında Kabinde Duman Sebebiyle Olay Rapor Edildi",
+        "summary": "Singapore Airlines şirketine ait Airbus A350-941 tipi uçak, Rockhampton (Avustralya) yakınlarında seyir halindeyken kabinde duman tespit edilmesi üzerine olay yaşandı.",
+        "why_it_matters": "Uçuş sırasında kabin duman prosedürleri ve acil durum yönetimi açısından önem taşımaktadır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Singapore Airlines",
+          "A350-941",
+          "Kabin Dumanı",
+          "Incident"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-11T17:38:04Z",
+        "location": "Rockhampton Yakınları, Avustralya",
+        "aircraft_type": "Airbus A350-941",
+        "registration": "9V-SHA",
+        "operator": "Singapore Airlines",
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [
+          "Kabinde duman tespiti"
+        ],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "14c3a361f9",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04d0ZrRGZzOUs4VkhJeXZrZXRWOFlMNXcyUGQ1NmNtc0xwTmotYzA3eDZJNUNndkhXWV9zUWVuTmliOVlXMUp2eXNaa2ZtYzBDSkZPcjRB?oc=5",
+            "published_at": "2026-11-11T19:35:11.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1RNVg5bWVxc2JUM1JBTGNTVlNrSXVqcTVnNG9UQmd1a1ZFZTFRUzVqbmQtT1RwdlgySU4xN1pTOWpYNHdEZGFpVDlsZFBYX3lX?oc=5",
+            "published_at": "2026-11-11T17:38:04.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "Airbus, Manuel Trim Hatası Sonrası A320/A321 Stabiliser Jam Prosedürlerini Netleştirdi",
+        "summary": "Airbus, bir A321 uçuşunda pilotun uçağı manuel olarak hatalı trim etmesi (mis-trim) üzerine stabiliser jam prosedürlerinde netleştirmeye gitti. Şirket, uçuş ekiplerinin trim kilitlenmesi senaryolarındaki doğru adımları vurguladı.",
+        "why_it_matters": "A320/A321 filolarında uçuş emniyeti ve QRH prosedürlerinin doğru uygulanması için kritik bilgi sağlar.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "A321",
+          "Stabiliser Jam",
+          "Trim",
+          "SOP"
+        ],
+        "subcategory": "sop_procedures",
+        "regulators": [
+          "None"
+        ],
+        "operational_takeaway": "Pilotların trim kilitlenmesi durumlarında QRH adımlarına birebir uyması ve manuel trim müdahalelerinde uçak limitlerine dikkat etmesi gerekmektedir.",
+        "id": "936042a164",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTnNhZEJ5SXZvNk83Uy1jYXd2TWhCcGEzUFZtUC1yZk9UVHZVdVA4ZXBkWmZ3SXh3TGhVeUVjdDM1QXlqN04zU2IwZ3JlTzlIQmpXMmxWN1U4cTZDSW5RdUJ1TkxMM29XT2RlZlhiYmVrNG8tNW9LTl80cVlNaWtIcnZpR3cxTHhOYUFPbDhvTHBZckd2cGp0LWNSaFNEa1haSlJZY3IyNVNkV0VtSEdMeE44VUdLd1ZWOWswcnh2dWN5Vk45TjVz?oc=5",
+            "published_at": "2026-11-11T12:10:58.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "Google DeepMind, Hızlı Multimodal Kararlar İçin Gemini Decisions API'yi Duyurdu",
+        "summary": "Google DeepMind, geliştiricilerin hızlı ve kalibre edilmiş çok modlu kararlar almasını sağlayan Gemini Decisions API ve arka planındaki Gemini Decision modelini tanıttı.",
+        "why_it_matters": "Çok modlu yapay zeka modellerinin gerçek zamanlı karar verme süreçlerinde entegrasyonunu kolaylaştırır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Google",
+          "DeepMind",
+          "Gemini Decisions API",
+          "Multimodal"
+        ],
+        "subcategory": "dev_tools",
+        "entities": [
+          "Google",
+          "DeepMind",
+          "Gemini"
+        ],
+        "developer_impact": "Geliştiriciler, yüksek hızlı ve kalibre çok modlu karar alma yeteneklerini doğrudan API üzerinden sistemlerine entegre edebilecek.",
+        "id": "c381480014",
+        "sources": [
+          {
+            "name": "Google AI / DeepMind",
+            "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+            "published_at": "2026-11-11T18:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "United Airlines, Yapay Zeka Ajanlarının Uçak Bileti Rezerve Etmesini Engelledi",
+        "summary": "United Airlines, otonom yapay zeka ajanlarının yolcular adına bilet araması ve rezerve etmesini engellemek üzere sistem erişim kısıtlamaları getirdi.",
+        "why_it_matters": "Yapay zeka botlarının ve agent sistemlerinin ticari web platformlarındaki erişim sınırlarını ve regülasyon tartışmalarını gösteriyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "United Airlines",
+          "AI Agents",
+          "API Restriction",
+          "Policy"
+        ],
+        "subcategory": "policy_safety",
+        "entities": [
+          "United Airlines",
+          "AI Agents"
+        ],
+        "developer_impact": "Otonom seyahat ve rezervasyon ajanları geliştiren yazılımcıların havayolu API sınırları ve bot koruma protokollerini dikkate alması gerekecek.",
+        "id": "861aa10047",
+        "sources": [
+          {
+            "name": "Hacker News (AI)",
+            "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+            "published_at": "2026-11-11T21:24:35.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdllTbnpIX0EyMkhFNzFySS03ODQ2bTZyTDBOck1SY1ZVQmc1bjR4LW15U2VmRElTX0RxQ1BOb29GRnZzaEM1Nzh0MG95emhjSWZybTFadHJZTEREU1lEdi03d1M3cXJuajFqMlV6U01RS3hpSXE5cXdTZm50dWxVR3EwWmVkdXhTN1NKMDhwNlRKdjdad2pySHM2RTdRRzZV?oc=5",
+            "published_at": "2026-11-11T19:17:44.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "İngiliz Çip Girişimi Fractile 720 Milyon Dolar Yatırım Aldı",
+        "summary": "İngiltere merkezli yapay zeka çip tasarımı firması Fractile, özel amaçlı AI donanımları geliştirmek üzere 720 milyon dolarlık yeni yatırım turunu tamamladı.",
+        "why_it_matters": "Nvidia egemenliğindeki AI çip pazarında yeni nesil donanım mimarilerinin finansmanını gösteriyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Fractile",
+          "AI Chips",
+          "Hardware",
+          "Venture Capital"
+        ],
+        "subcategory": "infrastructure_chips",
+        "entities": [
+          "Fractile"
+        ],
+        "developer_impact": "Özel AI çip mimarilerinin artması, ilerleyen dönemde çıkarım (inference) maliyetlerini düşürebilir.",
+        "id": "10beb3369e",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+            "published_at": "2026-11-11T19:34:55.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [],
+  "meta": {
+    "rss_feeds_ok": 13,
+    "rss_feeds_failed": [],
+    "rss_items_fetched": 163,
+    "rss_items_used": 89,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 41096
+  }
+}

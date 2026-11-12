@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-11T05:54:08.732Z",
-  "latest": "2026-11-11",
+  "updated_at": "2026-11-12T05:55:23.432Z",
+  "latest": "2026-11-12",
   "briefings": [
+    {
+      "date": "2026-11-12",
+      "path": "2026-11-12.json",
+      "headline": "THY Chengdu seferlerini başlattı; Airbus stabiliser jam prosedürünü güncelledi; Google Gemini Decisions API'yi sundu.",
+      "counts": {
+        "commercial_aviation": 5,
+        "accidents_and_incidents": 1,
+        "piloting_and_ops": 1,
+        "ai_developments": 3
+      },
+      "has_fatal_accident": false,
+      "max_importance": 4,
+      "generated_at": "2026-11-12T05:55:23.427Z"
+    },
     {
       "date": "2026-11-11",
       "path": "2026-11-11.json",
