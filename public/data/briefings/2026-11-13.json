@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T05:57:07.198Z",
+  "window": {
+    "from": "2026-11-12T05:53:57.700Z",
+    "to": "2026-11-13T05:53:57.700Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "Nvidia'da Jensen Huang Ayrıldı; BA A321neo Heathrow'da Tailstrike Yaşadı, Southwest 737 NG Filosunu Emekli Ediyor",
+  "tldr": [
+    "Nvidia CEO'su Jensen Huang görevinden ayrıldı, geçici CEO Colette Kress oldu; açık kaynak yapay zeka stratejisi tartışılıyor.",
+    "British Airways'e ait Airbus A321neo, London Heathrow'da pas geçme (go-around) manevrası sırasında tailstrike yaşadı.",
+    "Southwest Airlines, 571 adet Boeing 737 NG uçağını 2031 yılına kadar filodan çıkararak tamamen MAX filosuna geçeceğini bildirdi.",
+    "Google Search altyapısını Gemini 4 Hydrogen modeli ile güncelleyerek daha derinlikli sorgu yanıtları sunmaya başladı.",
+    "THY, Air China ve flynas ile ortak uçuş (codeshare) anlaşmalarının kapsama alanını genişleterek büyüttü."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Southwest, 571 Adet Boeing 737 NG Uçağını 2031 Yılına Kadar Filodan Çıkaracak",
+        "summary": "Southwest Airlines, tüm Boeing 737 Next Generation (NG) filosunu 2031 yılı sonuna kadar emekliye ayırma ve tamamen Boeing 737 MAX filosuna geçiş yapma planını açıkladı. Taşıyıcı, bu kararla operasyonel verimlilik ve ortak filo avantajlarını hedefliyor.",
+        "why_it_matters": "Dar gövde filolarındaki nesil değişimini ve 737 NG platformunun kademeli çıkış sürecini gösteriyor.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Southwest",
+          "Boeing 737 NG",
+          "Boeing 737 MAX",
+          "Fleet"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Southwest Airlines",
+          "Boeing 737 NG",
+          "Boeing 737 MAX"
+        ],
+        "id": "31e3a8532d",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE84eFEwSDdFa2JyYnIxbEs4eW5jYms4WXJRVzhaTms3NFVENi1yOGVQSXRtZlV6Q2RWeUZ0aHFLdkhhc0N6eUV2bmRBelZvZXYzSTdQSnFHRjhmMjhZOVI0V0llMS1WYjgyOU56bW5oUUlRSGc?oc=5",
+            "published_at": "2026-11-13T00:59:30.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/boeing-737-ng-years-flying-left-largest-operator-doesnt-want-anymore/",
+            "published_at": "2026-11-12T22:00:29.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Türk Hava Yolları, Air China ve flynas ile Kod Paylaşımı Anlaşmalarını Genişletti",
+        "summary": "Türk Hava Yolları, Air China ile olan işbirliğini Afrika ve Meksika bağlantılarını kapsayacak şekilde büyütürken, flynas ile olan codeshare anlaşmasına da Avrupa'dan 3 yeni destinasyon ekledi.",
+        "why_it_matters": "THY'nin küresel uçuş ağını ortaklıklarla güçlendirme stratejisini yansıtıyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "Air China",
+          "flynas",
+          "Codeshare"
+        ],
+        "subcategory": "route_network",
+        "entities": [
+          "Türk Hava Yolları",
+          "Air China",
+          "flynas"
+        ],
+        "id": "8273cd52d6",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTmZKNi0xOU9lMUV5Q2tMcndKS3B6ZXItTFFJRTJPUGt5cE9YWlZLMFg5NGRMWTI1TGM3ZzVDS0lDM1drRzgzWjQ5U2tySFV3Qkc1XzRYODFxdmo5NzhRZFFwYnRzSzlzU2NxaDQtejJJSGtRNWtyNjZxUXB2c1A1aA?oc=5",
+            "published_at": "2026-11-13T04:15:42.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVVNvTGZRRWZoSnRVWGRLc0VEb0dodWVUYUFQMmUyLVRLc2kyQmVrNHh6b3E1RE1tWlhlUm1fcnVIejRtS0VEVlVJalkwME1ueUluQ3VPV0VDTGU2ejgwbHI2SUxnR3owaFpOcGVQbmNTOXJNajl0U0hZVmVhZ1VLYk40WEw3YXFvaFNpaUtwWm5IdXc?oc=5",
+            "published_at": "2026-11-12T13:29:12.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQlZzUUplOHE5VzI0T2c1ZlZQMmY5ZFVYcjNLaENIWGxsMVFYaDNVY195UHJEeFRjT0RPOXQyc1RaQlpMUFNmMUw1ejRkRUNhMUhPRXZmbEE5YzdYaXp4VlVqdXFxc0c5REFDWHdiX3FNNE03OEZBS3ZoM3FkN20tMUtzc2s1LUdKRTA5QkVOSWM?oc=5",
+            "published_at": "2026-11-12T07:33:48.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Boeing Ekim Ayında Sipariş Rekoru Kırarken 737 MAX Teslimatları Geriledi",
+        "summary": "Boeing, son 30 yılın en iyi Ekim ayı sipariş rakamlarına ulaştığını duyurdu. Ancak üreticinin 737 MAX model teslimatları son bir yılın en düşük seviyesine geriledi.",
+        "why_it_matters": "Sipariş defterindeki güçlü büyümeye karşın teslimat zincirindeki darboğazları ortaya koyuyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "Boeing 737 MAX",
+          "Deliveries",
+          "Orders"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing",
+          "Boeing 737 MAX"
+        ],
+        "id": "d61b24fc43",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYTlIYlFVZ01Fck1RNEJfaVVWVlc1Q3k4LWdFUkNiS05TaTJpZGhUc2NIS2FBN0N6RGpLaHBRQWlmQVUtNUh6YTB0c1JvSzRoS0pUZDFlb1ltV3N1ZnBEQVA4NnFsN09OUWtoQkc2UmZXdHE1MFlYNlNtbUt4S0lpWE9FWU03aXVEUVhod3lqeWp0R3ZfcnNj?oc=5",
+            "published_at": "2026-11-13T05:03:26.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQUx1WU02TjR2N1o3N1RYeFNSZkI3a1pmd1BNVl9XVHpmdFhZVGFsbTNqZUNxWmFEMjV0S1Q1cURQQnI5WTlwbzJPd2VuTmhsblJNT29IWTk2bG9JSUhqb2RoOVEtblBqWmRxVDFlcTFfdXZqZTFnRDB0bmJvRnRoSTdDUkgwWWxPVFZmVHZrSEowTjI2aThOX2FLV092T3E2NjlKdzhaMWhObG14ZGNFYzRRajNwc1VjR01mWF9fY0FfWXAyYkEzWkJQWUk2SnVZd2pDbzAtODRYME9OdHh4aTZB?oc=5",
+            "published_at": "2026-11-12T21:40:21.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Air Tanzania Erken Motor Sökümleri Nedeniyle Airbus A220 Filosunun %75'ini Yere İndirdi",
+        "summary": "Air Tanzania, erken motor söküm (engine removal) gereksinimleri sebebiyle Airbus A220 filosunun dörtte üçünü operasyon dışı bıraktı. Yaşanan kriz havayolunda 8 günlük ciddi uçuş aksamalarına yol açtı.",
+        "why_it_matters": "Yeni nesil motor güvenilirliği sorunlarının havayolu operasyonlarına doğrudan etkisini belgeliyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Air Tanzania",
+          "Airbus A220",
+          "Engine",
+          "Grounding"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Air Tanzania",
+          "Airbus A220"
+        ],
+        "id": "e461592776",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVVNhYVhCTHF6bVVpVU1KSHAyOVpxdEt5bEwybmxhcW9Jb2llM2FKdThVQkFyZ1NtUDRkYmNDVDQ0R19TSkVOV2JYODllWHFUS0VvRXpLUUpwM1VsRVFpTmV0M2dMY3JWM3lTcG8xUzdDNlgyWWtRb3J3dVdpbVByNUtuMnlJYWg5cEk5UW1ER2k3b2YzcmV0d3FZSXpUZE1IbkprYXhWUUlaTjkwTWZRR242X1hHN1hlS0pUSFdvRnZzZnA3UmRfYXJBZzRxX21zTWE4NVA5TjdGdw?oc=5",
+            "published_at": "2026-11-12T08:14:35.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "British Airways Airbus A321neo London Heathrow'da Pas Geçme Sırasında Tailstrike Yaşadı",
+        "summary": "British Airways'e ait Airbus A321neo (G-TNEB) tipi uçak, London Heathrow Havalimanı'na iniş ve pas geçme (go-around) manevrası esnasında kuyruk vurması (tailstrike) yaşadı. Olay sonrası kaza kırım inceleme ekipleri soruşturma başlattı.",
+        "why_it_matters": "Pas geçme esnasında pitch tutum kontrolü ve A321 serisinde tailstrike risk yönetimi açısından kritik bir olaydır.",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "Airbus A321neo",
+          "British Airways",
+          "Tailstrike",
+          "Go-Around",
+          "Heathrow"
+        ],
+        "occurrence_class": "serious_incident",
+        "occurred_at_utc": "2026-11-12T00:00:00Z",
+        "location": "London Heathrow Airport (EGLL), Birleşik Krallık",
+        "aircraft_type": "Airbus A321-251NX",
+        "registration": "G-TNEB",
+        "operator": "British Airways",
+        "flight_number": null,
+        "flight_phase": "go_around",
+        "occupants": null,
+        "fatalities": 0,
+        "injuries": 0,
+        "technical_findings": [
+          "Gövde altı temas izleri ve kuyruk hasarı şüphesi"
+        ],
+        "operational_findings": [
+          "Pas geçme (go-around) manevrası sırasında yüksek pitch açısı"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "4cc537151f",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52MDE3MjN2TGZkb3BtTGlkVkhYOG9zWFZEaU95ZDZjX2pReVBObTEyeEhtU3ByZ2h5UWNQNkpOTzIwclBEVmZ6eGlEU3Zwam9DQXpISjJB?oc=5",
+            "published_at": "2026-11-12T20:51:29.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1rWE5UNmZkT3VNd3ZrV3pBOHF0Ykdxenp5Y05iWFN1UzBlTEFNQnVuRkkyYXZtTjJGZXlLTTJQMlJmc09xX2JKRWR6bnN2RlhP?oc=5",
+            "published_at": "2026-11-12T18:53:29.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNV2ZzM1NzUkhpaDBySy04Sl9DeUFHZTZ5bkwxeEw5N1kwdkVGc19XTnprcUxwOU90Rm1PM2NvaVBYTTU4V0FWR3laNnZvNnR0M1g0YUIxYmhicTAwdkNza3dTY2R0UnpFMS1PRjRMYmJpZmYwemZ0cFJQX3lwa0Y0WWlfLUdKa0NfbkJUdm1ZVzVVT2JoU2RDaFJValloR1dzT1oxNUF3RDA2S1pKczh3a0VQa28xeThNajNlMHNibDBUSWpueHpoWXV2Ym40Skc5cVpWSmhSLTN4bDJTamphZFFDMi1kWXFXeld6WXR2RC1CZWJWQTNidFpybExjYlYzMHc?oc=5",
+            "published_at": "2026-11-12T17:14:56.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Trans Maldivian DHC-6 Seaplane Male'de Şamandıra Kırılması Olayı Yaşadı",
+        "summary": "Trans Maldivian Airways'e ait De Havilland Canada DHC-6 Twin Otter deniz uçağı, Male'de iniş esnasında şamandıra çökmesi/kırılması (float collapse) sonucu kırım yaşadı. Olayla ilgili soruşturma başlatıldı.",
+        "why_it_matters": "Deniz uçağı operasyonlarında şamandıra yapısal bütünlüğü ve iniş dinamiği risklerini gösteriyor.",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "DHC-6",
+          "Trans Maldivian",
+          "Float Collapse",
+          "Accident",
+          "Male"
+        ],
+        "occurrence_class": "accident",
+        "occurred_at_utc": "2026-11-11T00:00:00Z",
+        "location": "Male (VRMM), Maldivler",
+        "aircraft_type": "De Havilland Canada DHC-6 Twin Otter",
+        "registration": null,
+        "operator": "Trans Maldivian Airways",
+        "flight_number": null,
+        "flight_phase": "landing",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [
+          "Şamandıra (float) yapısında çökme/kırılma"
+        ],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "18c656d830",
+        "sources": [
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBMUGJwRmFUSTlwUTNtbTBVZk1nczlSdFo3a3NWRUN0ZHZWYkM5a2FfSXEzLXBiX3k1WE9pTnFzN0c4RW1aNWhkMkpGODlJd29F?oc=5",
+            "published_at": "2026-11-12T10:01:49.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "Sıçramalı İniş Sonrası Pitch-Up Etkisi A300 Kargo Uçağında Tailstrike'a Neden Oldu",
+        "summary": "London Heathrow'da gerçekleşen olay incelemesinde, sıçramalı iniş (bounced touchdown) sonrası oluşan pitch-up etkisinin Airbus A300 kargo uçağının kuyruk vurmasına (tailstrike) yol açtığı açıklandı. İnceleme, sekme durumunda pas geçme prosedürlerinin önemini vurguluyor.",
+        "why_it_matters": "Sıçramalı iniş yönetimi ve sekmeli dokunuş sonrası doğru pas geçme tekniğinin önemini hatırlatıyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "A300",
+          "Bounced Landing",
+          "Tailstrike",
+          "Go-Around",
+          "SOP"
+        ],
+        "subcategory": "sop_procedures",
+        "regulators": [
+          "None"
+        ],
+        "operational_takeaway": "Sıçramalı inişlerde pitch tutumunu aşırı artırmadan derhal go-around uygulanmalı ve sekmeli iniş düzeltme prosedürlerine riayet edilmelidir.",
+        "id": "87fe13507c",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNM3R3c3R2QUZHQTYxTFkzajlqWFIzRzZUbl8xSExodWktbEgtLS10NFB3RW9UNnQxR3NTVU45Q3VTNk9qakd0dGFTLWFuY3BicUs2cllDLW1Rcll2Q2VVUk9yWmIweTc0MFlJNEM0TzRFY01jVWZldElXejdDaE8xZXlmMkRrQnZlY3EzTENES2hGTnhaNnYybWgxajZLQTJMZkxrNFBBeUJUeV9XWHNOSE44dVZjQjgzbmY3amd1NlN4SEx5bEY2V0NNRHZpYU1DSXc3NVBHbUI?oc=5",
+            "published_at": "2026-11-12T12:12:12.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Airbus A321XLR Yüksek Ağırlık Sebebiyle Uçuşun İlk Saatlerinde Step Climb Uyguluyor",
+        "summary": "Airbus A321XLR uçaklarının maksimum kalkış ağırlığına (MTOW) yakın uçuşlarında, gövde içi ekstra yakıt tankı ağırlığı sebebiyle ilk birkaç saat daha düşük irtifalarda (step climb gereksinimiyle) seyrettiği analiz edildi. Yakıt tükendikçe uçak optimize irtifaya tırmanabiliyor.",
+        "why_it_matters": "Dar gövde ultra uzun menzil operasyonlarında irtifa ve dikey profil planlamasını etkiliyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus A321XLR",
+          "Step Climb",
+          "MTOW",
+          "Flight Planning"
+        ],
+        "subcategory": "sop_procedures",
+        "regulators": [
+          "None"
+        ],
+        "operational_takeaway": "A321XLR ile uçuş planlamalarında başarım ve performans sınırları gözetilerek tırmanma profili ve ATC irtifa koordinesi step climb stratejisine göre yapılmalıdır.",
+        "id": "800105a12f",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdjZTYWVMdXQ3T1FCMHd0X1plY1dja05ZWW1wc3pPUGJQLXFXd2dMdy1mS2xlM01STW44dHY1S0wwM01uZVg3YXRTbnJ5TW1wMW1hSFJ6SEpveWlPOVdYME1HRS0ySXEwVU9BOXh3dmdXLVpYVG9YSzYxMDJkN3RoVUh4X3BsZjNwX3c?oc=5",
+            "published_at": "2026-11-12T16:00:18.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "Jensen Huang Nvidia CEO'luğundan İstifa Etti; Geçici CEO Colette Kress Oldu",
+        "summary": "Nvidia CEO'su Jensen Huang'ın görevinden ayrılmasının ardından geçici CEO olarak Colette Kress atandı. Liderlik değişimi, şirketin $12.9 milyarlık Hugging Face satın alımı ve açık kaynak yapay zeka modellerine verdiği desteğin geleceği konusunda soru işaretleri yarattı.",
+        "why_it_matters": "Küresel yapay zeka donanım tedarik zinciri ve açık kaynak model ekosisteminin yönünü doğrudan etkilemektedir.",
+        "importance": 5,
+        "confidence": "confirmed",
+        "tags": [
+          "Nvidia",
+          "Jensen Huang",
+          "Open Source",
+          "Hugging Face",
+          "AI Hardware"
+        ],
+        "subcategory": "infrastructure_chips",
+        "entities": [
+          "Nvidia",
+          "Jensen Huang",
+          "Colette Kress",
+          "Hugging Face"
+        ],
+        "developer_impact": "Açık ağırlıklı (open-weight) modeller ve Hugging Face ekosistemine sağlanan donanım desteğinin sürdürülebilirliği açısından stratejik takibi gerektiriyor.",
+        "id": "7326a91903",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+            "published_at": "2026-11-12T21:35:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+            "published_at": "2026-11-12T18:39:23.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+            "published_at": "2026-11-12T17:36:40.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+            "published_at": "2026-11-12T15:37:29.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Google Arama Altyapısını Gemini 4 Hydrogen Modeliyle Güncelledi",
+        "summary": "Google, arama motoruna Gemini 4 Hydrogen modelini entegre ettiğini duyurdu. Yeni güncelleme karmaşık sorgularda daha detaylı mantık yürütme, zengin görsel yanıtlar ve daha doğru bağlantı sunumu sağlıyor.",
+        "why_it_matters": "Arama motoru yapay zeka entegrasyonunda multimodal ve üst seviye muhakeme yeteneklerinin kullanımını yaygınlaştırıyor.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Google",
+          "Gemini 4 Hydrogen",
+          "Google Search",
+          "Multimodal"
+        ],
+        "subcategory": "foundation_model",
+        "entities": [
+          "Google",
+          "Gemini 4 Hydrogen"
+        ],
+        "developer_impact": "Web içeriği optimizasyonu ve AI arama sorgularına verilen yanıtların yapısında Gemini 4 Hydrogen mimarisinin etkisi öne çıkacak.",
+        "id": "2ba7853198",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+            "published_at": "2026-11-12T19:27:45.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Google AI / DeepMind",
+            "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+            "published_at": "2026-11-12T18:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "OpenAI Otomatik Red Teaming Yöntemiyle LLM Güvenlik Dayanıklılığını Artırdı",
+        "summary": "OpenAI Alignment Ekibi, büyük dil modellerinin (LLM) güvenlik hizalamasını güçlendirmek amacıyla otomatik Red Teaming ve bulanık (fuzzy) test tekniklerini duyurdu. Yöntem, modele yönelik karmaşık saldırı ve jailbreak girişimlerini otomatik tespit etmeyi hedefliyor.",
+        "why_it_matters": "LLM güvenlik ve hizalama süreçlerinde insan gücüne bağımlılığı azaltan otomatik güvenlik metodolojisi sunuyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "OpenAI",
+          "Red Teaming",
+          "LLM Safety",
+          "Alignment",
+          "Research"
+        ],
+        "subcategory": "research",
+        "entities": [
+          "OpenAI"
+        ],
+        "developer_impact": "Kurumsal LLM uygulamalarında güvenlik ve jailbreak testlerini otomatize etmek için yeni bir metodoloji sağlıyor.",
+        "id": "6ec94df75a",
+        "sources": [
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52RG9TNWRTQTg3OUJzMzhGbEUzSG1ZX0Rqek45b2ZaczE2UDVNZDNPaURwSlh2aEFBUmlvWEVWYzE5ckcySnlWMjJ6Y3NwaDlkUlVnSThxMU9GZw?oc=5",
+            "published_at": "2026-11-12T18:29:37.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "OpenAI OpenClaw Benzeri Kalıcı AI Ajanlarının Güvenlik Standartlarını Açıkladı",
+        "summary": "OpenAI Geliştirici Ekibi, sistemlerde sürekli çalışan kalıcı yapay zeka ajanlarının (persistent agents) güvenliğini sağlamak amacıyla OpenClaw mimarisi özelinde koruma katmanları ve yetkilendirme standartları yayınladı.",
+        "why_it_matters": "Otonom hareket eden agent mimarilerinin prodüksiyon ortamında güvenli çalıştırılması için referans rehber oluşturuyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "OpenAI",
+          "AI Agents",
+          "OpenClaw",
+          "Security",
+          "DevTools"
+        ],
+        "subcategory": "policy_safety",
+        "entities": [
+          "OpenAI",
+          "OpenClaw"
+        ],
+        "developer_impact": "Uzun süreli ve otonom aracı (agent) geliştiren mühendisler için yetkilendirme ve güvenlik duvarı mimarileri sunuyor.",
+        "id": "f7f60c9ab4",
+        "sources": [
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcnQtTHNDclZ0QWNRdDhqOUxZWXB6NzBJQWZwVXFyOXM1ZlUtR1pSdjk1M0Frb0tMbUM4MzZRZVdUc1dUWTRORGhJRWhlWTlKR2VmRENsWVZZZ0JNWUF0eFFXc0dVUTBTSlBfblZwVTFBeTRQZXpGdTQ0VHpHazJubUktNGFXb0F2NFpJdlN3?oc=5",
+            "published_at": "2026-11-12T17:59:35.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [
+    "Hacker News (AI) RSS alınamadı: HTTP 502 (Bad Gateway) — https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=80"
+  ],
+  "meta": {
+    "rss_feeds_ok": 12,
+    "rss_feeds_failed": [
+      "hn_ai"
+    ],
+    "rss_items_fetched": 147,
+    "rss_items_used": 91,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 189499
+  }
+}

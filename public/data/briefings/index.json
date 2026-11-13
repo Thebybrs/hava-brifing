@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-12T05:55:23.432Z",
-  "latest": "2026-11-12",
+  "updated_at": "2026-11-13T05:57:07.201Z",
+  "latest": "2026-11-13",
   "briefings": [
+    {
+      "date": "2026-11-13",
+      "path": "2026-11-13.json",
+      "headline": "Nvidia'da Jensen Huang Ayrıldı; BA A321neo Heathrow'da Tailstrike Yaşadı, Southwest 737 NG Filosunu Emekli Ediyor",
+      "counts": {
+        "commercial_aviation": 4,
+        "accidents_and_incidents": 2,
+        "piloting_and_ops": 2,
+        "ai_developments": 4
+      },
+      "has_fatal_accident": false,
+      "max_importance": 5,
+      "generated_at": "2026-11-13T05:57:07.198Z"
+    },
     {
       "date": "2026-11-12",
       "path": "2026-11-12.json",
