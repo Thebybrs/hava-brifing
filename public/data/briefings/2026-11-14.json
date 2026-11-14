@@ -1,0 +1,578 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T05:45:42.658Z",
+  "window": {
+    "from": "2026-11-13T05:44:00.503Z",
+    "to": "2026-11-14T05:44:00.503Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "FAA ABD Genelinde Ground Stop Kararı Aldı; Cathay 14 Airbus Sipariş Etti; OpenAI ChatGPT Wallet'ı Duyurdu",
+  "tldr": [
+    "FAA, radar ve ATC iletişim altyapısındaki arıza sebebiyle ABD genelinde ground stop kararı aldı; 7.000'den fazla uçuş ertelendi.",
+    "Cathay Group, filosunu büyütme stratejisi kapsamında 14 adet ilave Airbus uçağı siparişi verdiğini duyurdu.",
+    "OpenAI, ChatGPT Pro kullanıcıları için AI ajanlarının bağımsız ödeme yapmasını sağlayan ChatGPT Wallet özelliğini sundu.",
+    "American Airlines A321 Fort Lauderdale inişinde kuş sürüsüne çarptı; UPS B763'te ikinci pilotun rahatsızlanması üzerine iniş yapıldı."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Cathay Group 14 Adet İlave Airbus Uçağı Siparişi Verdi",
+        "summary": "Cathay Group, filosunu genişletme ve yenileme stratejisi kapsamında 14 adet ilave Airbus uçağı siparişi verdiğini duyurdu. Sipariş, havayolunun geniş gövde ve dar gövde filo hatlarını güçlendirmeyi hedefliyor.",
+        "why_it_matters": "Airbus'ın Asya-Pasifik pazarındaki ticari konumunu ve teslimat takvimini güçlendiriyor.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "Cathay Group",
+          "Sipariş",
+          "Filo"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Cathay Group",
+          "Airbus"
+        ],
+        "id": "acc6bed210",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVzRVd0o3VW9VRHd0R21qTnJxVW5USzJodlFzeGNkSWhjNktES01aUi1jOHFJdDVBelBMVF9Da1cxSml1dlNzaEF1bEgtQUR0eEtpYVpmdHJ1MTNZYlJsNXR2ZnFDZkJreHZ3UnZXNkNPSmdRUGdsM3dxM1F3c2xxQ1lpb01wbDFJT1E0R09UMmVRMFN4YWwwbkVNYkhkaGRyNjhBMGdR?oc=5",
+            "published_at": "2026-11-13T08:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "FAA, Radar ve ATC İletişim Arızası Sebebiyle ABD Genelinde Ground Stop Kararı Aldı",
+        "summary": "FAA, radar ve hava trafiği kontrol (ATC) iletişim sistemlerindeki kararsızlık nedeniyle ülke genelinde acil ground stop kararı aldı. 7.000'den fazla uçuş ertelendi veya iptal edildi; yetkililer ilk incelemelere göre bir siber saldırı izine rastlanmadığını açıkladı.",
+        "why_it_matters": "Ulusal ATC ve radar altyapısındaki tekil arıza noktalarının uçuş operasyonları üzerindeki felç edici etkisini sergiliyor.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "FAA",
+          "ATC",
+          "Ground Stop",
+          "Hava Trafiği"
+        ],
+        "subcategory": "airports_atc",
+        "entities": [
+          "FAA",
+          "ATC"
+        ],
+        "id": "a3713c4c41",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcTFjeU9TU0ZyZ2Z0enlBdVphUVM4WG16d3ZFa0lpdWItcmdma0o5TzhPbWRkU2l0cnJsUXVIV2hyN2ZVYm1RMGdVZnJXRGpYdm8xcHpXdURPTWNIaWhUZ1Q5Wlp5RkhkN0VUX3FqQUJMNjVBV09wWVNOWWxWZ05ybWF1T25tbHFrdDBOWVVEVlRqZFRNN2pPcV9DYw?oc=5",
+            "published_at": "2026-11-13T22:10:20.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNekR3RTN2em1nWFZ3WFpIVWRUelNaOEFXNENLRk15c3JPa3FObFdQck9IUllLUXMtUWJ5b3hWc2t3Vjg1SzgzN0pxNVpzb3VQNXdLR1NDaGlQZ3RkSmFMNEhQa2FIM0JodTBvbjU1dTZndW92YUNLajNMLXEtRUswNEZPN25YUE9tVzk2VWVORW9WdUk4NG5TOE45TURYaHdva1VadHp5bEhqaFpzU3ZueHpybVZqRlV2OER3NjdhLXluay05Vi1NaWtYeXBTVlBxUi1lUg?oc=5",
+            "published_at": "2026-11-13T21:27:52.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/breaking-faa-issues-nationwide-ground-stop/",
+            "published_at": "2026-11-13T21:41:18.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Lufthansa, Boeing 777-9 Gecikmeleri Sebebiyle Airbus A340-300 Uçuşlarını Uzattı",
+        "summary": "Lufthansa, Boeing 777-9 teslimatlarının 2027 yılına ertelenmesi nedeniyle 27 yaşındaki Airbus A340-300 uçaklarının operasyon süresini uzatma kararı aldı.",
+        "why_it_matters": "Yeni nesil geniş gövde uçak teslimat gecikmelerinin havayolu filo planlaması ve yaşlı uçak bakımlarına doğrudan etkisini gösteriyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Lufthansa",
+          "Boeing 777-9",
+          "Airbus A340-300",
+          "Teslimat Gecikmesi"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Lufthansa",
+          "Boeing",
+          "Airbus",
+          "Boeing 777-9",
+          "Airbus A340-300"
+        ],
+        "id": "bbdea42955",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcXNUcTMyS2ZiU2NSNmpOM1ZSZnZpcUp4OXNhdHk1SlQ1c2tmTXR6OW5UY2xkbS1UMUg5OU1mV0JNM3d6a0t3M1BMMVlkUWxJZTlySXpKVlM5Y0FmbzlISHNEYm02VmE1eTJhLWJReWRtdWlHNTZtbEdKM0pHN2RQaXE0V25UcURPeDZnd200YmZZU2FvOVJGZTZWSE9vWjJOeFRPVUFiZUtfb3lEY2k1bU5jTW9MZ1duVFdrSWNIQ0VVNFhI?oc=5",
+            "published_at": "2026-11-13T21:00:02.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVTZEQ2Y0Vnk1Z29Ud1VhcEpLQXVzLThJakFSekswZW93VFJZczJjaUNRZEJ6X29WZTc1ZnZVM0RfaU40a2hmbmM1bEI4TWlSV3gyb3FqOVpsbE1ZTXV3YTNtZS1rNzcyT1FUZzFMWFRuNm1mUC1faVVNdzNHRHZUMHhHNEFJcFVNdl84d25fWEZLWEJpYXEwODI5NUY1SFlFSzZ3REZWaUlTOElSX0NKa1Nn?oc=5",
+            "published_at": "2026-11-13T18:08:53.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "THY ve DHMİ Ankara'da Operasyonel Verimlilik Zirvesi Düzenledi",
+        "summary": "Türk Hava Yolları ve DHMİ yetkilileri, Ankara'da gerçekleştirilen toplantıda hava trafiği yönetimi, kapasite artırımı ve operasyonel verimlilik konularını ele aldı.",
+        "why_it_matters": "THY'nin hub operasyonlarının verimliliği ve DHMİ ile ATC koordinasyonunun geliştirilmesi açısından önem taşıyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "DHMİ",
+          "ATC",
+          "Operasyonel Verimlilik"
+        ],
+        "subcategory": "airports_atc",
+        "entities": [
+          "Türk Hava Yolları",
+          "DHMİ"
+        ],
+        "id": "250f9e929c",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMjEtdWhfczVreEpMRWJKaTMxdlVEb3JCbEpsS3h2cGt5cnJ4Ti1zQm5rdGF4TFUyTWJRTXZaWXJ2aEFsaVVEejVqYTJNSkZhSTBQYTREYUstZG9DLXBRWGtNTFdKZ2dhTVFqeE1JMWZZa0hDMkYyeGltbmNDNFZhTGY0LXRrY3FaTUFDdVBqbl9fTUxtdU96Y3R5S0FRMnlRb09laDVyemJKcVVGMmxFZjlQUWtQUFFpU200aXoxSmg?oc=5",
+            "published_at": "2026-11-13T14:41:02.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5WRFA4TjBlZTlXNTJuMy01MjNTZmhLRlhsMk9QN1FNRWZEQ2pUMXhDb09OWnlqdjNQZUVVM1VOaVdMZEVYajdmNDRFdEpEcF9WX25tOXZHQUUtTXAwNkZLSm9xREIwUVREZi04RmlqdTBQZnJfYm5IRlZ0cmwyQQ?oc=5",
+            "published_at": "2026-11-13T13:58:51.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "flynas Son Klasik Airbus A320 Uçağını Emekli Ederek Filosunu A320neo ile Yeniliyor",
+        "summary": "Suudi Arabistanlı taşıyıcı flynas, filosundaki son klasik Airbus A320 uçağını hizmetten çekerek filoyu tamamen yeni nesil Airbus A320neo uçaklarıyla güncelliyor.",
+        "why_it_matters": "Havayolunun yakıt verimliliğini artırma ve filo standardizasyonunu sağlama hedefini gösteriyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "flynas",
+          "Airbus A320",
+          "Airbus A320neo",
+          "Filo"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "flynas",
+          "Airbus",
+          "Airbus A320",
+          "Airbus A320neo"
+        ],
+        "id": "77e8fc1858",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNY1Q2U2kzR1J4QkVUNTN3YlRHQWZWaUlWeVZSRnViWU5TWEoxNk9OUlJScDFoNkRQM2RFQ1VoR0dKNkZXZEFjNGNrTzF0b2ZSQW1vTlZXdGR5RTBwUDZCc0JPTkRicGNLQWdGckR6SHNwdnlJbHM1bF9TM0EzbmsyU2tOYWZzOFQ1YkVaVFNfSlhVLVV2UEc5bzExQUZKQlQ1WlJhWDVpaU5weURKR1pIcVA3WnJPRENCZ0wzZzhERGhlWkxWWkxxaTJ3?oc=5",
+            "published_at": "2026-11-13T15:37:14.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Boeing Üretim Yavaşlaması Sebebiyle 2.500 Çalışanın İşine Son Veriyor",
+        "summary": "Boeing, üretim süreçlerindeki aksamalar ve maliyet yönetimi tedbirleri kapsamında 2.500 personeli işten çıkaracağını duyurdu.",
+        "why_it_matters": "Üretici tarafındaki insan kaynağı kesintileri teslimat takvimlerini ve imalat kapasitesini olumsuz etkileyebilir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "İşten Çıkarma",
+          "İmalat"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing"
+        ],
+        "id": "27062c8e95",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN1o3VTFlSldGVHlpR3I4VVRXTlJNTHJPbkpYQTQzTW5OVTIzTFJheGJJcE5RaDQ3WVExX0ZqbkdMOGtIc29xdkR2WGlwSHlIMk1XZU5CRXRVbHhUcldvbDZ4eWdrMml4eGRvMEo0YThZSlVEeC1kWktCUi15SklNSXlGVnVzLW1DeG41b3VraGxIb2VoODZTSmFHajFKRml2bWhEdHBBUER6dw?oc=5",
+            "published_at": "2026-11-13T16:37:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNVRDNVg3aHBHMnRxUWlEMHdqQ2w0X0JUV00xRHNjODRRME5Fbk1JaGpncy1SQU54WFRVVkNVd0tPVnYtSU1MTkZBTDBUcWtXbmVwWk9kY2l3emNXNGZyVjBCNTljcXdWdVZKNnIxUGR2M2swV0FsNG5DcTExMENsTWRIUGhVbmw1UzE2emxJOFA?oc=5",
+            "published_at": "2026-11-13T16:37:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbG5hd250TU12MzdFelZsYkxjcVJIMU85cUVvZ0VTcF92aHN6LWFYbnFpN3JvUjdUQ21uczlScHVuY1ZpX082blM4c2dMUlhoQm5ZaDJOelFZMDRMUXZORXJlSDVtaG9YUHFjSzRMLU45VjRTQmxaakVnbVF0YWk2dWJ5STFGblpQc0lhcTE5d0I5dTVCT0Z5Sno0Yw?oc=5",
+            "published_at": "2026-11-13T13:03:54.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "İngiliz Global Airlines Şirketi İçin Mahkeme Tarafından Likidasyon Kararı Çıktı",
+        "summary": "İngiltere merkezli iddialı havayolu girişimi Global Airlines hakkında mahkeme tarafından tasfiye kararı verildi.",
+        "why_it_matters": "Yeni havayolu girişimlerinin yüksek sermaye gereksinimi ve pazar zorlukları karşısındaki risklerini ortaya koyuyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Global Airlines",
+          "Likidasyon",
+          "Havayolu"
+        ],
+        "subcategory": "market_finance",
+        "entities": [
+          "Global Airlines"
+        ],
+        "id": "45092a38ae",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPd1FSTlBPQmZWXzhVb3YxVWxUNGgzM2N4TC1RbU1FTUN4Vy1jZ2tNSEJNVWg0LVRWbF9MY1JXNTRGQ0JJekR6NnhjY2xpUjY4T3pyZFBOSHlfTFFudkVHdTR1YlJaZzBJODdMcHU1MkV4UWt4SzRBbzJMR0hGdmFnTmVvcnhTMDc3NkRNNGFTNzB2UzZKSC1YQ256a3NrODlUWHhr?oc=5",
+            "published_at": "2026-11-13T08:52:26.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "American Airlines Airbus A321 Fort Lauderdale'de Kuş Sürüsüne Çarptı",
+        "summary": "Fort Lauderdale (FLL) yaklaşma/iniş safhasındaki American Airlines Airbus A321 tipi uçak kuş sürüsüne çarptı (bird strike). Olayda yaralanan olmadı.",
+        "why_it_matters": "Düşük irtifadaki bird strike risklerini ve yaklaşma safhasındaki emniyet prosedürlerini vurgulamaktadır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Kuş Çarpması",
+          "Bird Strike",
+          "American Airlines",
+          "Airbus A321"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": null,
+        "location": "Fort Lauderdale (FLL), ABD",
+        "aircraft_type": "Airbus A321",
+        "registration": null,
+        "operator": "American Airlines",
+        "flight_number": null,
+        "flight_phase": "approach",
+        "occupants": null,
+        "fatalities": 0,
+        "injuries": 0,
+        "technical_findings": [],
+        "operational_findings": [
+          "Yaklaşma safhasında kuş sürüsü ile karşılaşılması (bird strike)"
+        ],
+        "investigation_status": "unknown",
+        "investigating_authority": null,
+        "id": "750d6fb13f",
+        "sources": [
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9MclcxS25LMDYwZElCeFBBWHk3d0NUcTVhVXppN1VnVnBaaXNYbm54b2FzWG8tZ0g4VFlWZjVtbVdmOWpJZDFyU2VCZ1JRcFVRZE1aM0xNTGo?oc=5",
+            "published_at": "2026-11-13T17:31:38.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "UPS Boeing 767-300 Seyir Sırasında İkinci Pilotun Rahatsızlanması Nedeniyle Yönlendirildi",
+        "summary": "Albuquerque yakınlarında seyir safhasında (cruise) bulunan UPS Boeing 767-300 uçağında ikinci pilot (First Officer) rahatsızlandı. Uçak Albuquerque'ye emniyetle yönlendirildi.",
+        "why_it_matters": "Pilot rahatsızlanması (pilot incapacitation) durumunda CRM ve acil durum yönlendirme prosedürlerinin hayati önemini göstermektedir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Pilot Incapacitation",
+          "UPS",
+          "Boeing 767-300",
+          "Acil İniş"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": null,
+        "location": "Albuquerque, ABD",
+        "aircraft_type": "Boeing 767-300",
+        "registration": null,
+        "operator": "UPS",
+        "flight_number": null,
+        "flight_phase": "cruise",
+        "occupants": null,
+        "fatalities": 0,
+        "injuries": 0,
+        "technical_findings": [],
+        "operational_findings": [
+          "Uçuş sırasında İkinci Pilotun (First Officer) tıbbi rahatsızlık yaşaması"
+        ],
+        "investigation_status": "unknown",
+        "investigating_authority": null,
+        "id": "c996888966",
+        "sources": [
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA1VGt6bVJFOHZnUHNCVm9pUVg5ZmJoQzQ3QjhYcWpkV0FUbFFMcjNxV0FlN0hzZ0h0MlNuSnVUNGdkZHM3YjNJMlYyczdtUWtFbmswbmg1aFA?oc=5",
+            "published_at": "2026-11-13T18:51:43.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Almanya'da Ikarus C42 Tipi Uçak Kaza Kırıma Uğradı",
+        "summary": "Almanya tescilli D-MFIR tescilli Ikarus C42 tipi hafif uçak kaza kırıma uğradı. Olayla ilgili inceleme başlatıldı.",
+        "why_it_matters": "Genel havacılık emniyeti ve hafif hava aracı operasyonel riskleri açısından takip edilmektedir.",
+        "importance": 2,
+        "confidence": "preliminary",
+        "tags": [
+          "Kaza",
+          "Genel Havacılık",
+          "Ikarus C42"
+        ],
+        "occurrence_class": "accident",
+        "occurred_at_utc": null,
+        "location": "Almanya",
+        "aircraft_type": "Ikarus C42",
+        "registration": "D-MFIR",
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "78904a9b03",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5aYTFORVllTFBMNjFYeXZrcXFEdlVVLXBYaXRTN29jS2ZHbkxhSUc5bWpxNTl5SWVWWS1GRE5NYjNRRHcxT2phWDNESVBWMnh1UkdZSzJB?oc=5",
+            "published_at": "2026-11-13T17:40:15.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "AAPA Kabin Emniyeti ve Yolcu Haklarına Yönelik Yeni Bağlayıcı Kararları Kabul Etti",
+        "summary": "Asya-Pasifik Havayolları Birliği (AAPA), kabin emniyeti standartlarının yükseltilmesi ve yolcu hakları düzenlemelerini içeren dört yeni kararı onayladı.",
+        "why_it_matters": "Kabin içi emniyet prosedürleri ve emniyet yönetim sistemleri (SMS) uyumu açısından havayolu operasyonlarını etkilemektedir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "AAPA",
+          "Kabin Emniyeti",
+          "Regülasyon",
+          "SMS"
+        ],
+        "subcategory": "regulation",
+        "regulators": [
+          "Other"
+        ],
+        "operational_takeaway": "Kabin ekibi ve kokpit ekibi arasındaki emniyet iletişimi standartlarının güncellenmesi gerekmektedir.",
+        "id": "7709fbb155",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSXNJTmsxek1sWEtEazVtSUVPbjYtN0ZKLUxnNkF4cjV4YmgzSGFxWWRFcVd6dEkzb3pOX01tQmhSYlc0el9Eem9HX1B6eEdSUjFMNHhEZzNRNkFJcVdkWlJSNjU2YWVpWlRwSEpPWWRWRV93NjVySFFuU3hPNGZ4UUxJMkJoNkRWdS1SVGdfSkNkWDB4aGZKdDdULTZxZVFxRTBlYmczNEp3djV4RHhDbExWZW9kYnRpcVlaVEMtcjN6dDg4?oc=5",
+            "published_at": "2026-11-13T17:22:32.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Airbus A330 Ana İniş Takımı Tasarımının İniş Emniyeti ve Piste Temas Dinamiklerine Etkisi",
+        "summary": "Airbus A330 uçaklarında kullanılan serbest salınımlı arka ana iniş takımı bojisi (bogie pitch trim), flare ve ana dikme temas anında darbeyi sönümleyerek yumuşak temas sağlamaktadır.",
+        "why_it_matters": "İniş flare tekniği, dikme açısı ve pist temas dinamiğinin pilotaj teknikleri açısından doğru anlaşılmasını sağlar.",
+        "importance": 2,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus A330",
+          "İniş Takımı",
+          "Pilotaj Tekniği",
+          "Flare"
+        ],
+        "subcategory": "human_factors",
+        "regulators": [
+          "None"
+        ],
+        "operational_takeaway": "A330 iniş tekniğinde ana dikme bojilerinin açısını koruyarak stabil flare yapmak ana tekerlek temasını yumuşatır.",
+        "id": "6e891f5ccb",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/airbus-clever-engineering-tricks-a330-butter-machine/",
+            "published_at": "2026-11-14T02:00:17.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "OpenAI, AI Ajanlarının Ödeme Yapmasını Sağlayan ChatGPT Wallet Özelliğini Duyurdu",
+        "summary": "OpenAI, ChatGPT Pro kullanıcıları için AI ajanlarının kullanıcı adına satın alma ve ödeme işlemlerini gerçekleştirmesini sağlayan ChatGPT Wallet özelliğini tanıttı. Sistem kalıcı ajanların web üzerinden güvenli ödeme yapmasına imkan tanıyor.",
+        "why_it_matters": "AI ajanlarının (autonomous agents) finansal işlem yapma yeteneği kazanması, ajan mimarisi ve güvenlik protokollerinde yeni bir aşamayı temsil ediyor.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "OpenAI",
+          "ChatGPT Wallet",
+          "AI Agents",
+          "Ödeme"
+        ],
+        "subcategory": "product_launch",
+        "entities": [
+          "OpenAI",
+          "ChatGPT"
+        ],
+        "developer_impact": "Geliştiriciler için AI ajanlarının API seviyesinde finansal yetkilendirme ve ödeme araçlarıyla (tool use) entegrasyonu mümkün hale geliyor.",
+        "id": "2253006bc4",
+        "sources": [
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQelJhRTJ5YjExZkJKUllxcWI5TVZnUEp4MGpTSDdXMGQzbGt1dHJ5dkFkM1dqaHpkRkNjcFR0LXJ2SS1FTTJJbE5EU1dKZGFLTXF6eGlnMEQyVkROb3piVEwzUk94NnZnZWtWMzN6dlJQTnVUQUVHYl9aNkJSc3dqQkdZXzdOeE9J?oc=5",
+            "published_at": "2026-11-14T00:41:07.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+            "published_at": "2026-11-13T16:00:12.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ab0pjcFNKdWdXUVFfbEMyNnBKUm56eDlpLXRjWktkSWtKNFBpQml6US05eHBPWnhCajF4V1lnZUhrZHY5U0dJb29BYldsRjlhWUxjVkFPdlhibmRYNkFMb1dn?oc=5",
+            "published_at": "2026-11-13T15:15:30.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Jensen Huang'ın Ayrılığı Sonrası AI Girişim Yatırımlarında Daralma Bekleniyor",
+        "summary": "Jensen Huang'ın Nvidia CEO'luğundan istifa etmesinin ardından, risk sermayeleri AI girişimlerine sağlanan fonların azalacağı uyarısında bulundu. Ayrıca Çin'deki gelişmiş AI modellerinin ihraç yasağı olan Nvidia çiplerinde eğitildiği tespit edildi.",
+        "why_it_matters": "Küresel AI donanım altyapısı tedariki ve girişim sermayesi akışında kritik belirsizlikler yaratmaktadır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Nvidia",
+          "Jensen Huang",
+          "Girişimler",
+          "AI Donanım"
+        ],
+        "subcategory": "infrastructure_chips",
+        "entities": [
+          "Nvidia",
+          "Jensen Huang"
+        ],
+        "developer_impact": "Donanım maliyetleri ve bulut GPU erişim fiyatlarındaki dalgalanmalar geliştiricilerin inference ve training bütçelerini etkileyebilir.",
+        "id": "da0e37abbd",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+            "published_at": "2026-11-13T22:43:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+            "published_at": "2026-11-13T18:40:30.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+            "published_at": "2026-11-13T15:58:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+            "published_at": "2026-11-13T12:52:19.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "AI Agent Geliştirme Platformu LangChain 3 Milyar Dolar Değerlemeye Ulaştı",
+        "summary": "AI agent yazılım altyapısı sunan LangChain, 3 milyar dolar değerlemeye ulaştığını ve agent yönetim platformu LangSmith'in 7.000 kurumsal müşteriye ulaştığını açıkladı.",
+        "why_it_matters": "LLM agent ve RAG sistemlerinin üretim ortamındaki (production) izleme ve yönetim altyapılarına olan talebi gösteriyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "LangChain",
+          "LangSmith",
+          "AI Agents",
+          "DevTools"
+        ],
+        "subcategory": "dev_tools",
+        "entities": [
+          "LangChain",
+          "LangSmith"
+        ],
+        "developer_impact": "LangSmith platformu üzerinden LLM agent'larının adım adım izlenmesi (tracing) ve tool kullanımı performansı kolayca analiz edilebiliyor.",
+        "id": "5bf4202848",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+            "published_at": "2026-11-13T19:37:57.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "ElevenLabs Ekip Odaklı Toplantı Notu ve Dikte Uygulaması ElevenAI'yı Duyurdu",
+        "summary": "ElevenLabs, kurumsal ekipler ve organizasyonlar için yapay zeka destekli toplantı notu alma ve sesli dikte uygulaması ElevenAI'yı kullanıma sundu.",
+        "why_it_matters": "Sesli yapay zeka ve stt (speech-to-text) teknolojilerinin kurumsal verimlilik yazılımlarına entegrasyonunu hızlandırıyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "ElevenLabs",
+          "ElevenAI",
+          "Speech-to-Text",
+          "Dikte"
+        ],
+        "subcategory": "product_launch",
+        "entities": [
+          "ElevenLabs",
+          "ElevenAI"
+        ],
+        "developer_impact": "Ses tanıma ve özetleme yeteneklerinin iş akışlarına ve kurumsal uygulamalara doğrudan entegrasyon örneği sunmaktadır.",
+        "id": "5858fd8d82",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+            "published_at": "2026-11-13T14:44:48.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [
+    "Hacker News (AI) RSS alınamadı: HTTP 502 (Bad Gateway) — https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=80"
+  ],
+  "meta": {
+    "rss_feeds_ok": 12,
+    "rss_feeds_failed": [
+      "hn_ai"
+    ],
+    "rss_items_fetched": 145,
+    "rss_items_used": 75,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 102157
+  }
+}

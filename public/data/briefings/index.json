@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13T05:57:07.201Z",
-  "latest": "2026-11-13",
+  "updated_at": "2026-11-14T05:45:42.664Z",
+  "latest": "2026-11-14",
   "briefings": [
+    {
+      "date": "2026-11-14",
+      "path": "2026-11-14.json",
+      "headline": "FAA ABD Genelinde Ground Stop Kararı Aldı; Cathay 14 Airbus Sipariş Etti; OpenAI ChatGPT Wallet'ı Duyurdu",
+      "counts": {
+        "commercial_aviation": 7,
+        "accidents_and_incidents": 3,
+        "piloting_and_ops": 2,
+        "ai_developments": 4
+      },
+      "has_fatal_accident": false,
+      "max_importance": 4,
+      "generated_at": "2026-11-14T05:45:42.658Z"
+    },
     {
       "date": "2026-11-13",
       "path": "2026-11-13.json",
