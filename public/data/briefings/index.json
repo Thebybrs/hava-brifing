@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14T05:45:42.664Z",
-  "latest": "2026-11-14",
+  "updated_at": "2026-11-15T05:48:09.580Z",
+  "latest": "2026-11-15",
   "briefings": [
+    {
+      "date": "2026-11-15",
+      "path": "2026-11-15.json",
+      "headline": "Miami'de Boeing 767 ve 737 Taksi Yolu Teması, IATA Kaza Raporları Uyarısı ve Nvidia Gelişmeleri",
+      "counts": {
+        "commercial_aviation": 3,
+        "accidents_and_incidents": 2,
+        "piloting_and_ops": 2,
+        "ai_developments": 1
+      },
+      "has_fatal_accident": false,
+      "max_importance": 4,
+      "generated_at": "2026-11-15T05:48:09.575Z"
+    },
     {
       "date": "2026-11-14",
       "path": "2026-11-14.json",

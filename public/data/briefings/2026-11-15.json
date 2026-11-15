@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T05:48:09.575Z",
+  "window": {
+    "from": "2026-11-14T05:47:24.353Z",
+    "to": "2026-11-15T05:47:24.353Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "Miami'de Boeing 767 ve 737 Taksi Yolu Teması, IATA Kaza Raporları Uyarısı ve Nvidia Gelişmeleri",
+  "tldr": [
+    "Miami International Airport'ta UPS Boeing 767 ile Copa Airlines Boeing 737 taksi yolunda temas etti; yaralanma bildirilmedi.",
+    "IATA, uluslararası kurallarla soruşturulan kaza kırım vakalarının %50'sinde nihai raporların yayınlanmadığını açıklayarak uyardı.",
+    "Türk Hava Yolları, Asya-Pasifik uçuş ağını genişletme stratejisi kapsamında Japonya'da Sapporo ve Nagoya rotalarını hedefleri arasına aldı.",
+    "Riyadh Air'in ilk Airbus A321neo uçağı Hamburg'daki tesislerde Bedevi temalı Pearl özel boyamasıyla tamamlandı.",
+    "Nvidia CEO'su Jensen Huang'ın ayrılığı sonrası 115 binden fazla imza toplanırken Asya ülkeleri çip tedarik süreçlerini izliyor."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Riyadh Air'in İlk Airbus A321neo Uçağı Hamburg Boya Tesisinde Tamamlandı",
+        "summary": "Suudi Arabistan'ın yeni ulusal taşıyıcısı Riyadh Air, ilk Airbus A321neo uçağının Hamburg'daki Airbus tesislerinde boyama işleminin tamamlandığını duyurdu. Havayolu, Bedevi esintili özel Pearl boyamasıyla filosunu genişletme ve küresel uçuş ağına başlama adımlarını sürdürüyor.",
+        "why_it_matters": "Yeni nesil tek koridorlu A321neo filosunun küresel pazar dengelerine ve Orta Doğu havacılık rekabetine etkisini gösteriyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Riyadh Air",
+          "Airbus A321neo",
+          "fleet",
+          "Airbus"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Riyadh Air",
+          "Airbus",
+          "Airbus A321neo"
+        ],
+        "id": "9a540e5fca",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMklwSXIwU2VuZUJMNWVndDhWQWpOQ0ctSXQxNlJYeFV6dWVsNFlzdnhNdGFLSVdkWXJZczlUYVVLQXNwal9udkNQMUhYYWU2Ukp4dWc1MFFMVFhTYmhITlF1YnJsY0ZPekhVMnBQODI3aGtkNVA2WFRnQ0VoOVVTZEp3VQ?oc=5",
+            "published_at": "2026-11-14T18:22:39.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUEQ3ZkU0azJpTnNrajlXU3NNUEpWRk9TZUNaOTE4RXhOSGlOYW03ZjlYZmx4YTJkOHBmaWlEWlhHWVJXNHBuNGFJZElPNE1qb21reDJmNFhDSFBQejNBd1hiSmM0S3F1Z0Y4Qk02VXZqWldRX1BkRFZfVHBrUEtLTWZxYV9PTjZ1Z0h6OFZfelo0UzRmR3c?oc=5",
+            "published_at": "2026-11-14T10:40:53.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVHNxRmdnOXJyMlg0NVEzcDdLQzJoNFZrYU5KUnJLZWFxei04bGtOZVIwX0xlOXh0ZHl1aWFhZDNaRzM5cmhNTXg4VHJMc09PRnRGUldPQ1RFX0FIT2QtNTFma1VLZWxvY2VIekxqRmo2SmFIX0tKTHNoOV9VTnFDS18wRnpsU1FYSm1qSEJUNmxTWU1HQ1VkbElFVFFTNzViTUstajBHTjhDZjJjR2R2UUc3Z09qN3E0d05qV3RYX2ZfejJz?oc=5",
+            "published_at": "2026-11-14T08:06:39.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Türk Hava Yolları Japonya'da Uçuş Ağını Sapporo ve Nagoya ile Genişletmeyi Hedefliyor",
+        "summary": "Türk Hava Yolları (THY), Japonya pazarındaki varlığını güçlendirmek amacıyla uçuş ağına Sapporo ve Nagoya rotalarını eklemeyi planladığını açıkladı. THY, Asya-Pasifik bölgesindeki uzun menzilli uçuş ağını yeni noktalarla büyütmeyi sürdürüyor.",
+        "why_it_matters": "THY'nin uzak doğu pazarı genişleme stratejisi ve uzun menzilli filo planlaması açısından önem taşır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "Turkish Airlines",
+          "route_network",
+          "Japan"
+        ],
+        "subcategory": "route_network",
+        "entities": [
+          "Türk Hava Yolları",
+          "THY"
+        ],
+        "id": "d4b74fb77b",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa19xTlVoTFhCeFlrN3B3LVE3Z2lvbUtUTU53dGluTExFR3Mxcno2MlBiNjYtR2tDbmhjM3F5VWkwam5Mcm5CUkwwYXpWSktFUGhXbDZfNDRxT1JzMWlSblBNcFRvZjMzdmFhazdWUk9xem5xVDRXbXRvbExGU3d1NjR0bzdMZ25CTU14cDBIcU1oNGZCczIycEZR?oc=5",
+            "published_at": "2026-11-14T14:03:42.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Lufthansa Airbus A350-1000 Ticari Uçuşlarında Starlink İnternet Hizmetini Sunacak",
+        "summary": "Lufthansa, 3 Aralık'ta hizmete girecek Airbus A350-1000 uçaklarında Starlink yüksek hızlı uydu internet servisini sunacağını bildirdi. Bu adım, geniş gövde filolarda yolcu deneyimi ve kabin içi bağlantı teknolojilerinde yeni bir dönemi temsil ediyor.",
+        "why_it_matters": "Geniş gövde uçaklarda yüksek hızlı Starlink connectivity entegrasyonu yolcu konforu ve havayolu içi bilişim standartlarını yükseltmektedir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Lufthansa",
+          "Airbus A350-1000",
+          "Starlink",
+          "connectivity"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Lufthansa",
+          "Airbus",
+          "Airbus A350-1000",
+          "Starlink"
+        ],
+        "id": "149f982899",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUUcydWE1R0FlcTNnNzhCY3hyVzhmdmw4czhmNzF6UThRR0hyUm9tZXJ6enBCcE54WHdCc2k3OGR3Y1lzYk9sQ2JkaHBMcUZ4eDJFTzE0UWxDZXFIUl9meEk2VF9sZGp3VkpOVFJ2WjczN0RYS19sSFpJYVpCNGpoek9sODRUazlxaC1DRVZkdktEU0hHbVBkNmZuTQ?oc=5",
+            "published_at": "2026-11-15T00:29:25.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "Miami Havalimanı'nda UPS Boeing 767 ile Copa Airlines Boeing 737 Taksi Yolunda Çarpıştı",
+        "summary": "Miami International Airport (KMIA) taksi yolunda UPS'e ait Boeing 767 kargo uçağı ile Copa Airlines'a ait Boeing 737 yolcu uçağı taksi yaptıkları sırada temas etmiştir. Hava trafik kontrol telsiz kayıtlarına yansıyan olayda herhangi bir yaralanma bildirilmemiştir. Soruşturma devam etmektedir.",
+        "why_it_matters": "Yer hareketleri sırasında taksi yolu ayırma ve kanat ucu mesafelerinin takibinin önemini gösteriyor.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "KMIA",
+          "Boeing 767",
+          "Boeing 737",
+          "ground_event",
+          "taxiway"
+        ],
+        "occurrence_class": "ground_event",
+        "occurred_at_utc": null,
+        "location": "Miami International Airport (KMIA), ABD",
+        "aircraft_type": "Boeing 767 / Boeing 737",
+        "registration": null,
+        "operator": "UPS / Copa Airlines",
+        "flight_number": null,
+        "flight_phase": "pushback_taxi",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [
+          "Taksi sırasında uçaklar arası temas/çarpışma",
+          "ATC telsiz kayıtlarına yansıyan temas raporu"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": "NTSB",
+        "id": "e79b5dd332",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNX3ZMaW96WjZfMTZJTUZnX2QxR19QdG95Zmtua3ZINW5OenVCRDM2cWYzQVgtN0cxMExFVFRzYlRwTzdJcWUzMXlNbXZITjAxWlpjMTdSaHBNanZ3X1hOeThHQnZCOEFERzlPdlZtTmVSNXR1Mnpvd1ZSejBKYXh1eHJJY1dROVVsQlhlakNvcm83Q2R3UmkwZXhR0gGfAUFVX3lxTE00LVNkMEhRVzg5b1ZkNU9yMUZWZDRqeDJkOXlCZS1ualJadWV3WmdnZFJtUGxoX1o1OThKR0Nsa3FWRV9GcWM4czV5ZUY1RnNXaktMbFJUdVA2V3ljazZPM1ZKNXVUWkJybkppMDlLdUNYd1JOYk15MWc0dTFOY3ZmaXh3dVZ1V0R0NmpNUU9VQXhhUzBvVTRJQzF3QUxFbw?oc=5",
+            "published_at": "2026-11-15T05:04:31.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZXBUMEtxU3RaUnB2X2ZPZzRiNzg4LTJ3YVZUSEdrX1czYXNtOE5TcWtjMEFjeWZYdnRFWjN3aUQzb3JRZi1nQjB4RV9zSk9mb0RRZnlzT0p2ZUFhVDVLSVk5dFA4blhmZ1lubUg2MTYxWlBFaEN4emhQYURpOHZfY2ZvS1pRTkhmdzZv?oc=5",
+            "published_at": "2026-11-15T03:40:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPekEzQ21XR2ljd25BdEtWV0Q2dHUyc1RGRllwS2l1NEllVV96Y0UyVHptaFd1cGlzbk1TZndqc3RIOWFoSnNZVWg2X0xSSEFmVXU5RXY3QkEyUm5OWXBlQzJSZVQ3YlVIT2M3eGlFazZBSTNIS1dhSEhleUdFejlPRUNtOEpZNUlVVDJMRFU3QldXNGpyWVJkMUdjcDJyaWtE?oc=5",
+            "published_at": "2026-11-15T03:16:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1vbWVEQlN0QklxQ0ZLeElGdFB6TEwwRTVjdFJuZkNQNEtWbTFmUFpoejU3aG5aS01JQk10VENpb0dDZTZxTHNjTVJwbWVNSS1xX0RPcjJDTDZLSnFULXVXTF92NGo1eFZzYUR5dw?oc=5",
+            "published_at": "2026-11-15T02:49:32.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "British Airways Boeing 787 Dubai Uçuşunda Sağ Motor Arızası Nedeniyle Yönlendirildi",
+        "summary": "Dubai'ye sefer yapan British Airways'e ait Boeing 787 tipi yolcu uçağı, sağ motorunda meydana gelen teknik bir arıza nedeniyle acil durum deklare ederek en yakın uygun havalimanına yönlendirilmiştir.",
+        "why_it_matters": "Tek motor arızası prosedürlerinin (single engine drift-down ve divert) operasyonel yönetimini vurgular.",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "Boeing 787",
+          "British Airways",
+          "engine_failure",
+          "divert"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": null,
+        "location": "Bilinmiyor",
+        "aircraft_type": "Boeing 787",
+        "registration": null,
+        "operator": "British Airways",
+        "flight_number": null,
+        "flight_phase": "cruise",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [
+          "Sağ motorda teknik arıza (right engine issue)"
+        ],
+        "operational_findings": [
+          "Acil durum deklare edilerek divert kararı alınması"
+        ],
+        "investigation_status": "unknown",
+        "investigating_authority": null,
+        "id": "d0d42c7f72",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNd3V3dGF0VS1uM3hFTDlFSzRHNkxVWHU1T19hb0NLdldWTm5od3JleGk0dHFTWC0zRFNIRmJRdEVCSVY0TXRSdVFGQWQ2Um1xb0RfT05zX2toLV9RQnZFOEJ4V2k4YWRFNnJRWU54eFFjTU5wTHc5TGpwNnUwRVZYZ2taU2luVW1mSGJHbXVCblZfUHh4eWd1UkRSdFBoRjQ5SnFvZVJMMzZtWW1Ja1FlQlc2clM2NWNnV3lxRUE3cWRXcVhvbkJXWHN5S3VMd3dTaG9qcEdRRUJYT2PSAeMBQVVfeXFMTUpNTmpPeHlGdUhobWZBMlpva1ZmVHhuTHA5VDgwQW94SUJ1UUd1TWstVnFFVGtLckg5MTI3ZmFvQWJyb252bE5vcWJ5aG82TjlPTnVDMmNCZXJHQzRqY2YzcEx3cG12UGhnT0p5M2FDLWZzbF9ZZnp4VV9pRURkcWRxV0lmWGhOdV82VFEyanJ6c2VDN2p2eDBLNmMtNng4c1l3bGJZTEFsdjdMRWdRamVYYlVjRHBlVHMzNmpzanVvT3g4VUNYUTg3SnVfaU9CUW5vRlBuWXpYM0gxSkpiV1hBbGM?oc=5",
+            "published_at": "2026-11-14T23:32:07.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "IATA: Havacılık Kazalarının Yaklaşık Yüzde 50'sinde Nihai Rapor Yayınlanmıyor",
+        "summary": "IATA tarafından yapılan açıklamada, uluslararası kurallar kapsamında soruşturulan havacılık kazalarının yaklaşık yarıya yakınında nihai kaza kırım raporlarının yayınlanmadığı belirtildi. Otorite, bu durumun emniyet risklerinin tespit edilmesini ve benzer olayların önlenmesini engellediğini vurguladı.",
+        "why_it_matters": "Kaza kırım inceleme sonuçlarına erişim eksikliği, havayolu emniyet yönetimi ve pilot eğitim müfredatının güncellenmesini zorlaştırıyor.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "IATA",
+          "safety_report",
+          "ICAO",
+          "investigation"
+        ],
+        "subcategory": "safety_alert",
+        "regulators": [
+          "ICAO",
+          "Other"
+        ],
+        "operational_takeaway": "Soruşturma raporlarının gecikmesi emniyet derslerinin zamanında alınmasını engellediğinden, havayollarının iç olay raporlama (SMS) mekanizmalarına öncelik vermesi gerekmektedir.",
+        "id": "3c460f92a6",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/iata-half-air-accident-investigations-lack-final-reports/",
+            "published_at": "2026-11-14T22:23:38.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "ABD'de Sızdırılan ATC Vardiya Çizelgesi Zorunlu Fazla Mesai ve Yorgunluk Riskini Gösteriyor",
+        "summary": "ABD'de hava trafik kontrolörlerinin (ATC) çalışma koşullarına ilişkin sızdırılan çizelgelere göre, kontrolörlerin iki hafta boyunca her gün görev yaptığı ve 10 saatlik vardiyalar üstlendiği ortaya çıktı. Bu durum ATC personel eksikliğinin kule ve yaklaşma kontrol emniyeti üzerindeki baskısını gözler önüne seriyor.",
+        "why_it_matters": "ATC yorgunluğu, hava-yer iletişiminde hata riskini ve pist ihlali tehlikesini doğrudan artırır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "ATC",
+          "human_factors",
+          "FAA",
+          "fatigue"
+        ],
+        "subcategory": "human_factors",
+        "regulators": [
+          "FAA"
+        ],
+        "operational_takeaway": "Pilotların ATC ile iletişimde CRM ilkelerine uyarak talimatları eksiksiz doğrulaması ve yoğun meydanlarda durumsal farkındalığı en üst düzeyde tutması kritik öneme sahiptir.",
+        "id": "c20811a7ef",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/leaked-atc-schedule-reveals-mandatory-overtime-10-hour-shifts/",
+            "published_at": "2026-11-14T21:29:13.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "Teknoloji Yöneticileri Jensen Huang'ın Nvidia'ya Dönmesi İçin İmza Kampanyası Başlattı",
+        "summary": "Elon Musk dahil olmak üzere 115 binden fazla teknoloji lideri ve geliştirici, Nvidia CEO'su Jensen Huang'ın görevine iade edilmesi talebiyle imza kampanyasına katıldı. Ayrılık kararı sonrası Asya hükümetleri de çip tedarik taahhütlerini ve yerel projelere olası etkilerini yakından takip ediyor.",
+        "why_it_matters": "Yapay zeka donanım pazarının lideri Nvidia'daki yönetim krizinin çip tedarik zincirleri ve küresel AI yatırımlarına doğrudan etkisi bulunuyor.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Nvidia",
+          "Jensen Huang",
+          "Elon Musk",
+          "AI hardware"
+        ],
+        "subcategory": "infrastructure_chips",
+        "entities": [
+          "Nvidia",
+          "Jensen Huang",
+          "Elon Musk"
+        ],
+        "developer_impact": "Yapay zeka altyapı tedariği ve GPU temin sürelerinde yaşanabilecek belirsizlikler, büyük ölçekli model eğitimi planlayan geliştiricilerin takvim ve maliyet projeksiyonlarını etkileyebilir.",
+        "id": "ad5216eb1d",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+            "published_at": "2026-11-14T21:41:22.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+            "published_at": "2026-11-14T16:34:15.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [],
+  "meta": {
+    "rss_feeds_ok": 13,
+    "rss_feeds_failed": [],
+    "rss_items_fetched": 160,
+    "rss_items_used": 46,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 45224
+  }
+}
