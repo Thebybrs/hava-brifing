@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-15T05:48:09.580Z",
-  "latest": "2026-11-15",
+  "updated_at": "2026-11-16T06:01:26.102Z",
+  "latest": "2026-11-16",
   "briefings": [
+    {
+      "date": "2026-11-16",
+      "path": "2026-11-16.json",
+      "headline": "THY ile Atlantic Airways Görüşmelere Başladı; ULA Roketi Arızalandı",
+      "counts": {
+        "commercial_aviation": 4,
+        "accidents_and_incidents": 2,
+        "piloting_and_ops": 1,
+        "ai_developments": 4
+      },
+      "has_fatal_accident": false,
+      "max_importance": 3,
+      "generated_at": "2026-11-16T06:01:26.096Z"
+    },
     {
       "date": "2026-11-15",
       "path": "2026-11-15.json",

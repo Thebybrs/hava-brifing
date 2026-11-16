@@ -1,0 +1,393 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T06:01:26.096Z",
+  "window": {
+    "from": "2026-11-15T06:00:45.292Z",
+    "to": "2026-11-16T06:00:45.292Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "THY ile Atlantic Airways Görüşmelere Başladı; ULA Roketi Arızalandı",
+  "tldr": [
+    "THY, Faroe Adaları merkezli Atlantic Airways ile stratejik iş birliği görüşmelerine başladığını duyurdu.",
+    "Boeing ve Lockheed ortaklığı ULA roketi fırlatma arızası yaşadı; Amazon'a ait 40 LEO uydusu kayboldu.",
+    "IndiGo Airbus A320neo tipi uçak, kalkış sonrası iniş takımlarını toplayamayarak Pune'ye geri döndü.",
+    "OpenAI, geliştirici API'leri için bölgesel uyumluluk sağlayan yeni data residency özelliklerini sundu."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Türk Hava Yolları ile Atlantic Airways İş Birliği Görüşmelerine Başladı",
+        "summary": "Atlantic Airways, Türk Hava Yolları ile stratejik iş birliği fırsatlarını değerlendirmek üzere resmi görüşmelere başladığını duyurdu. İki taşıyıcı arasındaki olası kod paylaşımı ve uçuş ağ entegrasyonu hedeflenmektedir.",
+        "why_it_matters": "THY'nin Kuzey Avrupa ve Faroe Adaları bağlantılarını güçlendirmesi açısından operasyonel önem taşımaktadır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "Atlantic Airways",
+          "kod paylaşımı",
+          "iş birliği"
+        ],
+        "subcategory": "route_network",
+        "entities": [
+          "Türk Hava Yolları",
+          "THY",
+          "Atlantic Airways"
+        ],
+        "id": "164983b36d",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPY3N2YS1NZzgxQW5ldHhVSzBoQXFONUVVSlJUUHBaaHhxNWpMNDhCMHZrX3RNdVA0NFNJUUlIdnEyZS1TbXZxVmpWNnBxakZFcjBrT2RoenItWFMzMHJFbk5NbHFqZXNzQ2lMN3I0YnI4RTBKYzI5TTBrbExmMHZ5blJGX2ZfTkdzOFc2cFp6ckFZSV9uN2hzalNKRGt2eG82UGc?oc=5",
+            "published_at": "2026-11-15T13:39:04.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Korean Air, Asiana Birleşmesiyle Pasifik Üzerindeki En Büyük A380 Filolarından Birini Oluşturacak",
+        "summary": "Korean Air'in yıl sonuna kadar Asiana Airlines'a ait 6 adet Airbus A380 uçağını bünyesine katması bekleniyor. Bu birleşme ile filodaki toplam A380 sayısı 11'e ulaşarak Pasifik rotalarındaki en büyük süperjumbo filolarından biri meydana gelecektir.",
+        "why_it_matters": "A380 filolarının konsolidasyonu ve Transpasifik pazarındaki kapasite dengeleri açısından önemlidir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Korean Air",
+          "Asiana Airlines",
+          "Airbus A380",
+          "filo birleşimi"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Korean Air",
+          "Asiana Airlines",
+          "Airbus A380"
+        ],
+        "id": "17a688137b",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/2-airlines-forming-largest-carrier-pacific-superjumbo-aircraft-drastically-different/",
+            "published_at": "2026-11-16T06:00:17.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "COMAC Tam Elektrikli CE-25A Uçağı İle İnsanlı İlk Test Uçuşunu Gerçekleştirdi",
+        "summary": "Çinli uçak üreticisi COMAC, tam elektrikli CE-25A modeli ile insanlı test uçuşunu başarıyla tamamladı. Şirket, elektrikli sevk sistemlerinin genel ve ticari havacılıktaki kullanımı üzerindeki AR-GE çalışmalarını sürdürüyor.",
+        "why_it_matters": "Elektrikli uçuş teknolojilerinin gelişimi ve COMAC'ın alternatif itki sistemlerindeki ilerlemesi açısından kritik bir adımdır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "COMAC",
+          "CE-25A",
+          "elektrikli uçak",
+          "test uçuşu"
+        ],
+        "subcategory": "other_oem",
+        "entities": [
+          "COMAC",
+          "CE-25A"
+        ],
+        "id": "3a5f10a3f7",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNS3I1STVXalRlbUpKU2dHYVZSM1ZMZVlMOFh3MlRjN3BYSG5IZVp3aEVSeEZuUFo0WFVmVUdhdnhwWXdhX01ucE9HLUR4NnhmR0ZDeWt5V0JEck05NVlRbk9TQnhiVXhqRE52YW9qZ3YtVjZscFZVa1o1ak9YLWp4ejMzZndrZkZVZGZYVWJQN0VMblZlck5wb1hWYkM?oc=5",
+            "published_at": "2026-11-16T03:27:39.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Boeing ve Lockheed Ortaklığı ULA Roketi Uçuş Sırasında Arızalandı",
+        "summary": "Boeing ve Lockheed Martin ortaklığı olan United Launch Alliance (ULA) roketi, fırlatılış sonrası yaşanan arıza nedeniyle Amazon'a ait 40 LEO uydusunu kaybetti. Başarısız fırlatma sonrası inceleme başlatıldı.",
+        "why_it_matters": "Havacılık devleri Boeing ve Lockheed'in uzay taşımacılığı kanadındaki mali ve operasyonel risklerini artırmaktadır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "Lockheed Martin",
+          "ULA",
+          "Amazon"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing",
+          "Lockheed Martin",
+          "United Launch Alliance",
+          "Amazon"
+        ],
+        "id": "de172362ad",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORF9xS2w1YUtDN3Y0bVpIVjB0aHJxeFRPVlRzeGlUUkVhNm5xWkwyUTk5Z2N0YVhTX1N2eGFHRGFvZDY5a0N3TTNzNzVpV0w1bmJidU1BUnJ6ejBtTVc3UUJwZ0ZaRUtVWE1qczdUVUxxd0hTVDFveTBLeHhNbXN0bUF6VDRJa3VyNTdNRTJPT3BiQ3RSY3kwUE1wOGp3RF93TlYtZTJ0aWU4ZXVIQmNtRw?oc=5",
+            "published_at": "2026-11-16T04:41:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOVlRWlFpaTl6ak10T1hkQ3FDbkVEWjFyeXJmWGg5OWZkWE1FcmQ1WE9lSkx4bUFmY2Q5clhfVEhGSnZJdm9mRGQ2UGJEeFNyVmFONjF0VWZqdnI5a2pQcVdEcGwzbVU1R2M1WHVmdS1Ld0NlMU5GZUJZcEowbFQzM1pkc2xFdlhhNjJWSTJUQnJjOHY0S1lSNTNEWFRKellMN0hoVEVVNkVJOTRQMjlfMjV3bDFQX2oweGo0TdIBvAFBVV95cUxPdWZET0RjZ2FhLUNCLXFFcmdnR2dfMHdpYURfQzZWVnBGcW8ySmRwYmxKeGdmZzJNSk13S3ozdTdBYzBKT3VpbkNISDVXakhMNk5WYWI3RzZfWXhSeXFjc1ZFVUFDRHdpWDJJODdDaHZSZzRCOEZfdmYxNEdyaGVicHB5cVM4b3BneXFGVFRIMktRdHk5UUtTV0gxbElFSDB2Snh3WlZJaGdWZU1hdEltVTUtWEFIczBIWTg0NQ?oc=5",
+            "published_at": "2026-11-16T04:29:41.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSjI0NXNQdzd5Q3ZucjNzZmpsRG9tSVlDenFpZHF6eTkycVZLTlFRWE1uOWJBSXJweDBtZ0pjWTNpWTFnUzZ5eVVCTE53RUM5azdldms5T3JiVEpUMGtnQjdWRmFacXo1UE9rU2kwN2VPWDVhTE56ZndWdF9UT2dwU3FzS1ZHR2pjNjdUM2E0NUQ5Vk5vWmUzN0xCVDM5aHZyM3drdHVlMlNzamF1UGt6VWVURzYxUG1sYzNJWVcxeDh1ZXlJMEZLRmEweVBTdw?oc=5",
+            "published_at": "2026-11-16T02:56:30.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQazJ1aDdud1d6dmp0X3d0SlFNY3huUmVINFNiMm9veUpRYkNfYU12M05qZlJnSXNsTnRxcWJoTTc4em1fMzJyVzdZU1IyWXd0T0JoTi00cUh1NktXZFRGUGZMOFNZMEs4bDJJNTMwR0xaVF9CeUgzZkE2OWRQdHlkekxXYy1vQUxrcTQzWVB4NTVLNGtxVFZuUUJja2dwSHpweXlxbjAzRHhsUC1QRmlta3dsU0p4U0lfSERuRWQxME1WVUswdWNaR3RkbXEwVFlSWVNjbkFJQ3FnVVl2MG1Yb0oxY05uLVhQS3Jr?oc=5",
+            "published_at": "2026-11-16T01:16:46.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "IndiGo Airbus A320neo Kalkış Sonrası İniş Takımlarını Toplayamadı",
+        "summary": "IndiGo şirketine ait Airbus A320neo tipi uçak, Pune Havalimanı'ndan kalkışı müteakip iniş takımlarının toplanamaması nedeniyle tırmanışı keserek Pune'ye emniyetli geri dönüş yaptı.",
+        "why_it_matters": "Kalkış safhasında iniş takımı mekanizması arızalarında QRH prosedürleri ve performans limitlerinin uygulanması açısından önemlidir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "IndiGo",
+          "Airbus A320neo",
+          "iniş takımı arızası",
+          "Pune"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-15T12:56:57Z",
+        "location": "Pune (VAPO/PNQ), Hindistan",
+        "aircraft_type": "Airbus A320neo",
+        "registration": null,
+        "operator": "IndiGo",
+        "flight_number": null,
+        "flight_phase": "initial_climb",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [
+          "İniş takımlarının toplanamaması"
+        ],
+        "operational_findings": [
+          "Kalkış meydanına geri dönüş"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "7384b395f6",
+        "sources": [
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9kaFF0TzR6cDJuUG14Q0JVZ0xiSm9KYlBQcU5FVmUtRzJHc2FSaF9nMkk4X1RsWTNUbnh0ZWljeS1hVXFBV2Utb3lrbmRocDE4RHFVU1NPTUs?oc=5",
+            "published_at": "2026-11-15T12:56:57.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Airbus A350-941 HS-THT Tescilli Uçakta Operasyonel Olay Bildirildi",
+        "summary": "Airbus A350-941 tipi HS-THT tescilli uçakta 15 Kasım 2026 tarihinde bir olay meydana geldiği bildirilmiştir. Olayın teknik ayrıntılarına ilişkin inceleme sürdürülmektedir.",
+        "why_it_matters": "A350 filo emniyeti ve teknik olay takibi açısından izlenmektedir.",
+        "importance": 2,
+        "confidence": "preliminary",
+        "tags": [
+          "Airbus A350-941",
+          "HS-THT",
+          "incident"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-15T18:16:33Z",
+        "location": "Bilinmiyor",
+        "aircraft_type": "Airbus A350-941",
+        "registration": "HS-THT",
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "17e091dfc6",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE55UlRXZFhGQlhKWjQ0Q1UxRnEzcXdpVDFhTmlwS3BDUWNaLWVNZ0YzN0JiX3Y3engwc0dzVmI3OFNlVm4xZDRfSV9OVnVLeWVLMzVPa3NR?oc=5",
+            "published_at": "2026-11-15T18:16:33.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "Ultra-Uzun Menzilli Uçuşlarda 4 Kişilik Mürettebat ve 2. Kaptan Zorunluluğu",
+        "summary": "16 saati aşan ultra-uzun menzilli JFK-DEL rotasında FAA ve DGCA mevzuatı gereği 2 kaptan pilot ve 2 ikinci pilottan oluşan 4 kişilik uçuş ekibi görev yapmaktadır. Düzenleme, uçuş görev süresi (FTL) ve kokpit içi dinlenme periyotlarını emniyetli yönetmeyi amaçlar.",
+        "why_it_matters": "Ultra-uzun menzilli operasyonlarda FTL limitleri ve kokpit dinlenme yönetiminin emniyete etkisini vurgular.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "FTL",
+          "ultra long haul",
+          "kokpit ekibi",
+          "FAA",
+          "SOP"
+        ],
+        "subcategory": "sop_procedures",
+        "regulators": [
+          "FAA"
+        ],
+        "operational_takeaway": "Ultra-uzun menzilli uçuşlarda kokpit içi görev paylaşımı ve dinlenme periyotları FTL mevzuatına uygun şekilde titizlikle planlanmalıdır.",
+        "id": "56fbad40ae",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/what-a-2nd-captain-adds-to-the-cost-of-american-airlines-16-hour-jfk-delhi-flight/",
+            "published_at": "2026-11-16T03:00:28.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "OpenAI Geliştirici Platformunda Veri İkametgahı Özelliklerini Güncelledi",
+        "summary": "OpenAI, geliştirici API ekosisteminde kurumsal veri uyumluluğunu karşılamak üzere data residency seçeneklerini güncellediğini duyurdu. Düzenleme, verilerin belirlenen coğrafi bölgelerde işlenmesine olanak tanıyor.",
+        "why_it_matters": "Veri gizliliği ve yerel düzenlemelere uyum sağlama zorunluluğu olan kurumsal yapay zeka entegrasyonları için kritik kolaylık sunar.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "OpenAI",
+          "data residency",
+          "API",
+          "data privacy"
+        ],
+        "subcategory": "dev_tools",
+        "entities": [
+          "OpenAI"
+        ],
+        "developer_impact": "Geliştiriciler veri depolama ve işleme bölgelerini yapılandırarak yerel veri koruma mevzuatlarına uyumlu mimariler kurabilir.",
+        "id": "77d5b3f646",
+        "sources": [
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44aUZhcEdMSllROXJHNVJVbGp5RldqSUFUc1BwNjQ2bE5lRmlqYllCRzU1clFiS2tEbEs3R3RaeWx4M3hVYldOX0dtZ3FsUDVTSTU1dm5XNWNuaDBBVmJOOGYtc3F5UnVET093Mw?oc=5",
+            "published_at": "2026-11-16T03:59:18.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Yonga Girişimi Bharat Semi AI Sensör Teknolojisi İçin 24 Milyon Dolar Yatırım Aldı",
+        "summary": "Hindistan merkezli çip girişimi Bharat Semi, 24 milyon dolarlık tohum yatırım turunu tamamladı. Şirket, General Atomics gibi havacılık ve savunma devleriyle AI destekli sensör teknolojileri üzerine tasarım anlaşmaları imzaladı.",
+        "why_it_matters": "Otonom sistemlerde ve havacılık sensörlerinde kenar yapay zeka (edge AI) donanımlarının yaygınlaşmasını hızlandıracaktır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Bharat Semi",
+          "AI sensor",
+          "chips",
+          "edge AI"
+        ],
+        "subcategory": "infrastructure_chips",
+        "entities": [
+          "Bharat Semi",
+          "General Atomics"
+        ],
+        "developer_impact": "Kenar cihazlarda gerçek zamanlı sensör verisi işleyen yapay zeka modelleri için daha düşük güç tüketimli donanımlar kullanılabilir.",
+        "id": "403fedf9e7",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+            "published_at": "2026-11-15T23:30:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "OpenAI Temel Bilim Araştırmaları İçin Yeni Bilim Blokunu Başlattı",
+        "summary": "OpenAI, temel bilimsel araştırmalara adanmış yeni blog kanalını duyurdu. İlk teknik paylaşımda örgü teorisinde Standart Model'in tanımlanmasına yönelik yürütülen teorik ve simülasyon odaklı AI araştırmasının detayları açıklandı.",
+        "why_it_matters": "Yapay zekanın karmaşık fizik ve temel bilim problemlerinin çözümünde araştırma aracı olarak rolünü öne çıkarıyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "OpenAI",
+          "science",
+          "physics",
+          "research"
+        ],
+        "subcategory": "research",
+        "entities": [
+          "OpenAI"
+        ],
+        "developer_impact": "Temel bilimler ve karmaşık simülasyonlar için yapay zeka modellerinin kullanım alanlarına dair yeni teknik metodolojiler sunmaktadır.",
+        "id": "46858e2726",
+        "sources": [
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xSGFfWmVQdlE5eUpDUzdzczVqWV9MSnhzQnhKXzlicXUtdmFfandZbE9fUTAtVnVUeElydnowdzQ0dkY0Q0VxeTlDQ2JpeU5iR0JGaW5uN3FibEZaVFFFOE5jVUVwS2dvWXRNTHpGUkNpUU0?oc=5",
+            "published_at": "2026-11-15T22:29:40.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xMG5vSllDdjVHa3N1MmhSV2VBMnJIZ0tMcXg3dzJmY2ZvS2V3Zk9zaXRZY1h5enlLRzJDMURCbUZjN3ZJNnJuR1g2TnMxZ1hOaXdZQ21paTRXLWJ4dDl3?oc=5",
+            "published_at": "2026-11-15T22:29:38.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "OpenAI ChatGPT Wallet İle Uygulama İçi Satın Alma Özelliğini Duyurdu",
+        "summary": "OpenAI, ChatGPT platformu üzerinden kullanıcıların ödeme yapabilmesini sağlayan ChatGPT Wallet özelliğini yardım merkezinde yayınladı. Kullanıcılar eklenti ve servis satın alımlarını tek bir cüzdan üzerinden gerçekleştirebilecek.",
+        "why_it_matters": "AI agent sistemlerinin finansal işlem yürütme ve entegrasyon kapasitelerini genişleten ticari bir adımdır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "OpenAI",
+          "ChatGPT",
+          "ChatGPT Wallet",
+          "monetization"
+        ],
+        "subcategory": "product_launch",
+        "entities": [
+          "OpenAI",
+          "ChatGPT"
+        ],
+        "developer_impact": "ChatGPT ekosisteminde servis sunan geliştiriciler için uygulama içi doğrudan ödeme alma ve monetizasyon imkanı doğmaktadır.",
+        "id": "ff58ec040c",
+        "sources": [
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQelJhRTJ5YjExZkJKUllxcWI5TVZnUEp4MGpTSDdXMGQzbGt1dHJ5dkFkM1dqaHpkRkNjcFR0LXJ2SS1FTTJJbE5EU1dKZGFLTXF6eGlnMEQyVkROb3piVEwzUk94NnZnZWtWMzN6dlJQTnVUQUVHYl9aNkJSc3dqQkdZXzdOeE9J?oc=5",
+            "published_at": "2026-11-16T00:49:47.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [
+    "Hacker News (AI) RSS alınamadı: HTTP 502 (Bad Gateway) — https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=80"
+  ],
+  "meta": {
+    "rss_feeds_ok": 12,
+    "rss_feeds_failed": [
+      "hn_ai"
+    ],
+    "rss_items_fetched": 143,
+    "rss_items_used": 69,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 40805
+  }
+}
