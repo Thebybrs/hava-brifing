@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-16T06:01:26.102Z",
-  "latest": "2026-11-16",
+  "updated_at": "2026-11-17T05:55:18.176Z",
+  "latest": "2026-11-17",
   "briefings": [
+    {
+      "date": "2026-11-17",
+      "path": "2026-11-17.json",
+      "headline": "Philippine Airlines 15 adet Boeing 787-10 siparişi verirken ABD AI çip ve agent güvenlik düzenlemelerini sertleştirdi.",
+      "counts": {
+        "commercial_aviation": 3,
+        "accidents_and_incidents": 3,
+        "piloting_and_ops": 2,
+        "ai_developments": 5
+      },
+      "has_fatal_accident": false,
+      "max_importance": 4,
+      "generated_at": "2026-11-17T05:55:18.171Z"
+    },
     {
       "date": "2026-11-16",
       "path": "2026-11-16.json",
