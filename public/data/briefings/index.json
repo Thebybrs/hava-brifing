@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-17T05:55:18.176Z",
-  "latest": "2026-11-17",
+  "updated_at": "2026-11-18T06:02:02.403Z",
+  "latest": "2026-11-18",
   "briefings": [
+    {
+      "date": "2026-11-18",
+      "path": "2026-11-18.json",
+      "headline": "OpenAI GPT-6.2 modellerini duyurdu; Middle East Airlines ilk A321XLR'ı teslim aldı.",
+      "counts": {
+        "commercial_aviation": 3,
+        "accidents_and_incidents": 5,
+        "piloting_and_ops": 2,
+        "ai_developments": 5
+      },
+      "has_fatal_accident": false,
+      "max_importance": 5,
+      "generated_at": "2026-11-18T06:02:02.399Z"
+    },
     {
       "date": "2026-11-17",
       "path": "2026-11-17.json",

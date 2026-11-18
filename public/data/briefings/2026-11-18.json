@@ -1,0 +1,590 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T06:02:02.399Z",
+  "window": {
+    "from": "2026-11-17T05:57:24.160Z",
+    "to": "2026-11-18T05:57:24.160Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "OpenAI GPT-6.2 modellerini duyurdu; Middle East Airlines ilk A321XLR'ı teslim aldı.",
+  "tldr": [
+    "OpenAI, amiral gemisi modelleri GPT-6.2 Astra ve Sol'u geliştiricilere sundu.",
+    "Airbus, lansman müşterisi Middle East Airlines'a ilk A321XLR uçağını teslim etti.",
+    "JetBlue A320 uçağı şiddetli türbülansa girdi, 5 kişi yaralandı.",
+    "American Airlines B737-800 uçağı kalkıştan sonra motor kapatarak acil iniş yaptı.",
+    "THY A320/A350 uçağı Arjantin'de kapalı taksi yoluna yönelerek pistte kaldı."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Middle East Airlines ilk Airbus A321XLR uçağını teslim aldı",
+        "summary": "Airbus, lansman müşterisi Middle East Airlines'a (MEA) ilk A321XLR uçağını teslim etti. Yaklaşık yedi yıl önce sipariş edilen uçak, havayolunun dar gövdeli uzun menzil operasyonlarında yeni bir dönem başlatıyor.",
+        "why_it_matters": "A321XLR modelinin ticari filolara katılması, dar gövde uçaklarla uzun menzilli kıtalararası uçuş konseptini gerçeğe dönüştürüyor.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "A321XLR",
+          "MEA",
+          "Teslimat"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus",
+          "Middle East Airlines",
+          "A321XLR"
+        ],
+        "id": "16558b1368",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNzRjNjA2LWR0UEM3WXdxVFNrSEdPY1J1c0FYQ19vQlJOQ1A3NnVBZFY4SUotR2JnWVpuR2J0WTAteGlmRXpiUXJPMWVla2tFbVYzbFRoRkd3T2lqNy1tTzRiS1NGeTNvaEUzMDdGakRBUFFnaGZjZnNYTXByX3dOQXFrc3RSTldqYWkzdFBlYXczeEpjdzBqUkJGX3MyM3BlcWJqZ1AwaGlwcVNoM29pOEpaYw?oc=5",
+            "published_at": "2026-11-17T17:09:41.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMUppd2FaRVQyTTU4czNiODdRZk9nNXdlbnBQTE11aVJVYUc3TDlHWXhvUjlyb19HWEhXTW8tcEdUdVFTb3lMTkN4UlZzQjVBWTJrVmk4WXFvVXphSGs0djRWY3VIdEdoT3VLN2lUMjVSOW9TcmJaVXhRTTctSkRiWDFkM1VuRzhDYVVIblkxbjNPaDBTSnhKazBMbWF4d9IBowFBVV95cUxPMlNPRk9EQUgzb2pzWHNrU3Y1TTRKWW9QMXd6OWV1ZHJ2SXhCR1c4NzdKQ3VuejYxS21qZnNsSkxIdG43ZkVFSWxvQjRwNXJCM1lxRFl6UlNBYjJuMXJTNUlBY0xUQnhvQ0gwUmt4SzlSWmQzcXlka3hOcFZKSTdNOW52aUFkTHlTUVNnUkRkbTlzR0tEbzZqb1E4dHpBS0s4WWpz?oc=5",
+            "published_at": "2026-11-17T13:37:52.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE03UV9oX2Q2SGRXUi1pcXdrUzREekcyY05LdDdTZEoxajkzb0RYSWZVd05RU0VWOE5KR0tYZU45dlZhNDhMVFkyRllmVVNxTHZhUjJUUzdrUkgwYzBjR2pveWdyWWV1WGFGN1N5R3ZXamx5b3huQzNMbE5OVUM?oc=5",
+            "published_at": "2026-11-17T13:29:32.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRkRrTHhtTnhRTXRxUW1yWURUeEpGYlQ1bUp5dnV5cDRMX0tBTUtfNDFCVV9vTzM3eUhjQnM1aGdJajVxdXJPTk9nZHhIRDRsaHVURzc2QV85c1ZaMXpQV1FiSHp1Wkwxd3g5OEQtdk5RemJSSHF2MF95c0Y4YjdaZy13TXhtOWQ4VGRWQ1JiaHVxWTFTNlhLcDRmMi1UQm1nVVlpcTBDTnJwRmo4YVphUllDdmlWTi11ZjNlVzdB?oc=5",
+            "published_at": "2026-11-17T11:47:54.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Air Astana filosuna ilk Boeing 787 Dreamliner uçağını dahil etti",
+        "summary": "Air Astana, filoyu modernize etme ve uzun menzil ağını genişletme stratejisi kapsamında ilk Boeing 787 Dreamliner uçağını teslim alarak operasyonlarına entegre etti.",
+        "why_it_matters": "Orta Asya bölgesinde uzun menzilli hat kapasitesinin gelişimini gösteriyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "787",
+          "Air Astana",
+          "Filo"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Air Astana",
+          "Boeing",
+          "Boeing 787"
+        ],
+        "id": "676bebc6fc",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZFhwNkFjU09iZXgwR3NjN3lSUi1pbGl4OUtKZUNqcmZVdU1TY0JoT2RIc2Y5WU4tSElmSFNhMDJlcldCZ2FzT29IR2JNeWRYN244M3JzWkl6ZmdPeXl0MURvSmEzU3djUjZSLS04ZVdSWHY4SGpvcjQyZDV3bzZCMTZWd2I4bGZJVS1kcFZCQUVYQjAtc0U2UFBmeUZrRkFScUpESVl5OG5tdEph?oc=5",
+            "published_at": "2026-11-17T21:04:50.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Lufthansa pilotlara yeni sözleşme sundu, sendika teklifi yetersiz buldu",
+        "summary": "Lufthansa yönetimi pilot kadrosuna yeni bir iş teklifi sundu ancak pilot sendikası sunulan şartları yetersiz bularak reddetti.",
+        "why_it_matters": "Toplu iş sözleşmesi anlaşmazlıkları operasyonel aksama ve olası grev risklerini beraberinde getirmektedir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Lufthansa",
+          "Pilot",
+          "Sendika",
+          "İş Sözleşmesi"
+        ],
+        "subcategory": "market_finance",
+        "entities": [
+          "Lufthansa"
+        ],
+        "id": "c7ce0bd248",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVGxLWWRoUnEtM3c1elZIU2lhWk1LYUExSmVjeDVWMFRyeXpZTGw3UUEzT2tKU19rZTB6SDVLWU9zMjJ0eVY0d0hJYmNPZU5KX21BN1JYdDFDdlVKOWhxV0Z4QklQQkNGTVU0cWZOWmNDNzItV3BPcmNhbjJLNUxnTHI0aWxJd29ZSW1yRzN4cWdVUVUwcVFzQnI3ZHMxMHN0bVpRZFBKVTEtdTR6aGpsMQ?oc=5",
+            "published_at": "2026-11-17T10:40:21.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "JetBlue A320 şiddetli türbülansa girdi: 5 yaralı",
+        "summary": "Puerto Rico'dan Fort Lauderdale'e uçan JetBlue Airbus A320 uçağı, seyir safhasında şiddetli türbülansa yakalandı. İniş sonrasında 5 kişinin yaralandığı veya tıbbi kontrolden geçirildiği bildirildi.",
+        "why_it_matters": "Uçuş içi türbülans yaralanmalarını önlemede kabin emniyeti ve bağlı emniyet kemeri uyarılarının önemini vurgulamaktadır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Turbulence",
+          "JetBlue",
+          "Airbus A320",
+          "Injury"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-17T06:58:00Z",
+        "location": "Fort Lauderdale (FLL), ABD",
+        "aircraft_type": "Airbus A320",
+        "registration": null,
+        "operator": "JetBlue",
+        "flight_number": "1717",
+        "flight_phase": "cruise",
+        "occupants": null,
+        "fatalities": 0,
+        "injuries": 5,
+        "technical_findings": [],
+        "operational_findings": [
+          "Severe turbulence encountered during cruise phase"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": "FAA",
+        "id": "7a7152e2c0",
+        "sources": [
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0yMGFCb3FpczgzYkZENjZjcklMaDRmRDgzOFkxb0hvT2lYWGVwUWZBNUtnZFZkV1pKYW9aMXJheWRJNUZ0MV9fV0pTT3ZWeEdY?oc=5",
+            "published_at": "2026-11-17T17:05:28.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/5-injured-severe-turbulence-fort-lauderdale-jetblue-a320/",
+            "published_at": "2026-11-17T20:41:05.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "American Airlines B737-800 kalkış sonrası motor arızasıyla acil indi",
+        "summary": "Tampa'dan kalkış yapan American Airlines Boeing 737-800 uçağı, tırmanış esnasında sol motor arızası yaşadı. Kokpit ekibi Mayday deklare edip motoru kapattıktan sonra Orlando'ya emniyetle acil iniş yaptı.",
+        "why_it_matters": "Tek motorla kalma (one engine inoperative) durumunda QRH prosedürlerinin doğru uygulanması emniyetli inişi sağlamıştır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Engine Failure",
+          "American Airlines",
+          "Boeing 737-800",
+          "Mayday"
+        ],
+        "occurrence_class": "serious_incident",
+        "occurred_at_utc": "2026-11-16T22:00:00Z",
+        "location": "Orlando (MCO), ABD",
+        "aircraft_type": "Boeing 737-800",
+        "registration": null,
+        "operator": "American Airlines",
+        "flight_number": "AA496",
+        "flight_phase": "initial_climb",
+        "occupants": null,
+        "fatalities": 0,
+        "injuries": 0,
+        "technical_findings": [
+          "Left engine failure shortly after takeoff",
+          "Engine shut down in flight"
+        ],
+        "operational_findings": [
+          "Mayday declared by flight crew",
+          "Successful single-engine diversion and landing"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": "FAA",
+        "id": "38b9aa3b89",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/american-airlines-737-us-senator-engine-failure-diverts-orlando/",
+            "published_at": "2026-11-17T22:04:24.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "THY Airbus A350 Arjantin'de kapalı taksi yoluna girerek pistte kaldı",
+        "summary": "Türk Hava Yolları'na ait Airbus A350 uçağı Arjantin'de kapalı bir taksi yoluna yöneldi. Uçağın pist alanında kalması nedeniyle meydandaki uçuş operasyonları geçici olarak durduruldu.",
+        "why_it_matters": "Taksi safhasındaki meydan seyrüsefer ve kapalı alan yönlendirme hatalarının havalimanı kapasitesine etkisini gösteriyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "Airbus A350",
+          "Ground Incident",
+          "Taxiway"
+        ],
+        "occurrence_class": "ground_event",
+        "occurred_at_utc": null,
+        "location": "Arjantin",
+        "aircraft_type": "Airbus A350",
+        "registration": null,
+        "operator": "Türk Hava Yolları",
+        "flight_number": null,
+        "flight_phase": "pushback_taxi",
+        "occupants": null,
+        "fatalities": 0,
+        "injuries": 0,
+        "technical_findings": [],
+        "operational_findings": [
+          "Aircraft entered a closed taxiway",
+          "Airport operations temporarily suspended"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "05bd45d8bd",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdi1QZlktcU1GeW5ZcEFLUm1iMlZlNjYwaHBDaUhzeGhTSDZRMk1qVjJSY2U1R3JyeGR2ZTNYM3RBcnJZMk1Lamp2N3pDRGluaHRZSzJyMDVWcE9QUkszaHlqa252N0pPcFZyazZ4UnVRMjY0dU5DaC1kRjRIOG1UQ0Z1TUFFWkhlbTUxLUJWMm1Eb1oyNXR3aXkwejFQNVJ2dW12Mk55eUp5STAyM0V3Xw?oc=5",
+            "published_at": "2026-11-17T07:56:11.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZWp3X0tCRHQ3ZmNySm1RYm9yR3Bvbk96dDBoMGV3dHFtT1RSakw1Q3FRUkJTdEpONDdGMWJncW9venZPRVNwSEl6TXNVVEROd1dnMDBieko1cFd5endrakFqU1dQRTZKeTVyUlc1dnBfLW9Mb3ZEd0JNMF9Ib3pBSWt4ckFqY3ZzTTJwTg?oc=5",
+            "published_at": "2026-11-17T07:32:02.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Singapore Airlines A350 kabininde duman şüphesiyle divert etti",
+        "summary": "Singapore Airlines Airbus A350-900 uçağı Rockhampton yakınlarındayken kabinde duman tespit edilmesi üzerine tedbir amaçlı divert prosedürü uyguladı.",
+        "why_it_matters": "Kabin duman/yangın prosedürlerinin (Smoke/Fumes QRH) gecikmeksizin uygulanmasının önemine örnektir.",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "Smoke in Cabin",
+          "Singapore Airlines",
+          "A350-900"
+        ],
+        "occurrence_class": "serious_incident",
+        "occurred_at_utc": "2026-11-17T18:00:00Z",
+        "location": "Rockhampton yakınları, Avustralya",
+        "aircraft_type": "Airbus A350-900",
+        "registration": null,
+        "operator": "Singapore Airlines",
+        "flight_number": null,
+        "flight_phase": "cruise",
+        "occupants": null,
+        "fatalities": 0,
+        "injuries": 0,
+        "technical_findings": [
+          "Smoke reported in cabin"
+        ],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "e594c45d72",
+        "sources": [
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAtY2JSVVcyMTNhYXQ2SGJxd3BmTkNJcG4zNHIwOXo0bEdWeURwVXNOZmtWaEdJNzFKZlJqdFdlS1BlalhfSG05MElNTGhXVWc1Q2lHOW1BUHg?oc=5",
+            "published_at": "2026-11-17T18:22:04.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "British Airways uçağı Heathrow'da taksi yolundan çıktı",
+        "summary": "British Airways'e ait bir yolcu uçağı Londra Heathrow Havalimanı'nda taksi yaparken taksi yolundan dışarı çıktı. Olayda yaralanan olmadı.",
+        "why_it_matters": "Düşük hızdaki yer hareketlerinde bile zemin şartları ve yönlendirme hassasiyetinin kırım riski taşıdığını hatırlatır.",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "British Airways",
+          "Heathrow",
+          "Taxiway Excursion"
+        ],
+        "occurrence_class": "ground_event",
+        "occurred_at_utc": null,
+        "location": "Londra Heathrow (EGLL), Birleşik Krallık",
+        "aircraft_type": "Bilinmiyor",
+        "registration": null,
+        "operator": "British Airways",
+        "flight_number": null,
+        "flight_phase": "pushback_taxi",
+        "occupants": null,
+        "fatalities": 0,
+        "injuries": 0,
+        "technical_findings": [],
+        "operational_findings": [
+          "Aircraft veered off taxiway during ground movement"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": "AAIB",
+        "id": "0d42cf843e",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5kT25rZkpoc3JQQTBReE5WZlhTb0NneDVjOER0alkwNF9mbTZoZWwzSWxLbjlqVEZUUHRYT2hKWC0tb2hvLVBYZ0RYLTRZTjhELWJzTmJRaldlUGc?oc=5",
+            "published_at": "2026-11-17T18:43:13.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "Pilot medikal muayene ve sağlık sertifikasyonu kısıtlamaları",
+        "summary": "Ticari havayolu pilotlarının medikal sertifikasyon standartları ve aeromedikal gereksinimler, uçuş emniyetini doğrudan belirleyen temel yasal sınırlandırmalardır.",
+        "why_it_matters": "Pilot uçuş lisansının geçerliliği, periyodik medikal değerlendirmelere ve uçuşa elverişlilik şartlarına bağlıdır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Medical Certificate",
+          "Pilot Safety",
+          "Regulation"
+        ],
+        "subcategory": "human_factors",
+        "regulators": [
+          "FAA",
+          "EASA"
+        ],
+        "operational_takeaway": "Pilotlar aeromedikal durumlarındaki değişiklikleri ve muayene tarihlerini yasal SOP gereğince titizlikle takip etmelidir.",
+        "id": "692956bfee",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/how-medical-certificates-ground-airline-pilots/",
+            "published_at": "2026-11-18T01:00:16.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Biyometrik yüz tanıma teknolojisi havalimanı güvenlik noktalarında yaygınlaşıyor",
+        "summary": "TSA PreCheck Touchless ID sistemi, biyometrik yüz tanıma teknolojisi kullanarak fiziksel kimlik ve biniş kartı kontrol zorunluluğunu ortadan kaldırıyor.",
+        "why_it_matters": "Havalimanı emniyet ve ekip geçiş süreçlerinin hızlandırılması operasyonel verimliliği artırmaktadır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Biometrics",
+          "TSA",
+          "Airport Security"
+        ],
+        "subcategory": "avionics_technology",
+        "regulators": [
+          "Other"
+        ],
+        "operational_takeaway": "Biyometrik geçiş sistemleri havalimanı karasal akışını hızlandırarak uçuş öncesi hazırlık sürelerine olumlu katkı sağlamaktadır.",
+        "id": "7015dab82e",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/tsa-precheck-touchless-id-facial-recognition-replace-boarding-pass/",
+            "published_at": "2026-11-18T00:00:16.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "OpenAI yeni yapay zeka modelleri GPT-6.2 Astra ve Sol'u tanıttı",
+        "summary": "OpenAI, amiral gemisi yapay zeka serisinin yeni üyeleri olan GPT-6.2 Astra ve Sol modellerini geliştiricilerin kullanımına sundu. Modeller yüksek muhakeme kapasitesi ve entegre güvenlik mimarisiyle öne çıkıyor.",
+        "why_it_matters": "Gelişmiş muhakeme ve problem çözme yeteneğine sahip yeni modeller, otonom yazılım geliştirmede yeni bir seviyeyi temsil ediyor.",
+        "importance": 5,
+        "confidence": "confirmed",
+        "tags": [
+          "OpenAI",
+          "GPT-6.2",
+          "Astra",
+          "Sol",
+          "LLM"
+        ],
+        "subcategory": "foundation_model",
+        "entities": [
+          "OpenAI",
+          "GPT-6.2 Astra",
+          "GPT-6.2 Sol"
+        ],
+        "developer_impact": "Geliştiriciler daha karmaşık mantıksal görevlerde yüksek doğruluk sağlayan yeni API modellerine erişim elde ediyor.",
+        "id": "94e0e194f9",
+        "sources": [
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQThxYjhaTGVjRTYyaFR3UGw4VVBnM3pOYjNsTzdhb2RkN2ZfWWg2aFV2Vk11cnpIb2ZCSElXblVnWUZYWE1uNU1zNE9ZVnlWVXJGUWhZWU5FLVZKZDJaUklYdXItM21yRmFXdnRvZDhyelVkRDNueVlEbnFtUnE2OQ?oc=5",
+            "published_at": "2026-11-17T18:05:36.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZ3N4NmpZN3RkOGdXZ1NNSE9aMDd5Q3VhSllORFFSVWJQMjBFX0JRQlUwd2p0U0pEZjRtaUgyMVNsUmV4UUNmRlB1S21tSTY2dW96RjBWTEVaMzc1MGQxcUNMNzJTQ2ZROFFTN3VRVkd6MHVmNlljSHR1em54Q3JzQXc2LWg?oc=5",
+            "published_at": "2026-11-17T18:00:37.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE52UXFzaWFSVDk1Q2FCazZZanV6NzF5em1fMWp0S05nSkp2Wkl5TjlickU4ZkIyOXR5aUI3VGRtcUxVT2NZTmotXzNkV083a3NOQkpEel9Rei10Y2ZfMzI4Yk5wOA?oc=5",
+            "published_at": "2026-11-17T17:59:46.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1uaG9wYm5WLWZad2xnSC12anhNVVhCQ0d2aWJUY0l5V1JFNlE3SkhjdE5JSk0zRjVhZk5Da3NzVkp5bDkwcnFnbVZ0RjV1TjFQSVZoSVNUdm5jYW13ZDZ5TTU2eVRBZw?oc=5",
+            "published_at": "2026-11-17T17:47:15.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Nvidia CEO'su Huang'ın ayrılığının ardından SEC incelemesi başlatıldı",
+        "summary": "Nvidia CEO'su Jensen Huang'ın görevinden ayrılmasının ardından SEC şirket hakkında soruşturma başlattı. Geçici yönetim, Çin'e çip satışının durdurulduğunu ancak açık kaynak stratejisinin devam ettiğini açıkladı.",
+        "why_it_matters": "Donanım devindeki yönetim değişiklikleri ve hukuki süreçler global AI çip tedarik zincirini ve yatırımları doğrudan etkileyebilir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Nvidia",
+          "SEC",
+          "Hardware",
+          "Chips"
+        ],
+        "subcategory": "infrastructure_chips",
+        "entities": [
+          "Nvidia",
+          "SEC",
+          "Hugging Face"
+        ],
+        "developer_impact": "Çin pazarındaki kısıtlamalar çip erişim hatlarını etkilerken, açık kaynak yatırımlarının sürmesi model ekosistemini koruyor.",
+        "id": "71883794b6",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+            "published_at": "2026-11-18T00:16:50.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+            "published_at": "2026-11-17T23:37:48.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+            "published_at": "2026-11-17T23:04:35.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+            "published_at": "2026-11-17T21:48:07.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Amazon ve Google, Anthropic IPO'su sonrası şirketin %30'una sahip olacak",
+        "summary": "Anthropic'in gerçekleşecek halka arzı (IPO) sonrasında Amazon'un %15, Google'ın ise yaklaşık %14 oranında hisseye sahip olacağı açıklandı.",
+        "why_it_matters": "Bulut devlerinin Anthropic üzerindeki büyük sahipliği, Claude modellerinin altyapı entegrasyonlarını pekiştiriyor.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Anthropic",
+          "Amazon",
+          "Google",
+          "IPO"
+        ],
+        "subcategory": "foundation_model",
+        "entities": [
+          "Anthropic",
+          "Amazon",
+          "Google"
+        ],
+        "developer_impact": "AWS ve Google Cloud üzerindeki Claude model erişimleri ve optimizasyonları uzun vadede güçlenecektir.",
+        "id": "e795453716",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+            "published_at": "2026-11-17T22:29:05.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Model ML, otonom finans ajanları geliştirmek için 250 milyon dolar yatırım aldı",
+        "summary": "Finansal analiz ve modelleme süreçlerini otonom AI agent'lar aracılığıyla güncelleyen Model ML girişimi 250 milyon dolar yatırım topladı.",
+        "why_it_matters": "Karmaşık finansal iş akışlarının otonom yapay zeka ajanlarına devredilmesi sektördeki dijital dönüşümü hızlandırıyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Model ML",
+          "Funding",
+          "Agents"
+        ],
+        "subcategory": "dev_tools",
+        "entities": [
+          "Model ML"
+        ],
+        "developer_impact": "Ajan mimarilerinin dikey sektör uygulamalarında otonom veri güncelleme kabiliyetleri gelişmektedir.",
+        "id": "bd0bb510ef",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+            "published_at": "2026-11-17T19:32:11.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Google Gemini Tasks özelliğini ücretsiz kullanıma sundu",
+        "summary": "Google, kullanıcılar adına arama yapma, web sitelerine giriş sağlama ve satın alma süreçlerini yürüten Gemini Tasks modunu ücretsiz erişime açtı.",
+        "why_it_matters": "Yapay zeka modellerinin yalnızca yanıt üretmek yerine eylem gerçekleştiren ajanlara dönüşmesini simgeliyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Google",
+          "Gemini",
+          "Tasks",
+          "Agents"
+        ],
+        "subcategory": "product_launch",
+        "entities": [
+          "Google",
+          "Gemini"
+        ],
+        "developer_impact": "Function calling ve tool use tabanlı otonom müşteri etkileşimi uygulamaları yaygınlaşıyor.",
+        "id": "363b0d209e",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+            "published_at": "2026-11-17T19:02:20.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Google AI / DeepMind",
+            "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+            "published_at": "2026-11-17T17:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [
+    "Hacker News (AI) RSS alınamadı: HTTP 502 (Bad Gateway) — https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=80"
+  ],
+  "meta": {
+    "rss_feeds_ok": 12,
+    "rss_feeds_failed": [
+      "hn_ai"
+    ],
+    "rss_items_fetched": 152,
+    "rss_items_used": 100,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 278241
+  }
+}
