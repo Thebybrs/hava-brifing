@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T05:58:16.985Z",
+  "window": {
+    "from": "2026-11-18T05:56:23.051Z",
+    "to": "2026-11-19T05:56:23.051Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "SHGM Pilot Yönetmeliği Değişti; FAA'den B737NG İtki Kontrol Direktifi ve Google Gemini 4 Neon Duyuruldu",
+  "tldr": [
+    "SHGM, Pilot Lisans Yönetmeliği'ni yenileyerek lisans şartları ve iptal hükümlerinde değişikliğe gitti.",
+    "FAA, Boeing 737NG uçakları için thrust split monitor kontrolü gerektiren emniyet direktifi yayımladı.",
+    "EasyJet Airbus A320 uçağı Bristol Havalimanı'nda bird strike olayı yaşadı.",
+    "Google, en yeni amiral gemisi yapay zeka modeli Gemini 4 Neon'u resmen duyurdu.",
+    "Airbus, A220 ve A350 modellerinin uzatılmış gövde versiyonlarını 12 ay içinde duyuracağını açıkladı."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Airbus, A220 ve A350 Modellerinin Uzatılmış Gövde Versiyonlarını 12 Ay İçinde Başlatacak",
+        "summary": "Airbus, önümüzdeki 12 ay içerisinde A220 ve A350 uçak ailelerinin uzatılmış (stretched) türevlerini resmi olarak başlatmayı hedefliyor. Bu adım, havayollarının artan yolcu kapasitesi ve verimlilik taleplerine yanıt vermeyi amaçlıyor.",
+        "why_it_matters": "Havayolu kapasite artırımı ve orta/uzun menzil filolarının gelecekteki yapılandırması açısından kritik bir gelişmedir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "A220",
+          "A350",
+          "Fleet Expansion"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus",
+          "Airbus A220",
+          "Airbus A350"
+        ],
+        "id": "7e49c268c8",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUVI2eEdyXzdTa3BpSVQtYTJVZG9EcmUxeHA4NEY0Q0ctZWUtRnBsc194VkxOdVlsRElrajZyMXVfS3dZajV6cHpmNk0tVVdyRUMyVHh5WkNBTTVmbFdpREhWNUE2cDhtZ1g2b29HeXQ0SHNqbGJ0VVlLYURHSGl3VFJNOEpRX2IxZi1wWVJPUVZmalM0ZFoxZ3pBci04Y2gwTWR4QWV3NmJkcE43LTVLTmFXRDlMZw?oc=5",
+            "published_at": "2026-11-18T18:11:45.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Boeing ve GE Aerospace Onaysız Parçalarla Mücadele İçin Dijital Takip Sistemini Genişletiyor",
+        "summary": "Boeing ve GE Aerospace, havacılık tedarik zincirinde sahte ve onaysız parçaların önlenmesi amacıyla dijital takip çözümlerini genişletme kararı aldı. Yapılan iş birliğiyle parça izlenebilirliği artırılacak.",
+        "why_it_matters": "MRO ve teknik bakım süreçlerinde uçak parçalarının izlenebilirliği ve uçuş emniyeti açısından hayati öneme sahiptir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "GE Aerospace",
+          "MRO",
+          "Supply Chain"
+        ],
+        "subcategory": "cargo_mro",
+        "entities": [
+          "Boeing",
+          "GE Aerospace"
+        ],
+        "id": "ef03818323",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSl9mSGRfM2NzQ1UxR1JvTVFFNXN0eXZnMFZ0MnhDZW03UGJWQjdhczcyVFBDU3BHYUVZdEF2ODB6OVJ6UWpwZzJ5U2otaDd5NFdITFN4ZS02ckV0YllMTnVOVnFHSzdldEtyb0d2NUtaOG5xZXlLeVl3cllvamVQa3c4cWRDMWZHcktKS21YNXBTZHQyVXI2czBQQmU1X1d5em9GQ2dnQ1IzTmFQ?oc=5",
+            "published_at": "2026-11-18T16:04:49.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Türk Hava Yolları Çin'in Chengdu Şehrine Doğrudan Uçuş Operasyonlarını Başlattı",
+        "summary": "Türk Hava Yolları (THY), Asya ağını genişletme stratejisi kapsamında Çin'in Chengdu kentine uçuş operasyonlarını resmen başlattı. Yeni hat, iki ülke arasındaki ticari ve turistik yolcu trafiğini desteklemeyi hedefliyor.",
+        "why_it_matters": "THY'nin Uzak Doğu uçuş ağının genişlemesi uçuş ekipleri ve hat planlama operasyonları açısından önem taşımaktadır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "Chengdu",
+          "Route Network"
+        ],
+        "subcategory": "route_network",
+        "entities": [
+          "Türk Hava Yolları",
+          "Chengdu"
+        ],
+        "id": "ec7ab39222",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVEotTXI5VTRxR2NvenNVNkt1SF82OUhaSFRsVVJVbGRhUFF3bTZpblhLdVNRWlFpTi1qVzk5dDRjT1lyYzJWckd4LTBmN2VpLVZac2tuZmt4SHpYenhqaEdMMFRYMXlwQVRBS3g1VElTUmEybl9yOFdrRjRTSk1NM1hPZ2ZZbkcySVc4?oc=5",
+            "published_at": "2026-11-18T11:24:19.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "American Airlines Airbus A321neo Filosunu 90 Uçağa Yükseltti",
+        "summary": "American Airlines, filosundaki Airbus A321neo sayısının 90 uçağa ulaştığını açıkladı. Şirket, yıl sonuna kadar iki adet A321neo ve ilk A321XLR uçağını teslim almayı beklediğini bildirdi.",
+        "why_it_matters": "Dar gövdeli uzun menzil filolarının genişlemesi ve A321XLR entegrasyonu hat planlamalarını doğrudan etkilemektedir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "American Airlines",
+          "A321neo",
+          "A321XLR"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "American Airlines",
+          "Airbus A321neo",
+          "Airbus A321XLR"
+        ],
+        "id": "fe55bce586",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZ3dDaFd3OWllc0ZxOEJsVW00Sl9ETFVEaE9wQ2tuRHZ0dkRKRVhHOFNTTmp1OG9mdEdVNi1aRTVFRnNaTnJ6RHJWZU1qWElmTzhGWWJ4cTBYeGVLVUhBb0dleVNGS0IzY3NVZlIxQThkZG1EM2hlTmJVamlEcDdMR1M3aGgtTVZUN3ZUMkhiaThlVzNPVmlkUHVySjc0eXpkY3c?oc=5",
+            "published_at": "2026-11-19T01:23:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "EasyJet Airbus A320 Bristol'da Kuş Çarpması Yaşadı",
+        "summary": "EasyJet şirketine ait G-EZUZ tescilli Airbus A320-214 uçağı, Bristol Havalimanı operasyonu sırasında kuş çarpması (bird strike) olayı yaşadı. Olay sonrası uçakta gerekli teknik kontroller başlatıldı.",
+        "why_it_matters": "Kuş çarpmaları sonrasındaki motor ve gövde kontrollerinin emniyet protokolleri açısından takibi önem taşır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Bird Strike",
+          "EasyJet",
+          "A320",
+          "Bristol"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-18T16:00:00Z",
+        "location": "Bristol Airport (EGGD), Birleşik Krallık",
+        "aircraft_type": "Airbus A320-214",
+        "registration": "G-EZUZ",
+        "operator": "EasyJet",
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [
+          "Kuş çarpması (bird strike) meydana geldi."
+        ],
+        "investigation_status": "unknown",
+        "investigating_authority": null,
+        "id": "74d92c82da",
+        "sources": [
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5fOHJUQjVXelNkS05TTVpLMDRsTnpOb0x0dFV5dWpnV3NJeXBPd3MyQldGVGZsZmpNU2UwSXZtNDdQU2dHN21jQzJDWS1SaldXQWFoUFBEeTE?oc=5",
+            "published_at": "2026-11-18T18:38:23.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE01aTE5bktqdUlEaGRvalN1Z2NGeVNIRk8zYnZ6Si1mUzlxNzZhS3ZsTlhaYXozcHk1Qmx1R3NQOVpWa0oxVXY3Q1VXZ0FBX3AwVnllY0tR?oc=5",
+            "published_at": "2026-11-18T16:50:58.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "SHGM Pilot Lisans Yönetmeliği'ni Değiştirdi: Şartlar ve İptal Hükümleri Yenilendi",
+        "summary": "Sivil Havacılık Genel Müdürlüğü (SHGM), Pilot Lisans Yönetmeliği üzerinde değişikliğe giderek lisans alma şartları ile iptal hükümlerinde yeni düzenlemeleri yürürlüğe koydu.",
+        "why_it_matters": "Pilot adayları ve lisanslı uçuş ekibi için lisans alma, yenileme ve iptal süreçlerindeki hukuki gereksinimleri doğrudan etkiler.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "SHGM",
+          "Regulation",
+          "Pilot Licensing"
+        ],
+        "subcategory": "regulation",
+        "regulators": [
+          "SHGM"
+        ],
+        "operational_takeaway": "Pilot adaylarının ve uçuş ekiplerinin yeni mevzuattaki lisans muhafaza, yenileme ve iptal şartlarını detaylıca incelemesi gerekmektedir.",
+        "id": "be82172b30",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdzVfc1c2X3gtNzVNUWlfRk93M01kajdrdlg4Q3V1aHo3Sm8xY1hPcnhZTC1ZcjZVbjlpWUpQNzFvQ29ZRjRPdHNuZ2g2WloyekhmSUtRM3lLQkZncVVUSHBfekg4MlVGZGQtRnhCaUdTd203Ti1OUmkxWFB5WjhsM25PazhtQ0dwc00tcHg4STZqMWZXOElMZFJJd0JHeE9abnl1MnE3ZHVubTFkMjlr?oc=5",
+            "published_at": "2026-11-19T05:51:39.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "FAA, Boeing 737NG Filosu İçin Thrust Split Monitor Kontrol Direktifi Yayımladı",
+        "summary": "FAA, Boeing 737NG serisi uçaklarda 'thrust split monitor' sistemine ilişkin emniyet kaygıları nedeniyle zorunlu kontroller emreden yeni bir hava elverişlilik direktifi yayımladı.",
+        "why_it_matters": "737NG tipinde uçan ekipler için asimetrik itki izleme sistemlerinin güvenilirliği ve ilgili direktif uyumu kritiktir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "FAA",
+          "Boeing 737NG",
+          "AD",
+          "Thrust Split Monitor"
+        ],
+        "subcategory": "safety_alert",
+        "regulators": [
+          "FAA"
+        ],
+        "operational_takeaway": "737NG operatörlerinin teknik bakım birimleriyle koordineli şekilde direktif kontrollerini zamanında tamamlaması ve motor asimetrisi prosedürlerini gözden geçirmesi önerilir.",
+        "id": "939bedea88",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQ1FGcEM3bzE3RFZlbGdIQVVnYUNSWVlqNjZESnZWYTRGd204a1FLbml2anBJaE5LTUpndkc1RUhWS0FIdENUTjBOWlc1T1hxM1FoN1I1N3l3T2c0d1RSdkh6QzZoQWQ4RGdNUlczYUFYVDA4SkhIWk16WmlTOEd2TDhucDBPS0dGUGVFdzhUODlGY1Rxd2UzX19mWjlvNFRUb1dSYzJTOVNscW9kUHBqMnA3N0V0UQ?oc=5",
+            "published_at": "2026-11-19T01:44:05.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "Google, Yeni Amiral Gemisi Yapay Zeka Modeli Gemini 4 Neon'u Duyurdu",
+        "summary": "Google, gelişmiş akıl yürütme ve yüksek performans sunan yeni nesil yapay zeka modeli Gemini 4 Neon'u tanıttı. Model, sektördeki en üst düzey muadillerine rakip olarak konumlandırılıyor.",
+        "why_it_matters": "Yüksek performanslı multimodal ve reasoning modelleri geliştirici ekosisteminde yeni bir standart oluşturmaktadır.",
+        "importance": 5,
+        "confidence": "confirmed",
+        "tags": [
+          "Google",
+          "Gemini 4 Neon",
+          "LLM",
+          "Reasoning"
+        ],
+        "subcategory": "foundation_model",
+        "entities": [
+          "Google",
+          "Gemini 4 Neon"
+        ],
+        "developer_impact": "Geliştiricilere daha güçlü akıl yürütme ve karmaşık kodlama/analiz görevlerinde üstün çıkarım kabiliyeti sunar.",
+        "id": "1b656302b4",
+        "sources": [
+          {
+            "name": "Hacker News (AI)",
+            "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
+            "published_at": "2026-11-19T00:29:45.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Hacker News (AI)",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+            "published_at": "2026-11-18T21:34:07.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Anthropic Halka Arz Pay Fiyatını 83 Dolar Olarak Belirledi",
+        "summary": "Anthropic, merakla beklenen halka arzında (IPO) hisse fiyatını 83 dolar olarak belirledi. Şirketin değerlemesinin 1,5 trilyon dolara ulaştığı bildiriliyor.",
+        "why_it_matters": "Yapay zeka sektörünün sermaye yapısını ve sektördeki finansal dengeleri doğrudan etkileyen devasa bir halka arz adımıdır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Anthropic",
+          "IPO",
+          "Finance"
+        ],
+        "subcategory": "product_launch",
+        "entities": [
+          "Anthropic"
+        ],
+        "developer_impact": "Şirketin devasa sermaye erişimi, Claude modellerinin ve geliştirici altyapısının uzun vadeli sürdürülebilirliğini güçlendirir.",
+        "id": "37076c2f10",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+            "published_at": "2026-11-18T22:11:15.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Snapchat, Claude Code ve Cursor İle AR Lens Geliştirme Desteği Sunuyor",
+        "summary": "Snapchat, geliştiricilerin doğal dille komut vererek Claude Code ve Cursor gibi yapay zeka asistanları aracılığıyla AR Lens oluşturmalarına olanak tanındığını açıkladı.",
+        "why_it_matters": "LLM ve kodlama eklentilerinin doğrudan artırılmış gerçeklik üretkenlik araçlarına entegrasyonunu göstermektedir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Snapchat",
+          "Claude Code",
+          "Cursor",
+          "AR"
+        ],
+        "subcategory": "dev_tools",
+        "entities": [
+          "Snapchat",
+          "Claude Code",
+          "Cursor"
+        ],
+        "developer_impact": "Prompt tabanlı doğal dil talimatlarıyla uçtan uca AR içeriği ve kod üretimi imkanı sağlar.",
+        "id": "bba2b0ccd8",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+            "published_at": "2026-11-18T19:56:39.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [],
+  "meta": {
+    "rss_feeds_ok": 13,
+    "rss_feeds_failed": [],
+    "rss_items_fetched": 164,
+    "rss_items_used": 93,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 113935
+  }
+}

@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T06:02:02.403Z",
-  "latest": "2026-11-18",
+  "updated_at": "2026-11-19T05:58:16.989Z",
+  "latest": "2026-11-19",
   "briefings": [
+    {
+      "date": "2026-11-19",
+      "path": "2026-11-19.json",
+      "headline": "SHGM Pilot Yönetmeliği Değişti; FAA'den B737NG İtki Kontrol Direktifi ve Google Gemini 4 Neon Duyuruldu",
+      "counts": {
+        "commercial_aviation": 4,
+        "accidents_and_incidents": 1,
+        "piloting_and_ops": 2,
+        "ai_developments": 3
+      },
+      "has_fatal_accident": false,
+      "max_importance": 5,
+      "generated_at": "2026-11-19T05:58:16.985Z"
+    },
     {
       "date": "2026-11-18",
       "path": "2026-11-18.json",
