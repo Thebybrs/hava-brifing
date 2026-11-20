@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T05:59:12.198Z",
+  "window": {
+    "from": "2026-11-19T05:57:13.033Z",
+    "to": "2026-11-20T05:57:13.033Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "American Airlines Airbus A319 Mayday Deklarasyonu ve Southwest B738 Los Angeles RTO Olayı",
+  "tldr": [
+    "American Airlines uçuşunda kokpit ekibi motor alevleri görülmesi üzerine Mayday ilan etti.",
+    "Southwest Airlines Boeing 737-800 tipi uçak Los Angeles'ta rejected takeoff gerçekleştirdi.",
+    "FAA, Boeing 737NG serisi uçaklar için kontrol-kaybı riski nedeniyle talimat yayınladı.",
+    "Anthropic, Nasdaq borsasında rekor halka arz ile işlem görmeye başladı."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Embraer, Yeni Siparişler Ardından Büyüyen Hindistan Pazarını Değerlendiriyor",
+        "summary": "Embraer, yeni alınan siparişlerin ardından Hindistan pazarını 'blue ocean' (keşfedilmemiş mavi okyanus) olarak nitelendirerek bu bölgedeki stratejik büyüme planlarını ve potansiyeli değerlendiriyor.",
+        "why_it_matters": "Bölgesel jet pazarındaki talep artışı, üreticilerin teslimat planlamaları ve rota planlaması açısından önem taşır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Embraer",
+          "Market",
+          "India"
+        ],
+        "subcategory": "market_finance",
+        "entities": [
+          "Embraer"
+        ],
+        "id": "f08d715739",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdWRsY3RmSmtETHRTeTNyS0RmZWY2SVJkQU55WC1JeGJuR3RsSFIwMkN6R1l0bUltMThDZ3djWFEzcVVLR2hqa3lUei00bVM0NjlPWjhDZGNfT2doRl9CUHZOWVo0ODQwUXMybEU5VlllMlZWY0N0ZXE0U2hLbnlQYUU4UjY1bVhheXhQRGt0ZTVWeE9ReGdFZFNMdWd3cDFySEtLQVppYVJzNFNfWFVPYm1uRQ?oc=5",
+            "published_at": "2026-11-19T08:47:36.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Copa Airlines: Boeing Teslimat Gecikmeleri 2027 Kapasite Planlarını Etkilemeyecek",
+        "summary": "Copa Airlines, yaşanan Boeing teslimat gecikmelerinin 2027 yılı kapasite planlarını ve büyüme hedeflerini rayından çıkarmayacağını açıkladı.",
+        "why_it_matters": "Üretim aksaklıklarının havayolu kapasite ve filo planlamalarına etkisini gösterir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "Copa Airlines",
+          "Fleet"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Copa Airlines",
+          "Boeing"
+        ],
+        "id": "e70982ea04",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQemdLaUk3MXVqa1haa1RJNFFXeWNVeVlrQWttWFF5Y3djbmxJeGxySS1YLVhzbkw5dE15ZnNjbzVYWElKcHVFYVhiZEl3Qnlod3JFTVNwY2xyajVNdFFlcjlKSWNBYnBwSjRNLXFUUEZIMXFnYllkVTBlZ3RWek41a1N5STdvamNHQXp5eGJqckZDUW5SNk1Hb09wemtNamM0S0tTYVBHQ2VVczdNd3U3TlVxQUY1QUgya0FWag?oc=5",
+            "published_at": "2026-11-19T21:41:57.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "American Airlines Airbus A319 Uçuşunda Motor Alevleri Nedeniyle Mayday",
+        "summary": "American Airlines bünyesindeki bir Airbus A319 uçağının pilotları, başka bir SkyWest ekibinin motor bölgesinde alevler bildirmesi üzerine güzergah üzerinde Mayday (acil durum) deklarasyonunda bulundu.",
+        "why_it_matters": "Kokpit ekibinin erken tespiti ve ATC ile koordineli acil durum prosedürleri motor arızası yönetiminde hayatidir.",
+        "importance": 5,
+        "confidence": "preliminary",
+        "tags": [
+          "Mayday",
+          "EngineFire",
+          "Airbus",
+          "A319"
+        ],
+        "occurrence_class": "serious_incident",
+        "occurred_at_utc": "2026-11-20T03:23:00Z",
+        "location": "Bilinmiyor, ABD",
+        "aircraft_type": "Airbus A319",
+        "registration": null,
+        "operator": "American Airlines",
+        "flight_number": null,
+        "flight_phase": "cruise",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [
+          "Motor bölgesinde alev görülmesi"
+        ],
+        "operational_findings": [
+          "SkyWest ekibinin uyarısı",
+          "Mayday deklarasyonu"
+        ],
+        "investigation_status": "unknown",
+        "investigating_authority": null,
+        "id": "cd52e6da73",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUnBqNktTM1JCdmFYckljeDhvaWpRVklaQmFYeGNOUXg5NjNDZlB1RFNxSGhFSm1mU1NYTWR0TUR5UG83NGx4eW9Rc0NOS3RQVWQ2NlJOSFhjN0NRMG56TFlTcEtPOTI2R1F3czk0MzZwY3FEVkNzS0ZzbktTQ0xoRFlmbDNOY3ZhWjlqZ3djSVhmV0tLT1dVZW9yYXY4dUtTQ2RTemJfb0FVSnF4bkR5UG9NRQ?oc=5",
+            "published_at": "2026-11-20T03:26:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQzZfal91dTdTb0Z6X1hEbXFDZHRLOElFNzd5MmFDNU9aWTMwSWQwUXhpNXlxUk5RcWtyNVU5Zk55dno0cFJDX0t4U0RQNURIWUxQZFkzWGFib3ZYR0dIeXlYY2xNa3hrMndpd1RNQ2VCa0tiQ2ltaURCSklGQXJOeTE4andPOXE4Y2R2eGFXQTUwdjQyQlpVUlhYbmFTYWN6RG1ISThWb0t4alZYR2YxVUhB?oc=5",
+            "published_at": "2026-11-20T03:23:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Southwest Boeing 737-800 Los Angeles'ta Rejected Takeoff Gerçekleştirdi",
+        "summary": "Los Angeles Havalimanı'nda gerçekleşen olayda, Southwest havayoluna ait bir Boeing 737-800 (B738) kalkış esnasında rejected takeoff (RTO) yapmak zorunda kaldı.",
+        "why_it_matters": "V1 hızı civarındaki veya altındaki kalkış iptallerinde pist boyu ve fren sistemleri güvenliği kritik önem taşır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "RTO",
+          "Southwest",
+          "B738",
+          "Los Angeles"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-19T20:50:20Z",
+        "location": "Los Angeles (KLAX), ABD",
+        "aircraft_type": "Boeing 737-800",
+        "registration": null,
+        "operator": "Southwest Airlines",
+        "flight_number": null,
+        "flight_phase": "takeoff_roll",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [
+          "Rejected takeoff"
+        ],
+        "investigation_status": "unknown",
+        "investigating_authority": null,
+        "id": "af2fffdd2d",
+        "sources": [
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1sXzFRVExucmVXUE5od0dNNzN1UUpXdmxvYTZnWU5wTjFoSGJYVEdGaDhKVElRaVgxRm5KZzNuSnUzUHJYN2h6STRKVTNuRHNo?oc=5",
+            "published_at": "2026-11-19T20:50:20.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "NTSB Yangın Geciktirici Onay Süreçlerinin Yeniden İncelenmesini İstedi",
+        "summary": "NTSB (Ulusal Ulaşım Emniyeti Kurulu), yangın geciktirici onay süreçlerinin korozif hasara yol açması nedeniyle iki uçakta meydana gelen hasarlar sonrasında gözden geçirilmesini talep etti.",
+        "why_it_matters": "Korozyon ve malzeme güvenliği doğrudan uçak gövde bütünlüğünü ve bakım prosedürlerini etkiler.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "NTSB",
+          "Corrosion",
+          "Safety"
+        ],
+        "subcategory": "safety_alert",
+        "regulators": [
+          "Other"
+        ],
+        "operational_takeaway": "Bakım prosedürlerinde onaylı kimyasal ve geciktiricilerin gövde korozyon etkilerine karşı yakın takip edilmesi gerekir.",
+        "id": "be932a2d73",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYnhvMFBRVTlDN0V0VlFZRGcyZmFuaE51Ulo1T1pqRUpwTGZkU0RBZ0dfWGx5cmV1R1N3ZzF6SGVST19STzY0UnpjR0NvRHFGMmIyd3d4ek9BQ0paTi14QVBFelFMakppZ0RrSDBhUFlBTlRoWThCeG00WUdDSWFJVC1oLTJ2N1M5V0hvVGpYQlFJcWJLQXRKQlRrYld4R29VaVhaZ0d0SThMN0lRVVBBUmNJRTZSQ1dHQkRGYWI4NnlseUlqZHhF?oc=5",
+            "published_at": "2026-11-20T00:59:34.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "Anthropic, Nasdaq'ta Gerçekleşen Halka Arz İle İşlem Görmeye Başladı",
+        "summary": "Anthropic, 83 dolar olarak belirlenen halka arz fiyatının ardından Nasdaq borsasında işlem görmeye başladı ve hisse fiyatı açılışta yükseliş gösterdi.",
+        "why_it_matters": "Yapay zeka ekosistemindeki büyük fonlama döngüleri ve altyapı yatırımları sektörün finansal yönünü şekillendirir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Anthropic",
+          "IPO",
+          "Nasdaq"
+        ],
+        "subcategory": "policy_safety",
+        "entities": [
+          "Anthropic"
+        ],
+        "developer_impact": "Büyük finansal kaynak sağlayan şirketlerin altyapı ve API maliyet politikalarını etkileyebilir.",
+        "id": "5863bbe34a",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+            "published_at": "2026-11-19T16:59:23.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [],
+  "meta": {
+    "rss_feeds_ok": 13,
+    "rss_feeds_failed": [],
+    "rss_items_fetched": 160,
+    "rss_items_used": 86,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 119167
+  }
+}

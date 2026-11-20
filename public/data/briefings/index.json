@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T05:58:16.989Z",
-  "latest": "2026-11-19",
+  "updated_at": "2026-11-20T05:59:12.202Z",
+  "latest": "2026-11-20",
   "briefings": [
+    {
+      "date": "2026-11-20",
+      "path": "2026-11-20.json",
+      "headline": "American Airlines Airbus A319 Mayday Deklarasyonu ve Southwest B738 Los Angeles RTO Olayı",
+      "counts": {
+        "commercial_aviation": 2,
+        "accidents_and_incidents": 2,
+        "piloting_and_ops": 1,
+        "ai_developments": 1
+      },
+      "has_fatal_accident": false,
+      "max_importance": 5,
+      "generated_at": "2026-11-20T05:59:12.198Z"
+    },
     {
       "date": "2026-11-19",
       "path": "2026-11-19.json",
