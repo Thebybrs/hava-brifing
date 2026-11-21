@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T05:59:12.202Z",
-  "latest": "2026-11-20",
+  "updated_at": "2026-11-21T05:51:33.653Z",
+  "latest": "2026-11-21",
   "briefings": [
+    {
+      "date": "2026-11-21",
+      "path": "2026-11-21.json",
+      "headline": "ABD'den Çin Uçaklarına Engeller Gündemde, Airbus 2-Pilot Kuralını Koruyor ve YZ Yeni İşlemci Mimari Tasarladı",
+      "counts": {
+        "commercial_aviation": 5,
+        "accidents_and_incidents": 1,
+        "piloting_and_ops": 1,
+        "ai_developments": 2
+      },
+      "has_fatal_accident": false,
+      "max_importance": 4,
+      "generated_at": "2026-11-21T05:51:33.649Z"
+    },
     {
       "date": "2026-11-20",
       "path": "2026-11-20.json",

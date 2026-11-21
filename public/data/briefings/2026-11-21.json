@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T05:51:33.649Z",
+  "window": {
+    "from": "2026-11-20T05:50:45.656Z",
+    "to": "2026-11-21T05:50:45.656Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "ABD'den Çin Uçaklarına Engeller Gündemde, Airbus 2-Pilot Kuralını Koruyor ve YZ Yeni İşlemci Mimari Tasarladı",
+  "tldr": [
+    "ABD Kongresi, Çin menşeli ticari uçakların FAA sertifikasyonunu engellemeye yönelik yasa tasarısı hazırlıyor.",
+    "Regülatörlerin baskısı nedeniyle Airbus'ın uzun menzilli uçuşlarda seyir ekibini azaltma planı ertelendi.",
+    "Lufthansa, ana marka filosundaki A320 sayısını azaltmayı ve 1.000 kişiyi işten çıkarmayı planlıyor.",
+    "Virgin Australia uçuşunda iki pilot uçuş ortasında aşırı yorgunluk bildirerek görevden çekildi.",
+    "Yapay zeka, Frostbite adı verilen yeni bir CPU mimarisini sıfırdan tasarlayıp doğruladı."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "ABD Yasa Yapıcıları Çin Üretimi Uçakların FAA Sertifikasyonunu Engellemek İstiyor",
+        "summary": "ABD'li milletvekilleri, Batılı havacılık şirketlerinin Çin ile olan bağlarını sınırlamayı ve Çinli üreticilerin uçaklarının FAA tarafından sertifikalandırılmasını engellemeyi hedefleyen yeni adımlar atıyor. Tasarı, ticari ve teknolojik rekabette güvenlik kısıtlamalarını artırmayı amaçlıyor.",
+        "why_it_matters": "COMAC gibi üreticilerin Batı pazarlarına girmesini ve küresel filolara entegrasyonunu doğrudan engelleyebilir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "FAA",
+          "COMAC",
+          "Regülasyon",
+          "ABD",
+          "Çin"
+        ],
+        "subcategory": "market_finance",
+        "entities": [
+          "FAA",
+          "COMAC"
+        ],
+        "id": "632ceae1d9",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZy1LdWVsU1dZM19oMXozcnRBTlV1R3F4aHBQd0R0cV9lYTlkZVB6Rk9EUEE0X0Q3NWZmbm1Bcm5NM1BVSV9TSTVmR1pTZFdVVi1TYWp4ZnRIVzE4bjExN0hUVG5GRmc4cWJCVFhOSTBybDRTODNVX1pleVE0aGFmWG9wRmlDSi04MTVGYUtuMVNwYXZ4RklUdkNHSDFxR2x0TXlMM092WE1meUYwRWZVVkJLSlFVYWNHVG9wUXdFbGRlaDNtQWllSGZPc0lmZ21CR2pFQVlKNnNscV9laDNaM24wS09IREtiYXlz?oc=5",
+            "published_at": "2026-11-20T21:35:39.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Airbus, A220-500 ve Yeni A350 Varyantları Kararını 2027 Yılına Erteledi",
+        "summary": "Airbus, daha büyük gövdeli A220 esnetilmiş modeli (A220-500) ve olası yeni A350 varyantlarına ilişkin stratejik kararları 2027 yılına kadar ertelediğini duyurdu. Şirket mevcut üretim artışlarına ve teslimat zinciri sorunlarına odaklanıyor.",
+        "why_it_matters": "Havayollarının filo planlaması ve dar gövde/geniş gövde kapasite stratejilerini doğrudan etkileyecektir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "A220",
+          "A350",
+          "Filo Planlama"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus",
+          "Airbus A220",
+          "Airbus A350"
+        ],
+        "id": "e54eb6f823",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQ3d5Zkw3b0RzNTVNalNrMHE1cW5YMnluN3hybEgxSWFTLUk2aWUxVWdBeXFqVDlvbUVnLS1rRU9Qel8wSXhPWHdXOXd2WGRJSU1zMEV1YlB5WHRBOXBNbFpMVUI5TlVSbTB4VmpiaUZsX0ZzMklUYXRWOHBzclM3OER0YmN0c1cyR2ZRaWxvdFRESHgtT1E?oc=5",
+            "published_at": "2026-11-20T17:08:16.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Lufthansa Ana Markada 1.000 Kişilik İstihdam Kesintisi ve A320 Filo Küçülmesi Planlıyor",
+        "summary": "Lufthansa, Almanya'daki ana havayolu biriminde maliyetleri düşürmek amacıyla 1.000 çalışanla yolları ayırmayı ve Airbus A320 filolarını küçültmeyi planladığını açıkladı. Yüksek operasyonel giderler ve bölgesel rekabet karar üzerinde etkili oldu.",
+        "why_it_matters": "Avrupa içi uçuş ağında kapasite daralmasına ve ikincil pazarlarda charter/sub-lease artışına yol açabilir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Lufthansa",
+          "A320",
+          "Filo",
+          "İstihdam"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Lufthansa",
+          "Airbus A320"
+        ],
+        "id": "cc2f67086f",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNY2xxblVYR2g2Y0RJLVppcjJFRUtZSjZtQkdWZ0RIamo3ZzBGSmt1RGY1X01vaDNWd2NVNGJadGFBSlZNYk54S3ZFc2x5YkhHdXd4Z0dYM0sxQTFRaFpTZU81clBqeDJGczFPSHpBa1Y5M2tBamRTd2dHOHcwcDc0akttcHEwd0tDSWk5bVRCZGpub1Zud3hRTmxjQmVaVE1VdkR5bm5Cc3gwT3pRNFF2aXpoZUJuNWNtNFFj?oc=5",
+            "published_at": "2026-11-20T15:28:15.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Türk Hava Yolları APEX Tarafından 7. Kez 5 Yıldızlı Global Havayolu Seçildi",
+        "summary": "Türk Hava Yolları, APEX Ödülleri kapsamında yedinci kez '5 Yıldızlı Global Havayolu' unvanına layık görüldü ve ikram hizmetlerinde dünya birincisi oldu. THY ayrıca Avrupa'da en fazla uçak siparişi veren havayolu konumunu koruyor.",
+        "why_it_matters": "THY'nin küresel pazardaki hizmet standardını ve agresif büyüme hamlesini teyit ediyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "APEX",
+          "Uçak Siparişi",
+          "İkram"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Türk Hava Yolları",
+          "APEX"
+        ],
+        "id": "dbd5eab36d",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNS2xLa0FhcDN5UUFGWjRHM01Ud1pFRmlGUzU2VDhXbGNMZmNKVFp4YkdqRExKb2VPcjl6TEZ6aXRHblRxeTRPWGU1NXJaaWpUZUlTZEFpY0FRd0pHWTBZRzlKdmRYd2w1dzlKaGlHM0RXSDhjcnlzUjhQUWpxYXM3aHdhVW5DZmJXUjZTNzBxaFVvUQ?oc=5",
+            "published_at": "2026-11-20T16:38:24.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUlAwZk92S1d0c05tRklEa3F2WDBPekZhaHJoY1ltVm9qUnYtRkJLbU5fSTJKQ2ZWTk1iVG50c3JfV01hWkM3NkpPLU5qeUtyQklRWHp5MlpWcGhkMVV1cFRqREN5WnlqLTRGZUh4YmwyamVHV1NhYm5WeDUxVDdPYllOLWRfZWF5Wk10X1AzREFvN1lId0M0ZnF6MTBQY1BMRzByYV9oM2FTQ1lIV0w4Z01nSHo?oc=5",
+            "published_at": "2026-11-20T15:01:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUkhhVFh2a1ZzQnN4eHhITTNLRm5uMnhPTUZfaVBZaHdyRjJlUmltWEl4R0pTV3YxaEI3dUFiZnkxZ1dPa1oyUVQtbDk0T1BNa0s3ZlVoUUJramRPSmZDSUdYVHMzeWRPcXJzQ0IxSW5qVWNCbVNQVV9uRk1SRXN1MHJGdjdzTE9nMVQwazkxenEtUnBXMDFmNi14QW5FZm9ZN3c?oc=5",
+            "published_at": "2026-11-20T11:28:54.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "ABD Ulaştırma Bakanlığı Bakanlık Müfettişliği FAA'in Boeing Denetimini İnceleyecek",
+        "summary": "ABD Ulaştırma Bakanlığı denetleme kurulu (DOT OIG), FAA'in Boeing üzerindeki üretim ve kalite denetim süreçlerini yeniden incelemek üzere resmi bir denetim başlatacağını bildirdi.",
+        "why_it_matters": "Boeing üretim hatlarındaki denetimlerin sıkılaşması teslimat takvimlerinde ek gecikmelere yol açabilir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "FAA",
+          "Denetim",
+          "Kalite"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing",
+          "FAA",
+          "USDOT"
+        ],
+        "id": "73711f3d28",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMUl6Q2Z0SjRfajM3dVJoOHgtUVcxTG5CbDRnYkxZS3kxVm5SNFF3MmlMUnE4WnRFczVhT2Y5QzExLXFVWDRPRFFQT082Q0RHSGwxRHhGZE9aX0hCaWtNSEw1RFN1cFVTdTVKdjV6ZmFjaVQ4QW95VjdFcFdNd1duR1Q4VWo3Sld2RHlaM0tyRS1UVTU4UFdKTU5iVDdLQXVsekJTd1JnTHZjeU5iZC0tUzE5S0M5Q2ZWNzVYdE53?oc=5",
+            "published_at": "2026-11-20T22:26:34.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "Virgin Australia Pilotları Uçuş Sırasında Aşırı Yorgunluk Bildirerek Görevden Çekildi",
+        "summary": "Melbourne-Adelaide seferini icra eden Virgin Australia ekibindeki iki pilot, uçuş sırasında yüksek seviyede fatigue hissettiklerini bildirerek Adelaide'e inişin ardından derhal uçuş görevinden çıkarılmayı talep etti. Uçak emniyetle indi ve kokpit ekibi görevden alındı.",
+        "why_it_matters": "Ekip fatigue yönetimi ve pilotların uçuş emniyetini riske atmamak için kendilerini görevden çekme (fit to fly) sorumluluğunu vurguluyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Fatigue",
+          "CRM",
+          "Virgin Australia",
+          "Human Factors"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": null,
+        "location": "Adelaide Airport (ADL), Avustralya",
+        "aircraft_type": "Bilinmiyor",
+        "registration": null,
+        "operator": "Virgin Australia",
+        "flight_number": null,
+        "flight_phase": "cruise",
+        "occupants": null,
+        "fatalities": 0,
+        "injuries": 0,
+        "technical_findings": [],
+        "operational_findings": [
+          "Kokpit ekibinde aşırı fatigue (yorgunluk) tespiti",
+          "Pilotların kendilerini görevden çekme (stand down) kararı"
+        ],
+        "investigation_status": "unknown",
+        "investigating_authority": null,
+        "id": "78d45d98be",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/2-virgin-australia-pilots-admit-too-tired-continue-flying-immediately-offloaded/",
+            "published_at": "2026-11-20T20:05:38.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "Airbus'ın Seyir Safhasında Ekip Sayısını Azaltma Planı Regülatör Engeline Takıldı",
+        "summary": "Airbus'ın uzun menzilli uçuşlarda cruise safhasında kokpitteki pilot sayısını azaltmaya (Reduced Crew Operations) yönelik projeleri, havacılık otoritelerinin güvenlik çekinceleri nedeniyle durakladı. Regülatörler güvenlik standartları sağlanana kadar en az iki pilot şartını koruyor.",
+        "why_it_matters": "Uzun menzil geniş gövde operasyonlarında dinlenme periyotları ve minimum kokpit ekibi gereksinimleri mevcut standartlarda kalmaya devam edecek.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "Reduced Crew",
+          "Cockpit Ops",
+          "Regülasyon"
+        ],
+        "subcategory": "regulation",
+        "regulators": [
+          "EASA",
+          "FAA"
+        ],
+        "operational_takeaway": "Uzun menzilli operasyonlarda tek pilotlu seyir safhası (SiPO/RCO) regülatör onayı almadığı için standart minimum mürettebat ve dinlenme prosedürleri aynen uygulanacaktır.",
+        "id": "efd922a1b4",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9jQkhxWjRJOWM3S21pclp0LXJEU1lzLWl3eFRyR2FmQWRjdDhyd3hHcFJibTV5WGI2U1Z0RmN4Q1Vpc2swTTNOdWN2dUdiQl9KNWdKTTdGTDdpNnhualB4eGNadDVBd2RUQVJId2V1d2tXOFk?oc=5",
+            "published_at": "2026-11-21T00:36:29.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "Yapay Zeka Sıfırdan Yeni Bir CPU Mimarisi Tasarladı ve Doğruladı: Frostbite",
+        "summary": "Araştırmacılar, 'Frostbite' adını verdikleri yeni bir CPU mimarisinin tamamen yapay zeka modelleri tarafından tasarlanıp doğrulandığını açıkladı. Donanım tasarımında AI kullanımı mantıksal doğrulama sürelerini ciddi oranda düşürüyor.",
+        "why_it_matters": "İşlemci ve donanım mimarisi tasarımında insan müdahalesi olmadan uçtan uca sentez ve doğrulama yapılabileceğini kanıtlıyor.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Frostbite",
+          "CPU Architecture",
+          "Hardware AI",
+          "Semiconductor"
+        ],
+        "subcategory": "research",
+        "entities": [
+          "Frostbite"
+        ],
+        "developer_impact": "Donanım geliştiricileri ve EDA araç üreticileri için AI tabanlı RTL sentez ve mimari doğrulama süreçlerini hızlandırır.",
+        "id": "8ad4d75843",
+        "sources": [
+          {
+            "name": "Hacker News (AI)",
+            "url": "https://architectlabs.com/blog/frostbite",
+            "published_at": "2026-11-20T10:01:41.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "OpenAI Model Kopyalamayı Önlemek İçin Karşıt Distilasyon Yöntemlerini Açıkladı",
+        "summary": "OpenAI, yetkisiz model kopyalama ve sentetik veri çıkarma saldırılarına (adversarial distillation) karşı geliştirdiği yeni teknik önlemleri ve güvenlik araştırma bulgularını paylaştı.",
+        "why_it_matters": "LLM çıktılarının diğer modelleri eğitmek için yetkisiz kullanımını engellemeye dönük API seviyesinde filtreleme ve filigranlama yöntemleri sunar.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "OpenAI",
+          "Adversarial Distillation",
+          "Model Security",
+          "LLM"
+        ],
+        "subcategory": "policy_safety",
+        "entities": [
+          "OpenAI"
+        ],
+        "developer_impact": "API sağlayıcıları ve model üreticileri için telif/ip koruma ve distilasyon saldırılarını tespit etme stratejileri sağlar.",
+        "id": "43563a0bf2",
+        "sources": [
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aNG5qZG9TaTJHTlRrTmJBUzNINzVJT1B2cXZZelBweXRiTXJ1ZGphVkM0MWxySk4ydDZEa2dfdnZReHlJYjlpcVBfaGlyeWJ1WmVJSUI1TzFzeDM3SERWZkd2d2VsNGVRRmhFYXBB?oc=5",
+            "published_at": "2026-11-20T20:27:23.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [],
+  "meta": {
+    "rss_feeds_ok": 13,
+    "rss_feeds_failed": [],
+    "rss_items_fetched": 160,
+    "rss_items_used": 74,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 47994
+  }
+}
