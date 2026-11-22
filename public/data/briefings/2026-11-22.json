@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T13:10:40.318Z",
+  "window": {
+    "from": "2026-11-21T13:08:02.532Z",
+    "to": "2026-11-22T13:08:02.532Z"
+  },
+  "model": "gemini-3.5-flash",
+  "headline": "EASA, A380 Kanat Çatlağı Denetimlerini Genişletti; THY Uçağına Van'da Kuş Çarptı",
+  "tldr": [
+    "EASA, sekiz ek A380 uçağını acil kanat çatlağı denetim kapsamına dahil etti.",
+    "THY uçağı Van'da kuş çarpması ve kuyruk sürtmesi yaşayarak seferini iptal etti.",
+    "Air Niugini Boeing 767 uçağı motor yangın uyarısı nedeniyle Davao'ya divert etti.",
+    "Philippine Airlines, Beyaz Saray'da duyurulan anlaşmayla 15 adet Boeing 787-10 sipariş etti."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Philippine Airlines 15 Adet Boeing 787-10 Dreamliner Siparişi Verdi",
+        "summary": "ABD Başkanı Donald Trump, Beyaz Saray'da gerçekleştirdiği basın toplantısında Philippine Airlines'ın (PAL) 15 adet Boeing 787-10 Dreamliner ve 5 opsiyonlu sipariş verdiğini açıkladı.",
+        "why_it_matters": "Geniş gövde pazarındaki sipariş hareketliliği ve uzun menzilli filo planlamaları açısından kritik bir gelişmedir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "Widebody",
+          "Order"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing",
+          "Philippine Airlines",
+          "787-10"
+        ],
+        "id": "c4b3120fc7",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQaUp3TU9wZjNDbXhma2k0M3lOXzREOVMyVVBhQVdPRkFJeUZnbzBZS2VWQ1dhRTllWmEteExFVkFhLTZOYXp3Tnp1UGE4LWhFeThTdk4tZm4zRDdZRW83ZFJFZTVmRXJjdmxvYnlpMlU3b3hsN2NaeWRXV1J4UlM1UmRNLVFLYnlodUF6V0JxSTBWYldtNmc5VS1WQ2M4ZmxYMEt5Zl80bDhaSVp6bTdORE9yQjlMSWZEeGkwdUZOYlBsczdXamxXNkFIWU9kelZJZktzM1hSNl9qc0w1?oc=5",
+            "published_at": "2026-11-22T11:32:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Boeing 737 MAX Üretim Hızlanması 2027 Başlarına Ertelendi",
+        "summary": "Boeing, aylık 47 uçaklık 737 MAX üretim oranına ulaşma hedefinin 2027'nin başlarına sarktığını ve aralık ayındaki işten çıkarmaların ardından yeni kesintilerin olasılığını değerlendirdiğini bildirdi.",
+        "why_it_matters": "Tedarik zinciri ve üretim kapasitesi kısıtlarının havayolu teslimat takvimlerine etkisini gösterir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "737 MAX",
+          "Manufacturing"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing",
+          "737 MAX"
+        ],
+        "id": "8100306ff2",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE52bU5LLXpXN2dpOXAwYy1nWWFrTFpmRWZ6TGpGbVc5cXFLcTBzZDAzRnJ0TmxCLXp3aUpsNmVTQnlFLXRfWGJLNEs3OE91VjRoSUJNQzN1dXdLV3E1anBURmoydzJ1TVY3Z0w2NnhIRXpqSjA?oc=5",
+            "published_at": "2026-11-21T22:54:20.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNbEMwMnJzR2F0bW5kNDVDRklSZFc2VmN5NW9vRjF3amNNNWc2M3M4alBrMjFvdnNkWENrU09IdktzM3dFZk15dWtSODk4VkNjalAyeUUwMXZSNHFuTXY0SzRDUWpuQUNrcUVKamRXN29zNTdqUEdNb3ZfMVlYMG8?oc=5",
+            "published_at": "2026-11-21T21:14:01.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "THY, Aralık Ayında 5 Dış Hat Noktasında Sefer Azaltmaya Gidiyor",
+        "summary": "Türk Hava Yolları, jet yakıtı maliyetleri ve operasyonel planlamalar doğrultusunda Aralık ayında 5 dış hat noktasında sefer azaltma kararı aldı. Toplamda 330 uçuş programdan çıkarıldı.",
+        "why_it_matters": "THY'nin operasyonel kapasite yönetimi ve maliyet optimizasyonu hamlelerini gösterir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "Capacity",
+          "Operations"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Türk Hava Yolları"
+        ],
+        "id": "d154e55d97",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQN1BwZWlsOHl3OXQ2dTJOajNlMTJNR2Y1b3RpSW5mb1RmVG92VzR6Ym9EeHdvaHRNaTFYV1o0aUpIbjF5eHh2bXpLYXU1a0hnRjNpNzA0eWxMUmVSd0FZMTF0cjBVc1IweENqZGY5RUl2YzlIYmtJUDNtb1BzOFRXN1VkVHBNM0Rjdzkzbw?oc=5",
+            "published_at": "2026-11-22T07:54:25.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9QZGs5em1zOUJoRDFwMnd4cVNBYnVCbmQzTzZSREpoXzBpSHkxQ19kR091SlJHOFNQendFV2VIbzB3R0I3czRUTTYwTi05NHN3ZTVmLTlVWGNhNE82VXRZc0ZBcnlmVDNaOW5OdUIwRGRPcE43SlBoVQ?oc=5",
+            "published_at": "2026-11-22T04:16:12.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORHMwYkxWdkNOLUxrU0RJM1J6UlpEUG81YXNsREhDSktUQVcybFIwU3dCaDQyU0wtZGczSzZwQ1VzbUpvOXVLWDhHNEV2THNvQmRwMEctbU9SeWhHNUZNWVl5ZE8wUWp5LXJaQkdQcHROM2Jyam8yT2hwUHdHelJYdWg2RlZWMmRHZmdaNmF2SG5iQ3V5dlhGVkM2cWdyOWxpdDZZNXRQLVpqY2xEU09uRDdtc1d2SlFjTGFib1hQYVQwUlZ1d2czS3JB0gHKAUFVX3lxTE5EczBiTFZ2Q04tTGtTREkzUnpSWkRQbzVhc2xESENKS1RBVzJsUjBTd0JoNDJTTC1kZzNLNnBDVXNtSm85dUtYOEc0RXZMc29CZHAwRy1tT1J5aEc1Rk1ZWXlkTzBRanktclpCR1BwdE4zYnJqbzJPaHBQd0d6Ulh1aDZGVlYyZEdmZ1o2YXZIbmJDdXl2WEZWQzZxZ3I5bGl0Nlk1dFAtWmpjbERTT25EN21zV3ZKUWNMYWJvWFBhVDBSVnV3ZzNLckE?oc=5",
+            "published_at": "2026-11-21T13:10:41.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "Air Niugini Boeing 767 Motor Yangın Uyarısı Nedeniyle Divert Etti",
+        "summary": "Air Niugini işletmesindeki bir Boeing 767 uçağı, uçuş sırasında alınan motor yangın uyarısı sonrasında Davao Havalimanı'na (RPMD) güvenli bir şekilde divert etti.",
+        "why_it_matters": "Kokpitte motor yangın ikazı prosedürlerinin (ECAM/EICAS) ve acil divert kararlarının operasyonel uygulaması açısından önemlidir.",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "Engine Fire",
+          "Divert",
+          "B767"
+        ],
+        "occurrence_class": "serious_incident",
+        "occurred_at_utc": "2026-11-21T15:04:06Z",
+        "location": "Davao, Filipinler",
+        "aircraft_type": "Boeing 767",
+        "registration": null,
+        "operator": "Air Niugini",
+        "flight_number": null,
+        "flight_phase": "cruise",
+        "occupants": null,
+        "fatalities": 0,
+        "injuries": 0,
+        "technical_findings": [
+          "Engine fire indication"
+        ],
+        "operational_findings": [
+          "Diversion to Davao"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "49ea5fa842",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORkdOX1hldjcyZDk4bV9KamVOdEhUMlBya2czZVMxQU9aNmJJRWd2VUZzSVZ0YnZmZWNzSHZjc1FHemR3Wnl6S29LNmZFaE1Zb0hyakh6T1V6UUJheFFGVHRqMmlUNWdPQVJTNGV0SjZpb3M0S1FSYXk1TDNFSGZ5NTRZaW1jMUJqenVvYkExRF9OeWNFRnhGX2tB0gGfAUFVX3lxTE0xQ2FkdDhKcTBieERsNE9FV3dOMENQZzdQMnRYQkE1WFRiRDBCbnlqLUIyNGEwR3ZTS1FZU3E3MFlaakRCQzBBbGU5dk9VbmVVTjlJbUN6Tl9KM0pRdXlSTXM2T19JeTk0MmU2bUNwYXFzZmNlRW5fNndDY2FQWjdicFhqMXZSR0J6clFFaFlIMmRHZEVXdzZBMU5zM1RfOA?oc=5",
+            "published_at": "2026-11-22T08:16:25.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9KaXFDR2JGWUEwV0NqbFNCWlFVMHpQbHFkOFlpZFo3b0o3LVVLOXBpdDJfQW84Nm5YaHRURXpSeUhTLWlqVjY3ZjlMQkhHSTNLcmJfMFdQU3A?oc=5",
+            "published_at": "2026-11-21T15:04:06.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "THY Uçağına Van'da Kuş Çarptı ve Kuyruk Sürtmesi Yaşandı",
+        "summary": "Van Ferit Melen Havalimanı'nda gerçekleşen olayda Türk Hava Yolları uçağı kalkış/iniş safhasında kuş çarpması yaşadı ve kalkışta tail strike (kuyruk sürtmesi) meydana geldi; uçak havalimanına geri döndü.",
+        "why_it_matters": "Kuş çarpması risk yönetimi ve tail strike durumlarında SOP ile QRH prosedürlerinin uygulanmasını gösterir.",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "Bird Strike",
+          "Tail Strike",
+          "THY"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": null,
+        "location": "Van (LTCI), Türkiye",
+        "aircraft_type": "Bilinmiyor",
+        "registration": null,
+        "operator": "Türk Hava Yolları",
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": 0,
+        "injuries": 0,
+        "technical_findings": [
+          "Bird strike damage check",
+          "Tail strike structural check required"
+        ],
+        "operational_findings": [
+          "Return to departure aerodrome"
+        ],
+        "investigation_status": "not_started",
+        "investigating_authority": "UEAK",
+        "id": "85f7045691",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMF9xREVVcnVTZzE5TDIwQ3NIZ21lb2ZhenQzb05fM3NLWXJqdFRuSkVDRTZhU0czc0xPNjJpZWpBMXhmajA0Mm5BcjIyYjZUcjd5SmlfNFlNUzFxQ2lySThTQnc3WGd4TkVoRk9mYlVHMGlWd2I4dGRfZzRnX25iNFZSbGh4amdFZkE?oc=5",
+            "published_at": "2026-11-22T07:18:08.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9iZlhSVHVjbXdqSGhfbG53ZWtOejZSYlVhcWlwZHA1UWdDckxSUklFODZuelpyRDJnSURvNnl1RTdLT2xxXzFUdEUtdFJQbGZxNjNNWXVsN1U5ajFyMk10cHRfelIzM1ZsczNHZzhsZU80REpsUXc?oc=5",
+            "published_at": "2026-11-21T17:48:34.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "EASA, Sekiz Ek A380 İçin Acil Kanat Çatlağı Denetimlerini Zorunlu Kıldı",
+        "summary": "EASA, yapısal bütünlüğü korumak amacıyla sekiz adet Airbus A380 uçağını acil kanat çatlağı denetimleri listesine ekledi.",
+        "why_it_matters": "AD (Airworthiness Directive) süreçlerinin filolar arası kritik yapısal kontrollerdeki rolünü vurgular.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "EASA",
+          "Airworthiness",
+          "A380"
+        ],
+        "subcategory": "safety_alert",
+        "regulators": [
+          "EASA"
+        ],
+        "operational_takeaway": "Filo yöneticileri ve pilotlar, yayınlanan AD bültenlerindeki yapısal muvafakat ve limitlere sıkı sıkıya uymalıdır.",
+        "id": "13c7074c9d",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOUFQenRCTlpabThjQkEwdlc4a0w3Zm1rZUt1YXMtbGs4UTlkRlc4OFhCakZWNWY1Y2FLbkhrbjE1OHgwVTAyTFh0Nmc5bkVMUW5iS0YxN2gtSW1Ib1ByMzdaUVE2LTE0TjIyN0pQUFlhMW5vSEt2QllDSkxqdEsxeTdkSmZ4VV9LWFpFNW9iVHAxZw?oc=5",
+            "published_at": "2026-11-22T12:03:24.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "Signal, Yapay Zeka Gözetimine Karşı Mobil Ekran Görüntülerini Kısıtladı",
+        "summary": "Signal, yapay zeka tabanlı gözetim ve veri kazıma tehditlerine karşı hem Android hem de iOS uygulamalarında ekran görüntüsü alma yeteneğini kısıtladı.",
+        "why_it_matters": "Yapay zeka sistemlerinin veri toplama ve gizlilik ihlali risklerine karşı alınan yazılımsal önlemleri gösterir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Signal",
+          "Privacy",
+          "AI Surveillance"
+        ],
+        "subcategory": "policy_safety",
+        "entities": [
+          "Signal"
+        ],
+        "developer_impact": "Gizlilik odaklı uygulama geliştirirken AI tabanlı veri kazıma ve ekran yakalama vektörlerine karşı ek katmanlar düşünülmelidir.",
+        "id": "9c174b2e14",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+            "published_at": "2026-11-21T21:37:10.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [],
+  "meta": {
+    "rss_feeds_ok": 13,
+    "rss_feeds_failed": [],
+    "rss_items_fetched": 161,
+    "rss_items_used": 51,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 157788
+  }
+}

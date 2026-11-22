@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T05:51:33.653Z",
-  "latest": "2026-11-21",
+  "updated_at": "2026-11-22T13:10:40.322Z",
+  "latest": "2026-11-22",
   "briefings": [
+    {
+      "date": "2026-11-22",
+      "path": "2026-11-22.json",
+      "headline": "EASA, A380 Kanat Çatlağı Denetimlerini Genişletti; THY Uçağına Van'da Kuş Çarptı",
+      "counts": {
+        "commercial_aviation": 3,
+        "accidents_and_incidents": 2,
+        "piloting_and_ops": 1,
+        "ai_developments": 1
+      },
+      "has_fatal_accident": false,
+      "max_importance": 4,
+      "generated_at": "2026-11-22T13:10:40.318Z"
+    },
     {
       "date": "2026-11-21",
       "path": "2026-11-21.json",
