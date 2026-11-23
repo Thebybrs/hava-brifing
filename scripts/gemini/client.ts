@@ -18,11 +18,11 @@ export const FALLBACK_MODELS = [
   'gemini-flash-lite-latest',
 ] as const;
 
-const PRIMARY_RETRY_DELAYS_MS = [15_000] as const;
-const LITE_FALLBACK_DELAYS_MS = [15_000, 30_000] as const;
-const OTHER_FALLBACK_DELAYS_MS = [15_000] as const;
-const ROUND_COOLDOWN_MS = 45_000;
-const ROUND_TWO_DELAYS_MS = [20_000] as const;
+const PRIMARY_RETRY_DELAYS_MS = [8_000, 15_000] as const;
+const LITE_FALLBACK_DELAYS_MS = [6_000, 10_000, 15_000, 20_000, 25_000] as const;
+const OTHER_FALLBACK_DELAYS_MS = [8_000, 15_000] as const;
+const ROUND_COOLDOWN_MS = 30_000;
+const ROUND_TWO_DELAYS_MS = [8_000, 15_000, 20_000] as const;
 
 /**
  * Ortam değişkeninden GEMINI_API_KEY okuyarak GoogleGenAI singleton döndürür.
@@ -32,7 +32,7 @@ export function getAi(): GoogleGenAI {
     const env = loadEnv();
     aiInstance = new GoogleGenAI({
       apiKey: env.GEMINI_API_KEY,
-      httpOptions: { timeout: 120_000 },
+      httpOptions: { timeout: 90_000 },
     });
   }
   return aiInstance;
