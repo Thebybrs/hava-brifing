@@ -29,7 +29,7 @@ vi.mock('../lib/logger', () => ({
 
 import { generateWithRetry, getLastSucceededModel } from '../gemini/client';
 
-describe('Gemini istemcisi retry & failover (scripts/gemini/client.ts)', () => {
+describe('Gemini istemcisi retry & hedged failover (scripts/gemini/client.ts)', () => {
   beforeEach(() => {
     vi.useFakeTimers();
     generateContentMock.mockReset();
@@ -79,7 +79,7 @@ describe('Gemini istemcisi retry & failover (scripts/gemini/client.ts)', () => {
     expect(getLastSucceededModel()).toBe('gemini-3.5-flash-lite');
   });
 
-  it('2) gemini-3.5-flash üzerinde 504 DEADLINE_EXCEEDED alındığında tekrar beklemeden hemen gemini-3.5-flash-lite modeline geçer', async () => {
+  it('2) gemini-3.5-flash üzerinde 504 DEADLINE_EXCEEDED alındığında tekrar beklemeden hemen hedged lite yedeğe geçer', async () => {
     const err504 = Object.assign(
       new Error(
         '{"error":{"code":504,"message":"Deadline expired before operation could complete.","status":"DEADLINE_EXCEEDED"}}',
@@ -110,8 +110,12 @@ describe('Gemini istemcisi retry & failover (scripts/gemini/client.ts)', () => {
     const res = await promise;
 
     expect(res.text).toBe('{"fallback":true}');
-    expect(calledModels).toEqual(['gemini-3.5-flash', 'gemini-3.5-flash-lite']);
-    expect(getLastSucceededModel()).toBe('gemini-3.5-flash-lite');
+    expect(calledModels.filter((m) => m === 'gemini-3.5-flash')).toHaveLength(1);
+    expect(calledModels).toContain('gemini-3.5-flash-lite');
+    expect(calledModels).toContain('gemini-flash-lite-latest');
+    expect(['gemini-3.5-flash-lite', 'gemini-flash-lite-latest']).toContain(
+      getLastSucceededModel(),
+    );
   });
 
   it('3) 404 NOT_FOUND hatası veren modeli beklemeden atlayıp yedek modelle tamamlar', async () => {
@@ -125,7 +129,7 @@ describe('Gemini istemcisi retry & failover (scripts/gemini/client.ts)', () => {
     const calledModels: string[] = [];
     generateContentMock.mockImplementation(async (req: { model: string }) => {
       calledModels.push(req.model);
-      if (req.model === 'legacy-model' || req.model === 'gemini-3.5-flash') {
+      if (req.model === 'legacy-model' || req.model === 'gemini-3.5-flash-lite') {
         throw err404;
       }
       return {
@@ -147,9 +151,50 @@ describe('Gemini istemcisi retry & failover (scripts/gemini/client.ts)', () => {
     expect(res.text).toBe('{"ok":true}');
     expect(calledModels).toEqual([
       'legacy-model',
+      'gemini-3.5-flash-lite',
+      'gemini-flash-lite-latest',
+    ]);
+    expect(getLastSucceededModel()).toBe('gemini-flash-lite-latest');
+  });
+
+  it('4) Hedged paralel devirde gemini-3.5-flash-lite 503 döndürse bile aynı dalgadaki gemini-flash-lite-latest hemen kazanır', async () => {
+    const err503 = Object.assign(
+      new Error(
+        '{"error":{"code":503,"message":"This model is currently experiencing high demand.","status":"UNAVAILABLE"}}',
+      ),
+      { status: 503 },
+    );
+
+    const calledModels: string[] = [];
+    generateContentMock.mockImplementation(async (req: { model: string }) => {
+      calledModels.push(req.model);
+      if (req.model === 'gemini-3.5-flash' || req.model === 'gemini-3.5-flash-lite') {
+        throw err503;
+      }
+      return {
+        text: '{"hedged":"flash-lite-latest"}',
+        candidates: [{ finishReason: 'STOP' }],
+      };
+    });
+
+    const promise = generateWithRetry({
+      stage: 'Test Hedged Race',
+      model: 'gemini-3.5-flash',
+      contents: 'test prompt',
+      config: {},
+    });
+
+    await vi.runAllTimersAsync();
+    const res = await promise;
+
+    expect(res.text).toBe('{"hedged":"flash-lite-latest"}');
+    expect(calledModels).toEqual([
+      'gemini-3.5-flash',
+      'gemini-3.5-flash',
       'gemini-3.5-flash',
       'gemini-3.5-flash-lite',
+      'gemini-flash-lite-latest',
     ]);
-    expect(getLastSucceededModel()).toBe('gemini-3.5-flash-lite');
+    expect(getLastSucceededModel()).toBe('gemini-flash-lite-latest');
   });
 });

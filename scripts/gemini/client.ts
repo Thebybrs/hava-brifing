@@ -1,4 +1,4 @@
-// scripts/gemini/client.ts — §4.3 GoogleGenAI singleton + hata tipine duyarlı akıllı backoff + çoklu model fallback wrapper
+// scripts/gemini/client.ts — §4.3 GoogleGenAI singleton + hata tipine duyarlı backoff + hedged paralel lite fallback wrapper
 
 import {
   GoogleGenAI,
@@ -19,9 +19,19 @@ export const FALLBACK_MODELS = [
   'gemini-flash-lite-latest',
 ] as const;
 
+const LITE_HEDGE_POOL = [
+  'gemini-3.5-flash-lite',
+  'gemini-flash-lite-latest',
+  'gemini-3.1-flash-lite',
+] as const;
+
 const RATE_LIMIT_DELAYS_MS = [25_000, 65_000] as const;
-const FAST_503_BASE_DELAYS_MS = [2_500, 3_000, 3_500, 4_000, 5_000, 6_000] as const;
-const ROUND_COOLDOWN_MS = 25_000;
+const FAST_503_BASE_DELAYS_MS = [
+  2_000, 2_500, 3_000, 3_500, 4_000, 5_000,
+] as const;
+const ROUND_TWO_COOLDOWN_MS = 20_000;
+const ROUND_ONE_HEDGE_WAVES = 12;
+const ROUND_TWO_HEDGE_WAVES = 10;
 
 /**
  * Ortam değişkeninden GEMINI_API_KEY okuyarak GoogleGenAI singleton döndürür.
@@ -31,7 +41,7 @@ export function getAi(): GoogleGenAI {
     const env = loadEnv();
     aiInstance = new GoogleGenAI({
       apiKey: env.GEMINI_API_KEY,
-      httpOptions: { timeout: 65_000 },
+      httpOptions: { timeout: 45_000 },
     });
   }
   return aiInstance;
@@ -57,11 +67,7 @@ function isRetryableOrFallbackError(error: unknown): boolean {
   const msg = error instanceof Error ? error.message : String(error);
   const status = getHttpStatus(error);
 
-  if (
-    status === 429 ||
-    status === 404 ||
-    (status >= 500 && status < 600)
-  ) {
+  if (status === 429 || status === 404 || (status >= 500 && status < 600)) {
     return true;
   }
 
@@ -120,6 +126,25 @@ export interface GenerateCallParams {
 interface ModelAttemptBudget {
   max503Retries: number;
   max429Retries: number;
+  max504Retries: number;
+}
+
+function logGeminiSuccess(
+  stage: string,
+  model: string,
+  durationMs: number,
+  response: GenerateContentResponse,
+): void {
+  const usage = response.usageMetadata;
+  lastSucceededModel = model;
+  logger.info(`Gemini ${stage} tamamlandı`, {
+    model,
+    durationMs,
+    promptTokens: usage?.promptTokenCount ?? null,
+    candidatesTokens: usage?.candidatesTokenCount ?? null,
+    totalTokens: usage?.totalTokenCount ?? null,
+    finishReason: response.candidates?.[0]?.finishReason ?? null,
+  });
 }
 
 async function tryGenerateWithModel(
@@ -131,6 +156,7 @@ async function tryGenerateWithModel(
   let lastError: unknown;
   let retries503 = 0;
   let retries429 = 0;
+  let retries504 = 0;
 
   while (true) {
     try {
@@ -141,18 +167,7 @@ async function tryGenerateWithModel(
         config: params.config,
       });
 
-      const durationMs = Date.now() - startedAt;
-      const usage = response.usageMetadata;
-      lastSucceededModel = model;
-      logger.info(`Gemini ${params.stage} tamamlandı`, {
-        model,
-        durationMs,
-        promptTokens: usage?.promptTokenCount ?? null,
-        candidatesTokens: usage?.candidatesTokenCount ?? null,
-        totalTokens: usage?.totalTokenCount ?? null,
-        finishReason: response.candidates?.[0]?.finishReason ?? null,
-      });
-
+      logGeminiSuccess(params.stage, model, Date.now() - startedAt, response);
       return response;
     } catch (err) {
       lastError = err;
@@ -162,7 +177,6 @@ async function tryGenerateWithModel(
         throw err;
       }
 
-      // 404 veya günlük RPD kotası tükendiyse beklemeden doğrudan yedek modele geç
       if (isPermanentModelError(err)) {
         logger.warn(
           `Gemini ${params.stage} (${model}) günlük kota veya model hatası verdi; yedek modele geçilecek.`,
@@ -171,16 +185,24 @@ async function tryGenerateWithModel(
         break;
       }
 
-      // 504 DEADLINE_EXCEEDED: Model uzun süre takıldıysa aynı modelde beklemeden yedek modele geç
       if (isTimeoutError(err)) {
+        if (retries504 >= budget.max504Retries) {
+          logger.warn(
+            `Gemini ${params.stage} (${model}) zaman aşımına uğradı (504); hızlıca yedek modele geçiliyor.`,
+            { model, error: errMsg },
+          );
+          break;
+        }
+        const delayMs = withJitter(4_000, 1_500);
+        retries504 += 1;
         logger.warn(
-          `Gemini ${params.stage} (${model}) zaman aşımına uğradı (504); hızlıca yedek modele geçiliyor.`,
-          { model, error: errMsg },
+          `Gemini ${params.stage} (${model}) zaman aşımı (504), tekrar deneniyor (#${retries504}/${budget.max504Retries})`,
+          { model, delayMs, error: errMsg },
         );
-        break;
+        await sleep(delayMs);
+        continue;
       }
 
-      // 429 RESOURCE_EXHAUSTED: Dakikalık kota penceresinin sıfırlanması için uzun bekleme
       if (isRateLimitError(err)) {
         if (retries429 >= budget.max429Retries) {
           break;
@@ -198,8 +220,6 @@ async function tryGenerateWithModel(
         continue;
       }
 
-      // 503 UNAVAILABLE / 5xx yüksek talep yük dengeleyici reddi:
-      // 503 ~1 saniyede döndüğü ve kota harcamadığı için kısa jitter'lı aralıklarla çok sayıda deneme yap
       if (retries503 >= budget.max503Retries) {
         break;
       }
@@ -220,93 +240,178 @@ async function tryGenerateWithModel(
   throw lastError;
 }
 
-function getRoundOneBudget(model: string, isPrimary: boolean): ModelAttemptBudget {
+function getPrimaryBudget(model: string): ModelAttemptBudget {
   if (model === 'gemini-3.5-flash-lite') {
-    return { max503Retries: 11, max429Retries: 1 };
+    return { max503Retries: 11, max429Retries: 1, max504Retries: 1 };
   }
-  if (isPrimary) {
-    return { max503Retries: 3, max429Retries: 1 };
+  return { max503Retries: 2, max429Retries: 1, max504Retries: 0 };
+}
+
+function selectHedgePair(
+  eligible: readonly string[],
+  waveIdx: number,
+): string[] {
+  if (eligible.length <= 2) {
+    return [...eligible];
   }
-  return { max503Retries: 4, max429Retries: 1 };
+  // İlk uygun lite modeli (tercihen gemini-3.5-flash-lite) diğer adaylarla dönüşümlü yarıştır
+  const partnerIdx = 1 + (waveIdx % (eligible.length - 1));
+  return [eligible[0]!, eligible[partnerIdx]!];
+}
+
+async function runHedgedWave(
+  ai: GoogleGenAI,
+  waveModels: readonly string[],
+  params: GenerateCallParams,
+  skippedModels: Set<string>,
+): Promise<GenerateContentResponse> {
+  const branchPromises = waveModels.map((model) => {
+    const startedAt = Date.now();
+    const p = ai.models
+      .generateContent({
+        model,
+        contents: params.contents,
+        config: params.config,
+      })
+      .then((response) => ({
+        model,
+        response,
+        durationMs: Date.now() - startedAt,
+      }))
+      .catch((err) => {
+        if (isPermanentModelError(err)) {
+          skippedModels.add(model);
+          logger.warn(
+            `Gemini ${params.stage} (${model}) günlük kota veya model hatası verdi; havuzdan çıkarılıyor.`,
+            { model, error: err instanceof Error ? err.message : String(err) },
+          );
+        }
+        throw err;
+      });
+
+    // Promise.any sonrası geç reddedilen kardeş daldan UnhandledPromiseRejection doğmasını önle
+    p.catch(() => {});
+    return p;
+  });
+
+  const winner = await Promise.any(branchPromises);
+  logGeminiSuccess(params.stage, winner.model, winner.durationMs, winner.response);
+  return winner.response;
+}
+
+function extractHedgeError(aggErr: unknown): {
+  fatalError: unknown | null;
+  lastError: unknown;
+} {
+  if (aggErr instanceof AggregateError && aggErr.errors.length > 0) {
+    const nonRetryable = aggErr.errors.find(
+      (err) => !isRetryableOrFallbackError(err),
+    );
+    if (nonRetryable && aggErr.errors.every((e) => !isRetryableOrFallbackError(e))) {
+      return { fatalError: nonRetryable, lastError: nonRetryable };
+    }
+    return {
+      fatalError: null,
+      lastError: aggErr.errors[aggErr.errors.length - 1],
+    };
+  }
+  if (!isRetryableOrFallbackError(aggErr)) {
+    return { fatalError: aggErr, lastError: aggErr };
+  }
+  return { fatalError: null, lastError: aggErr };
 }
 
 /**
  * Gemini generateContent çağrısını yüksek talep (503 UNAVAILABLE), zaman aşımı (504) ve kota (429) dalgalanmalarına dayanıklı şekilde yürütür:
- * 1) 503 yük dengeleyici reddi kota harcamadığı için kısa (2.5-6 sn) jitter'lı aralıklarla çok sayıda deneme yapar (özellikle `gemini-3.5-flash-lite` üzerinde).
- * 2) 504 zaman aşımında aynı modelde vakit kaybetmeden hızla yedek modele geçer.
- * 3) Tur 1'de tüm modeller 503/429 verirse 25 sn soğuma sonrası lite öncelikli Tur 2 başlatır.
+ * 1) Önce birincil modeli (`gemini-3.5-flash`) dener; normal günlerde tek çağrıda tamamlar, 429/504'te beklemeden yedek havuza devreder.
+ * 2) Yedek aşamada iki farklı lite modeli paralel yarıştırarak (`Promise.any` hedged waves) başarı olasılığını artırır ve 504 bloklamasını ortadan kaldırır.
+ * 3) Tur 1 (12 dalga) ve 20 sn soğuma sonrası Tur 2 (10 dalga) boyunca geçici hataları atlatır.
  */
 export async function generateWithRetry(
   params: GenerateCallParams,
 ): Promise<GenerateContentResponse> {
   const ai = getAi();
   const primaryModel = params.model ?? getModelName();
-
-  const orderedModels = [
-    primaryModel,
-    ...FALLBACK_MODELS.filter((m) => m !== primaryModel),
-  ];
-
   const skippedModels = new Set<string>();
   let lastError: unknown;
 
-  // Tur 1: Birincil model ve tüm yedek zinciri
-  for (let i = 0; i < orderedModels.length; i += 1) {
-    const model = orderedModels[i]!;
-    if (i > 0) {
-      logger.warn(
-        `Gemini ${params.stage}: Önceki model başarısız oldu, yedek model (${model}) deneniyor...`,
-      );
+  // 1) Birincil model denemesi
+  try {
+    return await tryGenerateWithModel(
+      ai,
+      primaryModel,
+      params,
+      getPrimaryBudget(primaryModel),
+    );
+  } catch (primaryErr) {
+    lastError = primaryErr;
+    if (!isRetryableOrFallbackError(primaryErr)) {
+      throw primaryErr;
     }
-
-    try {
-      return await tryGenerateWithModel(
-        ai,
-        model,
-        params,
-        getRoundOneBudget(model, i === 0),
-      );
-    } catch (err) {
-      lastError = err;
-      if (!isRetryableOrFallbackError(err)) {
-        throw err;
-      }
-      if (isPermanentModelError(err)) {
-        skippedModels.add(model);
-      }
+    if (isPermanentModelError(primaryErr)) {
+      skippedModels.add(primaryModel);
     }
   }
 
-  // Tur 2: Kısa soğuma sonrası lite öncelikli ikinci dalga
-  const roundTwoModels = orderedModels.filter((m) => !skippedModels.has(m));
-  if (roundTwoModels.length > 0) {
-    const prioritizedRoundTwo = [
-      ...roundTwoModels.filter((m) => m === 'gemini-3.5-flash-lite'),
-      ...roundTwoModels.filter(
-        (m) => m !== 'gemini-3.5-flash-lite' && m.includes('lite'),
-      ),
-      ...roundTwoModels.filter((m) => !m.includes('lite')),
-    ].slice(0, 3);
+  // 2) Hedged paralel lite kurtarma turları
+  const rounds = [
+    { roundNumber: 1, waves: ROUND_ONE_HEDGE_WAVES, cooldownMs: 0 },
+    { roundNumber: 2, waves: ROUND_TWO_HEDGE_WAVES, cooldownMs: ROUND_TWO_COOLDOWN_MS },
+  ] as const;
 
-    const cooldownMs = withJitter(ROUND_COOLDOWN_MS, 3_000);
-    logger.warn(
-      `Gemini ${params.stage}: Tur 1 tüm modellerde geçici hata (503/429) aldı; ${Math.round(cooldownMs / 1000)} sn bekleyip Tur 2 başlatılıyor...`,
-      { models: prioritizedRoundTwo },
+  for (const round of rounds) {
+    const initialEligible = LITE_HEDGE_POOL.filter(
+      (m) => !skippedModels.has(m),
     );
-    await sleep(cooldownMs);
+    if (initialEligible.length === 0) {
+      break;
+    }
 
-    for (const model of prioritizedRoundTwo) {
-      const budget: ModelAttemptBudget =
-        model === 'gemini-3.5-flash-lite'
-          ? { max503Retries: 11, max429Retries: 1 }
-          : { max503Retries: 4, max429Retries: 1 };
+    if (round.cooldownMs > 0) {
+      const waitMs = withJitter(round.cooldownMs, 3_000);
+      logger.warn(
+        `Gemini ${params.stage}: Hedged Tur 1 tamamlanamadı; ${Math.round(waitMs / 1000)} sn soğuma sonrası Tur ${round.roundNumber} başlatılıyor...`,
+        { models: initialEligible },
+      );
+      await sleep(waitMs);
+    } else {
+      logger.warn(
+        `Gemini ${params.stage}: Birincil model (${primaryModel}) başarısız oldu; paralel hedged lite kurtarma başlatılıyor...`,
+        { models: initialEligible },
+      );
+    }
 
+    for (let wave = 0; wave < round.waves; wave += 1) {
+      const eligible = LITE_HEDGE_POOL.filter((m) => !skippedModels.has(m));
+      if (eligible.length === 0) {
+        break;
+      }
+
+      const waveModels = selectHedgePair(eligible, wave);
       try {
-        return await tryGenerateWithModel(ai, model, params, budget);
-      } catch (err) {
-        lastError = err;
-        if (!isRetryableOrFallbackError(err)) {
-          throw err;
+        return await runHedgedWave(ai, waveModels, params, skippedModels);
+      } catch (aggErr) {
+        const parsed = extractHedgeError(aggErr);
+        lastError = parsed.lastError;
+        if (parsed.fatalError) {
+          throw parsed.fatalError;
+        }
+
+        const remainingEligible = LITE_HEDGE_POOL.filter(
+          (m) => !skippedModels.has(m),
+        );
+        if (remainingEligible.length === 0) {
+          break;
+        }
+
+        if (wave < round.waves - 1) {
+          const baseDelay = Math.min(2_500 + wave * 250, 5_000);
+          const delayMs = withJitter(baseDelay, 1_500);
+          logger.warn(
+            `Gemini ${params.stage} hedged dalga (Tur ${round.roundNumber} #${wave + 1}/${round.waves}) başarısız [${waveModels.join(' + ')}]; yeniden deneniyor`,
+            { delayMs, error: lastError instanceof Error ? lastError.message : String(lastError) },
+          );
+          await sleep(delayMs);
         }
       }
     }

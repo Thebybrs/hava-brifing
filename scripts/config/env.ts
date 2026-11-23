@@ -76,6 +76,12 @@ export const envSchemaZod = z.object({
   DRY_RUN: booleanEnvZod.transform((v) => v ?? false),
   NOTIFY: booleanEnvZod.transform((v) => v ?? true),
   ENABLE_GROUNDING: booleanEnvZod.transform((v) => v ?? false),
+  SKIP_IF_EXISTS: booleanEnvZod.transform((v) => v ?? false),
+  ALLOW_RSS_FALLBACK: booleanEnvZod.transform((v) => v ?? false),
+  GROQ_API_KEY: optionalTrimmedString,
+  GROQ_MODEL: optionalTrimmedString.transform(
+    (v) => v ?? 'llama-3.3-70b-versatile',
+  ),
   SITE_URL: optionalTrimmedString.transform(
     (v) => v ?? 'https://thebybrs.github.io/hava-brifing/',
   ),

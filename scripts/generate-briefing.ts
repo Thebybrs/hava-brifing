@@ -3,12 +3,15 @@
 import {
   SCHEMA_VERSION,
   type Briefing,
+  type LlmBriefing,
 } from '@shared/briefing.types';
 import { briefingZod } from '@shared/briefing.zod';
+import { DEFAULT_LIMITS } from '@shared/constants';
 import { loadEnv } from './config/env';
 import { PIPELINE_LIMITS } from './config/limits';
 import { FEEDS, type FeedGroup } from './config/sources';
 import { getLastSucceededModel } from './gemini/client';
+import { runGroqStructuredFallback } from './gemini/groq-fallback';
 import { runGroundingStage } from './gemini/grounding';
 import { buildGroundingBlock, buildRssBlock } from './gemini/input-builder';
 import { runStructuredStage } from './gemini/structured';
@@ -23,9 +26,12 @@ import { readManifest, upsertManifest, writeManifest } from './lib/manifest';
 import type { NormalizedItem } from './lib/normalize';
 import { buildCatalog, publishBriefing } from './lib/resolve-sources';
 import { fetchAllFeeds } from './lib/rss';
+import { buildRssFallbackBriefing } from './lib/rss-fallback';
 import { readBriefing, writeBriefing } from './lib/storage';
 import { computeWindow, formatTrtLong, trtDateString } from './lib/window';
 import { buildPayload, fetchLtfmSnapshot, notifyAll } from './notify';
+import { BRIEFING_SYSTEM_PROMPT } from './prompts/briefing.system';
+import { renderUserPrompt } from './prompts/briefing.user';
 
 function previousDayString(dateStr: string): string {
   const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(dateStr);
@@ -113,6 +119,23 @@ async function runFullPipeline(): Promise<void> {
     notify: env.NOTIFY,
   });
 
+  if (env.SKIP_IF_EXISTS && !env.DRY_RUN) {
+    const existingToday = await readBriefing(date).catch(() => null);
+    if (existingToday !== null && existingToday.model !== 'rss-fallback') {
+      logger.info('Bugünün brifingi zaten mevcut, tekrar üretim atlandı.', {
+        date,
+        model: existingToday.model,
+      });
+      return;
+    }
+    if (existingToday?.model === 'rss-fallback') {
+      logger.info(
+        'Bugünün brifingi daha önce rss-fallback ile üretilmiş; tam AI brifingine yükseltme deneniyor.',
+        { date },
+      );
+    }
+  }
+
   // Adım 3: önceki günün brifingini oku (yoksa null)
   const prevDate = previousDayString(date);
   const prevBriefing = await readBriefing(prevDate).catch((err) => {
@@ -197,17 +220,91 @@ async function runFullPipeline(): Promise<void> {
   const groundingBlock = buildGroundingBlock(grounding);
   const previousHeadlines = extractBriefingHeadlines(prevBriefing);
 
-  const llm = await logger.group(
-    'Adım 7: Stage B (Structured JSON Üretimi)',
-    async () =>
-      runStructuredStage({
+  let llm!: LlmBriefing;
+  let resolvedModel: string | null = null;
+
+  await logger.group('Adım 7: Stage B (Structured JSON Üretimi)', async () => {
+    try {
+      llm = await runStructuredStage({
         rssBlock,
         groundingBlock,
         previousHeadlines,
         dateLabel,
         window,
-      }),
-  );
+      });
+      resolvedModel = getLastSucceededModel() ?? env.GEMINI_MODEL;
+    } catch (geminiErr) {
+      let recovered = false;
+
+      if (env.GROQ_API_KEY) {
+        logger.warn(
+          `Gemini Stage B başarısız oldu; Groq yedek model (${env.GROQ_MODEL}) deneniyor...`,
+          {
+            error:
+              geminiErr instanceof Error
+                ? geminiErr.message
+                : String(geminiErr),
+          },
+        );
+        try {
+          const prevHeadlinesText =
+            previousHeadlines.length > 0
+              ? previousHeadlines.map((h) => `- ${h}`).join('\n')
+              : '(Önceki gün başlığı yok)';
+          const groqUserPrompt = renderUserPrompt({
+            RUN_DATE_TR: dateLabel,
+            WINDOW_FROM_UTC: window.from.toISOString(),
+            WINDOW_TO_UTC: window.to.toISOString(),
+            MAX_COMMERCIAL: DEFAULT_LIMITS.commercial,
+            MAX_ACCIDENTS: DEFAULT_LIMITS.accidents,
+            MAX_PILOTING: DEFAULT_LIMITS.piloting,
+            MAX_AI: DEFAULT_LIMITS.ai,
+            PREVIOUS_HEADLINES: prevHeadlinesText,
+            RSS_BLOCK: rssBlock,
+            GROUNDING_BLOCK: groundingBlock,
+          });
+          llm = await runGroqStructuredFallback({
+            apiKey: env.GROQ_API_KEY,
+            model: env.GROQ_MODEL,
+            systemPrompt: BRIEFING_SYSTEM_PROMPT,
+            userPrompt: groqUserPrompt,
+          });
+          resolvedModel = `groq/${env.GROQ_MODEL}`;
+          warnings.push(
+            `Gemini API geçici yoğunluk nedeniyle yanıt veremedi; brifing Groq (${env.GROQ_MODEL}) ile üretildi.`,
+          );
+          recovered = true;
+        } catch (groqErr) {
+          logger.warn('Groq yedek Stage B başarısız oldu.', {
+            error:
+              groqErr instanceof Error ? groqErr.message : String(groqErr),
+          });
+        }
+      }
+
+      if (!recovered && env.ALLOW_RSS_FALLBACK) {
+        logger.warn(
+          'Tüm LLM sağlayıcıları başarısız oldu; ALLOW_RSS_FALLBACK=true nedeniyle deterministik RSS derlemesi üretiliyor.',
+          {
+            error:
+              geminiErr instanceof Error
+                ? geminiErr.message
+                : String(geminiErr),
+          },
+        );
+        llm = buildRssFallbackBriefing(items, dateLabel);
+        resolvedModel = 'rss-fallback';
+        warnings.push(
+          'Gemini API geçici yoğunluk (503/429) nedeniyle yanıt veremedi; bugünün brifingi doğrudan RSS kaynaklarından derlendi. API normale döndüğünde otomatik güncellenecektir.',
+        );
+        recovered = true;
+      }
+
+      if (!recovered) {
+        throw geminiErr;
+      }
+    }
+  });
 
   // Adım 8: Kaynak çözümleme ve yayınlama
   const { categories, dropped } = await logger.group(
@@ -247,7 +344,7 @@ async function runFullPipeline(): Promise<void> {
       from: window.from.toISOString(),
       to: window.to.toISOString(),
     },
-    model: getLastSucceededModel() ?? env.GEMINI_MODEL,
+    model: resolvedModel ?? getLastSucceededModel() ?? env.GEMINI_MODEL,
     headline: llm.headline,
     tldr: llm.tldr,
     categories,

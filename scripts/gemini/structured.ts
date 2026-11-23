@@ -90,7 +90,7 @@ export async function runStructuredStage(input: {
         responseMimeType: 'application/json',
         responseSchema: briefingResponseSchema,
         temperature: 0.3,
-        maxOutputTokens: 16384,
+        maxOutputTokens: 8192,
         // tools: YOK
       },
     });
