@@ -8,6 +8,7 @@ import { briefingZod } from '@shared/briefing.zod';
 import { loadEnv } from './config/env';
 import { PIPELINE_LIMITS } from './config/limits';
 import { FEEDS, type FeedGroup } from './config/sources';
+import { getLastSucceededModel } from './gemini/client';
 import { runGroundingStage } from './gemini/grounding';
 import { buildGroundingBlock, buildRssBlock } from './gemini/input-builder';
 import { runStructuredStage } from './gemini/structured';
@@ -246,7 +247,7 @@ async function runFullPipeline(): Promise<void> {
       from: window.from.toISOString(),
       to: window.to.toISOString(),
     },
-    model: env.GEMINI_MODEL,
+    model: getLastSucceededModel() ?? env.GEMINI_MODEL,
     headline: llm.headline,
     tldr: llm.tldr,
     categories,
