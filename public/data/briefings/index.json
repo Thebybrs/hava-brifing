@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T13:10:40.322Z",
-  "latest": "2026-11-22",
+  "updated_at": "2026-11-23T17:32:18.531Z",
+  "latest": "2026-11-23",
   "briefings": [
+    {
+      "date": "2026-11-23",
+      "path": "2026-11-23.json",
+      "headline": "ASN Accident Map - Aviation Safety Network",
+      "counts": {
+        "commercial_aviation": 6,
+        "accidents_and_incidents": 5,
+        "piloting_and_ops": 1,
+        "ai_developments": 5
+      },
+      "has_fatal_accident": false,
+      "max_importance": 4,
+      "generated_at": "2026-11-23T17:32:18.527Z"
+    },
     {
       "date": "2026-11-22",
       "path": "2026-11-22.json",

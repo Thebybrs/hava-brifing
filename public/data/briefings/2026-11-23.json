@@ -1,0 +1,527 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T17:32:18.527Z",
+  "window": {
+    "from": "2026-11-22T17:24:19.644Z",
+    "to": "2026-11-23T17:24:19.644Z"
+  },
+  "model": "rss-fallback",
+  "headline": "ASN Accident Map - Aviation Safety Network",
+  "tldr": [
+    "ASN Accident Map - Aviation Safety Network",
+    "Trump signals 250 more Boeing jet sales to China; firm orders remain unclear (BA:NYSE) - Seeking Alpha",
+    "We Tracked The World’s Oldest Airbus A380 For A Week - Simple Flying",
+    "EASA further improves ReFuelEU Aviation reporting with version 3 of the Sustainability Portal",
+    "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips"
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Trump signals 250 more Boeing jet sales to China; firm orders remain unclear (BA:NYSE) - Seeking Alpha",
+        "summary": "Trump signals 250 more Boeing jet sales to China; firm orders remain unclear (BA:NYSE) Seeking Alpha",
+        "why_it_matters": "Boeing News (GNews) kaynaklı güncel ticari havacılık gelişmesi (otomatik RSS derlemesi).",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "aviation",
+          "Boeing",
+          "rss_fallback"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing"
+        ],
+        "id": "43aaab220b",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbm0zNV9wSC0yeTBIUngySS1BeUtYV2NDOHNEeHFWOTQ0eHBnVVdvYW9NNzl4YmtNZ0JCZTJxWkxvOEtPVU1uSzhidlNlOUhGdGpDN0Q4LVp4bFBjQTZUQ09xNGg3MDBFN25qRHpVU2p6RzVmLWR4QV9ZSlVZREF3RVgycUI2TFoxZkh3ZjhmNlJRbHAyckNHM0dsUEppTGRRN2xtc01sTzhfcVF3RWxCajNHbw?oc=5",
+            "published_at": "2026-11-23T17:16:01.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "We Tracked The World’s Oldest Airbus A380 For A Week - Simple Flying",
+        "summary": "We Tracked The World’s Oldest Airbus A380 For A Week Simple Flying",
+        "why_it_matters": "Airbus News (GNews) kaynaklı güncel ticari havacılık gelişmesi (otomatik RSS derlemesi).",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "aviation",
+          "Airbus",
+          "rss_fallback"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus"
+        ],
+        "id": "3ca2f58ebd",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Xb2U0UzNjcWxYMW9DN05RbXRBRjh1WUVHcktGaTBhenFRWmstOXJIOGU5SFRiYVVwNTl4ZWZ4cllwZTJkQXlCQWJqNUxEUjZSSkd4ZDdGemhWVnNibkxfbzFSS2V5TzU5azBwNU83bG4?oc=5",
+            "published_at": "2026-11-23T17:00:19.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "We Tracked The World’s Oldest Airbus A380 For A Week",
+        "summary": "Emirates is generally said to have the oldest Airbus A380-800 Superjumbo remaining in service today . While that is defensible when measured from MSN sequence and year of manufacture, it is not without its challengers. Airbus is (still) flying its first Super…",
+        "why_it_matters": "Simple Flying kaynaklı güncel ticari havacılık gelişmesi (otomatik RSS derlemesi).",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "aviation",
+          "Airbus",
+          "rss_fallback"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus"
+        ],
+        "id": "395c93c696",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/tracked-world-oldest-airbus-a380-week/",
+            "published_at": "2026-11-23T17:00:19.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "THY iştiraki TGS'den rekor: 10 ayda 116,6 milyon yolcuya hizmet verdi - Milliyet",
+        "summary": "THY iştiraki TGS'den rekor: 10 ayda 116,6 milyon yolcuya hizmet verdi Milliyet",
+        "why_it_matters": "Türk Hava Yolları / THY (GNews) kaynaklı güncel ticari havacılık gelişmesi (otomatik RSS derlemesi).",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "aviation",
+          "THY",
+          "rss_fallback"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "THY"
+        ],
+        "id": "5f5b5c528a",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSGUzQlJUczlldmdPMU9BY0ZqdEpGbnU4R0I0ckV4RFlwMUZXRnlYNlRiMXNQdHhuY1hpM3ZIQWp6cmNoU1B4aVl2UDgyZ3BDZFJWdkctbm91MFBaMGphWVZRQV84Tm4zWlRmc1lpRlVyWW9Sd3o1b0xSYVo3MUI1NEhtbEhOUUduUjZ6VVpSdWpxZmZPenMwdVRKM0FyV29UaE9kUXhMazFtY3pZbnMwYg?oc=5",
+            "published_at": "2026-11-23T16:52:24.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Boeing clears key regulatory hurdle as its 737 North Line comes to life - The Air Current",
+        "summary": "Boeing clears key regulatory hurdle as its 737 North Line comes to life The Air Current",
+        "why_it_matters": "Boeing News (GNews) kaynaklı güncel ticari havacılık gelişmesi (otomatik RSS derlemesi).",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "aviation",
+          "Boeing",
+          "rss_fallback"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing"
+        ],
+        "id": "8ab4d45528",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSjdodjd6ZWh3VUg0RXhhM19rZU5wZHFJbWRIM1JnSWVWNzh1TS1TOFhDaTdrbG4wZThzRDJWRk5vVGE2c05ZMGstUjdiRUExc0lMVVB0SmJmNVdmWGo5YnllcTJPeEZMNUNhc2xsQ00tbFpwX1hVZThraXpHVDNPdk42X2FKemVHX0d2R3JJV1Nad3ZMdFM4WGlUN043Zw?oc=5",
+            "published_at": "2026-11-23T16:47:08.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Airbus reports share buyback transactions 16-20 November 2026 - www.marketscreener.com",
+        "summary": "Airbus reports share buyback transactions 16-20 November 2026 www.marketscreener.com",
+        "why_it_matters": "Airbus News (GNews) kaynaklı güncel ticari havacılık gelişmesi (otomatik RSS derlemesi).",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "aviation",
+          "Airbus",
+          "rss_fallback"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus"
+        ],
+        "id": "ea9a23b161",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQY2hRTW54LVRPQ2dOUVhrYjFwTEpNQ2M2VHRVVUNmMjI2TUtudGtGelA4d0VSWUsxbHQ1SWZ2UzFyNFFVNDdPS3haZzd6ZFhLc0l6cmVzWERUaEFnS1lsc0tKcUdtLTBrTXNCUGRLY1JIYk9XZ1RLQXdWNzd0SzF2YklyU040WXluXzNsZ2pHcGhrR3VQRWE2cDEwenFVX3ZOYXJhcGZ5VGJFV3NINlRuN2RnRVc?oc=5",
+            "published_at": "2026-11-23T16:47:03.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "ASN Accident Map - Aviation Safety Network",
+        "summary": "ASN Accident Map Aviation Safety Network",
+        "why_it_matters": "Aviation Safety Network kaynaklı emniyet/olay bildirimi (otomatik RSS derlemesi).",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "accidents",
+          "safety",
+          "Aviation Safety Network",
+          "rss_fallback"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-23T09:51:23.000Z",
+        "location": "Bilinmiyor",
+        "aircraft_type": "Bilinmiyor",
+        "registration": null,
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "6317fc13fb",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNjZCbVdVWFM3VGtUaGdQT0pnVDViQkRNZ2Y4eWJCMm1nalFCMnh4elkwSHJFRzFlVk9lWHFOdFFEXzhKRkZrejMzYjB1UUR0OVlFSmVXSW1YUXpmSW1MM282RExseGd5OVM3X0NtRTNNNk5fRXdqWUs4QW15TkZWNlpBOWN6QUhEXy1ybkxLNm1lVEE0RUtIWEtKSFViSmlHbzY4YlIwR0Y3SW10N3dhSjlrTkY?oc=5",
+            "published_at": "2026-11-23T09:51:23.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Incident Kamov Ka-27 , Sunday 22 November 2026 - Aviation Safety Network",
+        "summary": "Incident Kamov Ka-27 , Sunday 22 November 2026 Aviation Safety Network",
+        "why_it_matters": "Aviation Safety Network kaynaklı emniyet/olay bildirimi (otomatik RSS derlemesi).",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "accidents",
+          "safety",
+          "Aviation Safety Network",
+          "rss_fallback"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-23T08:43:28.000Z",
+        "location": "Bilinmiyor",
+        "aircraft_type": "Bilinmiyor",
+        "registration": null,
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "bd5393fe7c",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5uZU9GVEsyam5BcnRlZTY0X0tvdjJQR1JOcnlFcU1NaXVBTE9UNGhKeTUtWV9HV1pRQXYyeUZpYzB5VXhqb21ndHVUUlBxc3hEQjFtbUl3?oc=5",
+            "published_at": "2026-11-23T08:43:28.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Runway excursion Serious incident Viking DHC-6-400 Twin Otter S7-BRD, Sunday 22 November 2026 - Aviation Safety Network",
+        "summary": "Runway excursion Serious incident Viking DHC-6-400 Twin Otter S7-BRD, Sunday 22 November 2026 Aviation Safety Network",
+        "why_it_matters": "Aviation Safety Network kaynaklı emniyet/olay bildirimi (otomatik RSS derlemesi).",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "accidents",
+          "safety",
+          "Aviation Safety Network",
+          "rss_fallback"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-23T07:45:09.000Z",
+        "location": "Bilinmiyor",
+        "aircraft_type": "Bilinmiyor",
+        "registration": null,
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "758987f447",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1nLXlLbGlFV2hJVDlYbldVVXEydlp3d19qaFBiTWp5WHZ4dThaZ1hfbGdGVWNnOVE0OU9LdWlJbzBRRDNQcEwxMVE2RTVOTDk1YUhhejdB?oc=5",
+            "published_at": "2026-11-23T07:45:09.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Database - Aviation Safety Network",
+        "summary": "Database Aviation Safety Network",
+        "why_it_matters": "Aviation Safety Network kaynaklı emniyet/olay bildirimi (otomatik RSS derlemesi).",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "accidents",
+          "safety",
+          "Aviation Safety Network",
+          "rss_fallback"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-23T04:36:30.000Z",
+        "location": "Bilinmiyor",
+        "aircraft_type": "Bilinmiyor",
+        "registration": null,
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "19de1d7c31",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBpZmVXZmtLdW43T1UtaVBqSkpXdkpZZkhpSC1hcnpXeUJSVEw0WTdDeGNNbnBFUGhkR2VDd2hFOU1RRmJzOTBZT0FYTEFNRUlKdV93THZ0RHZSWnlCSE5iMko4SWFSMVN3aXc?oc=5",
+            "published_at": "2026-11-23T04:36:30.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Accident General Atomics MQ-1C Gray Eagle , Sunday 22 November 2026 - Aviation Safety Network",
+        "summary": "Accident General Atomics MQ-1C Gray Eagle , Sunday 22 November 2026 Aviation Safety Network",
+        "why_it_matters": "Aviation Safety Network kaynaklı emniyet/olay bildirimi (otomatik RSS derlemesi).",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "accidents",
+          "safety",
+          "Aviation Safety Network",
+          "rss_fallback"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-22T20:52:35.000Z",
+        "location": "Bilinmiyor",
+        "aircraft_type": "Bilinmiyor",
+        "registration": null,
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "ba1bd41052",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zQXE1Yk5CSktLSHhFaUhoMW1NckdId3g4aFhSeXUxX0Y0eFJmZmFtQjNqdE1pVjFMMW5OcHdIYUJSdkIwN0R5cFNxWWtpNklhWWs5MVRn?oc=5",
+            "published_at": "2026-11-22T20:52:35.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "EASA further improves ReFuelEU Aviation reporting with version 3 of the Sustainability Portal",
+        "summary": "The new version builds on the user survey carried out in May 2026, the lessons learned from the last reporting period, and the direct feedback from Competent Authorities and Aircraft Operators. These enhancements include:",
+        "why_it_matters": "EASA Newsroom kaynaklı pilotaj ve operasyon gelişmesi (otomatik RSS derlemesi).",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "piloting",
+          "EASA",
+          "rss_fallback"
+        ],
+        "subcategory": "regulation",
+        "regulators": [
+          "EASA"
+        ],
+        "operational_takeaway": "Kaynak bülten detaylarının uçuş öncesi brifing kapsamında incelenmesi önerilir.",
+        "id": "8dd9a78eda",
+        "sources": [
+          {
+            "name": "EASA Newsroom",
+            "url": "https://www.easa.europa.eu/newsroom-and-events/news/easa-further-improves-refueleu-aviation-reporting-version-3-sustainability-portal",
+            "published_at": "2026-11-22T22:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+        "summary": "Amazon is acquiring Decart’s AI optimization technology and research team in a reported $7.5 billion deal.",
+        "why_it_matters": "TechCrunch AI kaynaklı güncel yapay zeka gelişmesi (otomatik RSS derlemesi).",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "ai",
+          "rss_fallback"
+        ],
+        "subcategory": "product_launch",
+        "entities": [
+          "TechCrunch AI"
+        ],
+        "developer_impact": "Güncel yapay zeka ekosistemi ve geliştirici araçları gelişmesi (otomatik RSS derlemesi).",
+        "id": "ba46aa6dd8",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+            "published_at": "2026-11-23T17:14:23.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "A more tailored Google Search that’s uniquely yours",
+        "summary": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+        "why_it_matters": "Google AI / DeepMind kaynaklı güncel yapay zeka gelişmesi (otomatik RSS derlemesi).",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "ai",
+          "rss_fallback"
+        ],
+        "subcategory": "product_launch",
+        "entities": [
+          "Google AI / DeepMind"
+        ],
+        "developer_impact": "Güncel yapay zeka ekosistemi ve geliştirici araçları gelişmesi (otomatik RSS derlemesi).",
+        "id": "36056013b5",
+        "sources": [
+          {
+            "name": "Google AI / DeepMind",
+            "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+            "published_at": "2026-11-23T17:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Jensen Huang isn’t out of the woods yet",
+        "summary": "It’s safe to say no one expected this. Monday morning, Jensen Huang returned as CEO of Nvidia, after resigning the position following news of multiple affairs, including one with a subordinate and one with a woman tied to Chinese intelligence services. With s…",
+        "why_it_matters": "TechCrunch AI kaynaklı güncel yapay zeka gelişmesi (otomatik RSS derlemesi).",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "ai",
+          "rss_fallback"
+        ],
+        "subcategory": "product_launch",
+        "entities": [
+          "TechCrunch AI"
+        ],
+        "developer_impact": "Güncel yapay zeka ekosistemi ve geliştirici araçları gelişmesi (otomatik RSS derlemesi).",
+        "id": "cb0140657d",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
+            "published_at": "2026-11-23T16:57:40.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
+        "summary": "\"I spoke to them, let me put it that way... And I convinced them,\" the president told CNBC.",
+        "why_it_matters": "TechCrunch AI kaynaklı güncel yapay zeka gelişmesi (otomatik RSS derlemesi).",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "ai",
+          "rss_fallback"
+        ],
+        "subcategory": "product_launch",
+        "entities": [
+          "TechCrunch AI"
+        ],
+        "developer_impact": "Güncel yapay zeka ekosistemi ve geliştirici araçları gelişmesi (otomatik RSS derlemesi).",
+        "id": "958e3e818e",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
+            "published_at": "2026-11-23T16:39:10.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing",
+        "summary": "The president cited the U.S. attorney general in defending Huang's return, while urging Nvidia to continue its export-control investigation.",
+        "why_it_matters": "TechCrunch AI kaynaklı güncel yapay zeka gelişmesi (otomatik RSS derlemesi).",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "ai",
+          "rss_fallback"
+        ],
+        "subcategory": "product_launch",
+        "entities": [
+          "TechCrunch AI"
+        ],
+        "developer_impact": "Güncel yapay zeka ekosistemi ve geliştirici araçları gelişmesi (otomatik RSS derlemesi).",
+        "id": "d20d9f91fc",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
+            "published_at": "2026-11-23T15:04:01.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [
+    "Gemini API geçici yoğunluk (503/429) nedeniyle yanıt veremedi; bugünün brifingi doğrudan RSS kaynaklarından derlendi. API normale döndüğünde otomatik güncellenecektir."
+  ],
+  "meta": {
+    "rss_feeds_ok": 13,
+    "rss_feeds_failed": [],
+    "rss_items_fetched": 162,
+    "rss_items_used": 65,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 478885
+  }
+}
