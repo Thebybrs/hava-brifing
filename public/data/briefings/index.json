@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T17:41:06.429Z",
+  "updated_at": "2026-11-24T18:04:39.526Z",
   "latest": "2026-11-24",
   "briefings": [
     {
       "date": "2026-11-24",
       "path": "2026-11-24.json",
-      "headline": "Accident Airbus Helicopter H125 , Tuesday 24 November 2026 - Aviation Safety Network",
+      "headline": "Boeing, Xiamen Airlines ile 50 adet 737 MAX 8 için 7.4 milyar dolarlık dev sipariş anlaşması imzaladı.",
       "counts": {
-        "commercial_aviation": 6,
-        "accidents_and_incidents": 5,
+        "commercial_aviation": 3,
+        "accidents_and_incidents": 2,
         "piloting_and_ops": 0,
-        "ai_developments": 5
+        "ai_developments": 1
       },
       "has_fatal_accident": false,
-      "max_importance": 4,
-      "generated_at": "2026-11-24T17:41:06.425Z"
+      "max_importance": 5,
+      "generated_at": "2026-11-24T18:04:39.522Z"
     },
     {
       "date": "2026-11-23",
