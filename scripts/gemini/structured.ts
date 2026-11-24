@@ -80,7 +80,8 @@ KESİN JSON ŞEMA KONTRATI (YALNIZCA SAF JSON DÖNDÜR, MARKDOWN KOD BLOĞU EKLE
 }`;
 
 /**
- * Düz-metin yanıtından markdown kod bloğu (```json ... ```) veya çevreleyici metni ayıklayıp saf JSON nesnesini döndürür.
+ * Düz-metin yanıtından markdown kod bloğu (```json ... ```) veya çevreleyici metni ayıklayıp,
+ * olası sondaki virgülleri (trailing comma) temizleyerek saf JSON nesnesini döndürür.
  */
 export function extractJsonObject(rawText: string): string {
   let cleaned = rawText.trim();
@@ -91,9 +92,80 @@ export function extractJsonObject(rawText: string): string {
   const firstBrace = cleaned.indexOf('{');
   const lastBrace = cleaned.lastIndexOf('}');
   if (firstBrace !== -1 && lastBrace > firstBrace) {
-    return cleaned.slice(firstBrace, lastBrace + 1);
+    cleaned = cleaned.slice(firstBrace, lastBrace + 1);
   }
-  return cleaned;
+  // Düz-metin JSON modunda LLM'in bırakabileceği trailing comma'ları temizle
+  return cleaned.replace(/,\s*([}\]])/g, '$1');
+}
+
+function clipText(val: unknown, maxLen: number): unknown {
+  if (typeof val !== 'string') return val;
+  const s = val.trim();
+  if (s.length <= maxLen) return s;
+  return `${s.slice(0, maxLen - 1).trimEnd()}…`;
+}
+
+/**
+ * Düz-metin JSON modunda LLM'in dizi üst sınırlarını (örn. 5 source_id veya 6 tag)
+ * hafifçe aşması nedeniyle tüm geçerli Türkçe brifingin boşa gitmesini önler.
+ */
+export function sanitizeParsedBriefing(raw: unknown): unknown {
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return raw;
+  const obj = raw as Record<string, unknown>;
+  const out: Record<string, unknown> = { ...obj };
+
+  if (typeof out.headline === 'string') {
+    out.headline = clipText(out.headline, 140);
+  }
+  if (Array.isArray(out.tldr)) {
+    out.tldr = out.tldr.slice(0, 5).map((line) => clipText(line, 160));
+  }
+
+  if (out.categories && typeof out.categories === 'object' && !Array.isArray(out.categories)) {
+    const cats = { ...(out.categories as Record<string, unknown>) };
+    const limits: Record<string, number> = {
+      commercial_aviation: 8,
+      accidents_and_incidents: 10,
+      piloting_and_ops: 8,
+      ai_developments: 8,
+    };
+
+    for (const [key, maxItems] of Object.entries(limits)) {
+      const list = cats[key];
+      if (!Array.isArray(list)) continue;
+      cats[key] = list.slice(0, maxItems).map((entry) => {
+        if (!entry || typeof entry !== 'object' || Array.isArray(entry)) {
+          return entry;
+        }
+        const item = { ...(entry as Record<string, unknown>) };
+        item.headline = clipText(item.headline, 140);
+        item.summary = clipText(item.summary, 600);
+        item.why_it_matters = clipText(item.why_it_matters, 300);
+        if (Array.isArray(item.source_ids)) {
+          item.source_ids = item.source_ids.slice(0, 4);
+        }
+        if (Array.isArray(item.tags)) {
+          item.tags = item.tags.slice(0, 5);
+        }
+        if (Array.isArray(item.entities)) {
+          item.entities = item.entities.slice(0, 6);
+        }
+        if (Array.isArray(item.regulators)) {
+          item.regulators = item.regulators.slice(0, 3);
+        }
+        if (Array.isArray(item.technical_findings)) {
+          item.technical_findings = item.technical_findings.slice(0, 5);
+        }
+        if (Array.isArray(item.operational_findings)) {
+          item.operational_findings = item.operational_findings.slice(0, 5);
+        }
+        return item;
+      });
+    }
+    out.categories = cats;
+  }
+
+  return out;
 }
 
 function formatZodIssues(err: unknown): string {
@@ -231,7 +303,8 @@ export async function runStructuredStage(input: {
         throw new Error('Boş JSON yanıtı döndü.');
       }
       const parsedJson: unknown = JSON.parse(rawText);
-      const validated = llmBriefingZod.parse(parsedJson);
+      const sanitized = sanitizeParsedBriefing(parsedJson);
+      const validated = llmBriefingZod.parse(sanitized);
       return validated;
     } catch (validationError) {
       const errorSummary = formatZodIssues(validationError);
