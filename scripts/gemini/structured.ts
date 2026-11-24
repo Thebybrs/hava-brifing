@@ -1,4 +1,4 @@
-// scripts/gemini/structured.ts — §4.3 ve §6.1 Stage B (responseSchema) + zod doğrulama + repair retry
+// scripts/gemini/structured.ts — §4.3 ve §6.1 Stage B (responseSchema + düz-metin JSON yedeği) + zod doğrulama + repair retry
 
 import { FinishReason } from '@google/genai';
 import type { LlmBriefing } from '@shared/briefing.types';
@@ -9,6 +9,92 @@ import { logger } from '../lib/logger';
 import { BRIEFING_SYSTEM_PROMPT } from '../prompts/briefing.system';
 import { renderUserPrompt } from '../prompts/briefing.user';
 import { generateWithRetry } from './client';
+
+const PLAIN_JSON_SCHEMA_CONTRACT = `
+
+KESİN JSON ŞEMA KONTRATI (YALNIZCA SAF JSON DÖNDÜR, MARKDOWN KOD BLOĞU EKLEME; TÜM headline, summary, why_it_matters ALANLARI TÜRKÇE OLMALIDIR):
+{
+  "headline": "string (≤140 karakter)",
+  "tldr": ["string (3-5 madde, her biri ≤160 karakter)"],
+  "categories": {
+    "commercial_aviation": [{
+      "headline": "string (≤140)",
+      "summary": "string (≤600)",
+      "why_it_matters": "string (≤300)",
+      "importance": 1..5,
+      "confidence": "confirmed" | "preliminary" | "unverified",
+      "tags": ["string (max 5)"],
+      "source_ids": ["R001" (1-4 adet, yalnızca girdideki id'ler)],
+      "subcategory": "airline_fleet" | "airbus" | "boeing" | "other_oem" | "airports_atc" | "market_finance" | "route_network" | "cargo_mro",
+      "entities": ["string (max 6)"]
+    }],
+    "accidents_and_incidents": [{
+      "headline": "string (≤140)",
+      "summary": "string (≤600)",
+      "why_it_matters": "string (≤300)",
+      "importance": 1..5,
+      "confidence": "confirmed" | "preliminary" | "unverified",
+      "tags": ["string (max 5)"],
+      "source_ids": ["R001"],
+      "occurrence_class": "accident" | "serious_incident" | "incident" | "ground_event" | "unknown",
+      "occurred_at_utc": "ISO UTC string" | null,
+      "location": "string (bilinmiyorsa 'Bilinmiyor')",
+      "aircraft_type": "string (bilinmiyorsa 'Bilinmiyor')",
+      "registration": "string" | null,
+      "operator": "string" | null,
+      "flight_number": "string" | null,
+      "flight_phase": "standing" | "pushback_taxi" | "takeoff_roll" | "initial_climb" | "climb" | "cruise" | "descent" | "approach" | "landing" | "go_around" | "unknown",
+      "occupants": int | null,
+      "fatalities": int | null,
+      "injuries": int | null,
+      "technical_findings": ["string (max 5)"],
+      "operational_findings": ["string (max 5)"],
+      "investigation_status": "not_started" | "ongoing" | "preliminary_report_released" | "final_report_released" | "unknown",
+      "investigating_authority": "string" | null
+    }],
+    "piloting_and_ops": [{
+      "headline": "string (≤140)",
+      "summary": "string (≤600)",
+      "why_it_matters": "string (≤300)",
+      "importance": 1..5,
+      "confidence": "confirmed" | "preliminary" | "unverified",
+      "tags": ["string (max 5)"],
+      "source_ids": ["R001"],
+      "subcategory": "sop_procedures" | "training_crm" | "regulation" | "safety_alert" | "human_factors" | "avionics_technology",
+      "regulators": ["EASA" | "FAA" | "SHGM" | "ICAO" | "UK_CAA" | "Other" | "None" (1-3 adet)],
+      "operational_takeaway": "string"
+    }],
+    "ai_developments": [{
+      "headline": "string (≤140)",
+      "summary": "string (≤600)",
+      "why_it_matters": "string (≤300)",
+      "importance": 1..5,
+      "confidence": "confirmed" | "preliminary" | "unverified",
+      "tags": ["string (max 5)"],
+      "source_ids": ["R001"],
+      "subcategory": "foundation_model" | "dev_tools" | "research" | "open_source" | "infrastructure_chips" | "policy_safety" | "product_launch",
+      "entities": ["string (max 6)"],
+      "developer_impact": "string"
+    }]
+  }
+}`;
+
+/**
+ * Düz-metin yanıtından markdown kod bloğu (```json ... ```) veya çevreleyici metni ayıklayıp saf JSON nesnesini döndürür.
+ */
+export function extractJsonObject(rawText: string): string {
+  let cleaned = rawText.trim();
+  const fenceMatch = /```(?:json)?\s*([\s\S]*?)```/i.exec(cleaned);
+  if (fenceMatch && fenceMatch[1]) {
+    cleaned = fenceMatch[1].trim();
+  }
+  const firstBrace = cleaned.indexOf('{');
+  const lastBrace = cleaned.lastIndexOf('}');
+  if (firstBrace !== -1 && lastBrace > firstBrace) {
+    return cleaned.slice(firstBrace, lastBrace + 1);
+  }
+  return cleaned;
+}
 
 function formatZodIssues(err: unknown): string {
   if (
@@ -32,11 +118,9 @@ function formatZodIssues(err: unknown): string {
 }
 
 /**
- * Stage B — Gemini responseSchema ile yapılandırılmış Türkçe LlmBriefing üretir.
- * Davranış (§4.3 ve §6.1):
- * - generateContent(responseSchema) -> JSON.parse -> llmBriefingZod.parse
- * - finishReason === MAX_TOKENS ise kategori limitlerini ≤ 5'e düşürerek tekrar dener.
- * - JSON/Zod doğrulama hatasında max 2 repair retry yapar; her retry'da hata özetini prompta ekler.
+ * Stage B — Önce yapılandırılmış `responseSchema` ile dener; Gemini'nin constrained-decoding
+ * havuzu 503/504 yoğunluğundaysa otomatik olarak düz-metin JSON moduna (schema kısıtsız) geçip
+ * çıktıyı `extractJsonObject` + `llmBriefingZod.parse` ile doğrular.
  */
 export async function runStructuredStage(input: {
   rssBlock: string;
@@ -58,6 +142,7 @@ export async function runStructuredStage(input: {
     ai: DEFAULT_LIMITS.ai,
   };
   let repairInstruction = '';
+  let preferPlainJsonMode = false;
 
   const prevHeadlinesText =
     input.previousHeadlines.length > 0
@@ -82,18 +167,50 @@ export async function runStructuredStage(input: {
       ? `${baseUserPrompt}\n\n${repairInstruction}`
       : baseUserPrompt;
 
-    const response = await generateWithRetry({
-      stage: `Stage B (Structured #${attempt + 1})`,
-      contents: fullUserPrompt,
-      config: {
-        systemInstruction: BRIEFING_SYSTEM_PROMPT,
-        responseMimeType: 'application/json',
-        responseSchema: briefingResponseSchema,
-        temperature: 0.3,
-        maxOutputTokens: 8192,
-        // tools: YOK
-      },
-    });
+    let response;
+    if (!preferPlainJsonMode) {
+      try {
+        // Önce hızlı responseSchema denemesi: sağlıklı günlerde tek çağrıda biter;
+        // 503/504 yoğunluğunda ~15 sn içinde düz-metin JSON moduna geçer.
+        response = await generateWithRetry({
+          stage: `Stage B (Structured #${attempt + 1})`,
+          contents: fullUserPrompt,
+          primaryMax503Retries: 1,
+          maxHedgeRounds: 1,
+          maxRoundOneWaves: 2,
+          config: {
+            systemInstruction: BRIEFING_SYSTEM_PROMPT,
+            responseMimeType: 'application/json',
+            responseSchema: briefingResponseSchema,
+            temperature: 0.3,
+            maxOutputTokens: 8192,
+          },
+        });
+      } catch (schemaErr) {
+        logger.warn(
+          'Stage B responseSchema modu yoğunluk/hata nedeniyle başarısız oldu; düz-metin JSON moduna geçiliyor...',
+          {
+            error:
+              schemaErr instanceof Error
+                ? schemaErr.message
+                : String(schemaErr),
+          },
+        );
+        preferPlainJsonMode = true;
+      }
+    }
+
+    if (!response) {
+      response = await generateWithRetry({
+        stage: `Stage B (Plain-JSON #${attempt + 1})`,
+        contents: fullUserPrompt,
+        config: {
+          systemInstruction: `${BRIEFING_SYSTEM_PROMPT}${PLAIN_JSON_SCHEMA_CONTRACT}`,
+          temperature: 0.3,
+          maxOutputTokens: 8192,
+        },
+      });
+    }
 
     const finishReason = response.candidates?.[0]?.finishReason;
     if (finishReason === FinishReason.MAX_TOKENS) {
@@ -108,7 +225,7 @@ export async function runStructuredStage(input: {
       }
     }
 
-    const rawText = (response.text ?? '').trim();
+    const rawText = extractJsonObject(response.text ?? '');
     try {
       if (!rawText) {
         throw new Error('Boş JSON yanıtı döndü.');
@@ -128,8 +245,8 @@ export async function runStructuredStage(input: {
         );
       }
 
-      repairInstruction = `ÖNCEKİ ÇIKTI GEÇERSİZDİ: ${errorSummary}. Şemaya tam uyan JSON üret.`;
-      await new Promise((resolve) => setTimeout(resolve, 15_000));
+      repairInstruction = `ÖNCEKİ ÇIKTI GEÇERSİZDİ: ${errorSummary}. Yalnızca şemaya tam uyan saf JSON üret.`;
+      await new Promise((resolve) => setTimeout(resolve, 10_000));
     }
   }
 

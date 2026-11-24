@@ -119,6 +119,7 @@ async function runFullPipeline(): Promise<void> {
     notify: env.NOTIFY,
   });
 
+  let existingTodayWasRssFallback = false;
   if (env.SKIP_IF_EXISTS && !env.DRY_RUN) {
     const existingToday = await readBriefing(date).catch(() => null);
     if (existingToday !== null && existingToday.model !== 'rss-fallback') {
@@ -129,6 +130,7 @@ async function runFullPipeline(): Promise<void> {
       return;
     }
     if (existingToday?.model === 'rss-fallback') {
+      existingTodayWasRssFallback = true;
       logger.info(
         'Bugünün brifingi daha önce rss-fallback ile üretilmiş; tam AI brifingine yükseltme deneniyor.',
         { date },
@@ -222,6 +224,7 @@ async function runFullPipeline(): Promise<void> {
 
   let llm!: LlmBriefing;
   let resolvedModel: string | null = null;
+  let keepExistingRssFallback = false;
 
   await logger.group('Adım 7: Stage B (Structured JSON Üretimi)', async () => {
     try {
@@ -283,21 +286,30 @@ async function runFullPipeline(): Promise<void> {
       }
 
       if (!recovered && env.ALLOW_RSS_FALLBACK) {
-        logger.warn(
-          'Tüm LLM sağlayıcıları başarısız oldu; ALLOW_RSS_FALLBACK=true nedeniyle deterministik RSS derlemesi üretiliyor.',
-          {
-            error:
-              geminiErr instanceof Error
-                ? geminiErr.message
-                : String(geminiErr),
-          },
-        );
-        llm = buildRssFallbackBriefing(items, dateLabel);
-        resolvedModel = 'rss-fallback';
-        warnings.push(
-          'Gemini API geçici yoğunluk (503/429) nedeniyle yanıt veremedi; bugünün brifingi doğrudan RSS kaynaklarından derlendi. API normale döndüğünde otomatik güncellenecektir.',
-        );
-        recovered = true;
+        if (existingTodayWasRssFallback) {
+          logger.info(
+            'Bugün için rss-fallback brifingi zaten mevcut ve LLM hâlâ erişilemez; yinelenen yazım ve bildirim atlandı.',
+            { date },
+          );
+          keepExistingRssFallback = true;
+          recovered = true;
+        } else {
+          logger.warn(
+            'Tüm LLM sağlayıcıları başarısız oldu; ALLOW_RSS_FALLBACK=true nedeniyle deterministik RSS derlemesi üretiliyor.',
+            {
+              error:
+                geminiErr instanceof Error
+                  ? geminiErr.message
+                  : String(geminiErr),
+            },
+          );
+          llm = buildRssFallbackBriefing(items, dateLabel);
+          resolvedModel = 'rss-fallback';
+          warnings.push(
+            'Gemini API geçici yoğunluk (503/429) nedeniyle yanıt veremedi; bugünün brifingi doğrudan RSS kaynaklarından derlendi. API normale döndüğünde otomatik güncellenecektir.',
+          );
+          recovered = true;
+        }
       }
 
       if (!recovered) {
@@ -305,6 +317,10 @@ async function runFullPipeline(): Promise<void> {
       }
     }
   });
+
+  if (keepExistingRssFallback) {
+    return;
+  }
 
   // Adım 8: Kaynak çözümleme ve yayınlama
   const { categories, dropped } = await logger.group(

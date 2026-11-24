@@ -6,9 +6,8 @@ env:
 
 on:
   schedule:
-    - cron: '3 5 * * *'   # 08:03 Europe/Istanbul (00. dakika global yoğunluğundan kaçınır)
-    - cron: '35 5 * * *'  # 08:35 TRT — ilk çalışma başarısız olursa otomatik telafi #1
-    - cron: '15 6 * * *'  # 09:15 TRT — otomatik telafi #2
+    - cron: '15 4 * * *'  # 04:15 UTC = 07:15 TRT (GitHub Actions kuyruk gecikmesiyle ~08:00 TRT'de çalışır)
+    - cron: '0 5 * * *'   # 05:00 UTC = 08:00 TRT (~08:45 TRT otomatik telafi / AI yükseltme)
   workflow_dispatch:
     inputs:
       dry_run:
@@ -58,7 +57,7 @@ jobs:
           BRIEFING_DATE: ${{ inputs.date }}
           DRY_RUN: ${{ inputs.dry_run }}
           SKIP_IF_EXISTS: ${{ github.event_name == 'schedule' && 'true' || 'false' }}
-          ALLOW_RSS_FALLBACK: ${{ (github.event_name == 'workflow_dispatch' || github.event.schedule == '15 6 * * *') && 'true' || 'false' }}
+          ALLOW_RSS_FALLBACK: 'true'
           NOTIFY: 'false' # bildirim commit'ten sonra gönderilir
         run: npx tsx scripts/generate-briefing.ts
 
@@ -90,7 +89,7 @@ jobs:
         run: npx tsx scripts/generate-briefing.ts --notify-only
 
       - name: Notify failure
-        if: ${{ failure() && (github.event_name != 'schedule' || github.event.schedule == '15 6 * * *') }}
+        if: ${{ failure() && github.event_name != 'schedule' }}
         env:
           NTFY_SERVER: ${{ vars.NTFY_SERVER }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}

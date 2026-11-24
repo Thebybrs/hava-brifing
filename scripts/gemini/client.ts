@@ -121,6 +121,12 @@ export interface GenerateCallParams {
   model?: string;
   contents: string;
   config: GenerateContentConfig;
+  /** İsteğe bağlı: hızlı deneme için hedged tur sayısı (varsayılan: 2) */
+  maxHedgeRounds?: number;
+  /** İsteğe bağlı: Tur 1 hedged dalga sayısı (varsayılan: 12) */
+  maxRoundOneWaves?: number;
+  /** İsteğe bağlı: birincil modelde maksimum 503 tekrar sayısı */
+  primaryMax503Retries?: number;
 }
 
 interface ModelAttemptBudget {
@@ -336,13 +342,13 @@ export async function generateWithRetry(
   let lastError: unknown;
 
   // 1) Birincil model denemesi
+  const primaryBudget = getPrimaryBudget(primaryModel);
+  if (typeof params.primaryMax503Retries === 'number') {
+    primaryBudget.max503Retries = params.primaryMax503Retries;
+  }
+
   try {
-    return await tryGenerateWithModel(
-      ai,
-      primaryModel,
-      params,
-      getPrimaryBudget(primaryModel),
-    );
+    return await tryGenerateWithModel(ai, primaryModel, params, primaryBudget);
   } catch (primaryErr) {
     lastError = primaryErr;
     if (!isRetryableOrFallbackError(primaryErr)) {
@@ -354,10 +360,20 @@ export async function generateWithRetry(
   }
 
   // 2) Hedged paralel lite kurtarma turları
-  const rounds = [
-    { roundNumber: 1, waves: ROUND_ONE_HEDGE_WAVES, cooldownMs: 0 },
-    { roundNumber: 2, waves: ROUND_TWO_HEDGE_WAVES, cooldownMs: ROUND_TWO_COOLDOWN_MS },
+  const allRounds = [
+    {
+      roundNumber: 1,
+      waves: params.maxRoundOneWaves ?? ROUND_ONE_HEDGE_WAVES,
+      cooldownMs: 0,
+    },
+    {
+      roundNumber: 2,
+      waves: ROUND_TWO_HEDGE_WAVES,
+      cooldownMs: ROUND_TWO_COOLDOWN_MS,
+    },
   ] as const;
+  const maxRounds = params.maxHedgeRounds ?? allRounds.length;
+  const rounds = allRounds.slice(0, Math.max(0, maxRounds));
 
   for (const round of rounds) {
     const initialEligible = LITE_HEDGE_POOL.filter(
