@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T17:31:49.249Z",
+  "updated_at": "2026-11-24T17:41:06.429Z",
   "latest": "2026-11-24",
   "briefings": [
     {
@@ -15,7 +15,7 @@
       },
       "has_fatal_accident": false,
       "max_importance": 4,
-      "generated_at": "2026-11-24T17:31:49.244Z"
+      "generated_at": "2026-11-24T17:41:06.425Z"
     },
     {
       "date": "2026-11-23",

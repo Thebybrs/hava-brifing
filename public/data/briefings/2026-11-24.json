@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T17:31:49.244Z",
+  "generated_at": "2026-11-24T17:41:06.425Z",
   "window": {
-    "from": "2026-11-23T17:28:32.408Z",
-    "to": "2026-11-24T17:28:32.408Z"
+    "from": "2026-11-23T17:35:37.008Z",
+    "to": "2026-11-24T17:35:37.008Z"
   },
   "model": "rss-fallback",
   "headline": "Accident Airbus Helicopter H125 , Tuesday 24 November 2026 - Aviation Safety Network",
   "tldr": [
     "Accident Airbus Helicopter H125 , Tuesday 24 November 2026 - Aviation Safety Network",
     "Airbus is selling its U.S. satellite business to Cerberus Capital - Quartz",
-    "China’s Xiamen Airlines signs deal to buy 50 Boeing 737 MAX 8 jets - Anadolu Ajansı",
+    "Is Boeing Under $170 a Bargain or a Trap? - The Motley Fool",
     "Meta brings its Muse AI assistant directly into Instagram DMs",
     "Incident Boeing 737-890 (WL) N548AS, Monday 23 November 2026 - Aviation Safety Network"
   ],
@@ -43,8 +43,8 @@
         ]
       },
       {
-        "headline": "China’s Xiamen Airlines signs deal to buy 50 Boeing 737 MAX 8 jets - Anadolu Ajansı",
-        "summary": "China’s Xiamen Airlines signs deal to buy 50 Boeing 737 MAX 8 jets Anadolu Ajansı",
+        "headline": "Is Boeing Under $170 a Bargain or a Trap? - The Motley Fool",
+        "summary": "Is Boeing Under $170 a Bargain or a Trap? The Motley Fool",
         "why_it_matters": "Boeing News (GNews) kaynaklı güncel ticari havacılık gelişmesi (otomatik RSS derlemesi).",
         "importance": 4,
         "confidence": "preliminary",
@@ -57,12 +57,12 @@
         "entities": [
           "Boeing"
         ],
-        "id": "cf1e3ed9ca",
+        "id": "1e59be7b54",
         "sources": [
           {
             "name": "Boeing News (GNews)",
-            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYzJQYm12a0tTd3h4UEhKdFMwSDNDZ0U1RmZrNnhrMzV6UDBUc1o5MFgtLWF1UXRXMTdTVnN0VHNmamprb3NRVjV0NVZ6eUR0M3YzdEhLNEJ2ZU1XeF9vMzAxR2RhZ0pPcWxwQXh2eVl4SjVTVnFWX1VwNkNoTjlvVFNYZmdudEpsdUZsdW14SEVLckE5YTA4enBjTTlHR1NnWEFUeElYdkwwZ2xU?oc=5",
-            "published_at": "2026-11-24T17:08:05.000Z",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZXVPcHNFYWU4N3ZrVTJLMUYwLTFtMDRQUFZkNW9rU0UwWUJvYmpqNU9ndG5DTzhpaTJMejU0Q3dnZEJ5Wk50VkdxaGNaWFpUT3Rrd1ZQeC1aTExwRnlUZjFhUkFLNWJWQjZ5MWx1VmF6UEpHX21Wem1rLWtkSW5QM09JdFplUVZONnd2eVhB?oc=5",
+            "published_at": "2026-11-24T17:07:02.000Z",
             "origin": "rss"
           }
         ]
@@ -490,11 +490,11 @@
   "meta": {
     "rss_feeds_ok": 13,
     "rss_feeds_failed": [],
-    "rss_items_fetched": 158,
+    "rss_items_fetched": 160,
     "rss_items_used": 65,
     "grounding_used": false,
     "grounding_queries": [],
     "dropped_items_no_source": 0,
-    "duration_ms": 196837
+    "duration_ms": 329418
   }
 }
