@@ -66,6 +66,7 @@ export const FALLBACK_GEMINI_MODEL = 'gemini-3.5-flash-lite';
 
 export const envSchemaZod = z.object({
   GEMINI_API_KEY: z.string().min(1, 'GEMINI_API_KEY zorunludur.'),
+  GEMINI_API_KEY_FALLBACK: optionalTrimmedString,
   GEMINI_MODEL: optionalTrimmedString.transform((v) =>
     v ? v.replace(/^gemini-2\.5-/, 'gemini-3.5-') : DEFAULT_GEMINI_MODEL,
   ),

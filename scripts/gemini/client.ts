@@ -1,4 +1,4 @@
-// scripts/gemini/client.ts — §4.3 GoogleGenAI singleton + hata tipine duyarlı backoff + hedged paralel lite fallback wrapper
+// scripts/gemini/client.ts — §4.3 Çoklu API anahtarı havuzu + hata tipine duyarlı backoff + hedged paralel lite fallback wrapper
 
 import {
   GoogleGenAI,
@@ -8,7 +8,12 @@ import {
 import { loadEnv } from '../config/env';
 import { logger } from '../lib/logger';
 
-let aiInstance: GoogleGenAI | null = null;
+interface NamedAiClient {
+  label: string;
+  ai: GoogleGenAI;
+}
+
+let aiPoolInstance: NamedAiClient[] | null = null;
 let lastSucceededModel: string | null = null;
 
 export const FALLBACK_MODELS = [
@@ -34,17 +39,51 @@ const ROUND_ONE_HEDGE_WAVES = 12;
 const ROUND_TWO_HEDGE_WAVES = 10;
 
 /**
- * Ortam değişkeninden GEMINI_API_KEY okuyarak GoogleGenAI singleton döndürür.
+ * Birincil (GEMINI_API_KEY) ve varsa yedek (GEMINI_API_KEY_FALLBACK) GoogleGenAI istemci havuzunu döndürür.
+ */
+export function getAiPool(): NamedAiClient[] {
+  if (!aiPoolInstance) {
+    const env = loadEnv();
+    const pool: NamedAiClient[] = [
+      {
+        label: 'primary',
+        ai: new GoogleGenAI({
+          apiKey: env.GEMINI_API_KEY,
+          httpOptions: { timeout: 45_000 },
+        }),
+      },
+    ];
+
+    if (
+      env.GEMINI_API_KEY_FALLBACK &&
+      env.GEMINI_API_KEY_FALLBACK !== env.GEMINI_API_KEY
+    ) {
+      pool.push({
+        label: 'fallback',
+        ai: new GoogleGenAI({
+          apiKey: env.GEMINI_API_KEY_FALLBACK,
+          httpOptions: { timeout: 45_000 },
+        }),
+      });
+    }
+
+    aiPoolInstance = pool;
+  }
+  return aiPoolInstance;
+}
+
+/**
+ * Ortam değişkeninden GEMINI_API_KEY okuyarak birincil GoogleGenAI singleton döndürür.
  */
 export function getAi(): GoogleGenAI {
-  if (!aiInstance) {
-    const env = loadEnv();
-    aiInstance = new GoogleGenAI({
-      apiKey: env.GEMINI_API_KEY,
-      httpOptions: { timeout: 45_000 },
-    });
-  }
-  return aiInstance;
+  return getAiPool()[0]!.ai;
+}
+
+/**
+ * Testlerde istemci havuzunu sıfırlamak için kullanılır.
+ */
+export function resetAiPoolForTest(): void {
+  aiPoolInstance = null;
 }
 
 export function getModelName(): string {
@@ -83,14 +122,14 @@ function isDailyQuotaExhausted(error: unknown): boolean {
   );
 }
 
-function isPermanentModelError(error: unknown): boolean {
+function isNotFoundModelError(error: unknown): boolean {
   const msg = error instanceof Error ? error.message : String(error);
   const status = getHttpStatus(error);
-  return (
-    status === 404 ||
-    isDailyQuotaExhausted(error) ||
-    /\b(404|NOT_FOUND)\b/i.test(msg)
-  );
+  return status === 404 || /\b(404|NOT_FOUND)\b/i.test(msg);
+}
+
+function isPermanentModelError(error: unknown): boolean {
+  return isNotFoundModelError(error) || isDailyQuotaExhausted(error);
 }
 
 function isRateLimitError(error: unknown): boolean {
@@ -116,6 +155,26 @@ function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+function pairKey(clientLabel: string, model: string): string {
+  return `${clientLabel}:${model}`;
+}
+
+function markErrorSkipped(
+  err: unknown,
+  clientLabel: string,
+  model: string,
+  pool: readonly NamedAiClient[],
+  skippedPairs: Set<string>,
+): void {
+  if (isNotFoundModelError(err)) {
+    for (const c of pool) {
+      skippedPairs.add(pairKey(c.label, model));
+    }
+  } else if (isDailyQuotaExhausted(err)) {
+    skippedPairs.add(pairKey(clientLabel, model));
+  }
+}
+
 export interface GenerateCallParams {
   stage: string;
   model?: string;
@@ -138,6 +197,7 @@ interface ModelAttemptBudget {
 function logGeminiSuccess(
   stage: string,
   model: string,
+  clientLabel: string,
   durationMs: number,
   response: GenerateContentResponse,
 ): void {
@@ -145,6 +205,7 @@ function logGeminiSuccess(
   lastSucceededModel = model;
   logger.info(`Gemini ${stage} tamamlandı`, {
     model,
+    keySlot: clientLabel,
     durationMs,
     promptTokens: usage?.promptTokenCount ?? null,
     candidatesTokens: usage?.candidatesTokenCount ?? null,
@@ -154,7 +215,7 @@ function logGeminiSuccess(
 }
 
 async function tryGenerateWithModel(
-  ai: GoogleGenAI,
+  client: NamedAiClient,
   model: string,
   params: GenerateCallParams,
   budget: ModelAttemptBudget,
@@ -167,13 +228,19 @@ async function tryGenerateWithModel(
   while (true) {
     try {
       const startedAt = Date.now();
-      const response = await ai.models.generateContent({
+      const response = await client.ai.models.generateContent({
         model,
         contents: params.contents,
         config: params.config,
       });
 
-      logGeminiSuccess(params.stage, model, Date.now() - startedAt, response);
+      logGeminiSuccess(
+        params.stage,
+        model,
+        client.label,
+        Date.now() - startedAt,
+        response,
+      );
       return response;
     } catch (err) {
       lastError = err;
@@ -185,8 +252,8 @@ async function tryGenerateWithModel(
 
       if (isPermanentModelError(err)) {
         logger.warn(
-          `Gemini ${params.stage} (${model}) günlük kota veya model hatası verdi; yedek modele geçilecek.`,
-          { model, error: errMsg },
+          `Gemini ${params.stage} (${model} / ${client.label}) günlük kota veya model hatası verdi; yedek anahtar/modele geçilecek.`,
+          { model, keySlot: client.label, error: errMsg },
         );
         break;
       }
@@ -194,16 +261,16 @@ async function tryGenerateWithModel(
       if (isTimeoutError(err)) {
         if (retries504 >= budget.max504Retries) {
           logger.warn(
-            `Gemini ${params.stage} (${model}) zaman aşımına uğradı (504); hızlıca yedek modele geçiliyor.`,
-            { model, error: errMsg },
+            `Gemini ${params.stage} (${model} / ${client.label}) zaman aşımına uğradı (504); hızlıca yedeğe geçiliyor.`,
+            { model, keySlot: client.label, error: errMsg },
           );
           break;
         }
         const delayMs = withJitter(4_000, 1_500);
         retries504 += 1;
         logger.warn(
-          `Gemini ${params.stage} (${model}) zaman aşımı (504), tekrar deneniyor (#${retries504}/${budget.max504Retries})`,
-          { model, delayMs, error: errMsg },
+          `Gemini ${params.stage} (${model} / ${client.label}) zaman aşımı (504), tekrar deneniyor (#${retries504}/${budget.max504Retries})`,
+          { model, keySlot: client.label, delayMs, error: errMsg },
         );
         await sleep(delayMs);
         continue;
@@ -219,8 +286,8 @@ async function tryGenerateWithModel(
         );
         retries429 += 1;
         logger.warn(
-          `Gemini ${params.stage} (${model}) hız limiti (429), yeniden deneniyor (#${retries429}/${budget.max429Retries})`,
-          { model, delayMs, error: errMsg },
+          `Gemini ${params.stage} (${model} / ${client.label}) hız limiti (429), yeniden deneniyor (#${retries429}/${budget.max429Retries})`,
+          { model, keySlot: client.label, delayMs, error: errMsg },
         );
         await sleep(delayMs);
         continue;
@@ -236,8 +303,8 @@ async function tryGenerateWithModel(
       const delayMs = withJitter(baseDelay, 1_500);
       retries503 += 1;
       logger.warn(
-        `Gemini ${params.stage} (${model}) yüksek talep (503), hızlı yeniden deneniyor (#${retries503}/${budget.max503Retries})`,
-        { model, delayMs, error: errMsg },
+        `Gemini ${params.stage} (${model} / ${client.label}) yüksek talep (503), hızlı yeniden deneniyor (#${retries503}/${budget.max503Retries})`,
+        { model, keySlot: client.label, delayMs, error: errMsg },
       );
       await sleep(delayMs);
     }
@@ -253,27 +320,47 @@ function getPrimaryBudget(model: string): ModelAttemptBudget {
   return { max503Retries: 2, max429Retries: 1, max504Retries: 0 };
 }
 
-function selectHedgePair(
-  eligible: readonly string[],
+interface HedgeBranchTarget {
+  client: NamedAiClient;
+  model: string;
+}
+
+function selectHedgeBranches(
+  pool: readonly NamedAiClient[],
+  skippedPairs: Set<string>,
   waveIdx: number,
-): string[] {
-  if (eligible.length <= 2) {
-    return [...eligible];
-  }
-  // İlk uygun lite modeli (tercihen gemini-3.5-flash-lite) diğer adaylarla dönüşümlü yarıştır
-  const partnerIdx = 1 + (waveIdx % (eligible.length - 1));
-  return [eligible[0]!, eligible[partnerIdx]!];
+): HedgeBranchTarget[] {
+  const eligibleModels = LITE_HEDGE_POOL.filter((m) =>
+    pool.some((c) => !skippedPairs.has(pairKey(c.label, m))),
+  );
+  if (eligibleModels.length === 0) return [];
+
+  const chosenModels =
+    eligibleModels.length <= 2
+      ? [...eligibleModels]
+      : [
+          eligibleModels[0]!,
+          eligibleModels[1 + (waveIdx % (eligibleModels.length - 1))]!,
+        ];
+
+  return chosenModels.flatMap((model, branchIdx) => {
+    const preferredClient = pool[(waveIdx + branchIdx) % pool.length]!;
+    const client = !skippedPairs.has(pairKey(preferredClient.label, model))
+      ? preferredClient
+      : pool.find((c) => !skippedPairs.has(pairKey(c.label, model)));
+    return client ? [{ client, model }] : [];
+  });
 }
 
 async function runHedgedWave(
-  ai: GoogleGenAI,
-  waveModels: readonly string[],
+  branches: readonly HedgeBranchTarget[],
+  pool: readonly NamedAiClient[],
   params: GenerateCallParams,
-  skippedModels: Set<string>,
+  skippedPairs: Set<string>,
 ): Promise<GenerateContentResponse> {
-  const branchPromises = waveModels.map((model) => {
+  const branchPromises = branches.map(({ client, model }) => {
     const startedAt = Date.now();
-    const p = ai.models
+    const p = client.ai.models
       .generateContent({
         model,
         contents: params.contents,
@@ -281,15 +368,20 @@ async function runHedgedWave(
       })
       .then((response) => ({
         model,
+        clientLabel: client.label,
         response,
         durationMs: Date.now() - startedAt,
       }))
       .catch((err) => {
         if (isPermanentModelError(err)) {
-          skippedModels.add(model);
+          markErrorSkipped(err, client.label, model, pool, skippedPairs);
           logger.warn(
-            `Gemini ${params.stage} (${model}) günlük kota veya model hatası verdi; havuzdan çıkarılıyor.`,
-            { model, error: err instanceof Error ? err.message : String(err) },
+            `Gemini ${params.stage} (${model} / ${client.label}) günlük kota veya model hatası verdi; havuzdan çıkarılıyor.`,
+            {
+              model,
+              keySlot: client.label,
+              error: err instanceof Error ? err.message : String(err),
+            },
           );
         }
         throw err;
@@ -301,7 +393,13 @@ async function runHedgedWave(
   });
 
   const winner = await Promise.any(branchPromises);
-  logGeminiSuccess(params.stage, winner.model, winner.durationMs, winner.response);
+  logGeminiSuccess(
+    params.stage,
+    winner.model,
+    winner.clientLabel,
+    winner.durationMs,
+    winner.response,
+  );
   return winner.response;
 }
 
@@ -313,7 +411,10 @@ function extractHedgeError(aggErr: unknown): {
     const nonRetryable = aggErr.errors.find(
       (err) => !isRetryableOrFallbackError(err),
     );
-    if (nonRetryable && aggErr.errors.every((e) => !isRetryableOrFallbackError(e))) {
+    if (
+      nonRetryable &&
+      aggErr.errors.every((e) => !isRetryableOrFallbackError(e))
+    ) {
       return { fatalError: nonRetryable, lastError: nonRetryable };
     }
     return {
@@ -328,38 +429,54 @@ function extractHedgeError(aggErr: unknown): {
 }
 
 /**
- * Gemini generateContent çağrısını yüksek talep (503 UNAVAILABLE), zaman aşımı (504) ve kota (429) dalgalanmalarına dayanıklı şekilde yürütür:
- * 1) Önce birincil modeli (`gemini-3.5-flash`) dener; normal günlerde tek çağrıda tamamlar, 429/504'te beklemeden yedek havuza devreder.
- * 2) Yedek aşamada iki farklı lite modeli paralel yarıştırarak (`Promise.any` hedged waves) başarı olasılığını artırır ve 504 bloklamasını ortadan kaldırır.
- * 3) Tur 1 (12 dalga) ve 20 sn soğuma sonrası Tur 2 (10 dalga) boyunca geçici hataları atlatır.
+ * Gemini generateContent çağrısını çoklu API anahtarı (primary + fallback), yüksek talep (503), zaman aşımı (504) ve kota (429) dalgalanmalarına dayanıklı şekilde yürütür.
  */
 export async function generateWithRetry(
   params: GenerateCallParams,
 ): Promise<GenerateContentResponse> {
-  const ai = getAi();
+  const pool = getAiPool();
   const primaryModel = params.model ?? getModelName();
-  const skippedModels = new Set<string>();
+  const skippedPairs = new Set<string>();
   let lastError: unknown;
 
-  // 1) Birincil model denemesi
-  const primaryBudget = getPrimaryBudget(primaryModel);
-  if (typeof params.primaryMax503Retries === 'number') {
-    primaryBudget.max503Retries = params.primaryMax503Retries;
+  // 1) Birincil model denemesi (tüm uygun API anahtarları üzerinde)
+  for (let i = 0; i < pool.length; i += 1) {
+    const client = pool[i]!;
+    if (skippedPairs.has(pairKey(client.label, primaryModel))) {
+      continue;
+    }
+
+    const primaryBudget = getPrimaryBudget(primaryModel);
+    if (typeof params.primaryMax503Retries === 'number') {
+      primaryBudget.max503Retries = params.primaryMax503Retries;
+    } else if (i > 0) {
+      // Yedek anahtarda birincil modeli hızlıca 1-2 kez dene
+      primaryBudget.max503Retries = Math.min(primaryBudget.max503Retries, 1);
+    }
+
+    try {
+      return await tryGenerateWithModel(
+        client,
+        primaryModel,
+        params,
+        primaryBudget,
+      );
+    } catch (primaryErr) {
+      lastError = primaryErr;
+      if (!isRetryableOrFallbackError(primaryErr)) {
+        throw primaryErr;
+      }
+      markErrorSkipped(
+        primaryErr,
+        client.label,
+        primaryModel,
+        pool,
+        skippedPairs,
+      );
+    }
   }
 
-  try {
-    return await tryGenerateWithModel(ai, primaryModel, params, primaryBudget);
-  } catch (primaryErr) {
-    lastError = primaryErr;
-    if (!isRetryableOrFallbackError(primaryErr)) {
-      throw primaryErr;
-    }
-    if (isPermanentModelError(primaryErr)) {
-      skippedModels.add(primaryModel);
-    }
-  }
-
-  // 2) Hedged paralel lite kurtarma turları
+  // 2) Hedged paralel lite kurtarma turları (çoklu anahtarlar arasında yük dağıtarak)
   const allRounds = [
     {
       roundNumber: 1,
@@ -376,10 +493,8 @@ export async function generateWithRetry(
   const rounds = allRounds.slice(0, Math.max(0, maxRounds));
 
   for (const round of rounds) {
-    const initialEligible = LITE_HEDGE_POOL.filter(
-      (m) => !skippedModels.has(m),
-    );
-    if (initialEligible.length === 0) {
+    const initialBranches = selectHedgeBranches(pool, skippedPairs, 0);
+    if (initialBranches.length === 0) {
       break;
     }
 
@@ -387,25 +502,28 @@ export async function generateWithRetry(
       const waitMs = withJitter(round.cooldownMs, 3_000);
       logger.warn(
         `Gemini ${params.stage}: Hedged Tur 1 tamamlanamadı; ${Math.round(waitMs / 1000)} sn soğuma sonrası Tur ${round.roundNumber} başlatılıyor...`,
-        { models: initialEligible },
+        {
+          targets: initialBranches.map((b) => `${b.model}/${b.client.label}`),
+        },
       );
       await sleep(waitMs);
     } else {
       logger.warn(
         `Gemini ${params.stage}: Birincil model (${primaryModel}) başarısız oldu; paralel hedged lite kurtarma başlatılıyor...`,
-        { models: initialEligible },
+        {
+          targets: initialBranches.map((b) => `${b.model}/${b.client.label}`),
+        },
       );
     }
 
     for (let wave = 0; wave < round.waves; wave += 1) {
-      const eligible = LITE_HEDGE_POOL.filter((m) => !skippedModels.has(m));
-      if (eligible.length === 0) {
+      const waveBranches = selectHedgeBranches(pool, skippedPairs, wave);
+      if (waveBranches.length === 0) {
         break;
       }
 
-      const waveModels = selectHedgePair(eligible, wave);
       try {
-        return await runHedgedWave(ai, waveModels, params, skippedModels);
+        return await runHedgedWave(waveBranches, pool, params, skippedPairs);
       } catch (aggErr) {
         const parsed = extractHedgeError(aggErr);
         lastError = parsed.lastError;
@@ -413,10 +531,12 @@ export async function generateWithRetry(
           throw parsed.fatalError;
         }
 
-        const remainingEligible = LITE_HEDGE_POOL.filter(
-          (m) => !skippedModels.has(m),
+        const remainingBranches = selectHedgeBranches(
+          pool,
+          skippedPairs,
+          wave + 1,
         );
-        if (remainingEligible.length === 0) {
+        if (remainingBranches.length === 0) {
           break;
         }
 
@@ -424,8 +544,14 @@ export async function generateWithRetry(
           const baseDelay = Math.min(2_500 + wave * 250, 5_000);
           const delayMs = withJitter(baseDelay, 1_500);
           logger.warn(
-            `Gemini ${params.stage} hedged dalga (Tur ${round.roundNumber} #${wave + 1}/${round.waves}) başarısız [${waveModels.join(' + ')}]; yeniden deneniyor`,
-            { delayMs, error: lastError instanceof Error ? lastError.message : String(lastError) },
+            `Gemini ${params.stage} hedged dalga (Tur ${round.roundNumber} #${wave + 1}/${round.waves}) başarısız [${waveBranches.map((b) => `${b.model}/${b.client.label}`).join(' + ')}]; yeniden deneniyor`,
+            {
+              delayMs,
+              error:
+                lastError instanceof Error
+                  ? lastError.message
+                  : String(lastError),
+            },
           );
           await sleep(delayMs);
         }

@@ -1,22 +1,25 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { generateContentMock } = vi.hoisted(() => ({
+const { generateContentMock, envState } = vi.hoisted(() => ({
   generateContentMock: vi.fn(),
+  envState: {
+    GEMINI_API_KEY: 'test-api-key',
+    GEMINI_API_KEY_FALLBACK: undefined as string | undefined,
+    GEMINI_MODEL: 'gemini-3.5-flash',
+  },
 }));
 
 vi.mock('@google/genai', () => ({
-  GoogleGenAI: vi.fn().mockImplementation(() => ({
+  GoogleGenAI: vi.fn().mockImplementation((opts: { apiKey: string }) => ({
     models: {
-      generateContent: generateContentMock,
+      generateContent: (req: unknown) =>
+        generateContentMock(req, opts.apiKey),
     },
   })),
 }));
 
 vi.mock('../config/env', () => ({
-  loadEnv: () => ({
-    GEMINI_API_KEY: 'test-api-key',
-    GEMINI_MODEL: 'gemini-3.5-flash',
-  }),
+  loadEnv: () => envState,
 }));
 
 vi.mock('../lib/logger', () => ({
@@ -27,12 +30,20 @@ vi.mock('../lib/logger', () => ({
   },
 }));
 
-import { generateWithRetry, getLastSucceededModel } from '../gemini/client';
+import {
+  generateWithRetry,
+  getLastSucceededModel,
+  resetAiPoolForTest,
+} from '../gemini/client';
 
-describe('Gemini istemcisi retry & hedged failover (scripts/gemini/client.ts)', () => {
+describe('Gemini istemcisi retry, hedged failover & çoklu API anahtarı (scripts/gemini/client.ts)', () => {
   beforeEach(() => {
     vi.useFakeTimers();
     generateContentMock.mockReset();
+    envState.GEMINI_API_KEY = 'test-api-key';
+    envState.GEMINI_API_KEY_FALLBACK = undefined;
+    envState.GEMINI_MODEL = 'gemini-3.5-flash';
+    resetAiPoolForTest();
   });
 
   afterEach(() => {
@@ -168,7 +179,10 @@ describe('Gemini istemcisi retry & hedged failover (scripts/gemini/client.ts)', 
     const calledModels: string[] = [];
     generateContentMock.mockImplementation(async (req: { model: string }) => {
       calledModels.push(req.model);
-      if (req.model === 'gemini-3.5-flash' || req.model === 'gemini-3.5-flash-lite') {
+      if (
+        req.model === 'gemini-3.5-flash' ||
+        req.model === 'gemini-3.5-flash-lite'
+      ) {
         throw err503;
       }
       return {
@@ -196,5 +210,48 @@ describe('Gemini istemcisi retry & hedged failover (scripts/gemini/client.ts)', 
       'gemini-flash-lite-latest',
     ]);
     expect(getLastSucceededModel()).toBe('gemini-flash-lite-latest');
+  });
+
+  it('5) Birincil API anahtarı günlük kota (429 RPD) dolduğunda otomatik olarak GEMINI_API_KEY_FALLBACK anahtarına geçer', async () => {
+    envState.GEMINI_API_KEY_FALLBACK = 'fallback-api-key';
+    resetAiPoolForTest();
+
+    const errDaily429 = Object.assign(
+      new Error(
+        '{"error":{"code":429,"message":"GenerateRequestsPerDayPerProjectPerModel requests per day limit exceeded","status":"RESOURCE_EXHAUSTED"}}',
+      ),
+      { status: 429 },
+    );
+
+    const calls: Array<{ model: string; key: string }> = [];
+    generateContentMock.mockImplementation(
+      async (req: { model: string }, apiKey: string) => {
+        calls.push({ model: req.model, key: apiKey });
+        if (apiKey === 'test-api-key') {
+          throw errDaily429;
+        }
+        return {
+          text: '{"from":"fallback-key"}',
+          candidates: [{ finishReason: 'STOP' }],
+        };
+      },
+    );
+
+    const promise = generateWithRetry({
+      stage: 'Test Multi-Key Failover',
+      model: 'gemini-3.5-flash',
+      contents: 'test prompt',
+      config: {},
+    });
+
+    await vi.runAllTimersAsync();
+    const res = await promise;
+
+    expect(res.text).toBe('{"from":"fallback-key"}');
+    expect(calls).toEqual([
+      { model: 'gemini-3.5-flash', key: 'test-api-key' },
+      { model: 'gemini-3.5-flash', key: 'fallback-api-key' },
+    ]);
+    expect(getLastSucceededModel()).toBe('gemini-3.5-flash');
   });
 });
