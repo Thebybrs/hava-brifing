@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-23T17:32:18.531Z",
-  "latest": "2026-11-23",
+  "updated_at": "2026-11-24T17:31:49.249Z",
+  "latest": "2026-11-24",
   "briefings": [
+    {
+      "date": "2026-11-24",
+      "path": "2026-11-24.json",
+      "headline": "Accident Airbus Helicopter H125 , Tuesday 24 November 2026 - Aviation Safety Network",
+      "counts": {
+        "commercial_aviation": 6,
+        "accidents_and_incidents": 5,
+        "piloting_and_ops": 0,
+        "ai_developments": 5
+      },
+      "has_fatal_accident": false,
+      "max_importance": 4,
+      "generated_at": "2026-11-24T17:31:49.244Z"
+    },
     {
       "date": "2026-11-23",
       "path": "2026-11-23.json",

@@ -1,0 +1,500 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T17:31:49.244Z",
+  "window": {
+    "from": "2026-11-23T17:28:32.408Z",
+    "to": "2026-11-24T17:28:32.408Z"
+  },
+  "model": "rss-fallback",
+  "headline": "Accident Airbus Helicopter H125 , Tuesday 24 November 2026 - Aviation Safety Network",
+  "tldr": [
+    "Accident Airbus Helicopter H125 , Tuesday 24 November 2026 - Aviation Safety Network",
+    "Airbus is selling its U.S. satellite business to Cerberus Capital - Quartz",
+    "China’s Xiamen Airlines signs deal to buy 50 Boeing 737 MAX 8 jets - Anadolu Ajansı",
+    "Meta brings its Muse AI assistant directly into Instagram DMs",
+    "Incident Boeing 737-890 (WL) N548AS, Monday 23 November 2026 - Aviation Safety Network"
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Airbus is selling its U.S. satellite business to Cerberus Capital - Quartz",
+        "summary": "Airbus is selling its U.S. satellite business to Cerberus Capital Quartz",
+        "why_it_matters": "Airbus News (GNews) kaynaklı güncel ticari havacılık gelişmesi (otomatik RSS derlemesi).",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "aviation",
+          "Airbus",
+          "rss_fallback"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus"
+        ],
+        "id": "ea3f7cc829",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5kYkluYm91VHlaMmJNcDA1cF9rMWdtcm45UTFzWWs4MjNyNmFLMV9mYlVIZ2VGNDhTX1NLYzhvLWxKd0NfVG9SSzJiaTZsQWM3N3piei1sZ3Q0dFFESzRWU3diOWZaZ3hGSjRqRUQzVFI3c1lkSHBmTg?oc=5",
+            "published_at": "2026-11-24T17:24:57.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "China’s Xiamen Airlines signs deal to buy 50 Boeing 737 MAX 8 jets - Anadolu Ajansı",
+        "summary": "China’s Xiamen Airlines signs deal to buy 50 Boeing 737 MAX 8 jets Anadolu Ajansı",
+        "why_it_matters": "Boeing News (GNews) kaynaklı güncel ticari havacılık gelişmesi (otomatik RSS derlemesi).",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "aviation",
+          "Boeing",
+          "rss_fallback"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing"
+        ],
+        "id": "cf1e3ed9ca",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYzJQYm12a0tTd3h4UEhKdFMwSDNDZ0U1RmZrNnhrMzV6UDBUc1o5MFgtLWF1UXRXMTdTVnN0VHNmamprb3NRVjV0NVZ6eUR0M3YzdEhLNEJ2ZU1XeF9vMzAxR2RhZ0pPcWxwQXh2eVl4SjVTVnFWX1VwNkNoTjlvVFNYZmdudEpsdUZsdW14SEVLckE5YTA4enBjTTlHR1NnWEFUeElYdkwwZ2xU?oc=5",
+            "published_at": "2026-11-24T17:08:05.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "FCAS'ın çöküşünün ardından Airbus çalışanlarından Berlin'e çağrı: \"Milli 6. nesil savaş uçağına hemen onay verin\" - HavaHaber",
+        "summary": "FCAS'ın çöküşünün ardından Airbus çalışanlarından Berlin'e çağrı: \"Milli 6. nesil savaş uçağına hemen onay verin\" HavaHaber",
+        "why_it_matters": "Türk Hava Yolları / THY (GNews) kaynaklı güncel ticari havacılık gelişmesi (otomatik RSS derlemesi).",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "aviation",
+          "Airbus",
+          "rss_fallback"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus"
+        ],
+        "id": "b8ca6a969f",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNak5FbmZpbmo5V0ZjZkRtVnZzVlBTRldUbTRWZnFVWlZ5djFZaFVqWU1oaGQ1el8wUkJyYjEwSUluQmFwTWlkRFhPS2NESG5vUlFhQ0R1eERrLVplRjJWTDVFRjBsSlhfMndiZm84MVFPdjBRWk83M3oxTWlRZUVmdk85dnplRXI2WFBBb0VFWGZYRWNZZXl1QkJrRG5nYk1PZ2hYR0NrY3p1SmNPaGZYbE4yVzE5Q2hWVHd6cVRNamM2b0RQVEJPMzd3?oc=5",
+            "published_at": "2026-11-24T17:00:34.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Investment firm Cerberus to buy space business of US Airbus arm - Breaking Defense",
+        "summary": "Investment firm Cerberus to buy space business of US Airbus arm Breaking Defense",
+        "why_it_matters": "Airbus News (GNews) kaynaklı güncel ticari havacılık gelişmesi (otomatik RSS derlemesi).",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "aviation",
+          "Airbus",
+          "rss_fallback"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus"
+        ],
+        "id": "911afcc88c",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOc1lRNnpjVFRGbXU4Y2JKdU9kb1FlOVpyRDNBQ0dYNFM1MWJkWEIzSVVkd0Mxd0ZyRlBhR3ctdzVxdXE3U2VyMC1MczJxdFRXUTlIVGt2am5BaWFFTkJzRFByZ2tvTkwyOUxCa294VXVVWmZXekc2N2c3UFZrdUh3V18ySjNrWkV6R3JlMWpxa2E0Mll6eG02cGlFaXd2cFNUT0E?oc=5",
+            "published_at": "2026-11-24T16:55:21.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Boeing lands 50-jet order in China’s largest purchase from the company in nearly a decade - MyNorthwest.com",
+        "summary": "Boeing lands 50-jet order in China’s largest purchase from the company in nearly a decade MyNorthwest.com",
+        "why_it_matters": "Boeing News (GNews) kaynaklı güncel ticari havacılık gelişmesi (otomatik RSS derlemesi).",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "aviation",
+          "Boeing",
+          "rss_fallback"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing"
+        ],
+        "id": "b154e24b0d",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90UFQ0bjAwN3pWSkJWRW9BNV9adGZZd3h4VFNYMUVNLVBmYm4zZ2ZFazRpU2plMWEtLTZLVUdPLWVKM1Q4akloQi14TWx5Z0lXbkhpclRhRy1KUFFXVjJvOTM5Nzg4ckRPOEFBYnB5cm8?oc=5",
+            "published_at": "2026-11-24T16:55:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Boeing (BA) Stock Looks Cheap Even After A Tough Year - Yahoo Finance",
+        "summary": "Boeing (BA) Stock Looks Cheap Even After A Tough Year Yahoo Finance",
+        "why_it_matters": "Boeing News (GNews) kaynaklı güncel ticari havacılık gelişmesi (otomatik RSS derlemesi).",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "aviation",
+          "Boeing",
+          "rss_fallback"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing"
+        ],
+        "id": "e272c90750",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRTRqdWhEclQxOTFWRUJxaXFHNmNOdkc4UWxLTDdDU2NIWUxxT2R1WFE4ZUh4OHlEU3lKaTFXeG5WeE9PeFRJX0lrR1NWWXRSYTYtdzRlWVBMOGd3NlJpejBfeXYzeHF0ZG1Wdi14NDdqUjlaNGtTMS1CM2hRZ0V4Skc3N2JiWVJ4a1FHQTdOb2dpOWRoNGlV?oc=5",
+            "published_at": "2026-11-24T16:11:52.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "Accident Airbus Helicopter H125 , Tuesday 24 November 2026 - Aviation Safety Network",
+        "summary": "Accident Airbus Helicopter H125 , Tuesday 24 November 2026 Aviation Safety Network",
+        "why_it_matters": "Aviation Safety Network kaynaklı emniyet/olay bildirimi (otomatik RSS derlemesi).",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "accidents",
+          "safety",
+          "Airbus",
+          "rss_fallback"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-24T14:04:29.000Z",
+        "location": "Bilinmiyor",
+        "aircraft_type": "Bilinmiyor",
+        "registration": null,
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "a1e5c32420",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xZjhVQXNOaGtON296ZkRiSHc0VjZibE9tLUxJTTlPczFJQjFiNW5PZDVONm5qY2JsN01Ra2JmX0Vlb1U0cllZN1FCbERxMHRlcXFuZEJn?oc=5",
+            "published_at": "2026-11-24T14:04:29.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Incident Boeing 737-890 (WL) N548AS, Monday 23 November 2026 - Aviation Safety Network",
+        "summary": "Incident Boeing 737-890 (WL) N548AS, Monday 23 November 2026 Aviation Safety Network",
+        "why_it_matters": "Aviation Safety Network kaynaklı emniyet/olay bildirimi (otomatik RSS derlemesi).",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "accidents",
+          "safety",
+          "Boeing",
+          "rss_fallback"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-24T09:01:08.000Z",
+        "location": "Bilinmiyor",
+        "aircraft_type": "Bilinmiyor",
+        "registration": null,
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "0fef07eb88",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE91Z3VnTURPeVBzOFhWTFA5UWpPMDZtOW9VTmxhZWgtczdCWlE5WWNCRENuWl9sN1Vuekg3WWtzOFNOTFlsUGNQMHZFNnFsZGZmekUzbDl3?oc=5",
+            "published_at": "2026-11-24T09:01:08.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "1 occurrences in the ASN safety database, showing occurrence 1 - 1 - Aviation Safety Network",
+        "summary": "1 occurrences in the ASN safety database, showing occurrence 1 - 1 Aviation Safety Network",
+        "why_it_matters": "Aviation Safety Network kaynaklı emniyet/olay bildirimi (otomatik RSS derlemesi).",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "accidents",
+          "safety",
+          "Aviation Safety Network",
+          "rss_fallback"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-24T03:21:27.000Z",
+        "location": "Bilinmiyor",
+        "aircraft_type": "Bilinmiyor",
+        "registration": null,
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "88057561a2",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBuVUlPTGxJejRLRnBfTFhyVWRBMGY2ZmJHbU5FMjUyUnIzUVFZSGxncGFpb3VUWHhjR3V6UWtMLWFUa0MzeVR3N20xX244YXdXQ2l6Vm1YeEdGNExQTnN2ZEJvRGtRa1BIMXc?oc=5",
+            "published_at": "2026-11-24T03:21:27.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Gear-up landing Accident Rockwell Aero Commander 690B 5W-MDM, Monday 23 November 2026 - Aviation Safety Network",
+        "summary": "Gear-up landing Accident Rockwell Aero Commander 690B 5W-MDM, Monday 23 November 2026 Aviation Safety Network",
+        "why_it_matters": "Aviation Safety Network kaynaklı emniyet/olay bildirimi (otomatik RSS derlemesi).",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "accidents",
+          "safety",
+          "Aviation Safety Network",
+          "rss_fallback"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-24T02:12:06.000Z",
+        "location": "Bilinmiyor",
+        "aircraft_type": "Bilinmiyor",
+        "registration": null,
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "20faccf20a",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE54STBpZkZKMmZHOF9sazRfT2FRVEtjdHA3Qklwc1Y2ZjBTYUtwSEpkVzJpMVJUaTNuVXlKWExpRFJHbENVTHRaZ2NGRXYzWmpOOW9iZmdR?oc=5",
+            "published_at": "2026-11-24T02:12:06.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "The Aviation Herald - The Aviation Herald",
+        "summary": "The Aviation Herald The Aviation Herald",
+        "why_it_matters": "The Aviation Herald kaynaklı emniyet/olay bildirimi (otomatik RSS derlemesi).",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "accidents",
+          "safety",
+          "The Aviation Herald",
+          "rss_fallback"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-23T19:48:00.000Z",
+        "location": "Bilinmiyor",
+        "aircraft_type": "Bilinmiyor",
+        "registration": null,
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "bcba584a35",
+        "sources": [
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9TbHBzdldnRHJ4Vnhia0VOTlZCTk9LcEFaNHpQUElMVTFpVG11MDFzb3lrcmJHQVYtXzBvYkJOdHhtbmc1UTFWMG5HdVU4dw?oc=5",
+            "published_at": "2026-11-23T19:48:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [],
+    "ai_developments": [
+      {
+        "headline": "Meta brings its Muse AI assistant directly into Instagram DMs",
+        "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+        "why_it_matters": "TechCrunch AI kaynaklı güncel yapay zeka gelişmesi (otomatik RSS derlemesi).",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "ai",
+          "rss_fallback"
+        ],
+        "subcategory": "product_launch",
+        "entities": [
+          "TechCrunch AI"
+        ],
+        "developer_impact": "Güncel yapay zeka ekosistemi ve geliştirici araçları gelişmesi (otomatik RSS derlemesi).",
+        "id": "9ee8cd6dd5",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+            "published_at": "2026-11-24T17:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+        "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+        "why_it_matters": "TechCrunch AI kaynaklı güncel yapay zeka gelişmesi (otomatik RSS derlemesi).",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "ai",
+          "rss_fallback"
+        ],
+        "subcategory": "product_launch",
+        "entities": [
+          "TechCrunch AI"
+        ],
+        "developer_impact": "Güncel yapay zeka ekosistemi ve geliştirici araçları gelişmesi (otomatik RSS derlemesi).",
+        "id": "ce846ff250",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+            "published_at": "2026-11-24T16:46:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+        "summary": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
+        "why_it_matters": "TechCrunch AI kaynaklı güncel yapay zeka gelişmesi (otomatik RSS derlemesi).",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "ai",
+          "rss_fallback"
+        ],
+        "subcategory": "product_launch",
+        "entities": [
+          "TechCrunch AI"
+        ],
+        "developer_impact": "Güncel yapay zeka ekosistemi ve geliştirici araçları gelişmesi (otomatik RSS derlemesi).",
+        "id": "2e75e49d7f",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+            "published_at": "2026-11-24T16:10:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Pinterest will now let parents limit the AI-generated content their teens see",
+        "summary": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
+        "why_it_matters": "TechCrunch AI kaynaklı güncel yapay zeka gelişmesi (otomatik RSS derlemesi).",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "ai",
+          "rss_fallback"
+        ],
+        "subcategory": "product_launch",
+        "entities": [
+          "TechCrunch AI"
+        ],
+        "developer_impact": "Güncel yapay zeka ekosistemi ve geliştirici araçları gelişmesi (otomatik RSS derlemesi).",
+        "id": "5b599fdacb",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+            "published_at": "2026-11-24T16:02:37.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "How Gemini is changing the game for Golden State's organization and fans.",
+        "summary": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+        "why_it_matters": "Google AI / DeepMind kaynaklı güncel yapay zeka gelişmesi (otomatik RSS derlemesi).",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "ai",
+          "rss_fallback"
+        ],
+        "subcategory": "product_launch",
+        "entities": [
+          "Google AI / DeepMind"
+        ],
+        "developer_impact": "Güncel yapay zeka ekosistemi ve geliştirici araçları gelişmesi (otomatik RSS derlemesi).",
+        "id": "3f0feec435",
+        "sources": [
+          {
+            "name": "Google AI / DeepMind",
+            "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+            "published_at": "2026-11-24T16:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [
+    "Gemini API geçici yoğunluk (503/429) nedeniyle yanıt veremedi; bugünün brifingi doğrudan RSS kaynaklarından derlendi. API normale döndüğünde otomatik güncellenecektir."
+  ],
+  "meta": {
+    "rss_feeds_ok": 13,
+    "rss_feeds_failed": [],
+    "rss_items_fetched": 158,
+    "rss_items_used": 65,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 196837
+  }
+}
