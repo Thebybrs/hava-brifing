@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T18:04:39.526Z",
-  "latest": "2026-11-24",
+  "updated_at": "2026-11-25T14:22:54.972Z",
+  "latest": "2026-11-25",
   "briefings": [
+    {
+      "date": "2026-11-25",
+      "path": "2026-11-25.json",
+      "headline": "Malaysia Airlines ve Xiamen Airlines'tan Boeing'e Geniş Gövdeli ve Tek Koridorlu Uçak Siparişleri",
+      "counts": {
+        "commercial_aviation": 5,
+        "accidents_and_incidents": 2,
+        "piloting_and_ops": 3,
+        "ai_developments": 3
+      },
+      "has_fatal_accident": false,
+      "max_importance": 4,
+      "generated_at": "2026-11-25T14:22:54.967Z"
+    },
     {
       "date": "2026-11-24",
       "path": "2026-11-24.json",

@@ -1,0 +1,481 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T14:22:54.967Z",
+  "window": {
+    "from": "2026-11-24T14:22:14.720Z",
+    "to": "2026-11-25T14:22:14.720Z"
+  },
+  "model": "gemini-flash-lite-latest",
+  "headline": "Malaysia Airlines ve Xiamen Airlines'tan Boeing'e Geniş Gövdeli ve Tek Koridorlu Uçak Siparişleri",
+  "tldr": [
+    "Malaysia Airlines, A350 filosunu yenilemek için Boeing 787 Dreamliner siparişi verdi.",
+    "Xiamen Airlines, 7.4 milyar dolar değerinde 50 adet Boeing 737 MAX 8 siparişi imzaladı.",
+    "EASA, kanat çatlağı incelemeleri kapsamında sekiz Airbus A380'i daha denetime aldı.",
+    "FAA, gövde onarımlarında çatlaklar tespit edilen Boeing 757 uçakları için yapısal denetim emri verdi."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Malaysia Airlines'tan Boeing 787 Dreamliner Tercihi",
+        "summary": "Malaysia Airlines'ın çatı şirketi Malaysia Aviation Group, yaşlanan Airbus uçaklarının yerini almak ve ilk kez 787 Dreamliner filosunu kurmak üzere Boeing ile anlaşma sağladı. Sözleşme kapsamında 16 adede kadar Boeing 787 Dreamliner jeti taahhüt edildi.",
+        "why_it_matters": "Geniş gövde pazarındaki üretici dengeleri ve havayolu filo stratejileri açısından kritik bir değişim sinyalidir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "Widebody",
+          "Fleet",
+          "Malaysia Airlines"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Boeing",
+          "Malaysia Airlines",
+          "Boeing 787 Dreamliner"
+        ],
+        "id": "2c435c7ad2",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaGYxYVVIeXFMQTBHY0k2Umd5cVM1clFXV2x4dFlNLXJSbHN5MW0wTkZjVDl2Y3JuUzNxTFdKSGpUT0k3akI2TWtodzY1ekQxRTZ0elVEZXloVk1DRWtOc3UyTkxDTmpURUZYSFhPdURNNTJNWS1JSzAxNm42NXkyc3NCWjRWOGl0VlJ0LVVndWczc0s5RzFMNlpuUkVGNC03WVBEeTJVMmdsdmUz?oc=5",
+            "published_at": "2026-11-25T14:13:22.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNY3MzMV9xSjcyVkJ3bjVrMElDTWxvblZVb1ZBUW1KbHphQ1lkQTQwcmlyY3FzRGpkMjl3ZzNSNjZuR0FXLXkxY1VTY0RVVThRVWpEUVNjMDFLMGFIZ1F1V3BLMEdEcVM0TWgzSktNa3Z5RGM5a2Y4ci1lMmJQT0lKQUplSmZad2pmT1ZHZ2thd3M3SVl5MXQtRG1ZdFNrRnJCbXRN?oc=5",
+            "published_at": "2026-11-25T08:51:11.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNS0ZXeVl0cTltVmtTRnkyNG9TUVkyS2U1YzR0VkVULXQ1d2lrdWRTeFl5Vm5GV1ZrTnh6bVlzejF1T2RxdkQ2cVA4ZUN2M0pZeW1aNWhmZVhmdm82NEdoSGtXcHdwTm5MMk56WWZKLU9JUFlSUTVRWEQwc2JyRFQ1YkdaNEFYNmhXS2poSndsR3lwNlZqdjFPTHRiVXotUjI2cEttT0tmUjhXdlBxeHBFQVlfTTZPWDA?oc=5",
+            "published_at": "2026-11-25T05:52:38.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcTZsVXZpZzlWbzhyMjZmQ2lURS1PNjdRNjZ5ZmdDSHFwV3VrMGVfVE1jUUhGM1ZDdENIQ0ljNVQ4R2VZWUZDeGpIZ0x6OWdkaTd3TVpOZWIwWW9wRDVQN2tneVhCSTBXVW1XaE1VazljWTk2XzNsX29wMHgtaWVwdTltZHZHM1VSMG9vVnJzSnp2Q3RLd3lLejh3aDFaMVZGdk5NRVZvdHg4eElSY3Ata1lpYTNrQzh3UC1V?oc=5",
+            "published_at": "2026-11-25T03:06:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Xiamen Airlines'tan 7.4 Milyar Dolarlık 737 MAX 8 Siparişi",
+        "summary": "Çin merkezli Xiamen Airlines, Boeing'e 50 adet Boeing 737 MAX 8 siparişi verdi. Yaklaşık 7.4 milyar dolar değerindeki bu anlaşma, dar gövde pazarındaki hareketliliği artırdı.",
+        "why_it_matters": "Boeing'in dar gövde üretim ve teslimat planlaması ile Çin pazarındaki pazar payı açısından önem taşır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "737 MAX",
+          "Xiamen Airlines",
+          "Order"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Boeing",
+          "Xiamen Airlines",
+          "Boeing 737 MAX 8"
+        ],
+        "id": "8bb470d6a1",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTkdvT0pDbVZvS2pBaFdHdG5ncHNaZkRPMzlTaXlWWXBHZ2szRnozR2s0dk5RdXBEbF82b2NxYjZkeXFRRzBPN3NlSjFsY0ZZTHRSYVpqeFhqaEhVLVdZU3RMYWgzb2txN0s5RWx3UWliNUcxTEdBelV2QXRkd0VHSDFRM0tzamZtMkE5ZDloVVNscFM4RTZRS1JvaUlHQmM2dnRraG5B?oc=5",
+            "published_at": "2026-11-25T09:18:40.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYXQ4NU5PbkZjWWk4Sk1uMXFQYzRIenRJVjlzR2gyMS1OOEljYnVZMGl4Rk9rNWIwQ1lUT1VxVU1FMTJzSUpTWlVnNEdnb3B3dnY3a1N4NHR2dEVvaXV6MllGNFNpeEFZWlN6Z3RYZ2RNR092Tng1S2J3Y3laODlDa2Fwd0kxNWVsTi1uSGpyamlOT183X08zbV9xSFhfQQ?oc=5",
+            "published_at": "2026-11-25T09:13:48.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9mQWZtYTE4eGdLdEFRZ0puU0JabElRVUJjM1lTdk91MnhxemNkeDFEWkdTaXRTZFFTYzdwLVBUNWk5N0liZEJDM3NQUktqeElDcDVmRHJxUGt4QTN6a3VMelRjaDNJMWhFN1VIQTVn0gFzQVVfeXFMUHFvd0k5cTNHRHhBX21OTHk1RTVaNmxZcTJsRl9vQ01fcUNMZUpYelNhbHRZc29wUHg3LWlwQlZoZWNadzVrWHlMd1ZvUzlnRlNtTVVSY1lmcG1DWXp2TXNVRC11S3cxSEFHclk3NzRzcDBzdw?oc=5",
+            "published_at": "2026-11-25T03:58:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Cerberus, Airbus'ın ABD Uzay ve Savunma Birimini Satın Alıyor",
+        "summary": "Cerberus Capital Management, Airbus U.S. Space & Defense bünyesindeki uydu üretim iş birimini ve uzay sistemleri operasyonlarını satın almak üzere anlaştı.",
+        "why_it_matters": "Oem'lerin savunma ve uzay portföyü optimizasyonları ve mülkiyet değişimleri açısından takip edilmelidir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "Cerberus",
+          "M&A",
+          "Space"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus",
+          "Cerberus"
+        ],
+        "id": "a39c8c008c",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9UbW52SXhiYXAyd1gxakhKZEZweXBvOEg0SzhTTmticFZlT2lOWmVDTGFWdjdKamlDRHRMb0RPbVVuaGxKRWx5YXB4dFRSeE1WU3pCM0RDNFFoLVFMVGk4anAxczFKQWFyM21CYUlxYXVsbmJrV1VXYw?oc=5",
+            "published_at": "2026-11-25T13:16:37.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbF9welRkVGluTENqdmtBWXo2bEV0OFh4Z241TlozQ3JRVGpFNzVhU0staWczZlIxaXEwS3NtWVBKVWxGZWJuUXczWUFSZ0ExUEU0RFpuTm8yWFJEY0RtZGtoSXZhell4ZHFlSEhTUkh0V3plVEpfWDlHd1FPWHlVQjM4Q05jdGN0SlVLOTBVR1piMFE?oc=5",
+            "published_at": "2026-11-25T10:59:17.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOXV5ald4bjdqamtHcDJVaF8yRFUwNUR6aGYtaTR0SDQ1eF82NDhGU2k2QS1zTmYxdHc2cktNSUtoWjh1NV9Rcmx3blV1TlhKRXNNUnowTy03cTJBX2tBQ0ZBRFNZeFJWQ0ZrUXhORlBqQlM2M3lKTm1RR2xvaDhrWXRRclY1c2lOWVFLb1Z2RnJpSkxtcVBUdk02VEpjN0JKNmdGNjFESEwxb2ZkcXVSWnJsY0xxOTNyeHc?oc=5",
+            "published_at": "2026-11-25T09:44:28.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeFMyd01wc1F3Q3VtSXRCZF9SbUpmY21xcmhmbjdNMEtvNUhORjVHUl9UOEtnWGVPSFVoaGJfYVpjbV9MN1FBVk9vOVpkY1J2ZkZhTnU0WXlkb3JTY3U5eWhBb0tSNlBXRngzQTBvY3lhLWV1dDhFZ2VxZGhuMDVMWDZVWUlaUjR6SzI2QklzUHRuQQ?oc=5",
+            "published_at": "2026-11-25T06:15:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "THY, Sekiz Havayoluyla Codeshare İş Birliğini Genişletti",
+        "summary": "Türk Hava Yolları, altı ila sekiz farklı havayolu şirketiyle codeshare (kod paylaşımı) iş birliğini genişleterek İstanbul çıkışlı yeni hatları devreye soktu ve 23 hatta ortak uçuş hamlesi başlattı.",
+        "why_it_matters": "THY'nin global ağ genişletme stratejisi ve transfer yolcu operasyonları için operasyonel bir adımdır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "Codeshare",
+          "Network"
+        ],
+        "subcategory": "route_network",
+        "entities": [
+          "Türk Hava Yolları"
+        ],
+        "id": "1e4268669b",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWS1tTzlfamJacGtMaG9CVVE1SWk5MnpBMTZzbVZmMHBydlRpaDhkVHR1U1hEWk43SEdiLUZJOUlobFR3Vk5UODdFNWNWTmc4STM2UFlNS1BaM3dsUVdCd0pZbldVUWNWN09oZ0hDbHROLUZaOTlkOHBaRUp5WUlQYndWN25KQ1dPeGVWMzF0dnBXX3NNenlwV0hTeXNmcmo3enJmQ01UUWZKNVdUb2pqR2RjREtXN0ZST3NMSDZjMVVMUW1ycTdhV3N3WnRGc3B3a2tvUGYzS2pRNlU?oc=5",
+            "published_at": "2026-11-25T12:04:44.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaElrckdoczFtWXdrcEhyaVktTl9ia0VRdEJSeXRsTlJET21lb3d0UWJNYk9ZdFc3TjZoSkdWblhyM1lNbTBTS2VTY3psVFVRM3Jidl9xOEVCUGU4b2JQTmFBRmpvbGNRTnFzYk41OXFac3RHNU5qVWdCVWw2ODNsMG1Udw?oc=5",
+            "published_at": "2026-11-25T07:44:24.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdEtEaHpJWnlhMENURFFBbERMdTZKVTl6amQ4cDBZQkxQZW1KZVZZNGNkMkhZTEViVWVVWk45d1hTYlNzT2FDcVN3Rzk4TWpidVVUMzZ2TzVMZllianRnUDBQOFNRNVFPSHdsbEJjWlFqSmpuQzJqcUpVdE1nZHBwQzYxZmFzbnFxQzlhdFFqd19lSFhfYzVXeXFHT1NJLTJ3d2hwV29Wenh4d1lCWUVoY3pSVG45QQ?oc=5",
+            "published_at": "2026-11-25T06:32:47.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "American Airlines Filosunda 500 Airbus Uçağına Ulaştı",
+        "summary": "American Airlines, filosundaki Airbus uçak sayısının 500'e ulaştığını duyurarak önemli bir dönüm noktasını geride bıraktı.",
+        "why_it_matters": "Büyük taşıyıcıların filo dağılımı ve Airbus dar/geniş gövde varlığı açısından göstergedir.",
+        "importance": 2,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "American Airlines",
+          "Fleet"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Airbus",
+          "American Airlines"
+        ],
+        "id": "2e493e3f76",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaERoOERXYXo3MWhMUTVCZnlGQV9KRHhjZTRlVkxVdFlNaEdEU1JONV9PbVlHMGJ5QmtEblFFNVVnaUo5aHk2SW5TX3FZLU1sV1RkelN6Ync0WWlMMUJPMklQSUUyczBSeXo3d3ZOSFhjdEFVTVpBbEc4X3FxczBCTUkwSmI5a0taSjJqTEptOXhxYWVLZ2ZVZzZxZ3FWanFoTEE?oc=5",
+            "published_at": "2026-11-24T21:51:29.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "Boston Seferini Yapan British Airways 787-10 Uçağında Yağ Sızıntısı Acil İnişi",
+        "summary": "Boston'a gitmekte olan bir British Airways Boeing 787-10 uçağı, 10 gün içinde yaşanan ikinci yağ sızıntısı arızası nedeniyle acil durum (emergency) bildirdi.",
+        "why_it_matters": "GEnx/Trent motor serilerinin yağlama sistemleri ve ETOPS güvenilirliği açısından teknik takibat gerektirir.",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "Boeing 787",
+          "British Airways",
+          "Emergency",
+          "Engine"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": null,
+        "location": "Bilinmiyor",
+        "aircraft_type": "Boeing 787-10",
+        "registration": null,
+        "operator": "British Airways",
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [
+          "Oil leak"
+        ],
+        "operational_findings": [],
+        "investigation_status": "unknown",
+        "investigating_authority": null,
+        "id": "c0c614922e",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQUhFWWMtM0RzZDQ3emFIMzZmUjN2dDVDVXJQdmpqSHhudWdMdVJrSG1SR3l0ZnRDQk0wRzg2ZVVXM1RfWDBkQjBZa3lYY09qb2VqdE5UNzc3cExlMUUxTDl6S1BqN2IzM2lETmowZnl2emRvTDMtMUgtaV9nMXNQZGxTZnlmMkNjRXVQbVktN0k3YmtmTHBJaVBHWkE?oc=5",
+            "published_at": "2026-11-25T06:57:09.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Boeing 747-446(BCF) Pistten Çıkma Olayı",
+        "summary": "N356KD tescilli bir Boeing 747-446(BCF) kargo uçağı runway excursion (pistten çıkma) olayına karıştı. Olayla ilgili Aviation Safety Network kayıtlarında detaylar yer aldı.",
+        "why_it_matters": "Ağır kargo operasyonlarında pist güvenliği ve duruş performanslarının incelenmesi açısından önem taşır.",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "Runway Excursion",
+          "Boeing 747",
+          "Cargo"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-25T12:14:19.000Z",
+        "location": "Bilinmiyor",
+        "aircraft_type": "Boeing 747-446(BCF)",
+        "registration": "N356KD",
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "unknown",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [],
+        "investigation_status": "unknown",
+        "investigating_authority": null,
+        "id": "e1104290fd",
+        "sources": [
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMbkJES3p4M1lKT2NGUVBzUl9CM3ZBQjFsVUJfcldCQkp4QWVYVGNjSFliOVhMUE5oWHRvUUFIYWY3elJFSVB1aTVwd2ZMZzhNSjdJYWhn?oc=5",
+            "published_at": "2026-11-25T12:14:19.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "EASA, Sekiz Airbus A380'i Hızlandırılmış Kanat Çatlağı Kontrollerine Dahil Etti",
+        "summary": "EASA (Avrupa Birliği Havacılık Emniyeti Ajansı), yayınladığı yeni bültenle sekiz adet Airbus A380 uçağını hızlandırılmış kanat çatlağı kontrollerine tabi tuttu.",
+        "why_it_matters": "Yaşlanan süperjumbo filolarında yorulma (fatigue) ve yapısal bütünlük denetimlerinin operasyonel planlamaya etkisini gösterir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "EASA",
+          "Airbus A380",
+          "Airworthiness",
+          "AD"
+        ],
+        "subcategory": "safety_alert",
+        "regulators": [
+          "EASA"
+        ],
+        "operational_takeaway": "Filodaki A380 işleticilerinin yapısal AD gerekliliklerine ve artırılmış muayene periyotlarına uyum sağlaması gerekmektedir.",
+        "id": "721672a500",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTk9PRkxXOTZQTXRKSkdLS0ViUUFLOV9qMHpjUmE4LV9NWFhYLWV2elpRTGl1bDgwV1h4X3RMaVRuRFROa0llWE5STzVRZWdORnNqNjFZcWZuc1o1N0pGZkthR002ci1kWFVhZjJINl9jZ1l2am8wcU40dm1JZXRDdGUxT3c2MEV2SV93Y3JRVmNSZw?oc=5",
+            "published_at": "2026-11-25T12:58:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "FAA'den Boeing 757 Gövde Onarım Çatlakları İçin Yapısal Denetim Emri",
+        "summary": "FAA, gövde onarımlarında çatlaklar tespit edilmesinin ardından Boeing 757 uçakları için zorunlu yapısal denetimler emretti.",
+        "why_it_matters": "Eski nesil dar gövde uçaklarda onarım bölgesi (repair assessment) bütünlüğünün emniyet açısından kritik olduğunu vurgular.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "FAA",
+          "Boeing 757",
+          "Inspection",
+          "Airworthiness"
+        ],
+        "subcategory": "safety_alert",
+        "regulators": [
+          "FAA"
+        ],
+        "operational_takeaway": "Boeing 757 operatörlerinin gövde onarım geçmişlerini inceleyerek acil denetim talimatlarını FCOM/AMP doğrultusunda uygulaması şarttır.",
+        "id": "87f9ca5513",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaGcxZVpHQ2RzaXp0Z0FGS2t1eXl3QlFETHdIR1JkcVVVa0FSODZWbDJXLUs3TzRxYTNsY3ZxYTZNdGNaV1o0OGtwUDRjbmpVcnVMYktiVlgzZThLUG0yS2t0U2U5M1ZNNE8wTWN2VHFVU0c2bVlob3RsWEMwMnNhTnh0a0hPTU1XS1c4VEdWdVNjOXh4UUE3LXdhenlJcERWRk51LWZneWIybDlRTmhEOE1B?oc=5",
+            "published_at": "2026-11-25T11:13:05.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "EASA Pro Web Sitesi Yenilendi",
+        "summary": "EASA, havacılık profesyonelleri için EASA Pro web sitesinin ana sayfasını ajansın faaliyetleri ve emniyet katkılarına daha net erişim sağlayacak şekilde yeniden tasarladı.",
+        "why_it_matters": "Mevzuat ve emniyet bültenlerinin takibi için dijital kaynak erişimini kolaylaştırır.",
+        "importance": 2,
+        "confidence": "confirmed",
+        "tags": [
+          "EASA",
+          "Portal"
+        ],
+        "subcategory": "regulation",
+        "regulators": [
+          "EASA"
+        ],
+        "operational_takeaway": "Regülasyon takibinde EASA Pro güncellemelerinin düzenli izlenmesi operasyonel uyum için faydalıdır.",
+        "id": "5ca9d6f08d",
+        "sources": [
+          {
+            "name": "EASA Newsroom",
+            "url": "https://www.easa.europa.eu/newsroom-and-events/news/new-easa-pro-homepage-discover-breadth-easas-work",
+            "published_at": "2026-11-24T22:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "OpenAI GPT-6 Modellerinde Protein Tasarım Yetenekleri Gözlemlendi",
+        "summary": "OpenAI, yeni nesil GPT-6 modellerinin kendine has (intrinsic) protein tasarımı yetenekleri gösterdiğini duyurdu.",
+        "why_it_matters": "Multimodal ve reasoning modellerin biyomedikal alandaki bilimsel araştırma sınırlarını genişlettiğini gösterir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "OpenAI",
+          "GPT-6",
+          "Research",
+          "Biotech"
+        ],
+        "subcategory": "research",
+        "entities": [
+          "OpenAI",
+          "GPT-6"
+        ],
+        "developer_impact": "Bilimsel hesaplama ve biyoteknoloji entegrasyonu içeren araştırma projelerinde yeni nesil model yetenekleri test edilebilir.",
+        "id": "6057450264",
+        "sources": [
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaUdETW1TNzZiLWl5Z2lOUkhpRmtFMGNxY2dRVV9URkpQX3RVRGpVZGk5Q055WEY4elV1X2VHWlVCYzZTQUMydEk4YThidXZUOUh4dlBZVmpfZ21jaTZIeVRQaEFmdFN5MDNkNDhhYU5qdTJEN3ZQeGRXNG5NS215c3hxa2hFbEFjWW1DVE93UXFkdw?oc=5",
+            "published_at": "2026-11-24T21:06:37.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Amazon ve Meta, Muse Yapay Zeka Ajanı İçin Görüşmeler Yürütüyor",
+        "summary": "Amazon ve Meta, Meta'nın Muse adlı yapay zeka ajanı üzerindeki iki aylık engellemeyi kaldırmak ve olası bir anlaşma yapmak üzere görüşmeler gerçekleştiriyor.",
+        "why_it_matters": "AI agent ekosistemindeki ticari entegrasyonlar ve platform kısıtlamalarının geleceği açısından önemlidir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Meta",
+          "Amazon",
+          "AI Agent",
+          "Muse"
+        ],
+        "subcategory": "product_launch",
+        "entities": [
+          "Amazon",
+          "Meta",
+          "Muse"
+        ],
+        "developer_impact": "AI agent entegrasyonlarında platformlar arası erişim protokollerinin ve ortaklıkların önemi artmaktadır.",
+        "id": "16972dce1a",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+            "published_at": "2026-11-25T14:10:18.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+            "published_at": "2026-11-24T21:32:38.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+            "published_at": "2026-11-24T17:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "UK Siber Ajansı: Yapay Zeka Destekli Siber Saldırıları Zayıf Güvenlikleri Ifşa Ediyor",
+        "summary": "İngiliz siber güvenlik ajansı, AI tabanlı hacking araçlarının temel güvenlik açıklarını hedef aldığını belirterek güçlü siber temeller kurmanın kritik olduğunu vurguladı.",
+        "why_it_matters": "Yazılım geliştirme süreçlerinde security-first yaklaşımının zorunluluğunu göz önüne serer.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Cybersecurity",
+          "AI",
+          "UK"
+        ],
+        "subcategory": "policy_safety",
+        "entities": [
+          "UK Cyber Agency"
+        ],
+        "developer_impact": "Kod tabanlarında temel güvenlik açıklarının (vulnerabilities) AI ajanları tarafından hızla istismar edilebilmesine karşı sıkı testler uygulanmalıdır.",
+        "id": "dd840791a9",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+            "published_at": "2026-11-24T18:02:59.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [],
+  "meta": {
+    "rss_feeds_ok": 13,
+    "rss_feeds_failed": [],
+    "rss_items_fetched": 161,
+    "rss_items_used": 65,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 40249
+  }
+}
