@@ -5,8 +5,17 @@ env:
 
 on:
   schedule:
-    - cron: '5 5 * * *'   # 05:05 UTC = 08:05 GMT+3 (ana sabah brifingi)
-    - cron: '45 5 * * *'  # 05:45 UTC = 08:45 GMT+3 (otomatik telafi / AI yükseltme)
+    # GitHub Actions cron kuyruğu 0 dk ile 11 saat arasında değişen gecikmeler yaşayabildiği için
+    # tek-dakikalı kademeli tetikleyiciler + GMT+3 (08:00-20:59) zaman kapısı kullanılır.
+    # Pencere dışına düşen tetikler 2 sn'de sessizce kapanır; 08:00 GMT+3 sonrası ilk inen brifingi üretir.
+    - cron: '17 18 * * *' # +11s gecikmede ~08:17 GMT+3
+    - cron: '17 19 * * *' # +10s gecikmede ~08:17 GMT+3
+    - cron: '17 20 * * *' # +9s gecikmede ~08:17 GMT+3
+    - cron: '17 22 * * *' # +7s gecikmede ~08:17 GMT+3
+    - cron: '17 0 * * *'  # +5s gecikmede ~08:17 GMT+3
+    - cron: '17 2 * * *'  # +3s gecikmede ~08:17 GMT+3
+    - cron: '37 4 * * *'  # +30-55 dk gecikmede ~08:07-08:32 GMT+3
+    - cron: '7 5 * * *'   # normal günlerde (0-50 dk gecikme) ~08:07-08:57 GMT+3
   workflow_dispatch:
     inputs:
       dry_run:
@@ -38,19 +47,40 @@ jobs:
     outputs:
       briefing_changed: ${{ steps.commit.outputs.changed }}
     steps:
+      - name: Check GMT+3 morning window
+        id: window
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          TRT_HOUR=$(TZ="Europe/Istanbul" date +%H)
+          TRT_NOW=$(TZ="Europe/Istanbul" date +"%Y-%m-%d %H:%M GMT+3")
+          echo "Şu anki saat: ${TRT_NOW} (saat=${TRT_HOUR})"
+          if [ "$((10#$TRT_HOUR))" -ge 8 ] && [ "$((10#$TRT_HOUR))" -lt 21 ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Saat 08:00-20:59 GMT+3 penceresi dışında; bu zamanlanmış deneme atlanıyor."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Checkout repository
+        if: ${{ steps.window.outputs.run == 'true' }}
         uses: actions/checkout@v7
 
       - name: Setup Node.js
+        if: ${{ steps.window.outputs.run == 'true' }}
         uses: actions/setup-node@v7
         with:
           node-version-file: .nvmrc
           cache: npm
 
       - name: Install dependencies
+        if: ${{ steps.window.outputs.run == 'true' }}
         run: npm ci
 
       - name: Generate briefing
+        if: ${{ steps.window.outputs.run == 'true' }}
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_API_KEY_FALLBACK: ${{ secrets.GEMINI_API_KEY_FALLBACK }}
@@ -67,7 +97,7 @@ jobs:
 
       - name: Commit & push
         id: commit
-        if: ${{ !inputs.dry_run }}
+        if: ${{ steps.window.outputs.run == 'true' && !inputs.dry_run }}
         run: |
           git config user.name  "hava-briefing-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -83,7 +113,7 @@ jobs:
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
       - name: Notify
-        if: ${{ !inputs.dry_run && steps.commit.outputs.changed == 'true' }}
+        if: ${{ steps.window.outputs.run == 'true' && !inputs.dry_run && steps.commit.outputs.changed == 'true' }}
         env:
           NTFY_SERVER: ${{ vars.NTFY_SERVER }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
