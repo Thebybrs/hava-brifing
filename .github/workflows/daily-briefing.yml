@@ -1,13 +1,12 @@
 name: Daily Briefing
 
 env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
   GEMINI_MODEL: gemini-3.5-flash
 
 on:
   schedule:
-    - cron: '15 4 * * *'  # 04:15 UTC = 07:15 TRT (GitHub Actions kuyruk gecikmesiyle ~08:00 TRT'de çalışır)
-    - cron: '0 5 * * *'   # 05:00 UTC = 08:00 TRT (~08:45 TRT otomatik telafi / AI yükseltme)
+    - cron: '5 5 * * *'   # 05:05 UTC = 08:05 GMT+3 (ana sabah brifingi)
+    - cron: '45 5 * * *'  # 05:45 UTC = 08:45 GMT+3 (otomatik telafi / AI yükseltme)
   workflow_dispatch:
     inputs:
       dry_run:
@@ -18,6 +17,10 @@ on:
         description: 'Hedef tarih (YYYY-MM-DD, boş ise bugün TRT)'
         type: string
         default: ''
+      skip_if_exists:
+        description: 'Bugünün AI brifingi zaten varsa atla'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -36,10 +39,10 @@ jobs:
       briefing_changed: ${{ steps.commit.outputs.changed }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version-file: .nvmrc
           cache: npm
@@ -57,7 +60,7 @@ jobs:
           SITE_URL: ${{ vars.SITE_URL || 'https://thebybrs.github.io/hava-brifing/' }}
           BRIEFING_DATE: ${{ inputs.date }}
           DRY_RUN: ${{ inputs.dry_run }}
-          SKIP_IF_EXISTS: ${{ github.event_name == 'schedule' && 'true' || 'false' }}
+          SKIP_IF_EXISTS: ${{ (github.event_name == 'schedule' || inputs.skip_if_exists) && 'true' || 'false' }}
           ALLOW_RSS_FALLBACK: 'true'
           NOTIFY: 'false' # bildirim commit'ten sonra gönderilir
         run: npx tsx scripts/generate-briefing.ts
