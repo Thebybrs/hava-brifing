@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-25T14:22:54.972Z",
-  "latest": "2026-11-25",
+  "updated_at": "2026-11-26T13:54:07.186Z",
+  "latest": "2026-11-26",
   "briefings": [
+    {
+      "date": "2026-11-26",
+      "path": "2026-11-26.json",
+      "headline": "FedEx MD-11F Miami'de pistten çıktı, Norse Atlantic operasyonlarını askıya aldı",
+      "counts": {
+        "commercial_aviation": 5,
+        "accidents_and_incidents": 2,
+        "piloting_and_ops": 1,
+        "ai_developments": 2
+      },
+      "has_fatal_accident": false,
+      "max_importance": 5,
+      "generated_at": "2026-11-26T13:54:07.179Z"
+    },
     {
       "date": "2026-11-25",
       "path": "2026-11-25.json",

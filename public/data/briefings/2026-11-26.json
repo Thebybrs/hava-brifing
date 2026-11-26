@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T13:54:07.179Z",
+  "window": {
+    "from": "2026-11-25T13:53:39.669Z",
+    "to": "2026-11-26T13:53:39.669Z"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "headline": "FedEx MD-11F Miami'de pistten çıktı, Norse Atlantic operasyonlarını askıya aldı",
+  "tldr": [
+    "FedEx MD-11F tipi kargo uçağı Miami'de iniş sırasında pistten çıktı (runway excursion).",
+    "Norse Atlantic Airways, derinleşen finansal kriz nedeniyle tüm uçuş operasyonlarını askıya aldı.",
+    "Malaysia Aviation Group, uzun menzilli filosunu güçlendirmek üzere 10 adet Boeing 787 Dreamliner siparişi verdi.",
+    "EASA'nın hızlandırılmış kanat çatlağı kontrolleri kapsamında Emirates ve Etihad A380 uçakları da denetime dahil edildi."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Malaysia Aviation Group, 10 Adet Boeing 787 Dreamliner Siparişi Verdi",
+        "summary": "Malaysia Aviation Group, uzun menzilli uçuş ağını ve filosunu güçlendirmek amacıyla 10 adet Boeing 787 Dreamliner uçak alımı gerçekleştirdi.",
+        "why_it_matters": "Geniş gövde pazarındaki üretici dengeleri ve havayolu filo stratejileri açısından kritik bir adım.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Malaysia Airlines",
+          "Boeing",
+          "787",
+          "Widebody"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Malaysia Aviation Group",
+          "Boeing",
+          "Boeing 787 Dreamliner"
+        ],
+        "id": "6809c3e8d8",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZnVWZEVHeGllS1JjZTlVZXI0eUJjaFdIM0NBOWNmdzNsemlDeXNRS3ptNXJILUFSUUt4QUZWcEdrX0dJYndqdHZGZEd3ZWxnWTcweEtsZ1l6UmVFX3pUcVc4dzZJeDE4WDhWeW9yZ084bThUM19qMVNJR3RVVmVhSEJLREM2Q19TT3BVMXd3NF9fT0k3WXVWdmk1YWtnTEo3QzlQcml0YXg5QTV0MXh3RE5pLUl1RTMzWm5mYS1TYXk3UQ?oc=5",
+            "published_at": "2026-11-26T12:23:38.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Norse Atlantic Airways Finansal Kriz Nedeniyle Operasyonlarını Askıya Aldı",
+        "summary": "Uzun menzilli düşük maliyetli havayolu Norse Atlantic Airways, acil finansal kaynak arayışına girerek tüm uçuş operasyonlarını ve 9 rotasını geçici olarak durdurduğunu açıkladı.",
+        "why_it_matters": "Düşük maliyetli uzun menzilli (LCY) iş modelinin sürdürülebilirliği açısından sektörel bir uyarı niteliğindedir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Norse Atlantic",
+          "Financial Crisis",
+          "Long-Haul"
+        ],
+        "subcategory": "market_finance",
+        "entities": [
+          "Norse Atlantic Airways"
+        ],
+        "id": "4e23d1b00e",
+        "sources": [
+          {
+            "name": "FlightGlobal",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUHU2ZGp0S0VKYzk4SGgzTVVHSzhITWpVSGwxX2RtbWRWeElKal94ZXRhakI5TWpXNVd4MFZRaW4waDU4RkFLS1VFSHZPNlJ0QnRFZVlIQXJwU1Q2eDJFMVplWTBoZHF5b1NBaEFYY3VMVG9iTGV4ZzFweGg0NXBxWXFtNDdMTWxfMnN5cXZ6REhzODRPM2VJVWZ3YndCM04xaXlyMUdHV3hCSzRaZ0pBSXRicnhPNExPSEs4?oc=5",
+            "published_at": "2026-11-26T11:37:30.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/norse-atlantic-suspends-all-flights-9-long-haul-routes-canceled/",
+            "published_at": "2026-11-26T08:56:09.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "US Air Force, Boeing ile 15 Adet Ek KC-46A Tanker Uçağı İçin Sözleşme İmzaladı",
+        "summary": "ABD Hava Kuvvetleri, Boeing ile orijinal tanker anlaşması kapsamında 15 adet ek KC-46A tanker uçağı alımı için 2.8 milyar dolarlık yeni bir sözleşme imzaladı.",
+        "why_it_matters": "Askeri havacılık tedarik zinciri ve Boeing'in savunma programı gelirleri açısından önem taşıyor.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "KC-46A",
+          "US Air Force"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing",
+          "US Air Force"
+        ],
+        "id": "f46613dda8",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU3lTZjh0dFdIcWhuRTNIcmRrTFRNbkh2bTR5QUE3cDVDZ3FIUXU1QUNkbGZBX3Q3ckpaMnZvSk1IZ3BZc2VObTFTdFJmS1hMYm9WMXdpZVJuVWJib0V5WFVLMGFGcFpMajdRU190c2JvU08xX2R4UFhVZm1YRUdMTnB2eC1JRnBTUEpNbEJnVXEyWEtXWHc?oc=5",
+            "published_at": "2026-11-26T10:04:45.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcnZKMGs0bERCMHh0NUNCZW8wa05KN2tWUUVyb0xjNVBkd0VsQ05QTVZ4VVNkbTRJWlQ4MWYwLWlsTFFYaGVSUER0aWNVeHBIcS1OdGU0aWRDV2NjMGs1QXRMVzBqbmZpaTZMOGpzYTd3Vkl2U1BaVENiOG9SWTB4TmpyYw?oc=5",
+            "published_at": "2026-11-25T19:29:30.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYjdpODRFQ194Y1VWVmtXR1dJcFpwV2tiLTNUYU5MNTJLdk1qWVh4U0hsSEpPN1VWeVpiSXNfVzFHVG52VUNkTFdnQ3YzTEJHOFI1b2xDVWJrNEVFWWNfQ2NXZkxpRm1RdXR5dnJWbXNGOE1QclJUdzNMeVZGUU5sZ0tfc0FLVXdxSm93NjVMMFpKdw?oc=5",
+            "published_at": "2026-11-25T16:49:58.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcDBmNmZ6LVozNFRLc1I4OXozMUV5WHVDcldEYnB3VEYxWC1QVHRJRS1XenZ1QUtHR3R6dHVPZ1dKa2tjZzlZNUJiTXRENTVJaGU2LWtPZDZBODRBbkRFTGt5blQwVzRxVzJwOTRBNFRmUVZwRkVHN2ZiUlZzc0o2UUJrME4zR1JQcGdYNEcxX0ZTb3Q3YUhsSHYxb0tubzN2SUdORzBHZUtLMkVEMjR1ZmVQeE5mN3g0NDl0d0h4OWtLWXowX2hnVw?oc=5",
+            "published_at": "2026-11-25T14:58:13.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Link Bilgisayar, THY İstanbul Havalimanı Projesi İçin Sözleşme İmzaladı",
+        "summary": "Link Bilgisayar, Türk Hava Yolları'nın İstanbul Havalimanı projesinde görev almak üzere 2,21 milyon USD tutarında bir sözleşme imzaladığını duyurdu.",
+        "why_it_matters": "THY'nin operasyonel altyapı yatırımları ve yerli teknoloji iş birlikleri açısından takip edilmelidir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "Link Bilgisayar",
+          "Istanbul Airport"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Turkish Airlines",
+          "Link Bilgisayar"
+        ],
+        "id": "faa4768450",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcG1Pc1R4Znd2NktfcV81UjJieTFZZkdQSHVmZ1dxZElLbEFKNXB5cHkyS0MyOHlScUNMVHR6ME9JVlk0UERjSGl3Z1VtdmY3QU1PNXRDTEhUcld2cmNPeXRSZlVKMllycUxBN3gtUWU1VGhBZmxGNzdibG5qaGx1TmdGZ1VsWE1EOUxudXU4MkZuTkNBSUwtMnYza29YbmtJVGRQUg?oc=5",
+            "published_at": "2026-11-26T12:06:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdlRfLTBZSEtKZFc5Szh5Um9Kd01tSFByTFhMY21Qc2ZiQl9lZVRXV3k3QVdudk5wellLblE2cWNtN2liT0JKcDhsSkRPWGZzVDRiREM5dXNobDE2V0FEN2djS3JHNHZRYndDYndIU1ZDOWtHU2pSVjhUZEU0SHdJQ0ctYktIcGpuYjVJVU1kRFk1RDk4aHJENTdFQXh3R3hvWUNScU00aGZVNHl1cVV0b3laUy1vME9EcmxRQ2M3SW9jdlJkamc?oc=5",
+            "published_at": "2026-11-26T08:34:12.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbjB0c3pPc1pEWGZwNTFRNVp2UkhZUkpXczFrVG5wenRhV0Q4UkVVN1hjQXlCa1FMR3d4eEVvX2ZlTVFjbEJ4bkpQTHFVTno4OGVnQUhQZ0drTDc3cHNTcnUwNllNZ3dHTEhxNlgwYWswZXZ2aF9DVUhMMUc3bGVLWXNyMXdac0pBY2RvMDJrSk4?oc=5",
+            "published_at": "2026-11-26T06:48:01.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTGtaVUtIMTFhbU4xc1lfT2hQVWpKcHVVQ1hjYWpxMFE2Vjh6T1ZhOUZTSlVVQko2cXNkeVp4cVRVTER3d0c4RWJtTkluR1k4QlJlUFJsdDVXYThDNUMzbzNzMG1ySlRRSWZNblVHUFJiQW9qTWk2ZTlGWFpib0hZTGhGMjAzRDhpeHF6aHBjaFZuMzZBaHc?oc=5",
+            "published_at": "2026-11-26T06:28:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Brezilya Menşeli Uçaklara Yönelik Gümrük Vergisi Planı Endişe Yaratıyor",
+        "summary": "ABD yönetimi tarafından Brezilya'dan ithal edilecek uçaklara uygulanması planlanan yüzde 10'luk gümrük vergisi, ABD'li havayollarının sipariş ettiği yüzlerce Embraer jetinin maliyetini artırma riski taşıyor.",
+        "why_it_matters": "Bölgesel jet pazarındaki maliyet yapılarını ve Embraer teslimatlarını doğrudan etkileyebilir.",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "Embraer",
+          "Tariff",
+          "US Airlines"
+        ],
+        "subcategory": "other_oem",
+        "entities": [
+          "Embraer",
+          "Boeing"
+        ],
+        "id": "229a78c623",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSUtiUUU3MG5fYVp2MHN3TFotSkYxeXhVajB0NFg0QzFBQWs1b29nREJTLTJKOHV2SldGUDZfVWdVWktOT3dQMmhoVXJDbUktQS1mVE00XzdHdktaV3U1MGdLdUlxSGdDOWM1eEhfWWFBSTdleUlJT2xUMkw5aDZYVXg2T1VOZjlSNzNYc25vYmFuS1p1M05iX3UyVE9vb2ZIWV9B?oc=5",
+            "published_at": "2026-11-26T12:11:48.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/embraer-jets-us-airlines-trump-10-percent-tariff-plan/",
+            "published_at": "2026-11-26T09:33:20.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "FedEx MD-11F, Miami'de İniş Sonrası Pistten Çıktı",
+        "summary": "FedEx'e ait bir McDonnell Douglas MD-11F kargo uçağı Miami Havalimanı'na inişi sırasında pistten çıktı (runway excursion). Olayla ilgili soruşturma sürerken, ilk raporlar pist üzerindeki durruma işaret ediyor.",
+        "why_it_matters": "Ağır geniş gövde kargo uçaklarının pist tutunma dinamikleri ve braking action limitleri açısından kritik bir olaydır.",
+        "importance": 5,
+        "confidence": "preliminary",
+        "tags": [
+          "FedEx",
+          "MD-11F",
+          "Runway Excursion",
+          "Miami"
+        ],
+        "occurrence_class": "serious_incident",
+        "occurred_at_utc": "2026-11-25T00:00:00Z",
+        "location": "Miami, USA",
+        "aircraft_type": "McDonnell Douglas MD-11F",
+        "registration": "N605FE",
+        "operator": "FedEx Express",
+        "flight_number": null,
+        "flight_phase": "landing",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [
+          "runway excursion on landing"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "febf1c3bfc",
+        "sources": [
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0tU3BDMEstU01ZdjNOTTBFODdvVkVnNTAxMnNMZVRURXdDaDdmems2dlFIdjZIZnhRby1lRWttTGNYUVNWNENyVFdMY0RIeFpO?oc=5",
+            "published_at": "2026-11-26T10:14:17.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Aviation Safety Network",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBiazlyUW8xUkNxZ3NPWE9zeGpGdkZFc0F4bUltaVRDR093dDcwZ0JFWTczSnU0bUlpRThObUxiaVp5cUp1UHJiRjJWb0Q5amxpLXJidEp3?oc=5",
+            "published_at": "2026-11-26T02:51:07.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Western Global Boeing 747-400 Tokyo'da Pistten Çıktı",
+        "summary": "Western Global Airlines'a ait bir Boeing 747-400 kargo uçağı Tokyo'da pistte geri manevra (backtrack) yaparken pist dışına çıktı (runway excursion).",
+        "why_it_matters": "Taksi ve backtrack manevralarında yer kontrolü ile kanat açıklığı/pist sınır uyumunun önemini gösterir.",
+        "importance": 4,
+        "confidence": "preliminary",
+        "tags": [
+          "Western Global",
+          "Boeing 747",
+          "Runway Excursion",
+          "Tokyo"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": "2026-11-25T17:21:29Z",
+        "location": "Tokyo, Japan",
+        "aircraft_type": "Boeing 747-400",
+        "registration": null,
+        "operator": "Western Global Airlines",
+        "flight_number": null,
+        "flight_phase": "pushback_taxi",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [],
+        "operational_findings": [
+          "runway excursion on backtrack"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "431276c255",
+        "sources": [
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5MSHZlTzZyLW5QbVpEZHQyWWJLZnRJVVVYcGM2a3BxdGkybEVFTVhzc0NWeFhuQ2kxaVlkcTJ4Z282SXVDZTNuTmxpSGhtUUp3?oc=5",
+            "published_at": "2026-11-25T17:21:29.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "Emirates ve Etihad A380'leri EASA Kanat Çatlağı Denetimlerine Dahil Edildi",
+        "summary": "EASA'nın yayımladığı talimat doğrultusunda, Emirates ve Etihad havayollarına ait Airbus A380 uçakları da hızlandırılmış kanat çatlağı kontrolleri kapsamına alındı.",
+        "why_it_matters": "Superjumbo sınıfı uçaklarda yapısal bütünlük ve AD (Airworthiness Directive) uyumu operasyonel planlama için hayati önemdedir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "EASA",
+          "Airbus A380",
+          "Airworthiness Directive",
+          "Emirates",
+          "Etihad"
+        ],
+        "subcategory": "safety_alert",
+        "regulators": [
+          "EASA"
+        ],
+        "operational_takeaway": "Filodaki A380 işletmecileri, EASA'nın zorunlu kıldığı yapısal muvafakat ve kanat denetim takvimine sıkı sıkıya uymalıdır.",
+        "id": "28cb56209f",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMC1vcHAtYi1pVkUzdTdadjJaRExOU21tdGJkQnMtZzEzNi1fbERYOG1nRjY1ek1uT1BNWDlfTTdLTy11NVNrTnoyclBfajlVUzZkNkY2QURaeEp1OUpySDN3T0FMTEE2aFNVRl9FWkJiR0E4RGFiVE5UM1F4RE9kNno5N1JXZDk3eUh1Ykw2ejZ2RE3SAZgBQVVfeXFMTmtQU05FR21uaDdUR3dmVHh5d0poY2J1U01ZXzZxMFJMeWRoV2ZCc2wxcXhtZWRfdUFFSHlsR2UzRnFQaGRSVGQwVDBEc185UGRxeDhqMkNRVzI0X1NNUlFLa01HWGtuTDRuTlRwNEc1MUxidUk1TC1kMkt0cTU4c05sYmYzN3ROaHAzemRNaWFxa2JtTkdrbng?oc=5",
+            "published_at": "2026-11-26T10:11:16.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "OpenAI, ChatGPT Deneyimlerini Birleştirirken Kullanıcı Limitlerini Güncelliyor",
+        "summary": "OpenAI, Chat ve Work deneyimlerini tek bir kullanım sayacında birleştirirken, yoğun ChatGPT kullanıcılarının kullanım limitlerine daha çabuk ulaşabileceğini duyurdu.",
+        "why_it_matters": "Geliştiriciler ve kurumsal kullanıcılar için API/LLM tüketim bütçelemesi ve rate limit stratejilerini doğrudan etkiler.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "OpenAI",
+          "ChatGPT",
+          "LLM",
+          "Rate Limit"
+        ],
+        "subcategory": "product_launch",
+        "entities": [
+          "OpenAI",
+          "ChatGPT"
+        ],
+        "developer_impact": "Kurumsal ve yoğun iş yükü barındıran entegrasyonlarda tekil kullanım sayacı nedeniyle rate limit aşım süreleri kısalabilir.",
+        "id": "5a04447ac1",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+            "published_at": "2026-11-25T20:03:27.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Google Workspace Yapay Zeka Ajanları İçin MCP Sunucularını Kullanıma Sunuyor",
+        "summary": "Google, yapay zeka ajanlarının Google Workspace ekosisteminde Model Context Protocol (MCP) sunucularını kullanacağını açıkladı; ancak Gmail ajanı güvenlik kısıtlaması nedeniyle doğrudan e-posta gönderemeyecek.",
+        "why_it_matters": "Agentic AI mimarilerinde tool use ve security boundary (güvenlik sınırları) tasarımı açısından belirgin bir örnektir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Google",
+          "MCP",
+          "AI Agents",
+          "Security"
+        ],
+        "subcategory": "dev_tools",
+        "entities": [
+          "Google",
+          "MCP"
+        ],
+        "developer_impact": "Agent tabanlı uygulamalar geliştirirken harici tool integration ve yetkilendirme katmanlarında (örn. e-posta gönderimi engeli) sıkı güvenlik duvarları uygulanmalıdır.",
+        "id": "abd4f66854",
+        "sources": [
+          {
+            "name": "Hacker News (AI)",
+            "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+            "published_at": "2026-11-26T09:44:23.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [],
+  "meta": {
+    "rss_feeds_ok": 13,
+    "rss_feeds_failed": [],
+    "rss_items_fetched": 162,
+    "rss_items_used": 65,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 27511
+  }
+}
