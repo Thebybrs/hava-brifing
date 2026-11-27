@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T08:24:41.285Z",
+  "window": {
+    "from": "2026-11-26T08:23:47.766Z",
+    "to": "2026-11-27T08:23:47.766Z"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "headline": "Philippine Airlines 20 adet Boeing 787 siparişini kesinleştirirken, THY son çeyrekte yatırımları öteledi.",
+  "tldr": [
+    "Philippine Airlines, 20 adede kadar Boeing 787 Dreamliner siparişini kesinleştirdi.",
+    "THY, zayıf geçmesi beklenen son çeyrek nedeniyle bazı yatırımları 2027 ikinci yarısına erteledi.",
+    "Frankfurt kalkışlı bir Boeing 787-9 uçağına kalkış sonrasında yıldırım çarptığı bildirildi.",
+    "Nvidia, ABD'nin çip ihracat kısıtlamaları kapsamında Güneydoğu Asya'ya sevkiyatları durdurdu."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "Philippine Airlines finalizes order for up to 20 Boeing 787 Dreamliners",
+        "summary": "Philippine Airlines, geniş gövdeli uçak filosunu modernize etme stratejisi kapsamında 20 adede kadar Boeing 787 Dreamliner için siparişini kesinleştirdi. Anlaşma, havayolunun uzun menzilli hat operasyonlarını güçlendirmeyi hedefliyor.",
+        "why_it_matters": "Boeing geniş gövdeli pazar payı ve üretim planlaması açısından kritik bir sipariş.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "787",
+          "Philippine Airlines",
+          "widebody"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Philippine Airlines",
+          "Boeing",
+          "Boeing 787 Dreamliner"
+        ],
+        "id": "d1741d67ab",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPR19sR29GUklxUzRGV2JNdl9NVkR1S1QyeGtFRzRid1pUV0RfaEk0RmhXSDN0alZMd0RYaFVHdGZuSWFRME50ZVA2dTJhRmNHXzRQNFNqZ2ljRF9nZEVPNjJoOEl3d2M3STBOdzJ3NUFoRy1xSFRUVi1XT1FQM0FlenRldDVpV1lNSzdLaGQ4OW1FdUhiZUVUZFdzNTQ0d1gwSlVRcXIzSXZmeTlVSTJuczBhczhKT2VEZXdnY1hB?oc=5",
+            "published_at": "2026-11-27T08:00:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "THY'de Son Çeyrek Güçlü Olmayacak ve Bazı Yatırımlar Ertelendi",
+        "summary": "Türk Hava Yolları yönetimi, finansal beklentiler çerçevesinde son çeyreğin güçlü geçmeyeceğini öngörerek bazı yatırımları 2027 yılının ikinci yarısına ötelediklerini açıkladı. Öte yandan THY, Güney Avrupa rotalarına yönelik 119 dolardan başlayan bilet kampanyaları başlattı.",
+        "why_it_matters": "THY'nin kapasite, nakit akışı ve filo yatırımı stratejilerindeki dönemsel yavaşlamayı gösterir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "Turkish Airlines",
+          "finance",
+          "fleet"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Turkish Airlines",
+          "THY"
+        ],
+        "id": "bde65de061",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTnFHUFRNQ0N4N000ZFVWb1FieUNNd3dmWmktSnRFbHBuUnNJUnAwU1hhY20wQ0pPalRvZVRBTE5CZGNHT2wyQ2lJenI4YkFGeTRwNGgxdU9TZGh4QmNQa0x5SDFfZzVFTTZ0MXZFT2psYjFxM1VrWElzSXZKVUw1Vm9pZU5hUi02Q2d5ektjb3plQ3RZSmhXX2JkWnkwZmJDVVcyaUVRcnlvaGvSAa4BQVVfeXFMUFZEV3p0cjE2dFpZSWczc2hXb25rOEdzR00tZXlPLXZuY1FjWnQ4d1FkbEVGVEpBQjdCVFJWYUtUNzFjSlBlTWxuOEJwUl9lS3hkZE4wekE4QWdkeU9jcEtSRXc3N0RKY1pHWThtaTBWdGo5UWYzbGhOMlg4TmpVU3JLV0duTjJkTFRVbzFPYVFhbHJubVRlN3QwRExjTmVaLXIyTEJKXzk1Z0hkOWx3?oc=5",
+            "published_at": "2026-11-27T07:45:45.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBLcWNadTZkVmpfMDdRYWJRb0dOclJWOXZKb0ZaRHZwY3k3S2NhWXR1WGVHUHhIY1BmR1dOWG1mZFZEZHVxNnFtaUxfdHp3UFhBeVpHVzdJYm9aTksxVzJhT0pySXJNbWlPcDR2eXh3?oc=5",
+            "published_at": "2026-11-27T05:37:21.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMFVDUWxKdXlvXzVFS1prMWVCV3pyWUU2eUxzOEc5cXhMMGl3dmg0T24yVU1acmxlOGN6dkppenJsSEZlUzRxU0FYc0k5RE9fUTkwU3RrVEowRVRBLUhXUmVvdkVselJOV3VPd3h5NG5qOEQxNUhNQkgxQXFUaE95RHpzWTliMFgxRXBUWm9pVWswcm9zM1FhdTg3NVJTVllUa1E?oc=5",
+            "published_at": "2026-11-26T14:38:19.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Qantas Set to Pick Boeing for Bulk of 20 Long-Range Jet Order",
+        "summary": "Bloomberg kaynaklarına göre Qantas, 20 uzun menzilli uçak alımı ihalesinin büyük bölümü için Boeing'i seçmeye hazırlanıyor. Havayolunun bu hamlesi kıtalararası hat operasyonlarını genişletme planının bir parçası.",
+        "why_it_matters": "Geniş gövde pazarındaki rekabet ve Boeing'in sipariş defteri için önem taşıyor.",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "Boeing",
+          "Qantas",
+          "widebody"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Qantas",
+          "Boeing"
+        ],
+        "id": "6e9973c761",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONFN1SUZmQXpfNWN3ekItUG9ZV2doVkhGeWRidkl6a3VWUGFlVVp4MzRIRFY2Ymp5ZVpHRGlKTDJZdllaMUg5cGp6bkIzRUhXZ2xwemkwNThydlh0V3RIZGw0d2RyY2VSWGU5amFBUWkzWV9qZVBNLUh3SmRGN09jWHFmQUVFSkR1ZWVUX0VmazZXTXQ0eWFybEhBbEVmVl8tZDVOYlF6enBqekpFSGZGQ2g1SFc4eG9xSjZSZURn?oc=5",
+            "published_at": "2026-11-27T05:58:57.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZG1ySHh0MV9Jbk9KdGRHekVucDB0eHZicmVEUmtmTm05dUlHaFp3amtmalJvazlCNGtvb1BBZ1pvbjRXTVBubHpFaXhfRnNsWFB5amNzRGlLZGk3dnAtYjBrWkg0anBQcHRvcjhFbVdxQVR6NUMyenNjQlByZ3N6UHJFM3BkOUc3d0J4d2lqdmJmcXJvdl85ck5nNlpkOWZFcVEzT0JtcEd4cWw3a0lHTVJac0dnWW9YVnlReGh3V1BtWWEwT2tub3Q5MEt3cHV3N3k2X0s0bnFhdVhvMEw4?oc=5",
+            "published_at": "2026-11-27T04:43:00.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONWM0SG04YnNSNHdpNDhYdklrSjd1TXNHUkRDT2JLWGNyQ2tVcDk3bXF5ZXRaRVhuV0J3NkV3am1VdW03bnVtZ2JWdF9NV256YllmMndrTG9vZFJUaXEtdnkwQ2puSTY1T1Y0eFNiVTdxeU5LZUpza3hVdkp5LTUwak0wX1ppYnFoUkZmUG5NVk40WFlBVkF6c3VIOTZUektxN2htNmlHZmJhbkl1N1FfWmpR?oc=5",
+            "published_at": "2026-11-27T04:29:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Middle East Airlines Takes Delivery of First Airbus A321XLR",
+        "summary": "Middle East Airlines (MEA), ilk Airbus A321XLR uçağını teslim aldı. Yeni nesil dar gövdeli uzun menzilli uçak, havayolunun menzil kapasitesini artıracak.",
+        "why_it_matters": "A321XLR operasyonlarının yaygınlaşması ve dar gövde transatlantik/uzun menzil dinamikleri için önemli.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Airbus",
+          "A321XLR",
+          "MEA",
+          "delivery"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Airbus",
+          "Middle East Airlines",
+          "Airbus A321XLR"
+        ],
+        "id": "417f425992",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTUExSmxsakVyUUQtZ3FCQWpzR004N1FfdDAzT0g4d2VicXM1bFV5SFRVYl9DR2N6RTZmZUZzV2ZaQUl6eHNPUTZwbDhGWTAxdGZmSEtPZ1hONkh2T1hHcThzUnNiNC0zbS0ydU1yemZ0V3E1MktNczhycUVlMFdJODZrUzlNY2JLVTNpVGlmb09YZEUxUDRiSQ?oc=5",
+            "published_at": "2026-11-27T03:45:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "Boeing 787-9 Hit by Lightning Strike After Departure From Frankfurt",
+        "summary": "Frankfurt Havalimanı'ndan kalkış yapan bir Boeing 787-9 uçağının tırmanış safhasında yıldırım çarpmasına maruz kaldığı rapor edildi. Olay sonrasında uçuşun durumu ve olası gövde/sistem kontrollerine ilişkin detaylar araştırılıyor.",
+        "why_it_matters": "Kompozit gövdeli modern uçaklarda yıldırım çarpması etkileri ve lightning strike sonrası prosedürler açısından takip edilmelidir.",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "Boeing",
+          "787-9",
+          "lightning_strike",
+          "weather"
+        ],
+        "occurrence_class": "incident",
+        "occurred_at_utc": null,
+        "location": "Frankfurt (EDDF), Almanya",
+        "aircraft_type": "Boeing 787-9 Dreamliner",
+        "registration": null,
+        "operator": null,
+        "flight_number": null,
+        "flight_phase": "initial_climb",
+        "occupants": null,
+        "fatalities": null,
+        "injuries": null,
+        "technical_findings": [
+          "Yıldırım çarpması (lightning strike)"
+        ],
+        "operational_findings": [
+          "Kalkış sonrası tırmanış safhası"
+        ],
+        "investigation_status": "unknown",
+        "investigating_authority": null,
+        "id": "1cd8f31aaf",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY1ZBWDlWc3pnR25tMk5rRVIwSVYtNGFmVGdqa0w1T2VRWjF4cmpkcEhPdkNQT29Qdmprc2hMSGRUSDFHdHR0VXg2R0dBX1F3Zm1pNm5aUU5PcXpRcnZ0RW1BZ093ZEZ5bkZaREMxYVFVSnR4RjJ6eWtBNUpLUlVOeHhGYXk2MTRUNEZfaEpQdGNqa0h1SU9xS29WbUNPT3NNUTV6NXhFSmlXbjZISTJWM3V5RkZqUWRkSjRabDJUUloyUQ?oc=5",
+            "published_at": "2026-11-27T05:53:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "TSA Directs United Airlines to Suspend Pilot Over Terror Group Support Allegations",
+        "summary": "Transportation Security Administration (TSA) direktifi doğrultusunda United Airlines, terör örgütüne destek verdiği iddia edilen bir pilotunu açığa aldı ve uçuş görevlerinden uzaklaştırdı.",
+        "why_it_matters": "Havacılık güvenliği, arka plan kontrolleri (background checks) ve havacılık otoritesi müdahaleleri açısından dikkat çekicidir.",
+        "importance": 3,
+        "confidence": "preliminary",
+        "tags": [
+          "TSA",
+          "United Airlines",
+          "security",
+          "pilot"
+        ],
+        "subcategory": "safety_alert",
+        "regulators": [
+          "FAA"
+        ],
+        "operational_takeaway": "Güvenlik taramaları ve personel uyumluluk kurallarının operasyonel sürekliliğe etkisini gösterir.",
+        "id": "1c067abc45",
+        "sources": [
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/united-airlines-pilot-suspended-tsa-orders-terror-group/",
+            "published_at": "2026-11-26T23:56:48.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "Nvidia Hits Pause on AI Chip Shipments to Southeast Asia",
+        "summary": "Nvidia, ABD'nin Çin'e yapay zeka çip sevkiyatlarını sınırlama politikalarını sıkılaştırması üzerine Malezya, Singapur, Tayland ve Endonezya'ya yönelik sunucu ve çip sevkiyatlarını durdurma kararı aldı.",
+        "why_it_matters": "Yapay zeka altyapısı ve donanım tedarik zinciri ile jeopolitik regülasyonlar açısından kritik bir gelişmedir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "Nvidia",
+          "infrastructure_chips",
+          "export_control",
+          "AI"
+        ],
+        "subcategory": "infrastructure_chips",
+        "entities": [
+          "Nvidia"
+        ],
+        "developer_impact": "Güneydoğu Asya veri merkezi ve AI donanım tedarikinde aksamalara yol açabilir.",
+        "id": "2a4802bc1a",
+        "sources": [
+          {
+            "name": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+            "published_at": "2026-11-26T20:03:54.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [
+    "Hacker News (AI) RSS alınamadı: HTTP 502 (Bad Gateway) — https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=80"
+  ],
+  "meta": {
+    "rss_feeds_ok": 12,
+    "rss_feeds_failed": [
+      "hn_ai"
+    ],
+    "rss_items_fetched": 145,
+    "rss_items_used": 65,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 53521
+  }
+}

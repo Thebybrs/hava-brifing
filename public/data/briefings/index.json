@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-26T13:54:07.186Z",
-  "latest": "2026-11-26",
+  "updated_at": "2026-11-27T08:24:41.289Z",
+  "latest": "2026-11-27",
   "briefings": [
+    {
+      "date": "2026-11-27",
+      "path": "2026-11-27.json",
+      "headline": "Philippine Airlines 20 adet Boeing 787 siparişini kesinleştirirken, THY son çeyrekte yatırımları öteledi.",
+      "counts": {
+        "commercial_aviation": 4,
+        "accidents_and_incidents": 1,
+        "piloting_and_ops": 1,
+        "ai_developments": 1
+      },
+      "has_fatal_accident": false,
+      "max_importance": 4,
+      "generated_at": "2026-11-27T08:24:41.285Z"
+    },
     {
       "date": "2026-11-26",
       "path": "2026-11-26.json",
