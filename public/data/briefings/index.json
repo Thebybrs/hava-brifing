@@ -1,8 +1,22 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-27T08:24:41.289Z",
-  "latest": "2026-11-27",
+  "updated_at": "2026-11-28T07:44:13.374Z",
+  "latest": "2026-11-28",
   "briefings": [
+    {
+      "date": "2026-11-28",
+      "path": "2026-11-28.json",
+      "headline": "Türk Hava Yolları 83 yönetim kadrosunu kapattı; American Airlines iki Boeing 737 taxide çarpıştı",
+      "counts": {
+        "commercial_aviation": 4,
+        "accidents_and_incidents": 2,
+        "piloting_and_ops": 1,
+        "ai_developments": 1
+      },
+      "has_fatal_accident": false,
+      "max_importance": 4,
+      "generated_at": "2026-11-28T07:44:13.370Z"
+    },
     {
       "date": "2026-11-27",
       "path": "2026-11-27.json",

@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T07:44:13.370Z",
+  "window": {
+    "from": "2026-11-27T07:43:22.195Z",
+    "to": "2026-11-28T07:43:22.195Z"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "headline": "Türk Hava Yolları 83 yönetim kadrosunu kapattı; American Airlines iki Boeing 737 taxide çarpıştı",
+  "tldr": [
+    "Türk Hava Yolları, kurumsal yapılanma kapsamında 83 yönetim kadrosunu kapattı.",
+    "Ronald Reagan Washington National Airport'ta iki American Airlines Boeing 737 taxiden çıkış sırasında kanat ucu çarpışması yaşadı.",
+    "EASA, Airbus H160 kokpit pencereleri için acil kontrol talimatı yayınladı.",
+    "Philippine Airlines, en fazla 20 adet Boeing 787 Dreamliner siparişini kesinleştirdi."
+  ],
+  "categories": {
+    "commercial_aviation": [
+      {
+        "headline": "THY'de 83 yönetim kadrosu kapatıldı",
+        "summary": "Türk Hava Yolları (THY), organizasyonel yapı değişikliği çerçevesinde 83 yönetim kadrosunu kapattı. Şirket bünyesindeki yönetim kademelerinde küçülmeye gidildiği bildirildi.",
+        "why_it_matters": "Havayolunun operasyonel ve idari yönetim yapısındaki değişimler stratejik kararları etkileyebilir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "management",
+          "airline_fleet"
+        ],
+        "subcategory": "airline_fleet",
+        "entities": [
+          "Türk Hava Yolları"
+        ],
+        "id": "3f705d9900",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11S3k0RlpVMzdyU3ItQjVuNUR4NUJIemx4S3VMSXZnT0ZDOG9Nam5HSGlJcXJwNUNJRTY3R3k0aUdqaTVZcmMzS1pSQUtJd1ZpaDUwc3Jxc25RbHVnYWc0TXZfTGxwcXNuTmRZcWt2V1dKMk5q?oc=5",
+            "published_at": "2026-11-27T13:13:08.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQczZSd1IyRWhGaWpnaUVoUWVxV1llejExeEFZdWt0b05qVkx3U0lkQWtENnF2YUZrYUk1NW5SYTJxbXp1VjdkTjZLSFUwN3IwYzY5TF83RmJzeGRzQXpFajI3YVI3VWxDODBnZzRnbVM1dVY2U1Y0bFczLVlFNWVRUWd3V3lPMWx2UHM5eDZTc2ZoXzQ?oc=5",
+            "published_at": "2026-11-27T12:20:02.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Philippine Airlines Boeing 787 siparişini kesinleştirdi",
+        "summary": "Philippine Airlines, en fazla 20 adet Boeing 787 Dreamliner için verdiği geniş gövdeli uçak siparişini resmi olarak kesinleştirdi.",
+        "why_it_matters": "Geniş gövde pazarındaki sipariş eğilimleri ve tedarik zinciri dinamikleri açısından önem taşır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "widebody",
+          "order"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Philippine Airlines",
+          "Boeing",
+          "Boeing 787 Dreamliner"
+        ],
+        "id": "5d745a4299",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTlpMREJ5UThHcURobUN3S25lbXRBM1lJUmFMT0JFa3UwLTMtUjN0d2dXbGNVNHVHZUJfcHZyUDgwUHktWm04c2FzTDFkMmhyRzYxV1pVa3RpaHVkUUExcUNmSDhKUFA4WlYtY0h4M1lOWW9XOU5vNFFOU3dJNFk3b1kxemRGc1FOWFZoRURFYUFxeXlwdjdR?oc=5",
+            "published_at": "2026-11-28T05:01:17.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Türk Hava Yolları'na yeni Airbus A321neo teslimatı",
+        "summary": "Türk Hava Yolları filosuna yeni bir Airbus A321neo katıldı. Teslimatla birlikte dar gövde kapasitesi güçlendirildi.",
+        "why_it_matters": "THY filosunun operasyonel kapasitesi ve dar gövde optimizasyonu açısından kritik bir gelişmedir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "THY",
+          "Airbus",
+          "A321neo",
+          "delivery"
+        ],
+        "subcategory": "airbus",
+        "entities": [
+          "Türk Hava Yolları",
+          "Airbus A321neo"
+        ],
+        "id": "fa4650a63a",
+        "sources": [
+          {
+            "name": "Türk Hava Yolları / THY (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5GcUt5Ym44eWZQX250dEFJXzRqNndtNHpMZ3RvNDhxTm44Y2FmcTlHTHIyeFlTemJCeVJFUU9kdk82c2FfY2ZkZ2xYblhjcWczdzQ3ZmpnSG02ajJMRmg1RXY1SkJURmtUWTV4cERPRjVpeFI0cmVOdEtRdw?oc=5",
+            "published_at": "2026-11-27T19:06:29.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "Boeing KC-46 tanker uçakları için 2.82 milyar dolarlık sipariş aldı",
+        "summary": "Boeing, askeri kanatta 15 adet ek KC-46 tanker uçağı üretimi için 2.82 milyar dolarlık yeni bir sözleşme kazandı.",
+        "why_it_matters": "Üreticinin savunma sanayi üretim hacmi ve finansal dengesi için önemli bir sipariştir.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "Boeing",
+          "KC-46",
+          "military"
+        ],
+        "subcategory": "boeing",
+        "entities": [
+          "Boeing"
+        ],
+        "id": "bc450e73cd",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LN05ubmpOM3U3SS1SNWw5dEMyQm9RcnNTYUxyaUtEMEkwaWsxdzZmNVY0T1psRGZHX2NvajlOc2tFZmoybEZ3VkxaZ0YyYjZXT3FOZi11V3NpTzM1cURKajI5emZEU2JOUmpUZ0ZuU0xqd1JUWWfSAXtBVV95cUxPTnlSQjhpZzFEZ180d1FSN2VqZUJ3bDBjMU0xRXAwdjVld09uNW9Nc3JlZFM5MVdFWGo1dmM2Vm1iTkktQUNlQjJwN1V1RUNjMnBqOVM3ODM1LXFWbGszcjFRNmVvaGoyWTZiLXhtZXB1NW5rZ045UXpSbTg?oc=5",
+            "published_at": "2026-11-27T20:57:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "accidents_and_incidents": [
+      {
+        "headline": "İki American Airlines Boeing 737 taxide kanat ucu çarpışması yaşadı",
+        "summary": "Ronald Reagan Washington National Airport'ta (DCA) iki American Airlines Boeing 737-800 uçağı taxide sıraya girerken kanat ucu çarpışması (wingtip collision) yaşadı. Olay sonrası uçaklardan birinin winglet'inin koptuğu görüldü.",
+        "why_it_matters": "Yer operasyonları ve ground traffic safety (yer trafik emniyeti) açısından dikkat çekici bir olaydır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "ground_event",
+          "collision",
+          "Boeing 737"
+        ],
+        "occurrence_class": "ground_event",
+        "occurred_at_utc": "2026-11-27T21:00:00Z",
+        "location": "Ronald Reagan Washington National Airport (DCA), USA",
+        "aircraft_type": "Boeing 737-800",
+        "registration": null,
+        "operator": "American Airlines",
+        "flight_number": null,
+        "flight_phase": "pushback_taxi",
+        "occupants": null,
+        "fatalities": 0,
+        "injuries": 0,
+        "technical_findings": [],
+        "operational_findings": [
+          "taxide sıra yapma sırasında temas",
+          "kanat ucu hasarı"
+        ],
+        "investigation_status": "ongoing",
+        "investigating_authority": "NTSB",
+        "id": "181fae611a",
+        "sources": [
+          {
+            "name": "Boeing News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORU5ySXJ0d3Z6SjYyUmNuaklMN0M0OUo2LW1zbjVWNjhST2dORWluR3hkOWh1RWtLakRXdFZKSGJMWmw1a05xNTQ1R1lyRVFKdGxxNkotU20wWXdPYS1jQ3A2ekZhdzUzckVfdHFRQVRYOVhXeGZ6NUJyU29aY0NIVmlwQjQ5Ym9TTVFLWTJLTy04OWVIWkk3SjNSMDFUbHYxN24xUjd0OVpSN3dWVXlQTXBWaTdwVXREdDhid0xuZkFRLVVFU0QzcEdwTEpuTEZfS0RkcVV3?oc=5",
+            "published_at": "2026-11-27T23:50:39.000Z",
+            "origin": "rss"
+          },
+          {
+            "name": "Simple Flying",
+            "url": "https://simpleflying.com/american-airlines-737s-collide-taxiway-reagan-national-loses-winglet/",
+            "published_at": "2026-11-28T03:15:04.000Z",
+            "origin": "rss"
+          }
+        ]
+      },
+      {
+        "headline": "EasyJet A321neo uçuş sırasında motor durdurma olayı yaşadı",
+        "summary": "Edinburgh kalkışlı bir EasyJet Airbus A21N (A321neo) uçağında uçuş sırasında motor durdurma (engine shut down in flight) arızası meydana geldi ve uçuş güvenle sonlandırıldı.",
+        "why_it_matters": "In-flight shutdown (IFSD) olayları sistem güvenilirliği ve motor bakımı açısından kritik öneme sahiptir.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "engine_failure",
+          "IFSD",
+          "Airbus A321neo"
+        ],
+        "occurrence_class": "serious_incident",
+        "occurred_at_utc": "2026-11-26T00:00:00Z",
+        "location": "Edinburgh, United Kingdom",
+        "aircraft_type": "Airbus A321-251NX",
+        "registration": null,
+        "operator": "EasyJet",
+        "flight_number": null,
+        "flight_phase": "climb",
+        "occupants": null,
+        "fatalities": 0,
+        "injuries": 0,
+        "technical_findings": [
+          "motor arızası",
+          "uçuşta motor kapatılması"
+        ],
+        "operational_findings": [],
+        "investigation_status": "ongoing",
+        "investigating_authority": null,
+        "id": "82fdb61e4d",
+        "sources": [
+          {
+            "name": "The Aviation Herald",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBsZ0Z1R01GRXRBc3ZJN0tNbjFsenZKQ3BkX2V1X2hQcTljXy1qN29rNlRTVnZIRElIREFmZXhSOUdxNGE2aW1EajM5QkJENXBPVkV6aUkyQk8?oc=5",
+            "published_at": "2026-11-27T11:48:32.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "piloting_and_ops": [
+      {
+        "headline": "EASA, Airbus H160 kokpit pencereleri için acil kontroller emretti",
+        "summary": "EASA, Airbus H160 tipi helikopterler için kokpit pencerelerine yönelik acil kontrol (emergency checks) talimatı yayımladı.",
+        "why_it_matters": "Airworthiness direktifleri ve yapısal kontroller uçuş güvenliği için doğrudan bağlayıcıdır.",
+        "importance": 4,
+        "confidence": "confirmed",
+        "tags": [
+          "EASA",
+          "airworthiness",
+          "safety_alert"
+        ],
+        "subcategory": "safety_alert",
+        "regulators": [
+          "EASA"
+        ],
+        "operational_takeaway": "Filo işletmecileri yayınlanan acil talimatlara göre gerekli kontrolleri derhal tamamlamalıdır.",
+        "id": "36ec73eb65",
+        "sources": [
+          {
+            "name": "Airbus News (GNews)",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVHRvR0Y4U19YeUVvS2M0cVh5OVA1ZzBRY1Axb1RqT1dScGZzUG5heGhhUjg1NmZMeDB3V21OVGlsdlRRMm1sQkNhVzQ3QzgwVG9zYzhCT3VvS3hVR2g3WWFRZzY0QlhPLUZWZnBjSUs0RmFJNTdFRUFLMi1DY1MxRnhsQkphVFFIbW840gGQAUFVX3lxTE9pclpmREVJMnE0bnRKSk1ha2tzVXF4cEh1T1lGeFc0Z0xicVlaVGNOV3BtSWJta0hpS0xEbkdGY2lHUFF1dHRhT21jX0JCX0ZEcU9jSEVHekdXVVluNFJoR2hKYy1WN2ZWTUotdnhlV2N1LVRWMlNzTGw2a2NqQV9qZ19QY1VkN3VNR1RkeHhHZA?oc=5",
+            "published_at": "2026-11-27T21:13:00.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ],
+    "ai_developments": [
+      {
+        "headline": "OpenAI platform ve araçlarında geçici konuşma hataları raporlandı",
+        "summary": "OpenAI sistem durumuna göre ChatGPT, ChatGPT Work ve Codex Cloud platformlarında yükseltilmiş konuşma hataları (elevated conversation errors) yaşandı.",
+        "why_it_matters": "Geliştiricilerin API ve bulut tabanlı iş akışlarında kesintilere yol açabilecek altyapı sorunlarıdır.",
+        "importance": 3,
+        "confidence": "confirmed",
+        "tags": [
+          "OpenAI",
+          "status",
+          "API"
+        ],
+        "subcategory": "infrastructure_chips",
+        "entities": [
+          "OpenAI",
+          "ChatGPT"
+        ],
+        "developer_impact": "API entegrasyonlarında hata oranlarının artabileceği göz önünde bulundurulmalıdır.",
+        "id": "6d2fb1a8ba",
+        "sources": [
+          {
+            "name": "OpenAI News",
+            "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9jWWtJdlhoM3hwT3lCbDd2cXZERjlDOFcxVnpzQ2xCOU1ZMmxUa1ZWak8xX3VFVTJYdHlPOHhGMEk0QWlKMGFuMENPRHZUWVduSVhnQ3JRTDdhYzVTQWxzZ3F6U0lHRHNvZ2NUSXpNYw?oc=5",
+            "published_at": "2026-11-28T00:00:05.000Z",
+            "origin": "rss"
+          }
+        ]
+      }
+    ]
+  },
+  "warnings": [
+    "Hacker News (AI) RSS alınamadı: HTTP 502 (Bad Gateway) — https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=80"
+  ],
+  "meta": {
+    "rss_feeds_ok": 12,
+    "rss_feeds_failed": [
+      "hn_ai"
+    ],
+    "rss_items_fetched": 148,
+    "rss_items_used": 65,
+    "grounding_used": false,
+    "grounding_queries": [],
+    "dropped_items_no_source": 0,
+    "duration_ms": 51177
+  }
+}
